@@ -1,7 +1,7 @@
 /* --- RESET & VARS --- */
 :root {
     --bg-dark: #050505;
-    --bg-glass: rgba(20, 20, 25, 0.85); /* Tăng độ đậm nền để dễ đọc hơn */
+    --bg-glass: rgba(20, 20, 25, 0.85);
     
     --accent-gold: #ffb142;
     --accent-green: #2ecc71;
@@ -13,9 +13,9 @@
     --font-header: 'Cinzel', serif;
     --font-body: 'Roboto', sans-serif;
     
-    /* [MOBILE OPTIMIZED] Giảm chiều cao header và khoảng cách */
+    /* [MOBILE OPTIMIZED] */
     --header-height: 44px;
-    --gap: 8px;
+    --gap: 4px; /* Giảm khoảng cách chung xuống 4px (cũ 8px) */
 }
 
 * { box-sizing: border-box; outline: none; -webkit-tap-highlight-color: transparent; }
@@ -25,7 +25,7 @@ body {
     font-family: var(--font-body);
     background: #000;
     color: #eee;
-    height: 100dvh; /* Dynamic viewport height */
+    height: 100dvh;
     overflow: hidden;
     display: flex;
     flex-direction: column;
@@ -61,7 +61,7 @@ body::before {
     display: flex; align-items: center; justify-content: space-between;
     padding: 0 12px; z-index: 100;
     border-bottom: 1px solid var(--border-light);
-    flex-shrink: 0; /* Không cho header co lại */
+    flex-shrink: 0;
 }
 .app-title {
     font-family: var(--font-header); font-weight: 700; font-size: 1rem;
@@ -78,12 +78,12 @@ body::before {
 
 /* --- MAIN LAYOUT --- */
 .app-container {
-    flex: 1; /* Chiếm toàn bộ không gian còn lại */
+    flex: 1;
     display: flex;
-    flex-direction: column; /* Mobile mặc định xếp dọc */
+    flex-direction: column;
     padding: var(--gap);
     gap: var(--gap);
-    overflow: hidden; /* Ngăn cuộn trang chính */
+    overflow: hidden;
     width: 100%; max-width: 1400px; margin: 0 auto;
 }
 
@@ -92,22 +92,22 @@ body::before {
     border-radius: 12px;
     display: flex; flex-direction: column;
     padding: 4px;
-    flex-shrink: 0; /* Không co nhỏ phần này, nhưng nội dung bên trong sẽ nhỏ đi */
+    flex-shrink: 0;
 }
 
-/* [MOBILE] Visual Wrapper: Thu nhỏ chiều cao */
+/* [MOBILE] Visual Wrapper: Thu nhỏ tối đa */
 .equip-visual-wrapper {
     position: relative;
-    height: 170px; /* Giảm từ 230px xuống 170px cho Mobile */
+    height: 130px; /* Giảm mạnh xuống 130px */
     display: flex; justify-content: center; align-items: center;
-    margin-bottom: 4px; overflow: hidden;
+    margin-bottom: 2px; overflow: hidden;
 }
 
-/* [MOBILE] Equip Bar: Scale nhỏ lại */
+/* [MOBILE] Equip Bar: Scale nhỏ hơn nữa */
 .equip-bar {
     position: relative;
     width: 300px; height: 220px;
-    transform: scale(0.75); /* Thu nhỏ còn 75% */
+    transform: scale(0.6); /* Scale 0.6 để vừa khít khung 130px */
     transform-origin: center;
 }
 
@@ -139,59 +139,58 @@ body::before {
 .slot-right  { top: 185px; left: 240px; transform: translate(-50%, -50%); }
 
 /* Stats & Controls (Compact Mobile) */
-.char-controls { margin-bottom: 8px; }
-.btn-block { width: 100%; display: flex; justify-content: center; }
+.char-controls { margin-bottom: 4px; }
+.btn-block { width: 100%; display: flex; justify-content: center; padding: 6px 0; font-size: 0.8rem; }
 
 .stats-panel {
     background: rgba(0,0,0,0.4); border-radius: 8px;
-    padding: 3px; margin-bottom: 2px;
+    padding: 2px; margin-bottom: 2px;
     display: flex; justify-content: space-around; align-items: center;
     border: 1px solid rgba(255,255,255,0.05);
 }
-.stat-label { font-size: 0.65rem; text-transform: uppercase; color: #888; margin-bottom: 2px; }
-.stat-value { font-family: var(--font-header); font-size: 1.2rem; font-weight: 700; }
-.stat-divider { width: 1px; height: 24px; background: rgba(255,255,255,0.15); }
+.stat-label { font-size: 0.6rem; text-transform: uppercase; color: #888; margin-bottom: 1px; }
+.stat-value { font-family: var(--font-header); font-size: 1.1rem; font-weight: 700; }
+.stat-divider { width: 1px; height: 20px; background: rgba(255,255,255,0.15); }
 
-/* Text Details (Ẩn bớt padding thừa) */
+/* Text Details (Compact) */
 .equip-details-text {
-    font-size: 0.75rem; color: #aaa;
-    display: grid; grid-template-columns: 1fr 1fr; gap: 6px;
+    font-size: 0.7rem; color: #aaa;
+    display: grid; grid-template-columns: 1fr 1fr; gap: 4px;
 }
 .equip-details-text div {
-    background: rgba(255,255,255,0.03); padding: 4px 8px; border-radius: 4px;
+    background: rgba(255,255,255,0.03); padding: 3px 6px; border-radius: 4px;
     white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
 }
 
 /* --- RIGHT PANEL: INVENTORY --- */
 .inventory-container {
-    flex: 1; /* Quan trọng: Tự động dãn để chiếm hết khoảng trống còn lại */
+    flex: 1; /* Tự động dãn tối đa */
     border-radius: 12px;
     display: flex; flex-direction: column;
-    overflow: hidden; /* Cần thiết để scroll bên trong hoạt động */
-    min-height: 0; /* Fix lỗi flexbox trên một số trình duyệt mobile */
+    overflow: hidden;
+    min-height: 0;
 }
 
 .inventory-header {
-    padding: 8px 4px;
+    padding: 6px 8px;
     background: rgba(255,255,255,0.04); border-bottom: 1px solid var(--border-light);
     display: flex; justify-content: space-between; align-items: center; flex-shrink: 0;
 }
-.inventory-header h3 { margin: 0; font-family: var(--font-header); font-size: 0.9rem; color: #ccc; }
-.inv-count { font-size: 0.7rem; color: #666; background: #111; padding: 2px 6px; border-radius: 8px; }
+.inventory-header h3 { margin: 0; font-family: var(--font-header); font-size: 0.85rem; color: #ccc; }
+.inv-count { font-size: 0.65rem; color: #666; background: #111; padding: 2px 6px; border-radius: 8px; }
 
 .inventory-grid {
     flex: 1;
-    overflow-y: auto; /* Scroll ở đây */
-    padding: 8px;
+    overflow-y: auto;
+    padding: 4px; /* Giảm padding */
     display: grid;
-    /* Grid tự động điều chỉnh kích thước item */
-    grid-template-columns: repeat(auto-fill, minmax(60px, 1fr));
-    gap: 6px;
+    grid-template-columns: repeat(auto-fill, minmax(55px, 1fr)); /* Giảm min-width item xuống 55px */
+    gap: 4px; /* Giảm gap item */
     align-content: start;
-    -webkit-overflow-scrolling: touch; /* Mượt hơn trên iOS */
+    -webkit-overflow-scrolling: touch;
 }
 
-/* Scrollbar đẹp hơn */
+/* Scrollbar */
 .inventory-grid::-webkit-scrollbar { width: 4px; }
 .inventory-grid::-webkit-scrollbar-thumb { background: #444; border-radius: 4px; }
 
@@ -201,7 +200,7 @@ body::before {
     border-radius: 6px; position: relative;
     display: flex; align-items: center; justify-content: center;
 }
-.item-slot img { width: 75%; height: 75%; object-fit: contain; }
+.item-slot img { width: 80%; height: 80%; object-fit: contain; }
 .item-slot.selected { border: 1px solid var(--accent-green); box-shadow: 0 0 10px rgba(46, 204, 113, 0.3); }
 
 /* --- BUTTONS --- */
@@ -221,10 +220,14 @@ body::before {
 .btn-sm { padding: 4px 10px; font-size: 0.75rem; }
 
 /* --- DESKTOP / TABLET MODE --- */
-/* Khi màn hình rộng hơn 900px, trả lại kích thước lớn */
 @media (min-width: 900px) {
+    /* Reset Vars cho Desktop */
+    :root {
+        --gap: 20px;
+    }
+
     .app-container {
-        flex-direction: row; /* Xếp ngang */
+        flex-direction: row;
         padding: 20px; gap: 20px;
     }
 
@@ -233,23 +236,28 @@ body::before {
         padding: 12px;
     }
 
-    /* Trả lại kích thước gốc cho Visual */
+    /* Trả lại kích thước lớn cho Desktop */
     .equip-visual-wrapper {
         height: 230px;
         margin-bottom: 12px;
     }
     .equip-bar {
-        transform: scale(1); /* Full size */
+        transform: scale(1);
     }
 
-    /* Tăng font size stats */
+    /* Tăng kích thước Stats/Text */
     .stats-panel { padding: 12px; margin-bottom: 12px; }
     .stat-label { font-size: 0.75rem; }
     .stat-value { font-size: 1.5rem; }
+    .stat-divider { height: 24px; }
     
+    .char-controls { margin-bottom: 8px; }
+    .btn-block { font-size: 0.85rem; padding: 8px 16px; }
+
     .equip-details-text { font-size: 0.85rem; gap: 8px; }
     .equip-details-text div { padding: 6px 10px; }
 
+    .inventory-header h3 { font-size: 0.9rem; }
     .inventory-grid {
         padding: 12px; gap: 8px;
         grid-template-columns: repeat(auto-fill, minmax(68px, 1fr));
