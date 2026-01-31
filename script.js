@@ -30,10 +30,12 @@ const State = {
   equipped: { armor: null, artifact: null, weapon: null },
   sortedItems: [],
   
-  // State phân trang
+  // OPTIMIZATION: Phân trang
   itemsPerPage: 50,
   currentPage: 1,
   isLoadingMore: false,
+  // Kiểm tra xem đang là Mobile hay PC dựa trên chiều rộng (khớp với CSS)
+  isMobile: window.innerWidth < 900,
 
   calculateStat(range, level, maxLevel) {
     if (!range) return 0;
@@ -44,7 +46,7 @@ const State = {
 };
 
 /**
- * UI CACHE & OBSERVER
+ * UI CACHE
  */
 const UI = {
   inventory: document.getElementById("inventory"),
@@ -73,8 +75,8 @@ const UI = {
   }
 };
 
-// FIX: Observer để tự động load khi thấy đáy danh sách
-let scrollObserver;
+// Biến cho PC Observer
+let pcObserver;
 
 /**
  * INITIALIZATION
@@ -93,8 +95,10 @@ async function initApp() {
     State.classes = classes;
     State.skills = skills;
 
-    // Khởi tạo Observer
-    setupObserver();
+    // Nếu là PC thì khởi tạo Observer trước
+    if (!State.isMobile) {
+        setupPCObserver();
+    }
 
     renderInventory(true);
     setupEventListeners();
@@ -111,27 +115,33 @@ async function initApp() {
   }
 }
 
-// FIX: Hàm thiết lập Observer
-function setupObserver() {
+// Hàm khởi tạo Observer CHỈ CHO PC
+function setupPCObserver() {
     const options = {
-        root: UI.inventory, // Quan sát trong khung inventory
-        rootMargin: '200px', // Load trước khi chạm đáy 200px
+        root: UI.inventory,
+        rootMargin: '200px',
         threshold: 0.1
     };
 
-    scrollObserver = new IntersectionObserver((entries) => {
+    pcObserver = new IntersectionObserver((entries) => {
         const entry = entries[0];
-        // Nếu thấy đáy và còn item để load
-        if (entry.isIntersecting && !State.isLoadingMore && (State.currentPage * State.itemsPerPage < State.sortedItems.length)) {
-            State.isLoadingMore = true;
-            State.currentPage++;
-            renderInventory(false); // Load tiếp
+        if (entry.isIntersecting) {
+            loadMoreItems();
         }
     }, options);
 }
 
+// Logic load thêm item (dùng chung cho cả 2 cách)
+function loadMoreItems() {
+    if (!State.isLoadingMore && (State.currentPage * State.itemsPerPage < State.sortedItems.length)) {
+        State.isLoadingMore = true;
+        State.currentPage++;
+        renderInventory(false);
+    }
+}
+
 /**
- * RENDER (Sử dụng Sentinel Element cho PC & Mobile)
+ * RENDER
  */
 function renderInventory(reset = true) {
   if (reset) {
@@ -172,22 +182,22 @@ function renderInventory(reset = true) {
 
   UI.inventory.appendChild(fragment);
 
-  // FIX: Xóa Sentinel (cảm biến) cũ và tạo cái mới ở cuối cùng
-  const oldSentinel = document.getElementById('scroll-sentinel');
-  if (oldSentinel) {
-      scrollObserver.unobserve(oldSentinel);
-      oldSentinel.remove();
+  // --- XỬ LÝ RIÊNG CHO PC ---
+  if (!State.isMobile) {
+      // Xóa sentinel cũ nếu có
+      const oldSentinel = document.getElementById('pc-sentinel');
+      if (oldSentinel) {
+          pcObserver.unobserve(oldSentinel);
+          oldSentinel.remove();
+      }
+      // Tạo sentinel mới ở cuối danh sách để Observer bắt được
+      const sentinel = document.createElement('div');
+      sentinel.id = 'pc-sentinel';
+      sentinel.style.width = '100%';
+      sentinel.style.height = '10px'; 
+      UI.inventory.appendChild(sentinel);
+      pcObserver.observe(sentinel);
   }
-
-  // Tạo Sentinel mới ở đáy danh sách
-  const sentinel = document.createElement('div');
-  sentinel.id = 'scroll-sentinel';
-  sentinel.style.height = '10px';
-  sentinel.style.width = '100%';
-  sentinel.style.flexBasis = '100%'; // Đảm bảo nó nằm hàng riêng biệt
-  
-  UI.inventory.appendChild(sentinel);
-  scrollObserver.observe(sentinel);
 
   State.isLoadingMore = false;
 }
@@ -203,7 +213,16 @@ function setupEventListeners() {
     if (item) openItemModal(item, false);
   });
 
-  // Đã bỏ sự kiện "scroll" cũ vì dùng Observer xịn hơn
+  // --- XỬ LÝ RIÊNG CHO MOBILE ---
+  // Nếu là Mobile, dùng sự kiện Scroll truyền thống
+  if (State.isMobile) {
+      UI.inventory.addEventListener("scroll", () => {
+        // Load trước khi chạm đáy 100px
+        if (UI.inventory.scrollTop + UI.inventory.clientHeight >= UI.inventory.scrollHeight - 100) {
+            loadMoreItems();
+        }
+      });
+  }
 
   UI.slots.class.addEventListener("click", openClassModal);
 
@@ -233,7 +252,7 @@ function openModal(title, bodyHTML = "") {
       UI.modal.body.innerHTML = "";
       UI.modal.body.appendChild(bodyHTML);
   }
-  UI.modal.footer.innerHTML = ""; 
+  UI.modal.footer.innerHTML = "";
   UI.modal.overlay.classList.remove("hidden");
 }
 
