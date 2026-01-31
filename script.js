@@ -29,6 +29,11 @@ const State = {
   currentClass: null,
   equipped: { armor: null, artifact: null, weapon: null },
   sortedItems: [],
+  
+  // OPTIMIZATION: State cho phân trang (Infinite Scroll)
+  itemsPerPage: 50,
+  currentPage: 1,
+  isLoadingMore: false,
 
   calculateStat(range, level, maxLevel) {
     if (!range) return 0;
@@ -85,7 +90,8 @@ async function initApp() {
     State.classes = classes;
     State.skills = skills;
 
-    renderInventory();
+    // Render lần đầu (reset = true)
+    renderInventory(true);
     setupEventListeners();
 
     // Auto load Ranger
@@ -101,26 +107,42 @@ async function initApp() {
 }
 
 /**
- * RENDER
+ * RENDER (OPTIMIZED WITH INFINITE SCROLL)
  */
-function renderInventory() {
-  const sortedItems = State.items
-    .filter(i => i.type !== "supply")
-    .sort((a, b) => {
-      const typeDiff = (CONFIG.TYPE_ORDER[a.type] || 99) - (CONFIG.TYPE_ORDER[b.type] || 99);
-      return typeDiff !== 0 ? typeDiff : a.name.localeCompare(b.name);
-    });
+function renderInventory(reset = true) {
+  // Nếu reset, sắp xếp lại và xóa danh sách cũ
+  if (reset) {
+    State.currentPage = 1;
+    State.sortedItems = State.items
+      .filter(i => i.type !== "supply")
+      .sort((a, b) => {
+        const typeDiff = (CONFIG.TYPE_ORDER[a.type] || 99) - (CONFIG.TYPE_ORDER[b.type] || 99);
+        return typeDiff !== 0 ? typeDiff : a.name.localeCompare(b.name);
+      });
+    UI.inventory.innerHTML = "";
+  }
+
+  // Tính toán items cho trang hiện tại
+  const start = (State.currentPage - 1) * State.itemsPerPage;
+  const end = start + State.itemsPerPage;
+  const itemsToRender = State.sortedItems.slice(start, end);
+
+  if (itemsToRender.length === 0) return;
 
   const fragment = document.createDocumentFragment();
 
-  sortedItems.forEach((item, index) => {
+  itemsToRender.forEach((item, index) => {
+    // Tính index thực tế trong mảng gốc để binding sự kiện click đúng
+    const actualIndex = start + index;
+
     const div = document.createElement("div");
     div.className = "item-slot";
-    div.dataset.index = index;
+    div.dataset.index = actualIndex; // Dùng actualIndex
 
     const img = document.createElement("img");
     img.src = `${CONFIG.BASE_URL}/${item.sprite}`;
     img.loading = "lazy";
+    img.decoding = "async"; // OPTIMIZATION: Giải mã ảnh không chặn luồng chính
     img.alt = item.name;
     img.onerror = () => { img.src = "sprites/placeholder.png"; };
 
@@ -128,9 +150,8 @@ function renderInventory() {
     fragment.appendChild(div);
   });
 
-  UI.inventory.innerHTML = "";
   UI.inventory.appendChild(fragment);
-  State.sortedItems = sortedItems;
+  State.isLoadingMore = false;
 }
 
 /**
@@ -142,6 +163,18 @@ function setupEventListeners() {
     if (!slot) return;
     const item = State.sortedItems[slot.dataset.index];
     if (item) openItemModal(item, false);
+  });
+
+  // OPTIMIZATION: Sự kiện cuộn để tải thêm
+  UI.inventory.addEventListener("scroll", () => {
+    // Nếu cuộn gần đáy (còn 100px)
+    if (UI.inventory.scrollTop + UI.inventory.clientHeight >= UI.inventory.scrollHeight - 100) {
+      if (!State.isLoadingMore && (State.currentPage * State.itemsPerPage < State.sortedItems.length)) {
+        State.isLoadingMore = true;
+        State.currentPage++;
+        renderInventory(false); // Render tiếp, không reset
+      }
+    }
   });
 
   UI.slots.class.addEventListener("click", openClassModal);
