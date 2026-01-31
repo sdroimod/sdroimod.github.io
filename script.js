@@ -30,7 +30,7 @@ const State = {
   equipped: { armor: null, artifact: null, weapon: null },
   sortedItems: [],
   
-  // OPTIMIZATION: State cho phân trang (Infinite Scroll)
+  // State phân trang
   itemsPerPage: 50,
   currentPage: 1,
   isLoadingMore: false,
@@ -44,7 +44,7 @@ const State = {
 };
 
 /**
- * UI CACHE
+ * UI CACHE & OBSERVER
  */
 const UI = {
   inventory: document.getElementById("inventory"),
@@ -73,6 +73,9 @@ const UI = {
   }
 };
 
+// FIX: Observer để tự động load khi thấy đáy danh sách
+let scrollObserver;
+
 /**
  * INITIALIZATION
  */
@@ -90,7 +93,9 @@ async function initApp() {
     State.classes = classes;
     State.skills = skills;
 
-    // Render lần đầu (reset = true)
+    // Khởi tạo Observer
+    setupObserver();
+
     renderInventory(true);
     setupEventListeners();
 
@@ -106,11 +111,29 @@ async function initApp() {
   }
 }
 
+// FIX: Hàm thiết lập Observer
+function setupObserver() {
+    const options = {
+        root: UI.inventory, // Quan sát trong khung inventory
+        rootMargin: '200px', // Load trước khi chạm đáy 200px
+        threshold: 0.1
+    };
+
+    scrollObserver = new IntersectionObserver((entries) => {
+        const entry = entries[0];
+        // Nếu thấy đáy và còn item để load
+        if (entry.isIntersecting && !State.isLoadingMore && (State.currentPage * State.itemsPerPage < State.sortedItems.length)) {
+            State.isLoadingMore = true;
+            State.currentPage++;
+            renderInventory(false); // Load tiếp
+        }
+    }, options);
+}
+
 /**
- * RENDER (OPTIMIZED WITH INFINITE SCROLL)
+ * RENDER (Sử dụng Sentinel Element cho PC & Mobile)
  */
 function renderInventory(reset = true) {
-  // Nếu reset, sắp xếp lại và xóa danh sách cũ
   if (reset) {
     State.currentPage = 1;
     State.sortedItems = State.items
@@ -122,7 +145,6 @@ function renderInventory(reset = true) {
     UI.inventory.innerHTML = "";
   }
 
-  // Tính toán items cho trang hiện tại
   const start = (State.currentPage - 1) * State.itemsPerPage;
   const end = start + State.itemsPerPage;
   const itemsToRender = State.sortedItems.slice(start, end);
@@ -132,17 +154,15 @@ function renderInventory(reset = true) {
   const fragment = document.createDocumentFragment();
 
   itemsToRender.forEach((item, index) => {
-    // Tính index thực tế trong mảng gốc để binding sự kiện click đúng
     const actualIndex = start + index;
-
     const div = document.createElement("div");
     div.className = "item-slot";
-    div.dataset.index = actualIndex; // Dùng actualIndex
+    div.dataset.index = actualIndex;
 
     const img = document.createElement("img");
     img.src = `${CONFIG.BASE_URL}/${item.sprite}`;
     img.loading = "lazy";
-    img.decoding = "async"; // OPTIMIZATION: Giải mã ảnh không chặn luồng chính
+    img.decoding = "async";
     img.alt = item.name;
     img.onerror = () => { img.src = "sprites/placeholder.png"; };
 
@@ -151,6 +171,24 @@ function renderInventory(reset = true) {
   });
 
   UI.inventory.appendChild(fragment);
+
+  // FIX: Xóa Sentinel (cảm biến) cũ và tạo cái mới ở cuối cùng
+  const oldSentinel = document.getElementById('scroll-sentinel');
+  if (oldSentinel) {
+      scrollObserver.unobserve(oldSentinel);
+      oldSentinel.remove();
+  }
+
+  // Tạo Sentinel mới ở đáy danh sách
+  const sentinel = document.createElement('div');
+  sentinel.id = 'scroll-sentinel';
+  sentinel.style.height = '10px';
+  sentinel.style.width = '100%';
+  sentinel.style.flexBasis = '100%'; // Đảm bảo nó nằm hàng riêng biệt
+  
+  UI.inventory.appendChild(sentinel);
+  scrollObserver.observe(sentinel);
+
   State.isLoadingMore = false;
 }
 
@@ -165,17 +203,7 @@ function setupEventListeners() {
     if (item) openItemModal(item, false);
   });
 
-  // OPTIMIZATION: Sự kiện cuộn để tải thêm
-  UI.inventory.addEventListener("scroll", () => {
-    // Nếu cuộn gần đáy (còn 100px)
-    if (UI.inventory.scrollTop + UI.inventory.clientHeight >= UI.inventory.scrollHeight - 100) {
-      if (!State.isLoadingMore && (State.currentPage * State.itemsPerPage < State.sortedItems.length)) {
-        State.isLoadingMore = true;
-        State.currentPage++;
-        renderInventory(false); // Render tiếp, không reset
-      }
-    }
-  });
+  // Đã bỏ sự kiện "scroll" cũ vì dùng Observer xịn hơn
 
   UI.slots.class.addEventListener("click", openClassModal);
 
@@ -188,7 +216,6 @@ function setupEventListeners() {
 
   document.getElementById("btn-skilltree").addEventListener("click", openSkillTreeModal);
 
-  // Modal actions
   const hideModal = () => UI.modal.overlay.classList.add("hidden");
   UI.modal.closeBtn.addEventListener("click", hideModal);
   UI.modal.overlay.addEventListener("click", (e) => {
@@ -206,7 +233,7 @@ function openModal(title, bodyHTML = "") {
       UI.modal.body.innerHTML = "";
       UI.modal.body.appendChild(bodyHTML);
   }
-  UI.modal.footer.innerHTML = ""; // Clear footer by default
+  UI.modal.footer.innerHTML = ""; 
   UI.modal.overlay.classList.remove("hidden");
 }
 
@@ -229,7 +256,6 @@ function openClassModal() {
 }
 
 function openItemModal(item, isEquipped = false) {
-  // Defaults
   if (item.currentLevel === undefined) item.currentLevel = 0;
   if (!item.element) item.element = "neutral";
   if (!item.originalElement) item.originalElement = item.element;
@@ -289,14 +315,12 @@ function openItemModal(item, isEquipped = false) {
   };
   refresh();
 
-  // Footer Actions
   const footerDiv = document.createElement("div");
   footerDiv.style.width = "100%";
   footerDiv.style.display = "flex";
   footerDiv.style.flexDirection = "column";
   footerDiv.style.gap = "10px";
 
-  // Upgrade Controls
   if (item.levelMax > 0) {
      const upgRow = document.createElement("div");
      upgRow.style.display = "flex"; upgRow.style.gap = "5px";
@@ -317,7 +341,6 @@ function openItemModal(item, isEquipped = false) {
      footerDiv.appendChild(upgRow);
   }
 
-  // Equip/Unequip Action
   const actionBtn = document.createElement("button");
   actionBtn.className = isEquipped ? "btn btn-outline btn-block" : "btn btn-primary btn-block";
   actionBtn.textContent = isEquipped ? "Unequip" : "Equip";
@@ -356,7 +379,7 @@ function showElementPicker(item, callback) {
 
 function openSkillTreeModal() {
     const div = document.createElement("div");
-    div.className = "class-grid"; // Reusing grid style
+    div.className = "class-grid";
     
     State.skills.forEach(skill => {
         const btn = document.createElement("button");
@@ -395,12 +418,10 @@ function equipClass(cls) {
 function equipItem(item) {
   State.equipped[item.type] = item;
   
-  // Update Slot Visually
   const slot = UI.slots[item.type];
   slot.innerHTML = `<img src="${CONFIG.BASE_URL}/${item.sprite}">`;
   slot.classList.add("has-item");
   
-  // Update Text Info
   const color = getElementColor(item.element || "neutral");
   UI.info[item.type].innerHTML = `${capitalize(item.type)}: <span style="color:${color}">${item.name}</span>`;
   
@@ -422,7 +443,6 @@ function updateStats() {
   const { armor, artifact, weapon } = State.equipped;
   const _class = State.currentClass;
 
-  // Armor Calculation
   let totalArmor = 0;
   if (armor && armor.stats.armor) {
     totalArmor += State.calculateStat(armor.stats.armor, armor.currentLevel, armor.levelMax);
@@ -436,12 +456,10 @@ function updateStats() {
     totalArmor = Math.round(totalArmor * _class.boosts.armor);
   }
 
-  // Damage Calculation
   let totalDmg = 0;
   if (weapon && weapon.stats.damage) {
     let baseDmg = State.calculateStat(weapon.stats.damage, weapon.currentLevel, weapon.levelMax);
 
-    // Boost Logic
     const applyBoost = (source) => {
         if(source && source.boosts) {
             if(weapon.subType && source.boosts[weapon.subType]) baseDmg = Math.round(baseDmg * source.boosts[weapon.subType]);
@@ -464,12 +482,10 @@ function updateStats() {
     totalDmg = baseDmg;
   }
 
-  // Animate numbers
   animateValue(UI.info.totalArmor, parseInt(UI.info.totalArmor.textContent), totalArmor, 500);
   animateValue(UI.info.totalDmg, parseInt(UI.info.totalDmg.textContent), totalDmg, 500);
 }
 
-// Helper: Count up animation
 function animateValue(obj, start, end, duration) {
     if(start === end) return;
     let startTimestamp = null;
