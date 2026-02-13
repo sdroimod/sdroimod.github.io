@@ -93,7 +93,7 @@
     "subType": "sword",
     "sprite": "/sprites/weapons/sword_glass_2.png",
     "levelMax": 15,
-    "cooldown": 450,
+    "cooldown": 520,
     "stats": {
       "damage": [
         77,
@@ -939,6 +939,36 @@
       "speed": 1,
       "jump": 1.06,
       "armor": 1.35
+    }
+  },
+  {
+    "id": "black_shuriken",
+    "name": "Black Shuriken",
+    "element": "darkness",
+    "type": "weapon",
+    "subType": "dagger",
+    "sprite": "/sprites/weapons/shuriken_dark.png",
+    "levelMax": 15,
+    "cooldown": 350,
+    "stats": {
+      "damage": [
+        90,
+        414
+      ],
+      "armor": [
+        0,
+        0
+      ],
+      "pierce": 1
+    },
+    "status": {
+      "poison": true,
+      "frost": false
+    },
+    "boosts": {
+      "speed": 1.18,
+      "jump": 1.06,
+      "armor": 0.55
     }
   },
   {
@@ -2158,7 +2188,7 @@
     },
     "boosts": {
       "speed": 1.2,
-      "jump": 1.03,
+      "jump": 1.05,
       "armor": 1
     }
   },
@@ -2503,7 +2533,7 @@
     "element": "darkness",
     "type": "armor",
     "subType": "cloth",
-    "sprite": "/sprites/armors/armor_cloth_special_f2.png",
+    "sprite": "/sprites/armors/armor_cloth_special_f1b.png",
     "levelMax": 8,
     "cooldown": 0,
     "stats": {
@@ -3542,8 +3572,8 @@
     "cooldown": 650,
     "stats": {
       "damage": [
-        64,
-        294
+        65,
+        299
       ],
       "armor": [
         0,
@@ -6311,8 +6341,8 @@
     "cooldown": 600,
     "stats": {
       "damage": [
-        88,
-        404
+        90,
+        414
       ],
       "armor": [
         0,
@@ -6803,8 +6833,8 @@
     "cooldown": 450,
     "stats": {
       "damage": [
-        48,
-        220
+        52,
+        239
       ],
       "armor": [
         0,
@@ -11850,8 +11880,8 @@
     "cooldown": 600,
     "stats": {
       "damage": [
-        130,
-        598
+        135,
+        621
       ],
       "armor": [
         0,
@@ -12007,8 +12037,8 @@
     "cooldown": 700,
     "stats": {
       "damage": [
-        64,
-        294
+        65,
+        299
       ],
       "armor": [
         0,
