@@ -19,7 +19,6 @@
     --font-header: 'Cinzel', serif;
     --font-body: 'Roboto', sans-serif;
 
-    /* [MOBILE OPTIMIZED] */
     --header-height: 44px;
     --gap: 4px;
 }
@@ -164,8 +163,8 @@ body::before {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 2px;
-    overflow: hidden;
+    margin: 2px 0px 2px 0px;
+    
 }
 
 /* [MOBILE] Equip Bar */
@@ -384,7 +383,7 @@ body::before {
 
 .item-slot {
     aspect-ratio: 1;
-    background: rgba(255, 255, 255, 0.06) url("https://raw.githubusercontent.com/sdroimod/magic-rampage-inventory/refs/heads/main/sprites/inventory-item-frame.png") center/contain no-repeat;
+    background: rgba(255, 255, 255, 0.06) url("https://raw.githubusercontent.com/sdroimod/sdroimod.github.io/refs/heads/main/inventory-rampager/sprites/inventory-item-frame.png") center/contain no-repeat;
     border-radius: 6px;
     position: relative;
     display: flex;
@@ -626,8 +625,8 @@ body::before {
 .el-select-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 12px; /* Increased gap slightly for the glow effects */
-    padding: 5px; /* Padding to prevent glow clipping */
+    gap: 12px;
+    padding: 5px;
 }
 
 .el-select-grid .btn {
