@@ -1,15 +1,246 @@
-<h1>SDroiMod</h1>
-<p>Magic Rampage Mods & Tools</p>
+<!DOCTYPE html>
+<html lang="vi">
 
-<p>
-I create powerful and stable mods for Magic Rampage players.
-Explore tools, inventory editors, and gameplay enhancements below.
-</p>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SDroiMod - Magic Rampage Tools</title>
+  <style>
+    /* --- CÀI ĐẶT CƠ BẢN --- */
+    :root {
+      --primary-color: #00ff9d;
+      /* Xanh neon */
+      --accent-color: #ff0055;
+      /* Đỏ hồng cho điểm nhấn HOT */
+      --bg-color: #0f0f13;
+      --text-color: #ffffff;
+      --text-secondary: #aaaaaa;
+    }
 
-<div>
-  <a href="/sgen-magic-rampage">SGen – Magic Rampage Mod</a>
-</div>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    }
 
-<div>
-  <a href="/inventory-rampager">Inventory Rampager Tool</a>
-</div>
+    body {
+      background-color: var(--bg-color);
+      color: var(--text-color);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      min-height: 100vh;
+      padding: 40px 20px;
+    }
+
+    /* --- HEADER --- */
+    header {
+      text-align: center;
+      margin-bottom: 50px;
+      max-width: 600px;
+    }
+
+    h1 {
+      font-size: 3rem;
+      font-weight: 800;
+      margin-bottom: 10px;
+      background: linear-gradient(90deg, #fff, var(--primary-color));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      letter-spacing: -1px;
+    }
+
+    .subtitle {
+      font-size: 1.2rem;
+      color: var(--primary-color);
+      margin-bottom: 15px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+    }
+
+    .description {
+      color: var(--text-secondary);
+      line-height: 1.6;
+      font-size: 1rem;
+    }
+
+    /* --- GRID LAYOUT --- */
+    .container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      gap: 30px;
+      width: 100%;
+      max-width: 1100px;
+    }
+
+    /* --- CARD DESIGN --- */
+    .card {
+      position: relative;
+      display: block;
+      height: 350px;
+      /* Tăng chiều cao để chứa nhiều thông tin hơn */
+      border-radius: 20px;
+      overflow: hidden;
+      text-decoration: none;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      border: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    /* Hiệu ứng khi hover */
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 20px 50px rgba(0, 255, 157, 0.15);
+      border-color: var(--primary-color);
+    }
+
+    /* Ảnh nền */
+    .card-image {
+      width: 100%;
+      height: 100%;
+      background-size: cover;
+      background-position: center;
+      transition: transform 0.6s ease;
+    }
+
+    .card:hover .card-image {
+      transform: scale(1.1);
+    }
+
+    /* --- BADGE (NHÃN NỔI BẬT) --- */
+    .badge {
+      position: absolute;
+      top: 15px;
+      right: 15px;
+      background: var(--accent-color);
+      color: white;
+      padding: 5px 12px;
+      border-radius: 50px;
+      font-size: 0.75rem;
+      font-weight: bold;
+      text-transform: uppercase;
+      z-index: 2;
+      box-shadow: 0 5px 15px rgba(255, 0, 85, 0.4);
+    }
+
+    /* --- PHẦN BLUR & TEXT --- */
+    .card-content {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      padding: 20px;
+      background: rgba(15, 15, 19, 0.8);
+      /* Tối hơn chút để chữ rõ */
+      backdrop-filter: blur(15px);
+      -webkit-backdrop-filter: blur(15px);
+      border-top: 1px solid rgba(255, 255, 255, 0.1);
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+
+    .card-title {
+      font-size: 1.4rem;
+      font-weight: 700;
+      color: #fff;
+      margin: 0;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .card-desc {
+      font-size: 0.95rem;
+      color: #ccc;
+      line-height: 1.4;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      /* Chỉ hiện tối đa 2 dòng */
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+
+    /* --- FEATURE TAGS (Dòng icon nhỏ) --- */
+    .features {
+      display: flex;
+      gap: 15px;
+      margin-top: 5px;
+      font-size: 0.8rem;
+      color: var(--primary-color);
+      font-weight: 600;
+    }
+
+    .features span {
+      display: flex;
+      align-items: center;
+      gap: 4px;
+    }
+
+    /* --- MOBILE TWEAKS --- */
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 2.2rem;
+      }
+
+      .card {
+        height: 300px;
+      }
+
+      .container {
+        padding: 0;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>SDroiMod</h1>
+    <p class="subtitle">Magic Rampage Mods & Tools</p>
+    <p class="description">
+      The ultimate destination for Magic Rampage modifications.
+      Unlock your full potential with stable, high-performance tools.
+    </p>
+  </header>
+
+  <div class="container">
+
+    <a href="https://download-sdroimod.blogspot.com/p/download-preview-sgen-9-22.html" target="_blank" class="card">
+      <div class="badge">Massive Update</div>
+
+      <div class="card-image" style="background-image: url('assets/sgen-magic-rampage.png');"></div>
+
+      <div class="card-content">
+        <div class="card-title">SGen Magic Rampage</div>
+        <div class="features">
+          <span>⚡ 1000+ Items</span>
+          <span>🏰 New Dungeons</span>
+          <span>💀 Better UI</span>
+        </div>
+        <div class="card-desc">
+          The biggest content pack ever. Includes new weapons, enemies, and a complete interface redesign.
+        </div>
+      </div>
+    </a>
+
+
+    <a href="/inventory-rampager" class="card" target="_blank">
+      <div class="card-image" style="background-image: url('assets/inventory-rampager.png');"></div>
+
+      <div class="card-content">
+        <div class="card-title">Inventory Rampager</div>
+        <div class="card-desc">
+          Advanced inventory editor. Customize your gear and stats with precision.
+        </div>
+      </div>
+    </a>
+
+  </div>
+
+</body>
+
+</html>
