@@ -7485,6 +7485,36 @@
     }
   },
   {
+    "id": "oasis_blade",
+    "name": "Oasis Blade",
+    "element": "earth",
+    "type": "weapon",
+    "subType": "sword",
+    "sprite": "/sprites/weapons/sword_anubis.png",
+    "levelMax": 15,
+    "cooldown": 550,
+    "stats": {
+      "damage": [
+        110,
+        506
+      ],
+      "armor": [
+        0,
+        0
+      ],
+      "pierce": 0
+    },
+    "status": {
+      "poison": false,
+      "frost": false
+    },
+    "boosts": {
+      "speed": 1.05,
+      "jump": 1.06,
+      "armor": 1.3
+    }
+  },
+  {
     "id": "obscure_essence",
     "name": "Obscure Essence",
     "element": "darkness",
@@ -8807,6 +8837,36 @@
       "spear": 1,
       "hammer": 1,
       "axe": 1
+    }
+  },
+  {
+    "id": "scorpion_fang",
+    "name": "Scorpion Fang",
+    "element": "air",
+    "type": "weapon",
+    "subType": "dagger",
+    "sprite": "/sprites/weapons/dagger_anubis.png",
+    "levelMax": 15,
+    "cooldown": 420,
+    "stats": {
+      "damage": [
+        50,
+        230
+      ],
+      "armor": [
+        0,
+        0
+      ],
+      "pierce": 2
+    },
+    "status": {
+      "poison": true,
+      "frost": false
+    },
+    "boosts": {
+      "speed": 1.15,
+      "jump": 1,
+      "armor": 0.8
     }
   },
   {
