@@ -1936,7 +1936,8 @@
     "name": "Compendium of Trees",
     "element": "earth",
     "type": "weapon",
-    "subType": "grimoire",
+    "subType": "staff
+",
     "sprite": "/sprites/weapons/spellbook_earth.png",
     "levelMax": 15,
     "cooldown": 550,
@@ -7288,7 +7289,8 @@
     "name": "Necromorphicon",
     "element": "darkness",
     "type": "weapon",
-    "subType": "grimoire",
+    "subType": "staff
+",
     "sprite": "/sprites/weapons/spellbook_necro.png",
     "levelMax": 15,
     "cooldown": 550,
@@ -10348,7 +10350,8 @@
     "name": "The Abyssal Scrolls",
     "element": "water",
     "type": "weapon",
-    "subType": "grimoire",
+    "subType": "staff
+",
     "sprite": "/sprites/weapons/spellbook_water.png",
     "levelMax": 15,
     "cooldown": 500,
@@ -10378,7 +10381,8 @@
     "name": "The Ancient Codices",
     "element": "",
     "type": "weapon",
-    "subType": "grimoire",
+    "subType": "staff
+",
     "sprite": "/sprites/weapons/spellbook_1.png",
     "levelMax": 15,
     "cooldown": 450,
@@ -10408,7 +10412,8 @@
     "name": "The Arachnid Codex",
     "element": "",
     "type": "weapon",
-    "subType": "grimoire",
+    "subType": "staff
+",
     "sprite": "/sprites/weapons/spellbook_2.png",
     "levelMax": 15,
     "cooldown": 500,
@@ -10438,7 +10443,8 @@
     "name": "The Daemon Codices",
     "element": "darkness",
     "type": "weapon",
-    "subType": "grimoire",
+    "subType": "staff
+",
     "sprite": "/sprites/weapons/spellbook_dark.png",
     "levelMax": 15,
     "cooldown": 400,
@@ -10468,7 +10474,8 @@
     "name": "The Oxymo's Codex",
     "element": "light",
     "type": "weapon",
-    "subType": "grimoire",
+    "subType": "staff
+",
     "sprite": "/sprites/weapons/spellbook_light.png",
     "levelMax": 15,
     "cooldown": 450,
@@ -10498,7 +10505,8 @@
     "name": "The Testament of Ifrit",
     "element": "fire",
     "type": "weapon",
-    "subType": "grimoire",
+    "subType": "staff
+",
     "sprite": "/sprites/weapons/spellbook_fire.png",
     "levelMax": 15,
     "cooldown": 400,
@@ -10528,7 +10536,8 @@
     "name": "The Word of the Wind",
     "element": "air",
     "type": "weapon",
-    "subType": "grimoire",
+    "subType": "staff
+",
     "sprite": "/sprites/weapons/spellbook_air.png",
     "levelMax": 15,
     "cooldown": 500,
@@ -10692,7 +10701,8 @@
     "name": "Tome of the Sands",
     "element": "air",
     "type": "weapon",
-    "subType": "grimoire",
+    "subType": "staff
+",
     "sprite": "/sprites/weapons/spellbook_anubis.png",
     "levelMax": 15,
     "cooldown": 450,
