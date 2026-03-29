@@ -1527,6 +1527,36 @@
     }
   },
   {
+    "id": "bunny_spear",
+    "name": "Bunny Spear",
+    "element": "",
+    "type": "weapon",
+    "subType": "spear",
+    "sprite": "/sprites/weapons/easter-spear.png",
+    "levelMax": 15,
+    "cooldown": 550,
+    "stats": {
+      "damage": [
+        50,
+        230
+      ],
+      "armor": [
+        0,
+        0
+      ],
+      "pierce": 3
+    },
+    "status": {
+      "poison": false,
+      "frost": false
+    },
+    "boosts": {
+      "speed": 1,
+      "jump": 1.18,
+      "armor": 1
+    }
+  },
+  {
     "id": "bunny_suit",
     "name": "Bunny Suit",
     "element": "",
@@ -1936,7 +1966,7 @@
     "name": "Compendium of Trees",
     "element": "earth",
     "type": "weapon",
-    "subType": "staff",
+    "subType": "grimoire",
     "sprite": "/sprites/weapons/spellbook_earth.png",
     "levelMax": 15,
     "cooldown": 550,
@@ -7288,7 +7318,7 @@
     "name": "Necromorphicon",
     "element": "darkness",
     "type": "weapon",
-    "subType": "staff",
+    "subType": "grimoire",
     "sprite": "/sprites/weapons/spellbook_necro.png",
     "levelMax": 15,
     "cooldown": 550,
@@ -7405,10 +7435,10 @@
       "frost": false
     },
     "boosts": {
-      "magic": 3.2,
-      "speed": 1.07,
+      "magic": 3,
+      "speed": 1.04,
       "jump": 1.09,
-      "armor": 1,
+      "armor": 0.8,
       "sword": 1,
       "dagger": 1,
       "staff": 1,
@@ -9679,9 +9709,9 @@
       "frost": false
     },
     "boosts": {
-      "speed": 1.03,
-      "jump": 1.12,
-      "armor": 1.25
+      "speed": 1.01,
+      "jump": 1.13,
+      "armor": 1.2
     }
   },
   {
@@ -10032,6 +10062,36 @@
     }
   },
   {
+    "id": "steelblow_shuriken",
+    "name": "Steelblow Shuriken",
+    "element": "air",
+    "type": "weapon",
+    "subType": "dagger",
+    "sprite": "/sprites/weapons/shuriken_air.png",
+    "levelMax": 15,
+    "cooldown": 320,
+    "stats": {
+      "damage": [
+        70,
+        322
+      ],
+      "armor": [
+        0,
+        0
+      ],
+      "pierce": 1
+    },
+    "status": {
+      "poison": false,
+      "frost": false
+    },
+    "boosts": {
+      "speed": 1.28,
+      "jump": 1,
+      "armor": 0.8
+    }
+  },
+  {
     "id": "storm",
     "name": "Storm",
     "element": "air",
@@ -10348,7 +10408,7 @@
     "name": "The Abyssal Scrolls",
     "element": "water",
     "type": "weapon",
-    "subType": "staff",
+    "subType": "grimoire",
     "sprite": "/sprites/weapons/spellbook_water.png",
     "levelMax": 15,
     "cooldown": 500,
@@ -10378,7 +10438,7 @@
     "name": "The Ancient Codices",
     "element": "",
     "type": "weapon",
-    "subType": "staff",
+    "subType": "grimoire",
     "sprite": "/sprites/weapons/spellbook_1.png",
     "levelMax": 15,
     "cooldown": 450,
@@ -10408,7 +10468,7 @@
     "name": "The Arachnid Codex",
     "element": "",
     "type": "weapon",
-    "subType": "staff",
+    "subType": "grimoire",
     "sprite": "/sprites/weapons/spellbook_2.png",
     "levelMax": 15,
     "cooldown": 500,
@@ -10438,7 +10498,7 @@
     "name": "The Daemon Codices",
     "element": "darkness",
     "type": "weapon",
-    "subType": "staff",
+    "subType": "grimoire",
     "sprite": "/sprites/weapons/spellbook_dark.png",
     "levelMax": 15,
     "cooldown": 400,
@@ -10468,7 +10528,7 @@
     "name": "The Oxymo's Codex",
     "element": "light",
     "type": "weapon",
-    "subType": "staff",
+    "subType": "grimoire",
     "sprite": "/sprites/weapons/spellbook_light.png",
     "levelMax": 15,
     "cooldown": 450,
@@ -10498,7 +10558,7 @@
     "name": "The Testament of Ifrit",
     "element": "fire",
     "type": "weapon",
-    "subType": "staff",
+    "subType": "grimoire",
     "sprite": "/sprites/weapons/spellbook_fire.png",
     "levelMax": 15,
     "cooldown": 400,
@@ -10528,7 +10588,7 @@
     "name": "The Word of the Wind",
     "element": "air",
     "type": "weapon",
-    "subType": "staff",
+    "subType": "grimoire",
     "sprite": "/sprites/weapons/spellbook_air.png",
     "levelMax": 15,
     "cooldown": 500,
@@ -10692,7 +10752,7 @@
     "name": "Tome of the Sands",
     "element": "air",
     "type": "weapon",
-    "subType": "staff",
+    "subType": "grimoire",
     "sprite": "/sprites/weapons/spellbook_anubis.png",
     "levelMax": 15,
     "cooldown": 450,
