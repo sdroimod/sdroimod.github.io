@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="vi">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
@@ -317,6 +317,27 @@
                 font-size: 1rem;
             }
         }
+
+        .tut-images-row {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 15px;
+        }
+
+        .tut-images-row img {
+            width: calc(50% - 5px);
+            /* Perfectly split into two */
+            border-radius: 10px;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            object-fit: cover;
+        }
+
+        /* Adjust for small screens */
+        @media (max-width: 480px) {
+            .tut-images-row {
+                gap: 8px;
+            }
+        }
     </style>
 </head>
 
@@ -331,12 +352,25 @@
         <details>
             <summary>How to Install? (Click here)</summary>
             <div class="details-content">
-                <div class="video-container">
+                <p style="margin-top: 0; color: var(--primary); font-weight: bold;">
+                    ⚠️ Using YouTube's In-App Browser?
+                </p>
+                <p style="font-size: 0.9rem; margin-bottom: 15px; color: #bbb;">
+                    If you see an "X" button at the top, tap the <b>three dots</b> (top-right) and select <b>"Open in
+                        Browser"</b>. This ensures your steps are verified correctly.
+                </p>
+
+                <div class="tut-images-row">
+                    <img src="tut_00.png" alt="Step 1">
+                    <img src="tut_01.png" alt="Step 2">
+                </div>
+
+                <!--div class="video-container" style="margin-top: 20px;">
                     <iframe width="1336" height="539" src="https://www.youtube.com/embed/92tuveolLgA"
                         title="Install SGen-9" frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                         referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                </div>
+                </div-->
             </div>
         </details>
         <div class="step-box active" id="step-box-1">
@@ -375,7 +409,15 @@
                 *For PC: Unzip file and open SGen-9.exe to play.
             </p>
         </div>
-
+        <div class="community-grid">
+            <a href="https://discord.gg/yu74EJHm2d" target="_blank" class="action-btn btn-social btn-discord">
+                <img src="https://cdn-icons-png.flaticon.com/512/5968/5968756.png" alt="Discord"> Join Discord
+            </a>
+            <a href="https://www.facebook.com/groups/1267718328391518/" target="_blank"
+                class="action-btn btn-social btn-facebook">
+                <img src="https://cdn-icons-png.flaticon.com/512/5968/5968764.png" alt="Facebook"> Join Facebook
+            </a>
+        </div>
         <hr style="border: 0; border-top: 1px solid rgba(255,255,255,0.1); margin: 30px 0;">
 
         <details open>
@@ -399,15 +441,7 @@
 
 
 
-        <div class="community-grid">
-            <a href="https://discord.gg/yu74EJHm2d" target="_blank" class="action-btn btn-social btn-discord">
-                <img src="https://cdn-icons-png.flaticon.com/512/5968/5968756.png" alt="Discord"> Join Discord
-            </a>
-            <a href="https://www.facebook.com/groups/1267718328391518/" target="_blank"
-                class="action-btn btn-social btn-facebook">
-                <img src="https://cdn-icons-png.flaticon.com/512/5968/5968764.png" alt="Facebook"> Join Facebook
-            </a>
-        </div>
+
 
     </div>
 
