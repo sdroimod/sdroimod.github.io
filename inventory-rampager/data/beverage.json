@@ -1,0 +1,47 @@
+[
+  {
+    "sprite": "/sprites/beverages/arcane-precision-tonic.png",
+    "name": "Arcane Precision Tonic",
+    "effects": {
+      "armor": 0.85
+    }
+  },
+  {
+    "sprite": "/sprites/beverages/elixir-of-duplication.png",
+    "name": "Elixir of Duplication",
+    "effects": {
+      "armor": 0.85,
+      "speed": 1.05
+    }
+  },
+  {
+    "sprite": "/sprites/beverages/monsters-juice.png",
+    "name": "Monsters' Juice",
+    "effects": {
+      "magic": 1.60,
+      "armor": 0.80
+    }
+  },
+  {
+    "sprite": "/sprites/beverages/pepper-brew.png",
+    "name": "Pepper Brew",
+    "effects": {
+      "armor": 1.23
+    }
+  },
+  {
+    "sprite": "/sprites/beverages/starlight-supertonic.png",
+    "name": "Starlight Supertonic",
+    "effects": {
+      "magic": 1.70
+    }
+  },
+  {
+    "sprite": "/sprites/beverages/tonic-of-invulnerability.png",
+    "name": "Tonic of Invulnerability",
+    "effects": {
+      "armor": 1.23
+    }
+  }
+]
+
