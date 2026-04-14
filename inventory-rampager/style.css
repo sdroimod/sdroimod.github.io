@@ -1,9 +1,3 @@
-* {
-  -webkit-user-select: none; /* Chrome, Safari */
-  -ms-user-select: none;     /* Edge */
-  user-select: none;         /* Chuẩn */
-}
-
 /* --- RESET & VARS --- */
 :root {
     --bg-dark: #050505;
@@ -27,6 +21,9 @@
     box-sizing: border-box;
     outline: none;
     -webkit-tap-highlight-color: transparent;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
 body {
@@ -92,7 +89,7 @@ body::before {
     align-items: center;
     justify-content: space-between;
     padding: 0 12px;
-    z-index: 100;
+    z-index: 110; /* Tăng z-index để tránh bị che */
     border-bottom: 1px solid var(--border-light);
     flex-shrink: 0;
 }
@@ -147,6 +144,22 @@ body::before {
     margin: 0 auto;
 }
 
+.app-footer {
+    background: rgba(10, 10, 10, 0.9); 
+    border-top: 1px solid #222;
+    padding: 4px 4px; 
+    text-align: center;
+    z-index: 100;
+}
+
+.app-footer p {
+    margin: 0 auto;
+    font-size: 0.6rem;
+    color: #555;
+    line-height: 1.2;
+    max-width: 800px;
+}
+
 /* --- LEFT PANEL: EQUIPMENT --- */
 .equip-container {
     border-radius: 12px;
@@ -154,6 +167,7 @@ body::before {
     flex-direction: column;
     padding: 4px;
     flex-shrink: 0;
+    transition: all 0.3s ease;
 }
 
 /* [MOBILE] Visual Wrapper */
@@ -164,7 +178,6 @@ body::before {
     justify-content: center;
     align-items: center;
     margin: 2px 0px 2px 0px;
-    
 }
 
 /* [MOBILE] Equip Bar */
@@ -174,6 +187,7 @@ body::before {
     height: 220px;
     transform: scale(0.6);
     transform-origin: center;
+    transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275), margin-top 0.3s ease;
 }
 
 /* Slots & Roots styles */
@@ -207,7 +221,7 @@ body::before {
     position: absolute;
     width: 64px;
     height: 64px;
-    background: rgba(0, 0, 0, 0.6) url("https://raw.githubusercontent.com/sdroimod/magic-rampage-inventory/refs/heads/main/sprites/inventory-item-frame.png") center/contain no-repeat;
+    background: rgba(0, 0, 0, 0.6) url("sprites/inventory-item-frame.png") center/contain no-repeat;
     border-radius: 10px;
     z-index: 10;
     display: flex;
@@ -299,6 +313,7 @@ body::before {
     font-family: var(--font-header);
     font-size: 1.1rem;
     font-weight: 700;
+    transition: font-size 0.3s ease;
 }
 
 .stat-divider {
@@ -333,6 +348,7 @@ body::before {
     flex-direction: column;
     overflow: hidden;
     min-height: 0;
+    transition: flex 0.3s ease, min-height 0.3s ease;
 }
 
 .inventory-header {
@@ -383,7 +399,7 @@ body::before {
 
 .item-slot {
     aspect-ratio: 1;
-    background: rgba(255, 255, 255, 0.06) url("https://raw.githubusercontent.com/sdroimod/sdroimod.github.io/refs/heads/main/inventory-rampager/sprites/inventory-item-frame.png") center/contain no-repeat;
+    background: rgba(255, 255, 255, 0.06) url("sprites/inventory-item-frame.png") center/contain no-repeat;
     border-radius: 6px;
     position: relative;
     display: flex;
@@ -447,8 +463,10 @@ body::before {
     font-size: 0.75rem;
 }
 
-/* --- DESKTOP / TABLET MODE --- */
-@media (min-width: 900px) {
+/* ========================================= */
+/* --- TABLET PORTRAIT & DESKTOP MODE    --- */
+/* ========================================= */
+@media (min-width: 768px) {
 
     :root {
         --gap: 20px;
@@ -461,69 +479,92 @@ body::before {
     }
 
     .app-container {
-        flex-direction: row;
+        flex-direction: row; 
         padding: 20px;
         gap: 20px;
+        align-items: stretch;
     }
 
     .equip-container {
-        width: 360px;
+        width: 340px; 
         height: 100%;
-        padding: 12px;
+        padding: 16px;
     }
 
     .equip-visual-wrapper {
-        height: 230px;
-        margin-bottom: 12px;
+        height: 250px;
+        margin-bottom: 20px;
     }
 
     .equip-bar {
-        transform: scale(1);
+        transform: scale(1.05); 
     }
 
     .stats-panel {
-        padding: 12px;
-        margin-bottom: 12px;
+        padding: 16px;
+        margin-bottom: 16px;
     }
 
     .stat-label {
-        font-size: 0.75rem;
+        font-size: 0.8rem;
     }
 
     .stat-value {
-        font-size: 1.5rem;
+        font-size: 1.6rem;
     }
 
     .stat-divider {
-        height: 24px;
+        height: 30px;
     }
 
     .char-controls {
-        margin-bottom: 8px;
+        margin-bottom: 16px;
     }
 
     .btn-block {
-        font-size: 0.85rem;
-        padding: 8px 16px;
+        font-size: 1rem;
+        padding: 12px 16px; 
     }
 
     .equip-details-text {
-        font-size: 0.85rem;
-        gap: 8px;
+        font-size: 0.9rem;
+        gap: 12px;
     }
 
     .equip-details-text div {
-        padding: 6px 10px;
+        padding: 8px 12px;
+    }
+
+    .inventory-header {
+        padding: 12px 16px;
     }
 
     .inventory-header h3 {
-        font-size: 0.9rem;
+        font-size: 1.1rem;
+    }
+    
+    .inv-count {
+        font-size: 0.85rem;
+        padding: 4px 10px;
     }
 
     .inventory-grid {
-        padding: 12px;
-        gap: 8px;
-        grid-template-columns: repeat(auto-fill, minmax(68px, 1fr));
+        padding: 16px;
+        gap: 12px;
+        grid-template-columns: repeat(auto-fill, minmax(85px, 1fr)); 
+    }
+}
+
+/* Tối ưu thêm nếu là các dòng iPad lớn (như iPad Pro 1024px trở lên) */
+@media (min-width: 1024px) {
+    .equip-container {
+        width: 380px; 
+    }
+    .equip-bar {
+        transform: scale(1.15);
+    }
+    .inventory-grid {
+        grid-template-columns: repeat(auto-fill, minmax(95px, 1fr));
     }
 }
 
@@ -557,6 +598,23 @@ body::before {
     display: flex;
     flex-direction: column;
     box-shadow: 0 20px 50px rgba(0, 0, 0, 0.9);
+}
+
+@media (min-width: 768px) {
+    .modal-box {
+        max-width: 500px; 
+    }
+    .modal-header {
+        font-size: 1.3rem;
+        padding: 18px;
+    }
+    .modal-body {
+        padding: 24px;
+    }
+
+    .app-footer {
+        padding-bottom: calc(40px + env(safe-area-inset-bottom, 0px)); 
+    }
 }
 
 .modal-header {
@@ -610,12 +668,6 @@ body::before {
     color: #aaa;
 }
 
-.el-select-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 8px;
-}
-
 .class-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -642,3 +694,360 @@ body::before {
     transition: all 0.2s ease;
 }
 
+
+/* ========================================= */
+/* --- MOBILE LANDSCAPE MODE (XOAY NGANG)--- */
+/* ========================================= */
+@media screen and (max-width: 950px) and (orientation: landscape) {
+    
+    .top-bar {
+        display: none !important;
+    }
+
+    .app-footer {
+        display: none;
+    }
+
+    .app-container {
+        flex-direction: row; 
+        padding: 5px; 
+        gap: 10px;
+    }
+
+    .equip-container {
+        width: 40%; 
+        min-width: 280px;
+        max-width: 350px;
+        overflow-y: auto; 
+        padding: 4px;
+    }
+
+    .inventory-container {
+        flex: 1; 
+    }
+
+    .equip-visual-wrapper {
+        height: 110px; 
+        margin-bottom: 0px;
+    }
+
+    .equip-bar {
+        transform: scale(0.5); 
+    }
+    
+    .char-controls {
+        margin-bottom: 2px;
+    }
+
+    /* TỐI ƯU POPUP CHO MÀN HÌNH NGANG */
+    .modal-overlay {
+        align-items: flex-start !important;
+        padding-top: 5px;
+    }
+
+    .modal-box {
+        max-height: 95dvh; 
+        width: 95%;       
+        max-width: 600px;
+        margin: 0;
+    }
+
+    .modal-header {
+        padding: 6px;
+        font-size: 0.95rem;
+    }
+
+    .modal-body {
+        padding: 8px 12px;
+    }
+
+    .stat-row {
+        padding: 3px 0;
+        font-size: 0.85rem;
+    }
+
+    .boost-tag {
+        margin-top: 2px;
+        font-size: 0.8rem;
+    }
+
+    .modal-footer {
+        padding: 6px;
+        flex-direction: row !important; 
+        justify-content: center;
+        flex-wrap: wrap; 
+    }
+
+    .modal-footer .btn {
+        padding: 6px 12px;
+        font-size: 0.8rem;
+        flex: 1; 
+        margin: 0;
+    }
+}
+
+
+#sentinel {
+    grid-column: 1 / -1; 
+    pointer-events: none; 
+}
+
+/* --- LỌC VẬT PHẨM (FILTER DROPDOWN) --- */
+.filter-select {
+    background: var(--bg-dark);
+    color: #eee;
+    border: 1px solid var(--border-light);
+    border-radius: 4px;
+    padding: 4px 8px;
+    font-family: var(--font-body);
+    font-size: 0.9rem;
+    outline: none;
+    cursor: pointer;
+}
+
+.filter-select option, 
+.filter-select optgroup {
+    background: var(--bg-dark);
+    color: #eee;
+}
+
+/* --- HIỆU ỨNG TỐI Ô TRANG BỊ (SLOT) --- */
+.equip-slot.dimmed,
+.equip-item.dimmed { 
+    opacity: 0.3;
+    filter: grayscale(100%);
+    pointer-events: none; 
+    transition: all 0.3s ease;
+}
+
+/* --- MODAL CHỌN NHANH TRANG BỊ --- */
+.selection-list-container {
+  max-height: 60vh;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding-right: 5px;
+}
+
+.selection-row {
+  display: flex;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  padding: 8px 12px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.selection-row:hover {
+  background: rgba(255, 215, 0, 0.1);
+  border-color: var(--accent-gold);
+  transform: translateX(5px);
+}
+
+.selection-icon {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 15px;
+}
+
+.selection-icon img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.selection-name {
+  flex: 1;
+  font-family: 'Cinzel', serif;
+  font-size: 0.95em;
+  color: #eee;
+}
+
+.selection-element {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  box-shadow: 0 0 5px currentColor;
+}
+
+.selection-list-container::-webkit-scrollbar {
+  width: 4px;
+}
+
+.selection-list-container::-webkit-scrollbar-thumb {
+  background: var(--accent-gold);
+  border-radius: 10px;
+}
+
+.btn-change {
+    background: linear-gradient(180deg, #3498db 0%, #2980b9 100%);
+    border: 1px solid #5dade2;
+    color: white;
+    text-shadow: 0 1px 2px rgba(0,0,0,0.5);
+}
+
+.btn-change:hover {
+    background: #5dade2;
+    box-shadow: 0 0 10px rgba(52, 152, 219, 0.5);
+}
+
+.selection-row.currently-equipped {
+    opacity: 0.6;
+    border-color: var(--accent-gold);
+    background: rgba(255, 177, 66, 0.05);
+    cursor: default;
+    pointer-events: none; 
+}
+
+.selection-row.currently-equipped::after {
+    content: "E";
+    color: var(--accent-gold);
+    font-weight: bold;
+    font-size: 0.8em;
+    margin-left: auto;
+}
+
+.selection-name-wrapper {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.selection-level {
+    font-size: 0.7em;
+    color: #888;
+}
+
+/* --- THU GỌN INVENTORY & EXPAND EQUIPMENT --- */
+.inventory-container.collapsed {
+    flex: 0 0 auto;
+    min-height: unset;
+}
+
+.inventory-container.collapsed .inventory-grid {
+    display: none; 
+}
+
+#btn-toggle-inventory {
+    transition: transform 0.3s ease;
+}
+
+/* Trạng thái Expanded cho Desktop/Tablet */
+.equip-container.expanded {
+    flex: 1;
+    justify-content: center;
+}
+
+.equip-container.expanded .equip-visual-wrapper {
+    height: 260px; 
+}
+
+.equip-container.expanded .equip-bar {
+    transform: scale(1.1); 
+}
+
+.stat-value {
+    font-size: 1.2rem !important; 
+}
+
+.equip-details-text {
+    font-size: 0.8rem !important;
+}
+
+/* --- SEARCH BAR TRONG SELECTION MODAL --- */
+.selection-modal-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  /* Chiều cao tối đa để modal-body không bị tràn */
+  max-height: 65vh;
+}
+
+.selection-search-wrap {
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.selection-search-input {
+  width: 100%;
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 8px;
+  padding: 8px 36px 8px 12px;
+  color: #eee;
+  font-family: var(--font-body);
+  font-size: 0.9rem;
+  outline: none;
+  transition: border-color 0.2s, box-shadow 0.2s;
+  /* Cho phép select text khi gõ */
+  -webkit-user-select: text;
+  user-select: text;
+}
+
+.selection-search-input::placeholder {
+  color: #555;
+}
+
+.selection-search-input:focus {
+  border-color: var(--accent-gold);
+  box-shadow: 0 0 8px rgba(255, 177, 66, 0.25);
+}
+
+/* Ẩn nút X mặc định của browser (type=search) */
+.selection-search-input::-webkit-search-cancel-button {
+  display: none;
+}
+
+.selection-search-clear {
+  position: absolute;
+  right: 8px;
+  background: none;
+  border: none;
+  color: #666;
+  font-size: 1.2rem;
+  cursor: pointer;
+  padding: 0 4px;
+  line-height: 1;
+  display: none; /* Ẩn mặc định, JS toggle */
+  align-items: center;
+  justify-content: center;
+  transition: color 0.15s;
+}
+
+.selection-search-clear:hover {
+  color: #eee;
+}
+
+/* Container list nằm trong wrapper, tự cuộn */
+.selection-modal-wrapper .selection-list-container {
+  flex: 1;
+  min-height: 0;
+  /* max-height kế thừa từ .selection-list-container cũ, override tại đây để flex xử lý */
+  max-height: unset;
+}
+
+.selection-empty {
+  text-align: center;
+  padding: 20px;
+  color: #666;
+  font-size: 0.9rem;
+  font-style: italic;
+}
+@media (max-width: 900px) {
+    .equip-container.expanded .equip-visual-wrapper {
+        height: 180px; 
+        transition: height 0.3s ease;
+    }
+
+    .equip-container.expanded .equip-bar {
+        transform: scale(0.75); /* Đảm bảo trên mobile không bị phóng to quá mức */
+        margin-top: 10px;
+    }
+}
