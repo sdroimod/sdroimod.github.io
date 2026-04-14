@@ -904,6 +904,11 @@ body::before {
     pointer-events: none; 
 }
 
+.selection-row.beverage-row.currently-equipped {
+    pointer-events: auto;
+    cursor: pointer;
+}
+
 .selection-row.currently-equipped::after {
     content: "E";
     color: var(--accent-gold);
