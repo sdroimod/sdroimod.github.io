@@ -9,18 +9,23 @@
 
 <url>
   <loc>https://sdroimod.github.io/</loc>
-  <lastmod>2026-04-17T13:28:32+00:00</lastmod>
+  <lastmod>2026-04-20T06:40:35+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://sdroimod.github.io/download-sgen/index.html</loc>
-  <lastmod>2026-04-17T13:28:32+00:00</lastmod>
+  <loc>https://sdroimod.github.io/sgen-magic-rampage/</loc>
+  <lastmod>2026-04-20T06:40:35+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://sdroimod.github.io/inventory-rampager/</loc>
-  <lastmod>2026-04-17T13:28:32+00:00</lastmod>
+  <lastmod>2026-04-20T06:40:35+00:00</lastmod>
   <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://sdroimod.github.io/sgen-magic-rampage/download/</loc>
+  <lastmod>2026-04-20T06:40:35+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 
 
