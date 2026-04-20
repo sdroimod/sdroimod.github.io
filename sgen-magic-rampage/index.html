@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SGen-9 Magic Rampage Mod - Presentation</title>
+    <style>
+        :root {
+            --primary: #00ff9d;
+            --secondary: #00b8ff;
+            --danger: #ff0055;
+            --bg: #0f0f13;
+            --card-bg: #1a1a20;
+            --text: #ffffff;
+            --text-muted: #888888;
+            --glass: rgba(255, 255, 255, 0.03);
+            --glass-border: rgba(255, 255, 255, 0.08);
+        }
+
+        * { box-sizing: border-box; }
+
+        body {
+            font-family: 'Segoe UI', Roboto, sans-serif;
+            background-color: var(--bg);
+            color: var(--text);
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            line-height: 1.6;
+        }
+
+        /* --- HEADER & HERO --- */
+        .main-container {
+            width: 100%;
+            max-width: 850px;
+            background: var(--card-bg);
+            border-radius: 24px;
+            padding: 40px;
+            box-shadow: 0 20px 50px rgba(0, 0, 0, 0.6);
+            border: 1px solid var(--glass-border);
+        }
+
+        .hero-section {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .app-icon {
+            width: 120px;
+            height: 120px;
+            border-radius: 25px;
+            box-shadow: 0 0 30px rgba(0, 255, 157, 0.2);
+            margin-bottom: 20px;
+            border: 2px solid var(--primary);
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin: 0;
+            background: linear-gradient(90deg, #fff, var(--primary));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .btn-discord {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            background: #5865F2;
+            color: white;
+            padding: 12px 25px;
+            border-radius: 12px;
+            text-decoration: none;
+            font-weight: bold;
+            margin-top: 15px;
+            transition: 0.3s;
+        }
+        .btn-discord:hover { transform: translateY(-3px); box-shadow: 0 5px 15px rgba(88, 101, 242, 0.4); }
+
+        /* --- INFO GRID --- */
+        .info-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin-bottom: 30px;
+        }
+
+        .info-item {
+            background: var(--glass);
+            padding: 15px;
+            border-radius: 15px;
+            border: 1px solid var(--glass-border);
+        }
+
+        .info-item small {
+            display: block;
+            color: var(--primary);
+            text-transform: uppercase;
+            font-size: 0.7rem;
+            font-weight: bold;
+            margin-bottom: 5px;
+            letter-spacing: 1px;
+        }
+
+        .info-item span {
+            font-size: 1rem;
+            font-weight: 500;
+        }
+
+        /* --- CONTENT SECTIONS --- */
+        h2, h3 {
+            color: var(--secondary);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            border-left: 4px solid var(--primary);
+            padding-left: 15px;
+            margin-top: 40px;
+        }
+
+        .video-wrapper {
+            position: relative;
+            padding-bottom: 56.25%;
+            height: 0;
+            border-radius: 15px;
+            overflow: hidden;
+            margin: 20px 0;
+            border: 1px solid var(--glass-border);
+        }
+
+        .video-wrapper iframe, .video-wrapper object {
+            position: absolute;
+            top: 0; left: 0; width: 100%; height: 100%;
+        }
+
+        /* --- GALLERY --- */
+        .galWrp {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 15px;
+            margin: 20px 0;
+        }
+
+        .galWrp img {
+            width: 100%;
+            border-radius: 12px;
+            transition: 0.3s;
+            border: 1px solid var(--glass-border);
+            cursor: pointer;
+        }
+
+        .galWrp img:hover {
+            transform: scale(1.03);
+            border-color: var(--primary);
+        }
+
+        /* --- DOWNLOAD AREA --- */
+        .dl-card {
+            background: rgba(0, 0, 0, 0.2);
+            border-radius: 18px;
+            padding: 20px;
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            border: 1px solid var(--glass-border);
+            transition: 0.3s;
+        }
+
+        .dl-card:hover {
+            background: var(--glass);
+            border-color: var(--secondary);
+        }
+
+        .dl-info { display: flex; align-items: center; gap: 15px; }
+        .dl-info img { width: 50px; height: 50px; border-radius: 10px; }
+        
+        .dl-btn {
+            background: linear-gradient(45deg, var(--secondary), #0066ff);
+            color: white;
+            padding: 10px 20px;
+            border-radius: 10px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 0.9rem;
+            text-transform: uppercase;
+        }
+
+        /* --- FOOTER --- */
+        footer {
+            margin-top: 50px;
+            text-align: center;
+            color: var(--text-muted);
+            font-size: 0.8rem;
+        }
+
+        @media (max-width: 600px) {
+            .main-container { padding: 20px; }
+            h1 { font-size: 1.8rem; }
+            .dl-card { flex-direction: column; text-align: center; gap: 15px; }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="main-container">
+        <div class="hero-section">
+            <img src="//blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEilX-GyXu4kbI2v9Jji2-BJviqYGyGSBMs9WkRnNNVx1YB5YcfaPk36hEIRUWRTbLfuaSCNSSeaxd9B4lKC2qNgaoYYKtffywtr1FPsTKh_9IlUKpUJ3fIsnyYFgcxWE3cb7mW7BT08YYjTD5ScmqR__FogajqI6X-w_3sq3bJDml-T7Q/s90/image.png" alt="Icon" class="app-icon">
+            <h1>SGen-9 Magic Rampage</h1>
+            <p style="color: var(--text-muted)">Expanded world with hundreds of new dungeons and equipment.</p>
+            <a href="https://discord.gg/PHjTvMpXtV" target="_blank" class="btn-discord">
+                <img src="https://cdn-icons-png.flaticon.com/512/5968/5968756.png" width="20" alt=""> JOIN COMMUNITY DISCORD
+            </a>
+        </div>
+
+        <div class="info-grid">
+            <div class="info-item"><small>Version</small><span>8.8.8 (SGen-9)</span></div>
+            <div class="info-item"><small>Size</small><span>200 MB</span></div>
+            <div class="info-item"><small>Category</small><span>Action / RPG</span></div>
+            <div class="info-item"><small>Price</small><span style="color: var(--primary)">FREE</span></div>
+            <div class="info-item"><small>Platform</small><span>Android, Win, Linux</span></div>
+            <div class="info-item"><small>MOD Features</small><span>1000+ Items</span></div>
+        </div>
+
+        <h3>How to Install?</h3>
+        <div class="video-wrapper">
+            <iframe src="https://www.youtube.com/embed/da2d0b836d24372d" frameborder="0" allowfullscreen></iframe>
+        </div>
+
+        <h2>Discover the SGen Experience</h2>
+        <p>The most special thing about this version is the <b>Better UI</b>. All resources were carefully selected and edited to provide a fresh, high-quality experience for all Magic Rampage fans.</p>
+        
+        <div class="galWrp">
+            <img src="//blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiScee-bpjF3RN-6nVm-CtSmTuLmdMkbmsa1Qn9LGE0jVWLyVZidMlzlCj3EiWgLVD_piiPKStPMdMBbGXMTPwZvZrAMjffpiU2PerFf7_5cEtJCr1SxmuJKzxETkIs3c7KZ_YXslLnTCM/w720-h310-rw/" alt="SGen">
+            <img src="//blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjZGtFNzcMdXdaExi3184OyXznwNwyK9pu0hDIDwnhL2OJABUGPBQucxNpwW3XyBWPtT2T6AWDG1qi-4oWURiePQs3jnIbY3fSRd2qfw6tHseJDI_ueTEsu5rgWwEifueo7Bc1rYv8LTW8/w720-h310-rw/" alt="SGen">
+            <img src="//blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjFFGSlDyPgzaVKUAYPiPfoKh3qQbBtAPAxSNM0oVjyWFJjYM3G0_BE8rz71l3sIViDs67QKS-SFD2fx0AVeNaD7Zeqvy_CyoTfsYIlb_eYnz-AWweyeJcyTr1z6ekY0j3afc7fuYzThNI/w720-h310-rw/" alt="SGen">
+            <img src="//blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjl0kom1C0OLxDTEdO336Tm8btT2rkWXJXP35sZ6b0WeUs4Lj3fVofZ-Ouz_EI1JAKM7dRof3S0zmhQtyHJLNPIMcNgUzkB4_chSXKSJ6GesXPVsDIwbni1_hXdv4WbMOJlZCRfJiuSn0A/w720-h310-rw/" alt="SGen">
+        </div>
+
+        <h3>More Dungeons & Challenges</h3>
+        <p>Reach level 35 easily with our optimized EXP dungeons and collect all items from the Weekly Dungeons directly in the SGen mod.</p>
+
+        <h2>Available Downloads</h2>
+        
+        <div class="dl-card">
+            <div class="dl-info">
+                <img src="//blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEilX-GyXu4kbI2v9Jji2-BJviqYGyGSBMs9WkRnNNVx1YB5YcfaPk36hEIRUWRTbLfuaSCNSSeaxd9B4lKC2qNgaoYYKtffywtr1FPsTKh_9IlUKpUJ3fIsnyYFgcxWE3cb7mW7BT08YYjTD5ScmqR__FogajqI6X-w_3sq3bJDml-T7Q/s90/image.png" alt="APK">
+                <div>
+                    <div style="font-weight: bold;">SGen-9 Beta 0.66 (Android)</div>
+                    <small style="color: var(--text-muted);">v8.8.8 • APK • Mediafire</small>
+                </div>
+            </div>
+            <a href="/download/index.html" class="dl-btn">Download APK</a>
+        </div>
+
+        <div class="dl-card">
+            <div class="dl-info">
+                <img src="//blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEilX-GyXu4kbI2v9Jji2-BJviqYGyGSBMs9WkRnNNVx1YB5YcfaPk36hEIRUWRTbLfuaSCNSSeaxd9B4lKC2qNgaoYYKtffywtr1FPsTKh_9IlUKpUJ3fIsnyYFgcxWE3cb7mW7BT08YYjTD5ScmqR__FogajqI6X-w_3sq3bJDml-T7Q/s90/image.png" alt="PC">
+                <div>
+                    <div style="font-weight: bold;">SGen-9 Beta 0.3 (Windows)</div>
+                    <small style="color: var(--text-muted);">v8.8.8 • EXE • Mediafire</small>
+                </div>
+            </div>
+            <a href="/download/index.html" class="dl-btn" style="background: linear-gradient(45deg, #7289da, #5865f2);">Download PC</a>
+        </div>
+
+    </div>
+
+    <footer>
+        <p>© 2026 Made with 💖 by SDroiMod. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
