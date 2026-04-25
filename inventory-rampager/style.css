@@ -1,4 +1,10 @@
 /* --- RESET & VARS --- */
+/* 
+ * MOBILE PERFORMANCE NOTE:
+ * backdrop-filter/blur, box-shadow, text-shadow, transitions, and animations
+ * are DISABLED on mobile (< 768px) for better performance.
+ * They are fully restored for tablet/desktop (≥ 768px) via media queries.
+ */
 :root {
     --bg-dark: #050505;
     --bg-glass: rgba(20, 20, 25, 0.95);
@@ -65,17 +71,15 @@ body::before {
 .glass-panel {
     background: var(--bg-glass);
     border: 1px solid var(--border-light);
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.6);
+    /* box-shadow kept only on desktop via media query */
 }
 
 .text-gold {
     color: var(--accent-gold);
-    text-shadow: 0 0 8px rgba(255, 177, 66, 0.4);
 }
 
 .text-blue {
     color: var(--accent-blue);
-    text-shadow: 0 0 8px rgba(52, 152, 219, 0.4);
 }
 
 .hidden {
@@ -167,7 +171,6 @@ body::before {
     flex-direction: column;
     padding: 4px;
     flex-shrink: 0;
-    transition: all 0.3s ease;
 }
 
 /* [MOBILE] Visual Wrapper */
@@ -187,7 +190,6 @@ body::before {
     height: 220px;
     transform: scale(0.6);
     transform-origin: center;
-    transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275), margin-top 0.3s ease;
 }
 
 /* Slots & Roots styles */
@@ -227,8 +229,6 @@ body::before {
     display: flex;
     align-items: center;
     justify-content: center;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.7);
-    transition: transform 0.1s;
     cursor: pointer;
 }
 
@@ -244,7 +244,6 @@ body::before {
 
 .equip-slot.has-item {
     border: 1px solid var(--accent-gold);
-    box-shadow: 0 0 12px rgba(255, 177, 66, 0.3);
 }
 
 .slot-placeholder {
@@ -313,7 +312,6 @@ body::before {
     font-family: var(--font-header);
     font-size: 1.1rem;
     font-weight: 700;
-    transition: font-size 0.3s ease;
 }
 
 .stat-divider {
@@ -348,7 +346,6 @@ body::before {
     flex-direction: column;
     overflow: hidden;
     min-height: 0;
-    transition: flex 0.3s ease, min-height 0.3s ease;
 }
 
 .inventory-header {
@@ -418,7 +415,6 @@ body::before {
 
 .item-slot.selected {
     border: 1px solid var(--accent-green);
-    box-shadow: 0 0 10px rgba(46, 204, 113, 0.3);
 }
 
 /* --- BUTTONS --- */
@@ -476,6 +472,78 @@ body::before {
     .glass-panel {
         backdrop-filter: blur(12px);
         -webkit-backdrop-filter: blur(12px);
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.6);
+    }
+
+    .text-gold {
+        text-shadow: 0 0 8px rgba(255, 177, 66, 0.4);
+    }
+
+    .text-blue {
+        text-shadow: 0 0 8px rgba(52, 152, 219, 0.4);
+    }
+
+    .equip-slot {
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.7);
+        transition: transform 0.1s;
+    }
+
+    .equip-slot.has-item {
+        box-shadow: 0 0 12px rgba(255, 177, 66, 0.3);
+    }
+
+    .equip-bar {
+        transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275), margin-top 0.3s ease;
+    }
+
+    .stat-value {
+        transition: font-size 0.3s ease;
+    }
+
+    .inventory-container {
+        transition: flex 0.3s ease, min-height 0.3s ease;
+    }
+
+    .item-slot.selected {
+        box-shadow: 0 0 10px rgba(46, 204, 113, 0.3);
+    }
+
+    .modal-overlay {
+        backdrop-filter: blur(4px);
+        transition: opacity 0.2s;
+    }
+
+    .modal-box {
+        box-shadow: 0 20px 50px rgba(0, 0, 0, 0.9);
+    }
+
+    .equip-slot.dimmed,
+    .equip-item.dimmed {
+        transition: all 0.3s ease;
+    }
+
+    .selection-row {
+        transition: all 0.2s ease;
+    }
+
+    .selection-row:hover {
+        transform: translateX(5px);
+    }
+
+    .selection-element {
+        box-shadow: 0 0 5px currentColor;
+    }
+
+    .selection-search-input {
+        transition: border-color 0.2s, box-shadow 0.2s;
+    }
+
+    .selection-search-input:focus {
+        box-shadow: 0 0 8px rgba(255, 177, 66, 0.25);
+    }
+
+    #btn-toggle-inventory {
+        transition: transform 0.3s ease;
     }
 
     .app-container {
@@ -489,6 +557,7 @@ body::before {
         width: 340px; 
         height: 100%;
         padding: 16px;
+        transition: all 0.3s ease;
     }
 
     .equip-visual-wrapper {
@@ -553,6 +622,16 @@ body::before {
         gap: 12px;
         grid-template-columns: repeat(auto-fill, minmax(85px, 1fr)); 
     }
+
+    .el-select-grid .btn {
+        transition: all 0.2s ease;
+    }
+
+    .class-grid .btn.active {
+        box-shadow: 0 0 15px var(--accent-gold), inset 0 0 5px rgba(255, 177, 66, 0.2);
+        transform: translateY(-2px);
+        transition: all 0.2s ease;
+    }
 }
 
 /* Tối ưu thêm nếu là các dòng iPad lớn (như iPad Pro 1024px trở lên) */
@@ -574,13 +653,11 @@ body::before {
     inset: 0;
     z-index: 1000;
     background: rgba(0, 0, 0, 0.85);
-    backdrop-filter: blur(4px);
     display: flex;
     align-items: center;
     justify-content: center;
     opacity: 0;
     pointer-events: none;
-    transition: opacity 0.2s;
 }
 
 .modal-overlay:not(.hidden) {
@@ -597,7 +674,6 @@ body::before {
     border-radius: 5px;
     display: flex;
     flex-direction: column;
-    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.9);
 }
 
 @media (min-width: 768px) {
@@ -682,16 +758,12 @@ body::before {
 }
 
 .el-select-grid .btn {
-    transition: all 0.2s ease;
 }
 
 .class-grid .btn.active {
     border-color: var(--accent-gold);
     color: #fff;
     background: rgba(255, 177, 66, 0.15);
-    box-shadow: 0 0 15px var(--accent-gold), inset 0 0 5px rgba(255, 177, 66, 0.2);
-    transform: translateY(-2px);
-    transition: all 0.2s ease;
 }
 
 
@@ -817,7 +889,6 @@ body::before {
     opacity: 0.3;
     filter: grayscale(100%);
     pointer-events: none; 
-    transition: all 0.3s ease;
 }
 
 /* --- MODAL CHỌN NHANH TRANG BỊ --- */
@@ -838,13 +909,11 @@ body::before {
   border-radius: 8px;
   padding: 8px 12px;
   cursor: pointer;
-  transition: all 0.2s ease;
 }
 
 .selection-row:hover {
   background: rgba(255, 215, 0, 0.1);
   border-color: var(--accent-gold);
-  transform: translateX(5px);
 }
 
 .selection-icon {
@@ -872,7 +941,6 @@ body::before {
   width: 8px;
   height: 8px;
   border-radius: 50%;
-  box-shadow: 0 0 5px currentColor;
 }
 
 .selection-list-container::-webkit-scrollbar {
@@ -939,7 +1007,6 @@ body::before {
 }
 
 #btn-toggle-inventory {
-    transition: transform 0.3s ease;
 }
 
 /* Trạng thái Expanded cho Desktop/Tablet */
@@ -990,8 +1057,6 @@ body::before {
   font-family: var(--font-body);
   font-size: 0.9rem;
   outline: none;
-  transition: border-color 0.2s, box-shadow 0.2s;
-  /* Cho phép select text khi gõ */
   -webkit-user-select: text;
   user-select: text;
 }
@@ -1002,7 +1067,6 @@ body::before {
 
 .selection-search-input:focus {
   border-color: var(--accent-gold);
-  box-shadow: 0 0 8px rgba(255, 177, 66, 0.25);
 }
 
 /* Ẩn nút X mặc định của browser (type=search) */
@@ -1055,4 +1119,27 @@ body::before {
         transform: scale(0.75); /* Đảm bảo trên mobile không bị phóng to quá mức */
         margin-top: 10px;
     }
+}
+
+.btn-row {
+    display: flex;
+    gap: 4px; /* Khoảng cách giữa 2 nút */
+    margin-bottom: 4px; /* Khoảng cách với nút bên dưới */
+}
+
+.btn-row .btn-block {
+    flex: 1; /* Giúp 2 nút có chiều rộng bằng nhau */
+    width: auto; /* Ghi đè lại width 100% của btn-block */
+}
+
+#btn-random-set {
+    flex: 1 1 auto;
+}
+
+#btn-random-set-config {
+    flex: 0 0 42px;
+    width: 42px;
+    min-width: 42px;
+    padding-left: 0;
+    padding-right: 0;
 }

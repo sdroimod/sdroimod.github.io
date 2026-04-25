@@ -68,7 +68,6 @@
       </a>
     </div>
   </header>
-
   <main class="app-container">
 
     <section class="equip-container glass-panel">
@@ -98,10 +97,22 @@
       </div>
 
       <div class="char-controls">
-        <button id="btn-skilltree" class="btn btn-gold btn-block">
-          <span class="icon">🌳</span> Skill Tree
-        </button>
-        <button id="btn-beverage" class="btn btn-outline btn-block" style="margin-top: 4px;">Beverage: None</button>
+        <div class="btn-row">
+          <button id="btn-skilltree" class="btn btn-gold btn-block">
+            <span class="icon">🌳</span> Skill Tree
+          </button>
+          <button id="btn-beverage" class="btn btn-gold btn-block">Beverage: None</button>
+        </div>
+        <div class="btn-row">
+          <button id="btn-random-set" class="btn btn-block"
+            style="background: rgba(155, 89, 182, 0.3); border: 1px solid rgba(155, 89, 182, 0.5); color: #e0aaff; font-weight: bold; margin-top: 4px;">
+            🎲Generate Set
+          </button>
+          <button id="btn-random-set-config" class="btn btn-block"
+            style="background: rgba(155, 89, 182, 0.3); border: 1px solid rgba(155, 89, 182, 0.5); color: #e0aaff; font-weight: bold; margin-top: 4px; padding: 0; min-width: 42px; max-width: 42px;">
+            ⚙️
+          </button>
+        </div>
       </div>
 
       <div class="stats-panel">
@@ -141,9 +152,10 @@
       <div class="inventory-header">
         <h3>Inventory</h3>
         <div class="header-controls" style="display: flex; align-items: center; gap: 10px;">
-          
+
           <span class="inv-count" id="inv-count">Loading...</span>
-<button id="btn-toggle-inventory" style="background: none; border: none; color: white; font-size: 0.8rem; font-weight: bold; cursor: pointer; padding: 4px 8px; border: 1px solid rgba(255,255,255,0.2); border-radius: 4px;">Close</button>
+          <button id="btn-toggle-inventory"
+            style="background: none; border: none; color: white; font-size: 0.8rem; font-weight: bold; cursor: pointer; padding: 4px 8px; border: 1px solid rgba(255,255,255,0.2); border-radius: 4px;">Close</button>
         </div>
       </div>
       <div id="inventory" class="inventory-grid">
@@ -152,6 +164,7 @@
     </section>
 
   </main>
+
 
   <footer class="app-footer">
     <p>Inventory Rampager is an unofficial fan-made project and not affiliated with or endorsed by Asantee Games.</p>
