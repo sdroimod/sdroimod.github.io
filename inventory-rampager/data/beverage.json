@@ -28,7 +28,7 @@
     "sprite": "/sprites/beverages/pepper-brew.png",
     "name": "Pepper Brew",
     "effects": {
-      "armor": 1.23
+      "armor": 1.21
     }
   },
   {
@@ -42,7 +42,7 @@
     "sprite": "/sprites/beverages/tonic-of-invulnerability.png",
     "name": "Tonic of Invulnerability",
     "effects": {
-      "armor": 1.23
+      "armor": 1.21
     }
   }
 ]

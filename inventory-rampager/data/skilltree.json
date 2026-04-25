@@ -5,27 +5,27 @@
     },
     {
         "target": "dagger",
-        "boost": 1.2
+        "boost": 1.20
     },
     {
         "target": "staff",
-        "boost": 1.2
+        "boost": 1.20
     },
     {
         "target": "spear",
-        "boost": 1.4
+        "boost": 1.40
     },
     {
         "target": "hammer",
-        "boost": 1.6
+        "boost": 1.60
     },
     {
         "target": "axe",
-        "boost": 1.5
+        "boost": 1.48
     },
     {
         "target": "armor",
-        "boost": 1.18
+        "boost": 1.16
     },
     {
         "target": "speed",

@@ -1467,11 +1467,11 @@
     "subType": "sword",
     "sprite": "/sprites/weapons/easter-sword.png",
     "levelMax": 15,
-    "cooldown": 500,
+    "cooldown": 600,
     "stats": {
       "damage": [
-        92,
-        423
+        88,
+        404
       ],
       "armor": [
         0,
@@ -1537,8 +1537,8 @@
     "cooldown": 550,
     "stats": {
       "damage": [
-        50,
-        230
+        35,
+        161
       ],
       "armor": [
         0,
@@ -1551,9 +1551,9 @@
       "frost": false
     },
     "boosts": {
-      "speed": 1,
-      "jump": 1.18,
-      "armor": 1
+      "speed": 1.08,
+      "jump": 1.2,
+      "armor": 0.9
     }
   },
   {
@@ -3345,7 +3345,7 @@
       "sword": 1.5,
       "dagger": 1.5,
       "staff": 1,
-      "spear": 1,
+      "spear": 1.5,
       "hammer": 1.5,
       "axe": 1
     }
@@ -11970,8 +11970,8 @@
     "cooldown": 650,
     "stats": {
       "damage": [
-        80,
-        368
+        75,
+        345
       ],
       "armor": [
         0,
