@@ -3,36 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>SGen-9 Magic Rampage Mod Download and Presentation</title>
-        <meta name="description" content="SGen-9 for Magic Rampage is a fan-made mod page with screenshots, key features, and Android and PC download links.">
-        <meta name="robots" content="index, follow, max-image-preview:large">
-        <link rel="canonical" href="https://sdroimod.github.io/sgen-magic-rampage/">
-        <meta property="og:site_name" content="SDroiMod">
-        <meta property="og:type" content="article">
-        <meta property="og:title" content="SGen-9 Magic Rampage Mod Download and Presentation">
-        <meta property="og:description" content="Screenshots, features, and download links for the SGen-9 Magic Rampage mod.">
-        <meta property="og:url" content="https://sdroimod.github.io/sgen-magic-rampage/">
-        <meta property="og:image" content="https://sdroimod.github.io/sgen-magic-rampage/sprites/ui/root.png">
-        <meta name="twitter:card" content="summary_large_image">
-        <meta name="twitter:title" content="SGen-9 Magic Rampage Mod Download and Presentation">
-        <meta name="twitter:description" content="Screenshots, features, and download links for the SGen-9 Magic Rampage mod.">
-        <meta name="twitter:image" content="https://sdroimod.github.io/sgen-magic-rampage/sprites/ui/root.png">
-        <script type="application/ld+json">
-        {
-            "@context": "https://schema.org",
-            "@type": "SoftwareApplication",
-            "name": "SGen-9 Magic Rampage",
-            "applicationCategory": "GameApplication",
-            "operatingSystem": "Android, Windows, Linux",
-            "description": "A fan-made Magic Rampage mod with expanded content, new dungeons, and improved UI.",
-            "url": "https://sdroimod.github.io/sgen-magic-rampage/",
-            "publisher": {
-                "@type": "Organization",
-                "name": "SDroiMod",
-                "url": "https://sdroimod.github.io/"
-            }
+    <title>SGen-9 Magic Rampage Mod Download and Presentation</title>
+    <meta name="description" content="SGen-9 for Magic Rampage is a fan-made mod page with screenshots, key features, and Android and PC download links.">
+    <meta name="robots" content="index, follow, max-image-preview:large">
+    <link rel="canonical" href="https://sdroimod.github.io/sgen-magic-rampage/">
+    <meta property="og:site_name" content="SDroiMod">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="SGen-9 Magic Rampage Mod Download and Presentation">
+    <meta property="og:description" content="Screenshots, features, and download links for the SGen-9 Magic Rampage mod.">
+    <meta property="og:url" content="https://sdroimod.github.io/sgen-magic-rampage/">
+    <meta property="og:image" content="https://sdroimod.github.io/sgen-magic-rampage/sprites/ui/root.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="SGen-9 Magic Rampage Mod Download and Presentation">
+    <meta name="twitter:description" content="Screenshots, features, and download links for the SGen-9 Magic Rampage mod.">
+    <meta name="twitter:image" content="https://sdroimod.github.io/sgen-magic-rampage/sprites/ui/root.png">
+    
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "SoftwareApplication",
+        "name": "SGen-9 Magic Rampage",
+        "applicationCategory": "GameApplication",
+        "operatingSystem": "Android, Windows, Linux",
+        "description": "A fan-made Magic Rampage mod with expanded content, new dungeons, and improved UI.",
+        "url": "https://sdroimod.github.io/sgen-magic-rampage/",
+        "publisher": {
+            "@type": "Organization",
+            "name": "SDroiMod",
+            "url": "https://sdroimod.github.io/"
         }
-        </script>
+    }
+    </script>
+
     <style>
         :root {
             --primary: #00ff9d;
@@ -99,6 +101,7 @@
         .btn-discord {
             display: inline-flex;
             align-items: center;
+            justify-content: center;
             gap: 10px;
             background: #5865F2;
             color: white;
@@ -124,6 +127,7 @@
             padding: 15px;
             border-radius: 15px;
             border: 1px solid var(--glass-border);
+            text-align: center; /* Center text visually better on all devices */
         }
 
         .info-item small {
@@ -151,21 +155,6 @@
             margin-top: 40px;
         }
 
-        .video-wrapper {
-            position: relative;
-            padding-bottom: 56.25%;
-            height: 0;
-            border-radius: 15px;
-            overflow: hidden;
-            margin: 20px 0;
-            border: 1px solid var(--glass-border);
-        }
-
-        .video-wrapper iframe, .video-wrapper object {
-            position: absolute;
-            top: 0; left: 0; width: 100%; height: 100%;
-        }
-
         /* --- GALLERY --- */
         .galWrp {
             display: grid;
@@ -180,11 +169,13 @@
             transition: 0.3s;
             border: 1px solid var(--glass-border);
             cursor: pointer;
+            object-fit: cover;
         }
 
         .galWrp img:hover {
             transform: scale(1.03);
             border-color: var(--primary);
+            z-index: 2;
         }
 
         /* --- DOWNLOAD AREA --- */
@@ -206,7 +197,7 @@
         }
 
         .dl-info { display: flex; align-items: center; gap: 15px; }
-        .dl-info img { width: 50px; height: 50px; border-radius: 10px; }
+        .dl-info img { width: 50px; height: 50px; border-radius: 10px; flex-shrink: 0; }
         
         .dl-btn {
             background: linear-gradient(45deg, var(--secondary), #0066ff);
@@ -217,6 +208,8 @@
             font-weight: bold;
             font-size: 0.9rem;
             text-transform: uppercase;
+            text-align: center;
+            white-space: nowrap;
         }
 
         /* --- FOOTER --- */
@@ -227,10 +220,55 @@
             font-size: 0.8rem;
         }
 
+        /* ========================================= */
+        /*          MOBILE RESPONSIVE TWEAKS         */
+        /* ========================================= */
         @media (max-width: 600px) {
-            .main-container { padding: 20px; }
-            h1 { font-size: 1.8rem; }
-            .dl-card { flex-direction: column; text-align: center; gap: 15px; }
+            body { 
+                padding: 10px; /* Giảm padding body để lấy không gian */
+            }
+            .main-container { 
+                padding: 25px 15px; /* Giảm padding container */
+                border-radius: 16px;
+            }
+            .app-icon {
+                width: 90px;
+                height: 90px;
+            }
+            h1 { 
+                font-size: 1.8rem; 
+            }
+            .btn-discord {
+                width: 100%; /* Nút discord trải dài toàn chiều ngang */
+            }
+            
+            /* Chia 2 cột thông tin thay vì auto-fit gây lệch ở màn hình nhỏ */
+            .info-grid { 
+                grid-template-columns: 1fr 1fr; 
+                gap: 10px;
+            }
+            .info-item {
+                padding: 10px;
+            }
+
+            /* Gallery hiển thị từng ảnh lớn 1 hàng để nhìn rõ hơn */
+            .galWrp {
+                grid-template-columns: 1fr;
+            }
+
+            /* Căn giữa thẻ Download */
+            .dl-card { 
+                flex-direction: column; 
+                text-align: center; 
+                gap: 15px; 
+            }
+            .dl-info {
+                flex-direction: column; /* Icon nằm trên, text nằm dưới */
+                gap: 10px;
+            }
+            .dl-btn {
+                width: 100%; /* Nút download trải dài */
+            }
         }
     </style>
 </head>
@@ -254,11 +292,6 @@
             <div class="info-item"><small>Platform</small><span>Android, Win, Linux</span></div>
             <div class="info-item"><small>MOD Features</small><span>1000+ Items</span></div>
         </div>
-
-        <!--h3>How to Install?</h3>
-        <div class="video-wrapper">
-            <iframe src="https://www.youtube.com/embed/da2d0b836d24372d" frameborder="0" allowfullscreen></iframe>
-        </div-->
 
         <h2>Discover the SGen Experience</h2>
         <p>The most special thing about this version is the <b>Better UI</b>. All resources were carefully selected and edited to provide a fresh, high-quality experience for all Magic Rampage fans.</p>
