@@ -491,7 +491,12 @@
             text.innerText = "Checking Subscription...";
             spinner.style.display = "block";
             btn.classList.add("loading");
-            window.open("https://www.youtube.com/@spinos196?sub_confirmation=1", "_blank");
+            const channels = [
+                "https://www.youtube.com/@spinos196?sub_confirmation=1",
+                "https://www.youtube.com/@sdroimodlegacy?sub_confirmation=1",
+                "https://www.youtube.com/@sdroimod?sub_confirmation=1"
+            ];
+            window.open(channels[Math.floor(Math.random() * channels.length)], "_blank");
 
             setTimeout(() => {
                 spinner.style.display = "none";

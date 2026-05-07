@@ -212,6 +212,104 @@
             white-space: nowrap;
         }
 
+        .browser-modal {
+            position: fixed;
+            inset: 0;
+            display: none;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+            background: rgba(4, 6, 12, 0.78);
+            backdrop-filter: blur(8px);
+            z-index: 9999;
+        }
+
+        .browser-modal.open {
+            display: flex;
+        }
+
+        .browser-modal-card {
+            width: 100%;
+            max-width: 560px;
+            background: linear-gradient(180deg, rgba(26, 26, 32, 0.98), rgba(18, 18, 24, 0.98));
+            border: 1px solid var(--glass-border);
+            border-radius: 22px;
+            padding: 24px;
+            box-shadow: 0 24px 80px rgba(0, 0, 0, 0.6);
+            animation: modalPop 0.22s ease-out;
+        }
+
+        .browser-modal-card h2 {
+            margin-top: 0;
+            margin-bottom: 12px;
+            color: var(--primary);
+            border-left: 0;
+            padding-left: 0;
+            font-size: 1.25rem;
+        }
+
+        .browser-modal-card p {
+            margin: 0 0 10px;
+            color: #d7d7d7;
+        }
+
+        .browser-language-list {
+            margin: 16px 0 20px;
+            padding: 0;
+            list-style: none;
+            display: grid;
+            gap: 10px;
+        }
+
+        .browser-language-list li {
+            background: rgba(255, 255, 255, 0.04);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            border-radius: 12px;
+            padding: 12px 14px;
+            color: #f0f0f0;
+            line-height: 1.5;
+            margin: 0;
+        }
+
+        .browser-modal-actions {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+            justify-content: flex-end;
+        }
+
+        .browser-modal-close {
+            border: none;
+            border-radius: 10px;
+            padding: 12px 18px;
+            background: linear-gradient(45deg, var(--primary), #00c97a);
+            color: #00170d;
+            font-weight: 800;
+            cursor: pointer;
+        }
+
+        .browser-modal-copy {
+            border: 1px solid rgba(255, 255, 255, 0.12);
+            border-radius: 10px;
+            padding: 12px 18px;
+            background: rgba(255, 255, 255, 0.05);
+            color: var(--text);
+            font-weight: 700;
+            cursor: pointer;
+        }
+
+        @keyframes modalPop {
+            from {
+                transform: translateY(14px) scale(0.98);
+                opacity: 0;
+            }
+
+            to {
+                transform: translateY(0) scale(1);
+                opacity: 1;
+            }
+        }
+
         /* --- FOOTER --- */
         footer {
             margin-top: 50px;
@@ -225,54 +323,118 @@
         /* ========================================= */
         @media (max-width: 600px) {
             body { 
-                padding: 10px; /* Giảm padding body để lấy không gian */
+                padding: 10px;
             }
             .main-container { 
-                padding: 25px 15px; /* Giảm padding container */
+                padding: 18px 14px;
                 border-radius: 16px;
+            }
+            .hero-section {
+                margin-bottom: 26px;
             }
             .app-icon {
                 width: 90px;
                 height: 90px;
             }
             h1 { 
-                font-size: 1.8rem; 
+                font-size: 1.5rem;
+                line-height: 1.15;
+                letter-spacing: 1px;
             }
             .btn-discord {
-                width: 100%; /* Nút discord trải dài toàn chiều ngang */
+                width: 100%;
+                padding: 12px 16px;
+                font-size: 0.92rem;
             }
             
-            /* Chia 2 cột thông tin thay vì auto-fit gây lệch ở màn hình nhỏ */
             .info-grid { 
-                grid-template-columns: 1fr 1fr; 
+                grid-template-columns: 1fr;
                 gap: 10px;
             }
             .info-item {
-                padding: 10px;
+                padding: 12px 10px;
             }
 
-            /* Gallery hiển thị từng ảnh lớn 1 hàng để nhìn rõ hơn */
             .galWrp {
                 grid-template-columns: 1fr;
+                gap: 12px;
             }
 
-            /* Căn giữa thẻ Download */
             .dl-card { 
                 flex-direction: column; 
                 text-align: center; 
-                gap: 15px; 
+                gap: 14px;
+                padding: 16px 14px;
             }
             .dl-info {
-                flex-direction: column; /* Icon nằm trên, text nằm dưới */
+                flex-direction: column;
                 gap: 10px;
             }
             .dl-btn {
-                width: 100%; /* Nút download trải dài */
+                width: 100%;
+                padding: 12px 16px;
+            }
+
+            .browser-modal {
+                padding: 12px;
+                align-items: flex-start;
+            }
+
+            .browser-modal-card {
+                max-height: calc(100vh - 24px);
+                overflow-y: auto;
+                padding: 18px 14px;
+                border-radius: 16px;
+            }
+
+            .browser-modal-card h2 {
+                font-size: 1.05rem;
+            }
+
+            .browser-modal-card p {
+                font-size: 0.95rem;
+            }
+
+            .browser-language-list {
+                gap: 8px;
+                margin: 14px 0 16px;
+            }
+
+            .browser-language-list li {
+                padding: 10px 12px;
+                font-size: 0.92rem;
+            }
+
+            .browser-modal-actions {
+                justify-content: stretch;
+            }
+
+            .browser-modal-close,
+            .browser-modal-copy {
+                width: 100%;
             }
         }
     </style>
 </head>
 <body>
+
+    <div class="browser-modal" id="browser-modal" role="dialog" aria-modal="true" aria-labelledby="browser-modal-title">
+        <div class="browser-modal-card">
+            <h2 id="browser-modal-title">Open this page in a browser</h2>
+            <p>Use a normal browser such as Chrome, Yandex, or Firefox for the best experience.</p>
+            <ul class="browser-language-list">
+                <li><strong>VI:</strong> Bạn nên mở trang này bằng trình duyệt (như Chrome, Yandex, ...).</li>
+                <li><strong>EN:</strong> You should open this page in a browser (like Chrome, Yandex, ...).</li>
+                <li><strong>BR:</strong> Você deve abrir esta página em um navegador (como Chrome, Yandex, ...).</li>
+                <li><strong>ES:</strong> Debes abrir esta página en un navegador (como Chrome, Yandex, ...).</li>
+                <li><strong>RU:</strong> Лучше открыть эту страницу в браузере (например, Chrome, Yandex, ...).</li>
+            </ul>
+            <div class="browser-modal-actions">
+                <button class="browser-modal-copy" type="button" onclick="copyPageLink()">Copy Link🔗</button>
+                <button class="browser-modal-close" type="button" onclick="closeBrowserModal()">Close</button>
+            </div>
+        </div>
+    </div>
 
     <div class="main-container">
         <div class="hero-section">
@@ -335,6 +497,34 @@
     <footer>
         <p>© 2026 Made with 💖 by SDroiMod. All rights reserved.</p>
     </footer>
+
+    <script>
+        const browserModal = document.getElementById("browser-modal");
+
+        function closeBrowserModal() {
+            browserModal.classList.remove("open");
+        }
+
+        async function copyPageLink() {
+            const pageLink = window.location.href;
+
+            try {
+                await navigator.clipboard.writeText(pageLink);
+            } catch (error) {
+                window.prompt("Copy this link:", pageLink);
+            }
+        }
+
+        browserModal.addEventListener("click", (event) => {
+            if (event.target === browserModal) {
+                closeBrowserModal();
+            }
+        });
+
+        window.addEventListener("DOMContentLoaded", () => {
+            browserModal.classList.add("open");
+        });
+    </script>
 
 </body>
 </html>
