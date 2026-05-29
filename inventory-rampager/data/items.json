@@ -13005,5 +13005,35 @@
       "jump": 1.05,
       "armor": 0.8
     }
+  },
+  {
+    "id": "arcane_rod_staff2",
+    "name": "Arcane Rod Staff2",
+    "element": "air",
+    "type": "weapon",
+    "subType": "staff",
+    "sprite": "/sprites/weapons/staff_2022_1.png",
+    "levelMax": 15,
+    "cooldown": 650,
+    "stats": {
+      "damage": [
+        65,
+        299
+      ],
+      "armor": [
+        0,
+        0
+      ],
+      "pierce": 5
+    },
+    "status": {
+      "poison": false,
+      "frost": true
+    },
+    "boosts": {
+      "speed": 1.04,
+      "jump": 1.05,
+      "armor": 0.8
+    }
   }
 ]
