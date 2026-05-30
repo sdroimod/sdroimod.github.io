@@ -1,0 +1,15 @@
+[
+  {
+    "id": "update-item-arcane-rod-staff2-2026",
+    "type": "update-item",
+    "content": {
+      "item-id": "arcane_rod_staff2"
+    },
+    "action": {
+      "label": "Equip",
+      "type": "equip-item"
+    },
+    "exp-date": "2026-07-01",
+    "show-time-before-block": 2
+  }
+]
