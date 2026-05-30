@@ -11,5 +11,18 @@
     },
     "exp-date": "2026-07-01",
     "show-time-before-block": 2
+  },
+  {
+    "id": "update-stat-nerf-v3",
+    "type": "update-stat",
+    "content": {
+      "message": "⚔️ Cập nhật cân bằng: Damage các vũ khí fire đã được điều chỉnh. Hãy kiểm tra lại bộ trang bị của bạn!"
+    },
+    "action": {
+      "label": "Close",
+      "type": "close"
+    },
+    "exp-date": "2026-06-30",
+    "show-time-before-block": 1
   }
 ]
