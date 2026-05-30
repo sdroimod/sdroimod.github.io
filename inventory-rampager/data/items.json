@@ -1,7 +1,7 @@
 [
   {
-    "id": "abyssal_blade",
-    "name": "Abyssal Blade",
+    "id": "abyssal_blade_sword",
+    "name": "Abyssal Blade Sword",
     "element": "water",
     "type": "weapon",
     "subType": "sword",
@@ -30,8 +30,8 @@
     }
   },
   {
-    "id": "abyssal_dual-blade",
-    "name": "Abyssal Dual-Blade",
+    "id": "abyssal_dual-blade_dagger",
+    "name": "Abyssal Dual-Blade Dagger",
     "element": "water",
     "type": "weapon",
     "subType": "dagger",
@@ -172,12 +172,12 @@
     "boosts": {
       "speed": 1.03,
       "jump": 1.03,
-      "armor": 1.5
+      "armor": 1.4
     }
   },
   {
-    "id": "all_seeing_machete",
-    "name": "All Seeing Machete",
+    "id": "all_seeing_cleaver",
+    "name": "All Seeing Cleaver",
     "element": "",
     "type": "weapon",
     "subType": "dagger",
@@ -232,7 +232,7 @@
     "boosts": {
       "speed": 1,
       "jump": 1,
-      "armor": 1.4
+      "armor": 1.55
     }
   },
   {
@@ -407,8 +407,8 @@
     }
   },
   {
-    "id": "anti-hero's_set",
-    "name": "Anti-hero's Set",
+    "id": "anti-hero's_set_b",
+    "name": "Anti-hero's Set B",
     "element": "air",
     "type": "armor",
     "subType": "plate",
@@ -537,6 +537,36 @@
     "boosts": {}
   },
   {
+    "id": "arcane_rod_staff",
+    "name": "Arcane Rod Staff",
+    "element": "air",
+    "type": "weapon",
+    "subType": "staff",
+    "sprite": "/sprites/weapons/staff_2022_1.png",
+    "levelMax": 15,
+    "cooldown": 650,
+    "stats": {
+      "damage": [
+        65,
+        299
+      ],
+      "armor": [
+        0,
+        0
+      ],
+      "pierce": 5
+    },
+    "status": {
+      "poison": false,
+      "frost": true
+    },
+    "boosts": {
+      "speed": 1.04,
+      "jump": 1.05,
+      "armor": 0.8
+    }
+  },
+  {
     "id": "arcane_rune",
     "name": "Arcane Rune",
     "element": "",
@@ -563,8 +593,8 @@
     "boosts": {}
   },
   {
-    "id": "robe_of_distant_visions",
-    "name": "Robe of Distant Visions",
+    "id": "armor_of_distant_visions",
+    "name": "Armor of Distant Visions",
     "element": "earth",
     "type": "armor",
     "subType": "cloth",
@@ -764,8 +794,8 @@
     }
   },
   {
-    "id": "banker's_coat",
-    "name": "Banker's Coat",
+    "id": "bankers_coat",
+    "name": "Bankers Coat",
     "element": "darkness",
     "type": "armor",
     "subType": "cloth",
@@ -801,8 +831,8 @@
     }
   },
   {
-    "id": "banker's_coat+",
-    "name": "Banker's Coat+",
+    "id": "bankers_coat+",
+    "name": "Bankers Coat+",
     "element": "darkness",
     "type": "armor",
     "subType": "cloth",
@@ -838,8 +868,8 @@
     }
   },
   {
-    "id": "barren-lands_banditin",
-    "name": "Barren-lands Banditin",
+    "id": "barrenlands_bandit_female",
+    "name": "Barrenlands Bandit Female",
     "element": "",
     "type": "armor",
     "subType": "plate",
@@ -875,8 +905,8 @@
     }
   },
   {
-    "id": "barren-lands_bandit",
-    "name": "Barren-lands Bandit",
+    "id": "barrenlands_bandit_male",
+    "name": "Barrenlands Bandit Male",
     "element": "",
     "type": "armor",
     "subType": "leather",
@@ -972,8 +1002,8 @@
     }
   },
   {
-    "id": "black_witch_suit",
-    "name": "Black Witch Suit",
+    "id": "black_witch_dress",
+    "name": "Black Witch Dress",
     "element": "darkness",
     "type": "armor",
     "subType": "leather",
@@ -1009,8 +1039,8 @@
     }
   },
   {
-    "id": "blade_of_survival",
-    "name": "Blade of Survival",
+    "id": "blade_of_decay_sword",
+    "name": "Blade of Decay Sword",
     "element": "",
     "type": "weapon",
     "subType": "sword",
@@ -1039,8 +1069,8 @@
     }
   },
   {
-    "id": "blade_of_rusted_souls",
-    "name": "Blade of Rusted Souls",
+    "id": "blade_of_rusted_souls_sword",
+    "name": "Blade of Rusted Souls Sword",
     "element": "",
     "type": "weapon",
     "subType": "sword",
@@ -1192,8 +1222,8 @@
     }
   },
   {
-    "id": "bloodforged_charm",
-    "name": "Bloodforged Charm",
+    "id": "bloodforged_charm_earring",
+    "name": "Bloodforged Charm Earring",
     "element": "",
     "type": "artifact",
     "subType": "ring",
@@ -2029,8 +2059,8 @@
     }
   },
   {
-    "id": "eastercreep",
-    "name": "Eastercreep",
+    "id": "creepy_easter_bunny",
+    "name": "Creepy Easter Bunny",
     "element": "",
     "type": "artifact",
     "subType": "ring",
@@ -2103,8 +2133,8 @@
     }
   },
   {
-    "id": "crowned_dragonhead",
-    "name": "Crowned Dragonhead",
+    "id": "crowned_dragonhead_staff",
+    "name": "Crowned Dragonhead Staff",
     "element": "fire",
     "type": "weapon",
     "subType": "staff",
@@ -2424,8 +2454,8 @@
     }
   },
   {
-    "id": "dancer's_raiment",
-    "name": "Dancer's Raiment",
+    "id": "dancers_raiment_tiktok",
+    "name": "Dancers Raiment TikTok",
     "element": "air",
     "type": "armor",
     "subType": "cloth",
@@ -2685,8 +2715,8 @@
     }
   },
   {
-    "id": "dead_vulture_staff",
-    "name": "Dead Vulture Staff",
+    "id": "dead_vulture",
+    "name": "Dead Vulture",
     "element": "darkness",
     "type": "weapon",
     "subType": "staff",
@@ -2923,8 +2953,8 @@
     }
   },
   {
-    "id": "survivor's_double_dagger",
-    "name": "Survivor's Double Dagger",
+    "id": "double_decay_dagger",
+    "name": "Double Decay Dagger",
     "element": "",
     "type": "weapon",
     "subType": "dagger",
@@ -3314,8 +3344,8 @@
     }
   },
   {
-    "id": "easterminator",
-    "name": "Easterminator",
+    "id": "easter_bunny_terminator_armor",
+    "name": "Easter Bunny Terminator Armor",
     "element": "",
     "type": "armor",
     "subType": "plate",
@@ -3381,8 +3411,8 @@
     }
   },
   {
-    "id": "elite_assassin_suit",
-    "name": "Elite Assassin Suit",
+    "id": "elite_assassin",
+    "name": "Elite Assassin",
     "element": "darkness",
     "type": "armor",
     "subType": "cloth",
@@ -3652,8 +3682,8 @@
     }
   },
   {
-    "id": "eye_of_the_rift",
-    "name": "Eye of the Rift",
+    "id": "eye_of_the_rift_hammer",
+    "name": "Eye of the Rift Hammer",
     "element": "darkness",
     "type": "weapon",
     "subType": "hammer",
@@ -3662,8 +3692,8 @@
     "cooldown": 700,
     "stats": {
       "damage": [
-        64,
-        294
+        68,
+        312
       ],
       "armor": [
         0,
@@ -4170,8 +4200,8 @@
     }
   },
   {
-    "id": "forbidden_flower's_extract",
-    "name": "Forbidden Flower's Extract",
+    "id": "forbidden_flowers_extract",
+    "name": "Forbidden Flowers Extract",
     "element": "fire",
     "type": "supply",
     "subType": "beverage",
@@ -4196,8 +4226,8 @@
     "boosts": {}
   },
   {
-    "id": "forest_witch_suit",
-    "name": "Forest Witch Suit",
+    "id": "forest_witch_dress",
+    "name": "Forest Witch Dress",
     "element": "earth",
     "type": "armor",
     "subType": "leather",
@@ -4233,8 +4263,8 @@
     }
   },
   {
-    "id": "fortune's_battleaxe",
-    "name": "Fortune's Battleaxe",
+    "id": "fortunes_battleaxe",
+    "name": "Fortunes Battleaxe",
     "element": "",
     "type": "weapon",
     "subType": "axe",
@@ -4293,8 +4323,8 @@
     }
   },
   {
-    "id": "frost-heart",
-    "name": "Frost-heart",
+    "id": "frost-heart_sword",
+    "name": "Frost-heart Sword",
     "element": "darkness",
     "type": "weapon",
     "subType": "sword",
@@ -4353,8 +4383,8 @@
     }
   },
   {
-    "id": "gatekeeper's_bionic_arm",
-    "name": "Gatekeeper's Bionic Arm",
+    "id": "gatekeepers_bionic_arm",
+    "name": "Gatekeepers Bionic Arm",
     "element": "",
     "type": "armor",
     "subType": "cloth",
@@ -4707,8 +4737,8 @@
     "boosts": {}
   },
   {
-    "id": "golden_needle",
-    "name": "Golden Needle",
+    "id": "golden_needle_sword",
+    "name": "Golden Needle Sword",
     "element": "",
     "type": "weapon",
     "subType": "sword",
@@ -4737,8 +4767,8 @@
     }
   },
   {
-    "id": "golden_piercer",
-    "name": "Golden Piercer",
+    "id": "golden_piercer_spear",
+    "name": "Golden Piercer Spear",
     "element": "",
     "type": "weapon",
     "subType": "spear",
@@ -4767,8 +4797,8 @@
     }
   },
   {
-    "id": "goldsteel",
-    "name": "Goldsteel",
+    "id": "goldsteel_sword",
+    "name": "Goldsteel Sword",
     "element": "",
     "type": "weapon",
     "subType": "sword",
@@ -4943,8 +4973,8 @@
     "boosts": {}
   },
   {
-    "id": "green_witch_suit",
-    "name": "Green Witch Suit",
+    "id": "green_witch_dress",
+    "name": "Green Witch Dress",
     "element": "earth",
     "type": "armor",
     "subType": "cloth",
@@ -5412,8 +5442,8 @@
     }
   },
   {
-    "id": "icebane",
-    "name": "Icebane",
+    "id": "icebane_magic_staff",
+    "name": "Icebane Magic Staff",
     "element": "water",
     "type": "weapon",
     "subType": "staff",
@@ -5509,8 +5539,8 @@
     }
   },
   {
-    "id": "ifrit's_shuriken",
-    "name": "Ifrit's Shuriken",
+    "id": "ifrits_shuriken",
+    "name": "Ifrits Shuriken",
     "element": "fire",
     "type": "weapon",
     "subType": "dagger",
@@ -5576,8 +5606,8 @@
     }
   },
   {
-    "id": "innkeeper's_costume",
-    "name": "Innkeeper's Costume",
+    "id": "innkeepers_costume",
+    "name": "Innkeepers Costume",
     "element": "",
     "type": "armor",
     "subType": "cloth",
@@ -5870,8 +5900,8 @@
     }
   },
   {
-    "id": "iron_dagger+",
-    "name": "Iron Dagger+",
+    "id": "iron_dagger_plus",
+    "name": "Iron Dagger Plus",
     "element": "",
     "type": "weapon",
     "subType": "dagger",
@@ -6067,8 +6097,8 @@
     }
   },
   {
-    "id": "jungle_assassin_suit",
-    "name": "Jungle Assassin Suit",
+    "id": "jungle_assassin",
+    "name": "Jungle Assassin",
     "element": "earth",
     "type": "armor",
     "subType": "cloth",
@@ -6167,8 +6197,8 @@
     "boosts": {}
   },
   {
-    "id": "king's_spectre_tunic",
-    "name": "King's Spectre Tunic",
+    "id": "kings_spectre_tunic",
+    "name": "Kings Spectre Tunic",
     "element": "",
     "type": "armor",
     "subType": "cloth",
@@ -6204,8 +6234,8 @@
     }
   },
   {
-    "id": "knight_of_discord",
-    "name": "Knight of Discord",
+    "id": "knight_of_discord_armor",
+    "name": "Knight of Discord Armor",
     "element": "",
     "type": "armor",
     "subType": "cloth",
@@ -6271,8 +6301,8 @@
     }
   },
   {
-    "id": "last_survivor's_dagger",
-    "name": "Last Survivor's Dagger",
+    "id": "last_survivors_dagger",
+    "name": "Last Survivors Dagger",
     "element": "",
     "type": "weapon",
     "subType": "dagger",
@@ -6301,8 +6331,8 @@
     }
   },
   {
-    "id": "last_survivor's_spear",
-    "name": "Last Survivor's Spear",
+    "id": "last_survivors_spear",
+    "name": "Last Survivors Spear",
     "element": "",
     "type": "weapon",
     "subType": "spear",
@@ -6637,8 +6667,8 @@
     }
   },
   {
-    "id": "liquid_assassin_suit",
-    "name": "Liquid Assassin Suit",
+    "id": "liquid_assassin",
+    "name": "Liquid Assassin",
     "element": "water",
     "type": "armor",
     "subType": "cloth",
@@ -6883,8 +6913,8 @@
     }
   },
   {
-    "id": "master's_sword",
-    "name": "Master's Sword",
+    "id": "master_sword",
+    "name": "Master Sword",
     "element": "air",
     "type": "weapon",
     "subType": "sword",
@@ -6950,8 +6980,8 @@
     }
   },
   {
-    "id": "mojara's_hammer",
-    "name": "Mojara's Hammer",
+    "id": "mojaras_hammer",
+    "name": "Mojaras Hammer",
     "element": "darkness",
     "type": "weapon",
     "subType": "hammer",
@@ -7017,8 +7047,8 @@
     }
   },
   {
-    "id": "monster's_juice",
-    "name": "Monster's Juice",
+    "id": "monsters_juice",
+    "name": "Monsters Juice",
     "element": "darkness",
     "type": "supply",
     "subType": "beverage",
@@ -7448,8 +7478,8 @@
     }
   },
   {
-    "id": "noble_sword",
-    "name": "Noble Sword",
+    "id": "nobel_sword",
+    "name": "Nobel Sword",
     "element": "",
     "type": "weapon",
     "subType": "sword",
@@ -7638,8 +7668,8 @@
     }
   },
   {
-    "id": "onyx_queen's_lance",
-    "name": "Onyx Queen's Lance",
+    "id": "onyx_queens_lance",
+    "name": "Onyx Queens Lance",
     "element": "water",
     "type": "weapon",
     "subType": "spear",
@@ -7758,8 +7788,8 @@
     }
   },
   {
-    "id": "path_of_exile+",
-    "name": "Path of Exile+",
+    "id": "path_of_exile_plus",
+    "name": "Path of Exile Plus",
     "element": "fire",
     "type": "weapon",
     "subType": "axe",
@@ -8145,8 +8175,8 @@
     "boosts": {}
   },
   {
-    "id": "precious_dual-blade",
-    "name": "Precious Dual-blade",
+    "id": "precious_dual-blade_dagger",
+    "name": "Precious Dual-blade Dagger",
     "element": "",
     "type": "weapon",
     "subType": "dagger",
@@ -8175,8 +8205,8 @@
     }
   },
   {
-    "id": "precious_skewer",
-    "name": "Precious Skewer",
+    "id": "precious_skewer_dagger",
+    "name": "Precious Skewer Dagger",
     "element": "",
     "type": "weapon",
     "subType": "dagger",
@@ -8268,8 +8298,8 @@
     "boosts": {}
   },
   {
-    "id": "purple_witch_suit",
-    "name": "Purple Witch Suit",
+    "id": "purple_witch_dress",
+    "name": "Purple Witch Dress",
     "element": "darkness",
     "type": "armor",
     "subType": "cloth",
@@ -8594,8 +8624,8 @@
     }
   },
   {
-    "id": "root_of_judgement",
-    "name": "Root of Judgement",
+    "id": "root_of_judgement_hammer",
+    "name": "Root of Judgement Hammer",
     "element": "earth",
     "type": "weapon",
     "subType": "hammer",
@@ -8604,8 +8634,8 @@
     "cooldown": 700,
     "stats": {
       "damage": [
-        64,
-        294
+        66,
+        303
       ],
       "armor": [
         0,
@@ -8654,8 +8684,8 @@
     }
   },
   {
-    "id": "ruby_pawn's_edge",
-    "name": "Ruby Pawn's Edge",
+    "id": "ruby_pawns_dagger",
+    "name": "Ruby Pawns Dagger",
     "element": "",
     "type": "weapon",
     "subType": "dagger",
@@ -8684,8 +8714,8 @@
     }
   },
   {
-    "id": "ruby_queen's_spear",
-    "name": "Ruby Queen's Spear",
+    "id": "ruby_queens_spear",
+    "name": "Ruby Queens Spear",
     "element": "fire",
     "type": "weapon",
     "subType": "spear",
@@ -8777,8 +8807,8 @@
     }
   },
   {
-    "id": "sapphire_pawn's_blade",
-    "name": "Sapphire Pawn's Blade",
+    "id": "sapphire_pawns_dagger",
+    "name": "Sapphire Pawns Dagger",
     "element": "",
     "type": "weapon",
     "subType": "dagger",
@@ -8833,8 +8863,8 @@
     "boosts": {}
   },
   {
-    "id": "scarlet_shadowweaver",
-    "name": "Scarlet Shadowweaver",
+    "id": "scarlet_shadowweaver_garb",
+    "name": "Scarlet Shadowweaver Garb",
     "element": "darkness",
     "type": "armor",
     "subType": "cloth",
@@ -9213,8 +9243,8 @@
     }
   },
   {
-    "id": "smasher_of_decay",
-    "name": "Smasher of Decay",
+    "id": "smasher_of_decay_hammer",
+    "name": "Smasher of Decay Hammer",
     "element": "",
     "type": "weapon",
     "subType": "hammer",
@@ -9280,8 +9310,8 @@
     }
   },
   {
-    "id": "sovereign's_onyx_edge",
-    "name": "Sovereign's Onyx Edge",
+    "id": "sovereigns_onyx_sword",
+    "name": "Sovereigns Onyx Sword",
     "element": "earth",
     "type": "weapon",
     "subType": "sword",
@@ -9310,8 +9340,8 @@
     }
   },
   {
-    "id": "sovereign's_ruby_blade",
-    "name": "Sovereign's Ruby Blade",
+    "id": "sovereigns_ruby_sword",
+    "name": "Sovereigns Ruby Sword",
     "element": "fire",
     "type": "weapon",
     "subType": "sword",
@@ -9477,8 +9507,8 @@
     }
   },
   {
-    "id": "gorgon's_skin",
-    "name": "Gorgon's Skin",
+    "id": "special_dragon_vest_c",
+    "name": "Special Dragon Vest C",
     "element": "fire",
     "type": "armor",
     "subType": "cloth",
@@ -9775,8 +9805,8 @@
     }
   },
   {
-    "id": "staff_of_withering",
-    "name": "Staff of Withering",
+    "id": "staff_of_withering_staff",
+    "name": "Staff of Withering Staff",
     "element": "earth",
     "type": "weapon",
     "subType": "staff",
@@ -10160,7 +10190,7 @@
   },
   {
     "id": "supersonic_ring",
-    "name": "SuperSonic Ring",
+    "name": "Supersonic Ring",
     "element": "",
     "type": "artifact",
     "subType": "ring",
@@ -10233,8 +10263,8 @@
     }
   },
   {
-    "id": "swamp_witch_suit",
-    "name": "Swamp Witch Suit",
+    "id": "swamp_witch_dress",
+    "name": "Swamp Witch Dress",
     "element": "",
     "type": "armor",
     "subType": "leather",
@@ -10367,8 +10397,8 @@
     }
   },
   {
-    "id": "t'witch_suit",
-    "name": "T'Witch Suit",
+    "id": "tw_streamers_suit",
+    "name": "TW Streamers Suit",
     "element": "air",
     "type": "armor",
     "subType": "cloth",
@@ -10524,8 +10554,8 @@
     }
   },
   {
-    "id": "the_oxymo's_codex",
-    "name": "The Oxymo's Codex",
+    "id": "the_oxymos_codex",
+    "name": "The Oxymos Codex",
     "element": "light",
     "type": "weapon",
     "subType": "grimoire",
@@ -10674,8 +10704,8 @@
     }
   },
   {
-    "id": "tidecaller",
-    "name": "Tidecaller",
+    "id": "tidecaller_ring",
+    "name": "Tidecaller Ring",
     "element": "water",
     "type": "artifact",
     "subType": "ring",
@@ -10711,8 +10741,8 @@
     }
   },
   {
-    "id": "time_patroller_suit",
-    "name": "Time Patroller Suit",
+    "id": "time_patroller",
+    "name": "Time Patroller",
     "element": "",
     "type": "armor",
     "subType": "plate",
@@ -10954,8 +10984,8 @@
     }
   },
   {
-    "id": "tricky-treat",
-    "name": "Tricky-treat",
+    "id": "trickytreat",
+    "name": "Trickytreat",
     "element": "",
     "type": "artifact",
     "subType": "ring",
@@ -11176,8 +11206,8 @@
     }
   },
   {
-    "id": "vest_of_ominous_jesters",
-    "name": "Vest of Ominous Jesters",
+    "id": "tunic_of_ominous_comrades",
+    "name": "Tunic of Ominous Comrades",
     "element": "",
     "type": "armor",
     "subType": "cloth",
@@ -11507,8 +11537,8 @@
     }
   },
   {
-    "id": "undine's_shuriken",
-    "name": "Undine's Shuriken",
+    "id": "undines_shuriken",
+    "name": "Undines Shuriken",
     "element": "water",
     "type": "weapon",
     "subType": "dagger",
@@ -11574,8 +11604,8 @@
     }
   },
   {
-    "id": "unleashed_kraken",
-    "name": "Unleashed Kraken",
+    "id": "unleashed_kraken_sword",
+    "name": "Unleashed Kraken Sword",
     "element": "water",
     "type": "weapon",
     "subType": "sword",
@@ -12374,8 +12404,8 @@
     }
   },
   {
-    "id": "wealthy_crusher",
-    "name": "Wealthy Crusher",
+    "id": "wealthy_crusher_mace",
+    "name": "Wealthy Crusher Mace",
     "element": "",
     "type": "weapon",
     "subType": "mace",
@@ -12404,8 +12434,8 @@
     }
   },
   {
-    "id": "wealthy_smasher",
-    "name": "Wealthy Smasher",
+    "id": "wealthy_smasher_hammer",
+    "name": "Wealthy Smasher Hammer",
     "element": "",
     "type": "weapon",
     "subType": "hammer",
@@ -12612,8 +12642,8 @@
     }
   },
   {
-    "id": "wind_witch_suit",
-    "name": "Wind Witch Suit",
+    "id": "wind_witch_dress",
+    "name": "Wind Witch Dress",
     "element": "air",
     "type": "armor",
     "subType": "leather",
@@ -12910,8 +12940,8 @@
     }
   },
   {
-    "id": "tubeman_suit",
-    "name": "Tubeman Suit",
+    "id": "yt_streamers_suit",
+    "name": "YT Streamers Suit",
     "element": "air",
     "type": "armor",
     "subType": "cloth",
@@ -12974,36 +13004,6 @@
       "speed": 1.1,
       "jump": 1.04,
       "armor": 1
-    }
-  },
-  {
-    "id": "arcane_rod_staff",
-    "name": "Arcane Rod Staff",
-    "element": "air",
-    "type": "weapon",
-    "subType": "staff",
-    "sprite": "/sprites/weapons/staff_2022_1.png",
-    "levelMax": 15,
-    "cooldown": 650,
-    "stats": {
-      "damage": [
-        65,
-        299
-      ],
-      "armor": [
-        0,
-        0
-      ],
-      "pierce": 5
-    },
-    "status": {
-      "poison": false,
-      "frost": true
-    },
-    "boosts": {
-      "speed": 1.04,
-      "jump": 1.05,
-      "armor": 0.8
     }
   }
 ]
