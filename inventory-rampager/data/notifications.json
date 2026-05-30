@@ -1,18 +1,5 @@
 [
   {
-    "id": "update-item-arcane-rod-staff2-2026",
-    "type": "update-item",
-    "content": {
-      "item-id": "arcane_rod_staff2"
-    },
-    "action": {
-      "label": "Equip",
-      "type": "equip-item"
-    },
-    "exp-date": "2026-07-01",
-    "show-time-before-block": 2
-  },
-  {
     "id": "update-stat-nerf-v3",
     "type": "update-stat",
     "content": {
@@ -24,5 +11,49 @@
     },
     "exp-date": "2026-06-30",
     "show-time-before-block": 1
+  },
+  {
+    "id": "update-item-yansahn-2026",
+    "type": "update-item",
+    "content": {
+      "item-id": "yansahn"
+    },
+    "action": {
+      "label": "Equip",
+      "type": "equip-item"
+    },
+    "exp-date": "2026-07-01",
+    "show-time-before-block": 3
+  },
+  {
+    "id": "new-video-best-build-guide",
+    "type": "new-video",
+    "content": {
+      "title": "Better UI | SGen-8 Magic Rampage",
+      "thumbnail": "https://img.youtube.com/vi/j3ZltPJmMSY/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=j3ZltPJmMSY"
+    },
+    "action": {
+      "label": "Xem Video",
+      "type": "open-url"
+    },
+    "exp-date": "2026-08-15",
+    "show-time-before-block": 5
+  },
+  {
+    "id": "new-game-magic-dungeon",
+    "type": "new-game",
+    "content": {
+      "title": "Magic Dungeon Adventure",
+      "image": "https://cdn.example.com/games/magic-dungeon-banner.png",
+      "url": "https://play.google.com/store/apps/details?id=com.example.magicdungeon",
+      "description": "Khám phá hầm ngục bí ẩn với hệ thống chiến đấu hoàn toàn mới!"
+    },
+    "action": {
+      "label": "Download on Google Play",
+      "type": "open-url"
+    },
+    "exp-date": "2026-12-31",
+    "show-time-before-block": 2
   }
 ]
