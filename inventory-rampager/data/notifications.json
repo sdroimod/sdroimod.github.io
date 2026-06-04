@@ -3,7 +3,7 @@
     "id": "default-notification",
     "type": "update-stat",
     "content": {
-      "message": "Inventory Rampager has no ads within the app. If you'd like to support the developer, please give us a 5★ rating on Google Play!",
+      "message": "Inventory Rampager has NO ADS within the app. If you'd like to support the developer, please give us a 5★ rating on Google Play!",
       "url" : "https://play.google.com/store/apps/details?id=com.sdroimod.inventoryrampager"
     },
     "action": {
