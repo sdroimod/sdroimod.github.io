@@ -13,17 +13,20 @@
     "exp-date": "2099-06-04",
     "show-time-before-block": 2
   },
-    {
-    "id": "update-item-arcane_rod_staff-2026",
-    "type": "update-item",
+  {
+    "id": "update-version-2.5",
+    "type": "update-stat",
     "content": {
-      "item-id": "arcane_rod_staff"
+    "title": "A new update is available!",
+      "message": "What's new?<br>Save/load system<br>Share your set with friends<br>Change app theme <br>Item filters",
+      "url": "https://play.google.com/store/apps/details?id=com.sdroimod.inventoryrampager"
     },
     "action": {
-      "label": "Equip",
-      "type": "equip-item"
+      "label": "Let me install",
+      "type": "open-url"
     },
-    "exp-date": "2026-07-01",
-    "show-time-before-block": 1
+    "exp-date": "2026-06-30",
+    "target-version" : 2.5,
+    "show-time-before-block": 99
   }
 ]
