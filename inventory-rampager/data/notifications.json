@@ -12,5 +12,18 @@
     },
     "exp-date": "2099-06-04",
     "show-time-before-block": 2
+  },
+    {
+    "id": "update-item-arcane_rod_staff-2026",
+    "type": "update-item",
+    "content": {
+      "item-id": "arcane_rod_staff"
+    },
+    "action": {
+      "label": "Equip",
+      "type": "equip-item"
+    },
+    "exp-date": "2026-07-01",
+    "show-time-before-block": 1
   }
 ]
