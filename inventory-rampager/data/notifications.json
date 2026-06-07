@@ -11,7 +11,7 @@
       "type": "open-url"
     },
     "exp-date": "2099-06-04",
-    "show-time-before-block": 2
+    "show-time-before-block": 1
   },
   {
     "id": "update-version-2.5",
