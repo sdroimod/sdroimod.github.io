@@ -28,5 +28,18 @@
     "exp-date": "2026-06-30",
     "target-version" : 2.5,
     "show-time-before-block": 99
+  },
+  {
+    "id": "update-item-dawnfang_dagger-2026",
+    "type": "update-item",
+    "content": {
+      "item-id": "dawnfang_dagger"
+    },
+    "action": {
+      "label": "Equip",
+      "type": "equip-item"
+    },
+    "exp-date": "2026-07-01",
+    "show-time-before-block": 1
   }
 ]

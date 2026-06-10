@@ -1,5 +1,35 @@
 [
   {
+    "id": "dawnfang_dagger",
+    "name": "Dawnfang Dagger",
+    "element": "light",
+    "type": "weapon",
+    "subType": "dagger",
+    "sprite": "/sprites/weapons/dagger_light_power.png",
+    "levelMax": 15,
+    "cooldown": 380,
+    "stats": {
+      "damage": [
+        54,
+        248
+      ],
+      "armor": [
+        0,
+        0
+      ],
+      "pierce": 3
+    },
+    "status": {
+      "poison": false,
+      "frost": false
+    },
+    "boosts": {
+      "speed": 1.25,
+      "jump": 1.0,
+      "armor": 0.7
+    }
+  },
+  {
     "id": "abyssal_blade_sword",
     "name": "Abyssal Blade Sword",
     "element": "water",
