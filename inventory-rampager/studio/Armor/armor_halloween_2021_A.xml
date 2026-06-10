@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="Halloween_2021_A.png" width="1024" height="512">
+    <sprite n="1.png" x="432" y="2" w="140" h="161" pX="0.5" pY="0.5" oX="29" oY="42" oW="256" oH="256"/>
+    <sprite n="2.png" x="284" y="2" w="144" h="162" pX="0.5" pY="0.5" oX="28" oY="41" oW="256" oH="256"/>
+    <sprite n="3.png" x="426" y="168" w="157" h="161" pX="0.5" pY="0.5" oX="25" oY="42" oW="256" oH="256"/>
+    <sprite n="4.png" x="418" y="344" w="145" h="162" pX="0.5" pY="0.5" oX="28" oY="41" oW="256" oH="256"/>
+    <sprite n="5.png" x="2" y="185" w="138" h="174" pX="0.5" pY="0.5" oX="27" oY="29" oW="256" oH="256"/>
+    <sprite n="6.png" x="2" y="2" w="148" h="179" pX="0.5" pY="0.5" oX="32" oY="25" oW="256" oH="256"/>
+    <sprite n="7.png" x="2" y="363" w="97" h="123" pX="0.5" pY="0.5" oX="77" oY="67" oW="256" oH="256"/>
+    <sprite n="8.png" x="144" y="185" w="133" h="168" pX="0.5" pY="0.5" oX="35" oY="32" oW="256" oH="256"/>
+    <sprite n="9.png" x="154" y="2" w="126" h="168" pX="0.5" pY="0.5" oX="42" oY="32" oW="256" oH="256"/>
+    <sprite n="10.png" x="567" y="333" w="153" h="157" pX="0.5" pY="0.5" oX="22" oY="44" oW="256" oH="256"/>
+    <sprite n="11.png" x="281" y="344" w="133" h="164" pX="0.5" pY="0.5" oX="36" oY="37" oW="256" oH="256"/>
+    <sprite n="12.png" x="281" y="174" w="141" h="166" pX="0.5" pY="0.5" oX="28" oY="34" oW="256" oH="256"/>
+    <sprite n="13.png" x="576" y="2" w="136" h="159" pX="0.5" pY="0.5" oX="34" oY="44" oW="256" oH="256"/>
+    <sprite n="14.png" x="2" y="490" w="1" h="1" pX="0.5" pY="0.5" oX="0" oY="0" oW="256" oH="256"/>
+    <sprite n="15.png" x="2" y="490" w="1" h="1" pX="0.5" pY="0.5" oX="0" oY="0" oW="256" oH="256"/>
+    <sprite n="16.png" x="2" y="490" w="1" h="1" pX="0.5" pY="0.5" oX="0" oY="0" oW="256" oH="256"/>
+</TextureAtlas>

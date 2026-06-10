@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="skin-Thief-17.png" width="128" height="256">
+    <sprite n="Sprite 1.png" x="2" y="89" w="84" h="76" oX="81" oY="60" oW="256" oH="256"/>
+    <sprite n="Sprite 2.png" x="2" y="89" w="84" h="76" oX="82" oY="58" oW="256" oH="256"/>
+    <sprite n="Sprite 3.png" x="2" y="89" w="84" h="76" oX="80" oY="60" oW="256" oH="256"/>
+    <sprite n="Sprite 4.png" x="2" y="89" w="84" h="76" oX="80" oY="58" oW="256" oH="256"/>
+    <sprite n="Sprite 5.png" x="2" y="89" w="84" h="76" oX="75" oY="46" oW="256" oH="256"/>
+    <sprite n="Sprite 6.png" x="2" y="2" w="84" h="83" oX="67" oY="35" oW="256" oH="256"/>
+    <sprite n="Sprite 7.png" x="90" y="2" w="1" h="1" oX="0" oY="0" oW="256" oH="256"/>
+    <sprite n="Sprite 8.png" x="2" y="89" w="84" h="76" oX="81" oY="50" oW="256" oH="256"/>
+    <sprite n="Sprite 9.png" x="2" y="89" w="84" h="76" oX="81" oY="50" oW="256" oH="256"/>
+    <sprite n="Sprite 10.png" x="2" y="89" w="84" h="76" oX="81" oY="62" oW="256" oH="256"/>
+    <sprite n="Sprite 11.png" x="2" y="89" w="84" h="76" oX="81" oY="54" oW="256" oH="256"/>
+    <sprite n="Sprite 12.png" x="2" y="89" w="84" h="76" oX="81" oY="51" oW="256" oH="256"/>
+    <sprite n="Sprite 13.png" x="2" y="89" w="84" h="76" oX="83" oY="61" oW="256" oH="256"/>
+    <sprite n="Sprite 14.png" x="90" y="2" w="1" h="1" oX="0" oY="0" oW="256" oH="256"/>
+    <sprite n="Sprite 15.png" x="90" y="2" w="1" h="1" oX="0" oY="0" oW="256" oH="256"/>
+    <sprite n="Sprite 16.png" x="90" y="2" w="1" h="1" oX="0" oY="0" oW="256" oH="256"/>
+</TextureAtlas>

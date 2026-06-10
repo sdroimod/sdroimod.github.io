@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+
+<TextureAtlas imagePath="Pet_halloween_II.png" width="256" height="512">
+    <sprite n="1.png" x="158" y="261" w="72" h="82" oX="12" oY="87" oW="256" oH="256"/>
+    <sprite n="2.png" x="137" y="2" w="102" h="80" oX="11" oY="91" oW="256" oH="256"/>
+    <sprite n="3.png" x="137" y="86" w="89" h="79" oX="11" oY="88" oW="256" oH="256"/>
+    <sprite n="4.png" x="91" y="169" w="80" h="77" oX="5" oY="90" oW="256" oH="256"/>
+    <sprite n="5.png" x="175" y="169" w="77" h="88" oX="11" oY="86" oW="256" oH="256"/>
+    <sprite n="6.png" x="2" y="120" w="85" h="94" oX="3" oY="74" oW="256" oH="256"/>
+    <sprite n="7.png" x="2" y="2" w="131" h="114" oX="62" oY="71" oW="256" oH="256"/>
+    <sprite n="8.png" x="2" y="301" w="72" h="83" oX="12" oY="85" oW="256" oH="256"/>
+    <sprite n="9.png" x="2" y="218" w="75" h="79" oX="10" oY="87" oW="256" oH="256"/>
+    <sprite n="10.png" x="81" y="250" w="73" h="77" oX="11" oY="89" oW="256" oH="256"/>
+    <sprite n="11.png" x="2" y="301" w="72" h="83" oX="12" oY="85" oW="256" oH="256"/>
+    <sprite n="12.png" x="2" y="218" w="75" h="79" oX="10" oY="87" oW="256" oH="256"/>
+    <sprite n="13.png" x="81" y="250" w="73" h="77" oX="11" oY="89" oW="256" oH="256"/>
+    <sprite n="14.png" x="243" y="2" w="1" h="1" oX="0" oY="0" oW="256" oH="256"/>
+    <sprite n="15.png" x="243" y="2" w="1" h="1" oX="0" oY="0" oW="256" oH="256"/>
+    <sprite n="16.png" x="243" y="2" w="1" h="1" oX="0" oY="0" oW="256" oH="256"/>
+</TextureAtlas>

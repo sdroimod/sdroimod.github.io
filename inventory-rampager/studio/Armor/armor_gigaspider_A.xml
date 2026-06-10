@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="spider_armor_A.png" width="1024" height="512">
+    <sprite n="Sprite 1.png" x="408" y="337" w="144" h="162" pX="0.5" pY="0.5" oX="25" oY="41" oW="256" oH="256"/>
+    <sprite n="Sprite 2.png" x="395" y="170" w="147" h="163" pX="0.5" pY="0.5" oX="25" oY="40" oW="256" oH="256"/>
+    <sprite n="Sprite 3.png" x="453" y="2" w="159" h="162" pX="0.5" pY="0.5" oX="25" oY="41" oW="256" oH="256"/>
+    <sprite n="Sprite 4.png" x="299" y="2" w="150" h="164" pX="0.5" pY="0.5" oX="25" oY="39" oW="256" oH="256"/>
+    <sprite n="Sprite 5.png" x="2" y="186" w="131" h="176" pX="0.5" pY="0.5" oX="34" oY="27" oW="256" oH="256"/>
+    <sprite n="Sprite 6.png" x="2" y="2" w="152" h="180" pX="0.5" pY="0.5" oX="42" oY="22" oW="256" oH="256"/>
+    <sprite n="Sprite 7.png" x="2" y="366" w="98" h="81" pX="0.5" pY="0.5" oX="77" oY="80" oW="256" oH="256"/>
+    <sprite n="Sprite 8.png" x="137" y="186" w="119" h="171" pX="0.5" pY="0.5" oX="46" oY="31" oW="256" oH="256"/>
+    <sprite n="Sprite 9.png" x="158" y="2" w="137" h="168" pX="0.5" pY="0.5" oX="37" oY="31" oW="256" oH="256"/>
+    <sprite n="Sprite 10.png" x="616" y="2" w="154" h="156" pX="0.5" pY="0.5" oX="21" oY="43" oW="256" oH="256"/>
+    <sprite n="Sprite 11.png" x="260" y="345" w="144" h="165" pX="0.5" pY="0.5" oX="23" oY="35" oW="256" oH="256"/>
+    <sprite n="Sprite 12.png" x="260" y="174" w="131" h="167" pX="0.5" pY="0.5" oX="44" oY="32" oW="256" oH="256"/>
+    <sprite n="Sprite 13.png" x="546" y="168" w="136" h="158" pX="0.5" pY="0.5" oX="34" oY="43" oW="256" oH="256"/>
+    <sprite n="Sprite 14.png" x="2" y="451" w="1" h="1" pX="0.5" pY="0.5" oX="0" oY="0" oW="256" oH="256"/>
+    <sprite n="Sprite 15.png" x="2" y="451" w="1" h="1" pX="0.5" pY="0.5" oX="0" oY="0" oW="256" oH="256"/>
+    <sprite n="Sprite 16.png" x="2" y="451" w="1" h="1" pX="0.5" pY="0.5" oX="0" oY="0" oW="256" oH="256"/>
+</TextureAtlas>

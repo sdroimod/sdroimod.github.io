@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<TextureAtlas imagePath="armor_leather_0a.png" width="512" height="512">
+    <sprite n="armor_leather_0a-0-0.png" x="283" y="0" w="146" h="105" pX="0.5" pY="0.5" oX="2" oY="104" oW="205" oH="256"/>
+    <sprite n="armor_leather_0a-0-1.png" x="273" y="116" w="150" h="108" pX="0.5" pY="0.5" oX="1" oY="101" oW="205" oH="256"/>
+    <sprite n="armor_leather_0a-0-2.png" x="0" y="139" w="159" h="123" pX="0.5" pY="0.5" oX="2" oY="85" oW="205" oH="256"/>
+    <sprite n="armor_leather_0a-0-3.png" x="159" y="245" w="152" h="96" pX="0.5" pY="0.5" oX="2" oY="113" oW="205" oH="256"/>
+    <sprite n="armor_leather_0a-0-4.png" x="243" y="348" w="100" h="111" pX="0.5" pY="0.5" oX="42" oY="97" oW="205" oH="256"/>
+    <sprite n="armor_leather_0a-0-5.png" x="0" y="262" w="123" h="124" pX="0.5" pY="0.5" oX="37" oY="84" oW="205" oH="256"/>
+    <sprite n="armor_leather_0a-0-6.png" x="159" y="116" w="114" h="129" pX="0.5" pY="0.5" oX="42" oY="63" oW="205" oH="256"/>
+    <sprite n="armor_leather_0a-1-0.png" x="311" y="224" w="113" h="124" pX="0.5" pY="0.5" oX="16" oY="80" oW="205" oH="256"/>
+    <sprite n="armor_leather_0a-1-1.png" x="343" y="348" w="99" h="108" pX="0.5" pY="0.5" oX="11" oY="94" oW="205" oH="256"/>
+    <sprite n="armor_leather_0a-1-2.png" x="129" y="0" w="154" h="116" pX="0.5" pY="0.5" oX="0" oY="84" oW="205" oH="256"/>
+    <sprite n="armor_leather_0a-1-3.png" x="0" y="386" w="113" h="118" pX="0.5" pY="0.5" oX="16" oY="85" oW="205" oH="256"/>
+    <sprite n="armor_leather_0a-1-4.png" x="123" y="341" w="120" h="108" pX="0.5" pY="0.5" oX="12" oY="94" oW="205" oH="256"/>
+    <sprite n="armor_leather_0a-1-5.png" x="0" y="0" w="129" h="139" pX="0.5" pY="0.5" oX="7" oY="67" oW="205" oH="256"/>
+    <sprite n="armor_leather_0a-1-6.png" x="129" y="116" w="5" h="5" pX="0.5" pY="0.5" oX="0" oY="0" oW="205" oH="256"/>
+</TextureAtlas>

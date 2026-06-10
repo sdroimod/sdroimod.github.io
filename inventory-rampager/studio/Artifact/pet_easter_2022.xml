@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="Pet_Easter_2022.png" width="256" height="512">
+    <sprite n="Sprite 1.png" x="91" y="321" w="84" h="69" oX="8" oY="135" oW="256" oH="256"/>
+    <sprite n="Sprite 2.png" x="2" y="90" w="122" h="77" oX="18" oY="137" oW="256" oH="256"/>
+    <sprite n="Sprite 3.png" x="2" y="2" w="139" h="84" oX="61" oY="128" oW="256" oH="256"/>
+    <sprite n="Sprite 4.png" x="2" y="171" w="106" h="88" oX="42" oY="108" oW="256" oH="256"/>
+    <sprite n="Sprite 5.png" x="112" y="172" w="97" h="75" oX="9" oY="129" oW="256" oH="256"/>
+    <sprite n="Sprite 6.png" x="2" y="336" w="82" h="86" oX="9" oY="118" oW="256" oH="256"/>
+    <sprite n="Sprite 7.png" x="145" y="2" w="109" h="166" oX="73" oY="41" oW="256" oH="256"/>
+    <sprite n="Sprite 10.png" x="2" y="263" w="85" h="69" oX="8" oY="135" oW="256" oH="256"/>    <!-- walk2 jump -->
+    <sprite n="Sprite 11.png" x="112" y="251" w="88" h="66" oX="14" oY="133" oW="256" oH="256"/> <!-- walk3 -->
+    <sprite n="Sprite 12.png" x="179" y="321" w="75" h="74" oX="47" oY="128" oW="256" oH="256"/> <!-- walk4 -->
+    <sprite n="Sprite 13.png" x="2" y="263" w="85" h="69" oX="8" oY="135" oW="256" oH="256"/>    <!-- walk5 jump -->
+    <sprite n="Sprite 8.png" x="112" y="251" w="88" h="66" oX="14" oY="133" oW="256" oH="256"/>  <!-- walk0 -->
+    <sprite n="Sprite 9.png" x="179" y="321" w="75" h="74" oX="47" oY="128" oW="256" oH="256"/>  <!-- walk1 -->
+    <sprite n="Sprite 14.png" x="128" y="90" w="1" h="1" oX="0" oY="0" oW="256" oH="256"/>
+    <sprite n="Sprite 15.png" x="128" y="90" w="1" h="1" oX="0" oY="0" oW="256" oH="256"/>
+    <sprite n="Sprite 16.png" x="128" y="90" w="1" h="1" oX="0" oY="0" oW="256" oH="256"/>
+</TextureAtlas>

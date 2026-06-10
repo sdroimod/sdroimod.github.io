@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="Lava_Witch_A.png" width="512" height="512">
+    <sprite n="Sprite 1.png" x="160" y="98" w="141" h="85" oX="28" oY="119" oW="256" oH="256"/>
+    <sprite n="Sprite 2.png" x="314" y="91" w="144" h="96" oX="28" oY="108" oW="256" oH="256"/>
+    <sprite n="Sprite 3.png" x="2" y="2" w="154" h="116" oX="28" oY="88" oW="256" oH="256"/>
+    <sprite n="Sprite 4.png" x="314" y="2" w="145" h="85" oX="28" oY="119" oW="256" oH="256"/>
+    <sprite n="Sprite 5.png" x="224" y="187" w="85" h="92" oX="80" oY="111" oW="256" oH="256"/>
+    <sprite n="Sprite 6.png" x="2" y="234" w="96" h="110" oX="83" oY="94" oW="256" oH="256"/>
+    <sprite n="Sprite 7.png" x="176" y="381" w="89" h="91" oX="83" oY="82" oW="256" oH="256"/>
+    <sprite n="Sprite 8.png" x="2" y="348" w="96" h="92" oX="54" oY="108" oW="256" oH="256"/>
+    <sprite n="Sprite 9.png" x="102" y="381" w="70" h="92" oX="63" oY="109" oW="256" oH="256"/>
+    <sprite n="Sprite 10.png" x="160" y="2" w="150" h="92" oX="24" oY="108" oW="256" oH="256"/>
+    <sprite n="Sprite 11.png" x="123" y="187" w="97" h="89" oX="54" oY="112" oW="256" oH="256"/>
+    <sprite n="Sprite 12.png" x="102" y="280" w="96" h="97" oX="59" oY="104" oW="256" oH="256"/>
+    <sprite n="Sprite 13.png" x="2" y="122" w="117" h="108" oX="42" oY="95" oW="256" oH="256"/>
+    <sprite n="Sprite 14.png" x="463" y="2" w="1" h="1" oX="0" oY="0" oW="256" oH="256"/>
+    <sprite n="Sprite 15.png" x="463" y="2" w="1" h="1" oX="0" oY="0" oW="256" oH="256"/>
+    <sprite n="Sprite 16.png" x="463" y="2" w="1" h="1" oX="0" oY="0" oW="256" oH="256"/>
+</TextureAtlas>

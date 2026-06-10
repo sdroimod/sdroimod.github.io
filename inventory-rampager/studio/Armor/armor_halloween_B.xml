@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="armor_halloween_b.png" width="1024" height="512">
+    <sprite n="1.png" x="117" y="129" w="168" h="116" oX="6" oY="87" oW="206" oH="256"/>
+    <sprite n="2.png" x="2" y="256" w="171" h="117" oX="4" oY="86" oW="206" oH="256"/>
+    <sprite n="3.png" x="2" y="2" w="168" h="123" oX="4" oY="80" oW="206" oH="256"/>
+    <sprite n="4.png" x="174" y="2" w="168" h="116" oX="3" oY="87" oW="206" oH="256"/>
+    <sprite n="5.png" x="289" y="122" w="132" h="113" oX="31" oY="90" oW="206" oH="256"/>
+    <sprite n="6.png" x="2" y="129" w="111" h="123" oX="42" oY="80" oW="206" oH="256"/>
+    <sprite n="7.png" x="2" y="377" w="94" h="116" oX="53" oY="70" oW="206" oH="256"/>
+    <sprite n="8.png" x="277" y="366" w="159" h="110" oX="17" oY="90" oW="206" oH="256"/>
+    <sprite n="9.png" x="346" y="2" w="148" h="111" oX="29" oY="89" oW="206" oH="256"/>
+    <sprite n="10.png" x="425" y="117" w="175" h="105" oX="2" oY="95" oW="206" oH="256"/>
+    <sprite n="11.png" x="336" y="239" w="148" h="106" oX="30" oY="94" oW="206" oH="256"/>
+    <sprite n="12.png" x="177" y="249" w="155" h="113" oX="20" oY="87" oW="206" oH="256"/>
+    <sprite n="13.png" x="100" y="377" w="173" h="114" oX="3" oY="88" oW="206" oH="256"/>
+    <sprite n="14.png" x="117" y="249" w="1" h="1" oX="0" oY="0" oW="206" oH="256"/>
+</TextureAtlas>

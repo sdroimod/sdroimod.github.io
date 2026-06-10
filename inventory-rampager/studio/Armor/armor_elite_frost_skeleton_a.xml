@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="Frozen_Elite_ Skeleton_A.png" width="512" height="512">
+    <sprite n="Sprite 1.png" x="216" y="306" w="127" h="147" oX="36" oY="57" oW="256" oH="256"/>
+    <sprite n="Sprite 2.png" x="220" y="2" w="128" h="147" oX="35" oY="56" oW="256" oH="256"/>
+    <sprite n="Sprite 3.png" x="340" y="153" w="127" h="146" oX="35" oY="57" oW="256" oH="256"/>
+    <sprite n="Sprite 4.png" x="207" y="155" w="129" h="147" oX="35" oY="56" oW="256" oH="256"/>
+    <sprite n="Sprite 5.png" x="2" y="185" w="91" h="160" oX="66" oY="43" oW="256" oH="256"/>
+    <sprite n="Sprite 6.png" x="2" y="2" w="104" h="179" oX="57" oY="23" oW="256" oH="256"/>
+    <sprite n="Sprite 7.png" x="471" y="148" w="93" h="76" oX="77" oY="72" oW="256" oH="256"/>
+    <sprite n="Sprite 8.png" x="97" y="185" w="106" h="153" oX="56" oY="47" oW="256" oH="256"/>
+    <sprite n="Sprite 9.png" x="114" y="342" w="98" h="153" oX="64" oY="47" oW="256" oH="256"/>
+    <sprite n="Sprite 10.png" x="347" y="303" w="139" h="138" oX="31" oY="59" oW="256" oH="256"/>
+    <sprite n="Sprite 11.png" x="110" y="2" w="106" h="149" oX="57" oY="51" oW="256" oH="256"/>
+    <sprite n="Sprite 12.png" x="2" y="349" w="108" h="153" oX="55" oY="48" oW="256" oH="256"/>
+    <sprite n="Sprite 13.png" x="352" y="2" w="120" h="142" oX="45" oY="59" oW="256" oH="256"/>
+    <sprite n="Sprite 14.png" x="2" y="506" w="1" h="1" oX="0" oY="0" oW="256" oH="256"/>
+    <sprite n="Sprite 15.png" x="2" y="506" w="1" h="1" oX="0" oY="0" oW="256" oH="256"/>
+    <sprite n="Sprite 16.png" x="2" y="506" w="1" h="1" oX="0" oY="0" oW="256" oH="256"/>
+</TextureAtlas>

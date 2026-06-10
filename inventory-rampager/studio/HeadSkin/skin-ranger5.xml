@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+
+<TextureAtlas imagePath="skin-ranger5.png" width="128" height="256">
+    <sprite n="Sprite 1.png" x="2" y="80" w="68" h="79" pX="0.5" pY="0.5" oX="93" oY="61" oW="256" oH="256"/>
+    <sprite n="Sprite 2.png" x="2" y="80" w="68" h="79" pX="0.5" pY="0.5" oX="94" oY="59" oW="256" oH="256"/>
+    <sprite n="Sprite 3.png" x="2" y="80" w="68" h="79" pX="0.5" pY="0.5" oX="92" oY="61" oW="256" oH="256"/>
+    <sprite n="Sprite 4.png" x="2" y="80" w="68" h="79" pX="0.5" pY="0.5" oX="92" oY="59" oW="256" oH="256"/>
+    <sprite n="Sprite 5.png" x="2" y="80" w="68" h="79" pX="0.5" pY="0.5" oX="87" oY="47" oW="256" oH="256"/>
+    <sprite n="Sprite 6.png" x="2" y="2" w="76" h="74" pX="0.5" pY="0.5" oX="71" oY="34" oW="256" oH="256"/>
+    <sprite n="Sprite 7.png" x="82" y="2" w="1" h="1" pX="0.5" pY="0.5" oX="0" oY="0" oW="256" oH="256"/>
+    <sprite n="Sprite 8.png" x="2" y="80" w="68" h="79" pX="0.5" pY="0.5" oX="92" oY="51" oW="256" oH="256"/>
+    <sprite n="Sprite 9.png" x="2" y="80" w="68" h="79" pX="0.5" pY="0.5" oX="93" oY="51" oW="256" oH="256"/>
+    <sprite n="Sprite 10.png" x="2" y="80" w="68" h="79" pX="0.5" pY="0.5" oX="93" oY="63" oW="256" oH="256"/>
+    <sprite n="Sprite 11.png" x="2" y="80" w="68" h="79" pX="0.5" pY="0.5" oX="94" oY="55" oW="256" oH="256"/>
+    <sprite n="Sprite 12.png" x="2" y="80" w="68" h="79" pX="0.5" pY="0.5" oX="94" oY="52" oW="256" oH="256"/>
+    <sprite n="Sprite 13.png" x="2" y="80" w="68" h="79" pX="0.5" pY="0.5" oX="95" oY="63" oW="256" oH="256"/>
+    <sprite n="Sprite 14.png" x="82" y="2" w="1" h="1" pX="0.5" pY="0.5" oX="0" oY="0" oW="256" oH="256"/>
+    <sprite n="Sprite 15.png" x="82" y="2" w="1" h="1" pX="0.5" pY="0.5" oX="0" oY="0" oW="256" oH="256"/>
+    <sprite n="Sprite 16.png" x="82" y="2" w="1" h="1" pX="0.5" pY="0.5" oX="0" oY="0" oW="256" oH="256"/>
+</TextureAtlas>

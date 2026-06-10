@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="Wichdoctor_C.png" width="128" height="256">
+    <sprite n="1.png" x="2" y="2" w="113" h="92" oX="71" oY="43" oW="256" oH="256"/>
+    <sprite n="2.png" x="2" y="2" w="113" h="92" oX="72" oY="41" oW="256" oH="256"/>
+    <sprite n="3.png" x="2" y="2" w="113" h="92" oX="70" oY="43" oW="256" oH="256"/>
+    <sprite n="4.png" x="2" y="2" w="113" h="92" oX="70" oY="41" oW="256" oH="256"/>
+    <sprite n="5.png" x="2" y="2" w="113" h="92" oX="65" oY="28" oW="256" oH="256"/>
+    <sprite n="6.png" x="2" y="98" w="105" h="83" oX="50" oY="31" oW="256" oH="256"/>
+    <sprite n="7.png" x="119" y="2" w="1" h="1" oX="0" oY="2" oW="256" oH="256"/>
+    <sprite n="8.png" x="2" y="2" w="113" h="92" oX="70" oY="33" oW="256" oH="256"/>
+    <sprite n="9.png" x="2" y="2" w="113" h="92" oX="71" oY="33" oW="256" oH="256"/>
+    <sprite n="10.png" x="2" y="2" w="113" h="92" oX="71" oY="45" oW="256" oH="256"/>
+    <sprite n="11.png" x="2" y="2" w="113" h="92" oX="72" oY="37" oW="256" oH="256"/>
+    <sprite n="12.png" x="2" y="2" w="113" h="92" oX="72" oY="34" oW="256" oH="256"/>
+    <sprite n="13.png" x="2" y="2" w="113" h="92" oX="73" oY="44" oW="256" oH="256"/>
+    <sprite n="14.png" x="119" y="2" w="1" h="1" oX="0" oY="2" oW="256" oH="256"/>
+    <sprite n="15.png" x="119" y="2" w="1" h="1" oX="0" oY="2" oW="256" oH="256"/>
+    <sprite n="16.png" x="119" y="2" w="1" h="1" oX="0" oY="2" oW="256" oH="256"/>
+</TextureAtlas>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+
+<TextureAtlas imagePath="Rogue_B.png" width="256" height="256">
+    <sprite n="1.png" x="2" y="2" w="129" h="78" oX="61" oY="51" oW="256" oH="256"/>
+    <sprite n="2.png" x="2" y="2" w="129" h="78" oX="62" oY="49" oW="256" oH="256"/>
+    <sprite n="3.png" x="2" y="2" w="129" h="78" oX="60" oY="51" oW="256" oH="256"/>
+    <sprite n="4.png" x="2" y="2" w="129" h="78" oX="59" oY="49" oW="256" oH="256"/>
+    <sprite n="5.png" x="2" y="2" w="129" h="78" oX="55" oY="37" oW="256" oH="256"/>
+    <sprite n="6.png" x="2" y="84" w="122" h="78" oX="35" oY="25" oW="256" oH="256"/>
+    <sprite n="7.png" x="2" y="166" w="1" h="1" oX="0" oY="0" oW="256" oH="256"/>
+    <sprite n="8.png" x="2" y="2" w="129" h="78" oX="60" oY="41" oW="256" oH="256"/>
+    <sprite n="9.png" x="2" y="2" w="129" h="78" oX="60" oY="41" oW="256" oH="256"/>
+    <sprite n="10.png" x="2" y="2" w="129" h="78" oX="61" oY="53" oW="256" oH="256"/>
+    <sprite n="11.png" x="2" y="2" w="129" h="78" oX="61" oY="45" oW="256" oH="256"/>
+    <sprite n="12.png" x="2" y="2" w="129" h="78" oX="61" oY="42" oW="256" oH="256"/>
+    <sprite n="13.png" x="2" y="2" w="129" h="78" oX="63" oY="52" oW="256" oH="256"/>
+    <sprite n="14.png" x="2" y="166" w="1" h="1" oX="0" oY="0" oW="256" oH="256"/>
+    <sprite n="15.png" x="2" y="166" w="1" h="1" oX="0" oY="0" oW="256" oH="256"/>
+    <sprite n="16.png" x="2" y="166" w="1" h="1" oX="0" oY="0" oW="256" oH="256"/>
+</TextureAtlas>

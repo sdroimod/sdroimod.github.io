@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="Pet_Fenix.png" width="256" height="512">
+    <sprite n="Sprite 1.png" x="186" y="400" w="53" h="59" pX="0.5" pY="0.5" oX="35" oY="60" oW="256" oH="256"/>
+    <sprite n="Sprite 2.png" x="95" y="280" w="87" h="84" pX="0.5" pY="0.5" oX="5" oY="35" oW="256" oH="256"/>
+    <sprite n="Sprite 3.png" x="159" y="2" w="93" h="90" pX="0.5" pY="0.5" oX="0" oY="29" oW="256" oH="256"/>
+    <sprite n="Sprite 4.png" x="2" y="125" w="128" h="138" pX="0.5" pY="0.5" oX="36" oY="60" oW="256" oH="256"/>
+    <sprite n="Sprite 5.png" x="186" y="341" w="61" h="55" pX="0.5" pY="0.5" oX="24" oY="58" oW="256" oH="256"/>
+    <sprite n="Sprite 6.png" x="186" y="280" w="60" h="57" pX="0.5" pY="0.5" oX="32" oY="62" oW="256" oH="256"/>
+    <sprite n="Sprite 7.png" x="2" y="2" w="153" h="119" pX="0.5" pY="0.5" oX="52" oY="46" oW="256" oH="256"/>
+    <sprite n="Sprite 8.png" x="95" y="368" w="87" h="75" pX="0.5" pY="0.5" oX="2" oY="54" oW="256" oH="256"/>
+    <sprite n="Sprite 9.png" x="2" y="438" w="89" h="67" pX="0.5" pY="0.5" oX="0" oY="49" oW="256" oH="256"/>
+    <sprite n="Sprite 10.png" x="2" y="267" w="89" h="84" pX="0.5" pY="0.5" oX="0" oY="54" oW="256" oH="256"/>
+    <sprite n="Sprite 11.png" x="2" y="355" w="89" h="79" pX="0.5" pY="0.5" oX="0" oY="52" oW="256" oH="256"/>
+    <sprite n="Sprite 12.png" x="134" y="189" w="87" h="87" pX="0.5" pY="0.5" oX="2" oY="54" oW="256" oH="256"/>
+    <sprite n="Sprite 13.png" x="159" y="96" w="89" h="89" pX="0.5" pY="0.5" oX="0" oY="45" oW="256" oH="256"/>
+    <sprite n="Sprite 14.png" x="252" y="96" w="1" h="1" pX="0.5" pY="0.5" oX="0" oY="0" oW="256" oH="256"/>
+    <sprite n="Sprite 15.png" x="252" y="96" w="1" h="1" pX="0.5" pY="0.5" oX="0" oY="0" oW="256" oH="256"/>
+    <sprite n="Sprite 16.png" x="252" y="96" w="1" h="1" pX="0.5" pY="0.5" oX="0" oY="0" oW="256" oH="256"/>
+</TextureAtlas>

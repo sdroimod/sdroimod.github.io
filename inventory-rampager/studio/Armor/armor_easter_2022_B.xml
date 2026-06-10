@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="Armor_Easter_2022_B.png" width="1024" height="512">
+    <sprite n="Sprite 1.png" x="158" y="2" w="144" h="170" oX="28" oY="34" oW="256" oH="256"/>
+    <sprite n="Sprite 2.png" x="565" y="174" w="146" h="167" oX="28" oY="37" oW="256" oH="256"/>
+    <sprite n="Sprite 3.png" x="430" y="346" w="158" h="163" oX="26" oY="41" oW="256" oH="256"/>
+    <sprite n="Sprite 4.png" x="306" y="2" w="151" h="168" oX="27" oY="36" oW="256" oH="256"/>
+    <sprite n="Sprite 5.png" x="2" y="187" w="122" h="181" oX="67" oY="22" oW="256" oH="256"/>
+    <sprite n="Sprite 6.png" x="2" y="2" w="152" h="181" oX="30" oY="23" oW="256" oH="256"/>
+    <sprite n="Sprite 7.png" x="2" y="372" w="78" h="109" oX="87" oY="68" oW="256" oH="256"/>
+    <sprite n="Sprite 8.png" x="598" y="2" w="140" h="167" oX="28" oY="33" oW="256" oH="256"/>
+    <sprite n="Sprite 9.png" x="288" y="176" w="128" h="169" oX="40" oY="31" oW="256" oH="256"/>
+    <sprite n="Sprite 10.png" x="128" y="187" w="156" h="170" oX="22" oY="35" oW="256" oH="256"/>
+    <sprite n="Sprite 11.png" x="288" y="349" w="138" h="161" oX="31" oY="39" oW="256" oH="256"/>
+    <sprite n="Sprite 12.png" x="420" y="174" w="141" h="168" oX="28" oY="32" oW="256" oH="256"/>
+    <sprite n="Sprite 13.png" x="461" y="2" w="133" h="168" oX="37" oY="35" oW="256" oH="256"/>
+    <sprite n="Sprite 14.png" x="2" y="485" w="1" h="1" oX="0" oY="0" oW="256" oH="256"/>
+    <sprite n="Sprite 15.png" x="2" y="485" w="1" h="1" oX="0" oY="0" oW="256" oH="256"/>
+    <sprite n="Sprite 16.png" x="2" y="485" w="1" h="1" oX="0" oY="0" oW="256" oH="256"/>
+</TextureAtlas>

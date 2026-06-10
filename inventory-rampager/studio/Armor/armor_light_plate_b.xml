@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="armor_light_plate_b.png" width="1024" height="512">
+    <sprite n="1.png" x="334" y="2" w="158" h="168" oX="27" oY="36" oW="256" oH="256"/>
+    <sprite n="2.png" x="171" y="2" w="159" h="168" oX="26" oY="36" oW="256" oH="256"/>
+    <sprite n="3.png" x="171" y="174" w="159" h="168" oX="26" oY="36" oW="256" oH="256"/>
+    <sprite n="4.png" x="334" y="174" w="158" h="168" oX="27" oY="36" oW="256" oH="256"/>
+    <sprite n="5.png" x="332" y="346" w="156" h="163" oX="27" oY="41" oW="256" oH="256"/>
+    <sprite n="6.png" x="2" y="2" w="165" h="176" oX="15" oY="28" oW="256" oH="256"/>
+    <sprite n="7.png" x="2" y="361" w="100" h="113" oX="75" oY="68" oW="256" oH="256"/>
+    <sprite n="8.png" x="496" y="2" w="156" h="165" oX="30" oY="35" oW="256" oH="256"/>
+    <sprite n="9.png" x="492" y="346" w="155" h="162" oX="30" oY="38" oW="256" oH="256"/>
+    <sprite n="10.png" x="651" y="336" w="155" h="152" oX="20" oY="54" oW="256" oH="256"/>
+    <sprite n="11.png" x="496" y="171" w="156" h="161" oX="30" oY="39" oW="256" oH="256"/>
+    <sprite n="12.png" x="171" y="346" w="157" h="163" oX="29" oY="37" oW="256" oH="256"/>
+    <sprite n="13.png" x="2" y="182" w="165" h="175" oX="34" oY="28" oW="256" oH="256"/>
+    <sprite n="14.png" x="2" y="478" w="1" h="1" oX="0" oY="0" oW="256" oH="256"/>
+    <sprite n="15.png" x="2" y="478" w="1" h="1" oX="0" oY="0" oW="256" oH="256"/>
+    <sprite n="16.png" x="2" y="478" w="1" h="1" oX="0" oY="0" oW="256" oH="256"/>
+</TextureAtlas>

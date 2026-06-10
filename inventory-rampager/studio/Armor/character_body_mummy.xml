@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="character_body_mummy.png" width="512" height="512">
+    <sprite n="Sprite 1.png" x="212" y="154" w="142" h="148" oX="28" oY="56" oW="256" oH="256"/>
+    <sprite n="Sprite 2.png" x="359" y="297" w="145" h="150" oX="28" oY="54" oW="256" oH="256"/>
+    <sprite n="Sprite 3.png" x="357" y="147" w="154" h="148" oX="28" oY="56" oW="256" oH="256"/>
+    <sprite n="Sprite 4.png" x="211" y="331" w="146" h="150" oX="27" oY="54" oW="256" oH="256"/>
+    <sprite n="Sprite 5.png" x="1" y="177" w="102" h="161" oX="64" oY="42" oW="256" oH="256"/>
+    <sprite n="Sprite 6.png" x="1" y="1" w="118" h="174" oX="62" oY="31" oW="256" oH="256"/>
+    <sprite n="Sprite 7.png" x="1" y="497" w="3" h="3" oX="0" oY="0" oW="256" oH="256"/>
+    <sprite n="Sprite 8.png" x="101" y="340" w="108" h="154" oX="53" oY="46" oW="256" oH="256"/>
+    <sprite n="Sprite 9.png" x="1" y="340" w="98" h="155" oX="63" oY="46" oW="256" oH="256"/>
+    <sprite n="Sprite 10.png" x="359" y="1" w="152" h="144" oX="24" oY="58" oW="256" oH="256"/>
+    <sprite n="Sprite 11.png" x="121" y="1" w="109" h="151" oX="53" oY="50" oW="256" oH="256"/>
+    <sprite n="Sprite 12.png" x="105" y="177" w="105" h="152" oX="57" oY="48" oW="256" oH="256"/>
+    <sprite n="Sprite 13.png" x="232" y="1" w="123" h="148" oX="41" oY="58" oW="256" oH="256"/>
+    <sprite n="Sprite 14.png" x="1" y="497" w="3" h="3" oX="0" oY="0" oW="256" oH="256"/>
+</TextureAtlas>

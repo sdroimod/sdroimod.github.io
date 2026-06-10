@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="character_body_head_only.png" width="128" height="128">
+    <sprite n="character_body_head_only.png" x="1" y="1" w="65" h="68" pX="0.5" pY="0.5" oX="66" oY="63" oW="205" oH="256"/>
+</TextureAtlas>

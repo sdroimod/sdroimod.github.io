@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="Frozen_Mage_A.png" width="1024" height="512">
+    <sprite n="Sprite 1.png" x="383" y="2" w="147" h="158" oX="24" oY="48" oW="256" oH="256"/>
+    <sprite n="Sprite 2.png" x="238" y="338" w="148" h="160" oX="24" oY="46" oW="256" oH="256"/>
+    <sprite n="Sprite 3.png" x="390" y="331" w="146" h="158" oX="24" oY="48" oW="256" oH="256"/>
+    <sprite n="Sprite 4.png" x="350" y="167" w="146" h="160" oX="24" oY="46" oW="256" oH="256"/>
+    <sprite n="Sprite 5.png" x="2" y="201" w="104" h="170" oX="62" oY="34" oW="256" oH="256"/>
+    <sprite n="Sprite 6.png" x="2" y="2" w="128" h="195" oX="36" oY="11" oW="256" oH="256"/>
+    <sprite n="Sprite 7.png" x="2" y="375" w="97" h="109" oX="78" oY="74" oW="256" oH="256"/>
+    <sprite n="Sprite 8.png" x="134" y="2" w="119" h="165" oX="52" oY="38" oW="256" oH="256"/>
+    <sprite n="Sprite 9.png" x="110" y="201" w="124" h="165" oX="47" oY="38" oW="256" oH="256"/>
+    <sprite n="Sprite 10.png" x="534" y="2" w="151" h="154" oX="25" oY="50" oW="256" oH="256"/>
+    <sprite n="Sprite 11.png" x="257" y="2" w="122" h="161" oX="50" oY="42" oW="256" oH="256"/>
+    <sprite n="Sprite 12.png" x="238" y="171" w="108" h="163" oX="64" oY="39" oW="256" oH="256"/>
+    <sprite n="Sprite 13.png" x="500" y="164" w="132" h="157" oX="41" oY="49" oW="256" oH="256"/>
+    <sprite n="Sprite 14.png" x="2" y="488" w="1" h="1" oX="0" oY="0" oW="256" oH="256"/>
+    <sprite n="Sprite 15.png" x="2" y="488" w="1" h="1" oX="0" oY="0" oW="256" oH="256"/>
+    <sprite n="Sprite 16.png" x="2" y="488" w="1" h="1" oX="0" oY="0" oW="256" oH="256"/>
+</TextureAtlas>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="Bruxa_carmesim_A.png" width="1024" height="512">
+    <sprite n="Sprite 1.png" x="291" y="333" w="147" h="156" oX="33" oY="48" oW="256" oH="256"/>
+    <sprite n="Sprite 2.png" x="435" y="163" w="159" h="155" oX="22" oY="47" oW="256" oH="256"/>
+    <sprite n="Sprite 3.png" x="584" y="322" w="156" h="154" oX="30" oY="48" oW="256" oH="256"/>
+    <sprite n="Sprite 4.png" x="480" y="2" w="155" h="155" oX="51" oY="46" oW="256" oH="256"/>
+    <sprite n="Sprite 5.png" x="2" y="197" w="129" h="169" oX="45" oY="34" oW="256" oH="256"/>
+    <sprite n="Sprite 6.png" x="2" y="2" w="143" h="191" oX="46" oY="12" oW="256" oH="256"/>
+    <sprite n="Sprite 7.png" x="2" y="370" w="92" h="84" oX="79" oY="86" oW="256" oH="256"/>
+    <sprite n="Sprite 8.png" x="135" y="197" w="152" h="164" oX="40" oY="38" oW="256" oH="256"/>
+    <sprite n="Sprite 9.png" x="149" y="2" w="166" h="162" oX="13" oY="38" oW="256" oH="256"/>
+    <sprite n="Sprite 10.png" x="598" y="161" w="179" h="151" oX="1" oY="50" oW="256" oH="256"/>
+    <sprite n="Sprite 11.png" x="319" y="2" w="157" h="157" oX="23" oY="43" oW="256" oH="256"/>
+    <sprite n="Sprite 12.png" x="291" y="168" w="140" h="161" oX="41" oY="39" oW="256" oH="256"/>
+    <sprite n="Sprite 13.png" x="442" y="322" w="138" h="155" oX="44" oY="50" oW="256" oH="256"/>
+    <sprite n="Sprite 14.png" x="2" y="458" w="1" h="1" oX="0" oY="0" oW="256" oH="256"/>
+    <sprite n="Sprite 15.png" x="2" y="458" w="1" h="1" oX="0" oY="0" oW="256" oH="256"/>
+    <sprite n="Sprite 16.png" x="2" y="458" w="1" h="1" oX="0" oY="0" oW="256" oH="256"/>
+</TextureAtlas>

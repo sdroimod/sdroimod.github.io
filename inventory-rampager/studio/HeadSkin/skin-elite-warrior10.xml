@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+
+<TextureAtlas imagePath="Elite_Warrior_C.png" width="128" height="256">
+    <sprite n="1.png" x="2" y="97" w="88" h="79" oX="81" oY="54" oW="256" oH="256"/>
+    <sprite n="2.png" x="2" y="97" w="88" h="79" oX="82" oY="52" oW="256" oH="256"/>
+    <sprite n="3.png" x="2" y="97" w="88" h="79" oX="80" oY="54" oW="256" oH="256"/>
+    <sprite n="4.png" x="2" y="97" w="88" h="79" oX="80" oY="52" oW="256" oH="256"/>
+    <sprite n="5.png" x="2" y="97" w="88" h="79" oX="75" oY="40" oW="256" oH="256"/>
+    <sprite n="6.png" x="2" y="2" w="88" h="91" oX="55" oY="17" oW="256" oH="256"/>
+    <sprite n="7.png" x="94" y="2" w="1" h="1" oX="0" oY="0" oW="256" oH="256"/>
+    <sprite n="8.png" x="2" y="97" w="88" h="79" oX="80" oY="44" oW="256" oH="256"/>
+    <sprite n="9.png" x="2" y="97" w="88" h="79" oX="81" oY="44" oW="256" oH="256"/>
+    <sprite n="10.png" x="2" y="97" w="88" h="79" oX="81" oY="56" oW="256" oH="256"/>
+    <sprite n="11.png" x="2" y="97" w="88" h="79" oX="82" oY="48" oW="256" oH="256"/>
+    <sprite n="12.png" x="2" y="97" w="88" h="79" oX="82" oY="45" oW="256" oH="256"/>
+    <sprite n="13.png" x="2" y="97" w="88" h="79" oX="83" oY="56" oW="256" oH="256"/>
+    <sprite n="14.png" x="94" y="2" w="1" h="1" oX="0" oY="0" oW="256" oH="256"/>
+    <sprite n="15.png" x="94" y="2" w="1" h="1" oX="0" oY="0" oW="256" oH="256"/>
+    <sprite n="16.png" x="94" y="2" w="1" h="1" oX="0" oY="0" oW="256" oH="256"/>
+</TextureAtlas>

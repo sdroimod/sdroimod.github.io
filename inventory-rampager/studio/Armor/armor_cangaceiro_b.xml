@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="armor_cangaceiro_b.png" width="512" height="512">
+    <sprite n="1.png" x="305" y="2" w="141" h="94" pX="0.5" pY="0.5" oX="28" oY="110" oW="256" oH="256"/>
+    <sprite n="2.png" x="2" y="104" w="144" h="98" pX="0.5" pY="0.5" oX="28" oY="106" oW="256" oH="256"/>
+    <sprite n="3.png" x="156" y="2" w="145" h="116" pX="0.5" pY="0.5" oX="28" oY="88" oW="256" oH="256"/>
+    <sprite n="4.png" x="305" y="100" w="141" h="93" pX="0.5" pY="0.5" oX="27" oY="111" oW="256" oH="256"/>
+    <sprite n="5.png" x="201" y="236" w="85" h="100" pX="0.5" pY="0.5" oX="77" oY="103" oW="256" oH="256"/>
+    <sprite n="6.png" x="2" y="294" w="95" h="113" pX="0.5" pY="0.5" oX="82" oY="91" oW="256" oH="256"/>
+    <sprite n="7.png" x="2" y="206" w="99" h="84" pX="0.5" pY="0.5" oX="76" oY="76" oW="256" oH="256"/>
+    <sprite n="8.png" x="101" y="294" w="96" h="100" pX="0.5" pY="0.5" oX="55" oY="101" oW="256" oH="256"/>
+    <sprite n="9.png" x="2" y="411" w="71" h="98" pX="0.5" pY="0.5" oX="64" oY="103" oW="256" oH="256"/>
+    <sprite n="10.png" x="2" y="2" w="150" h="98" pX="0.5" pY="0.5" oX="25" oY="102" oW="256" oH="256"/>
+    <sprite n="11.png" x="77" y="411" w="97" h="96" pX="0.5" pY="0.5" oX="55" oY="105" oW="256" oH="256"/>
+    <sprite n="12.png" x="178" y="398" w="95" h="100" pX="0.5" pY="0.5" oX="60" oY="101" oW="256" oH="256"/>
+    <sprite n="13.png" x="150" y="122" w="116" h="110" pX="0.5" pY="0.5" oX="43" oY="94" oW="256" oH="256"/>
+    <sprite n="14.png" x="150" y="104" w="1" h="1" pX="0.5" pY="0.5" oX="0" oY="0" oW="256" oH="256"/>
+    <sprite n="15.png" x="150" y="104" w="1" h="1" pX="0.5" pY="0.5" oX="0" oY="0" oW="256" oH="256"/>
+    <sprite n="16.png" x="150" y="104" w="1" h="1" pX="0.5" pY="0.5" oX="0" oY="0" oW="256" oH="256"/>
+</TextureAtlas>

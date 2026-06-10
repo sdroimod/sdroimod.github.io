@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="pet_demonpider.png" width="256" height="512">
+    <sprite n="1.png" x="81" y="193" w="70" h="60" oX="8" oY="143" oW="256" oH="256"/>
+    <sprite n="2.png" x="88" y="129" w="76" h="60" oX="8" oY="143" oW="256" oH="256"/>
+    <sprite n="3.png" x="136" y="69" w="82" h="56" oX="8" oY="147" oW="256" oH="256"/>
+    <sprite n="4.png" x="136" y="2" w="86" h="63" oX="9" oY="140" oW="256" oH="256"/>
+    <sprite n="5.png" x="2" y="232" w="67" h="61" oX="8" oY="142" oW="256" oH="256"/>
+    <sprite n="6.png" x="2" y="117" w="82" h="45" oX="3" oY="158" oW="256" oH="256"/>
+    <sprite n="7.png" x="2" y="2" w="130" h="111" oX="61" oY="67" oW="256" oH="256"/>
+    <sprite n="8.png" x="168" y="129" w="70" h="65" oX="7" oY="138" oW="256" oH="256"/>
+    <sprite n="9.png" x="2" y="166" w="75" h="62" oX="9" oY="141" oW="256" oH="256"/>
+    <sprite n="10.png" x="155" y="198" w="62" h="64" oX="14" oY="139" oW="256" oH="256"/>
+    <sprite n="11.png" x="168" y="129" w="70" h="65" oX="8" oY="138" oW="256" oH="256"/>
+    <sprite n="12.png" x="2" y="166" w="75" h="62" oX="9" oY="141" oW="256" oH="256"/>
+    <sprite n="13.png" x="155" y="198" w="62" h="64" oX="14" oY="138" oW="256" oH="256"/>
+    <sprite n="14.png" x="226" y="2" w="1" h="1" oX="0" oY="0" oW="256" oH="256"/>
+    <sprite n="15.png" x="226" y="2" w="1" h="1" oX="0" oY="0" oW="256" oH="256"/>
+    <sprite n="16.png" x="226" y="2" w="1" h="1" oX="0" oY="0" oW="256" oH="256"/>
+</TextureAtlas>

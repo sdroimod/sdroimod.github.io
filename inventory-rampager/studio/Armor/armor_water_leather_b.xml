@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="armor_water_leather_b.png" width="1024" height="512">
+    <sprite n="1.png" x="409" y="2" w="142" h="146" oX="28" oY="57" oW="256" oH="256"/>
+    <sprite n="2.png" x="258" y="2" w="147" h="148" oX="27" oY="55" oW="256" oH="256"/>
+    <sprite n="3.png" x="327" y="154" w="155" h="147" oX="27" oY="56" oW="256" oH="256"/>
+    <sprite n="4.png" x="218" y="308" w="147" h="148" oX="26" oY="55" oW="256" oH="256"/>
+    <sprite n="5.png" x="2" y="190" w="91" h="160" oX="74" oY="43" oW="256" oH="256"/>
+    <sprite n="6.png" x="2" y="2" w="121" h="184" oX="59" oY="21" oW="256" oH="256"/>
+    <sprite n="7.png" x="486" y="152" w="97" h="108" oX="78" oY="75" oW="256" oH="256"/>
+    <sprite n="8.png" x="97" y="190" w="111" h="153" oX="53" oY="47" oW="256" oH="256"/>
+    <sprite n="9.png" x="2" y="354" w="102" h="154" oX="62" oY="46" oW="256" oH="256"/>
+    <sprite n="10.png" x="369" y="305" w="154" h="141" oX="21" oY="58" oW="256" oH="256"/>
+    <sprite n="11.png" x="212" y="155" w="111" h="149" oX="54" oY="51" oW="256" oH="256"/>
+    <sprite n="12.png" x="108" y="347" w="106" h="152" oX="59" oY="48" oW="256" oH="256"/>
+    <sprite n="13.png" x="127" y="2" w="127" h="149" oX="39" oY="58" oW="256" oH="256"/>
+    <sprite n="14.png" x="97" y="347" w="1" h="1" oX="0" oY="0" oW="256" oH="256"/>
+    <sprite n="15.png" x="97" y="347" w="1" h="1" oX="0" oY="0" oW="256" oH="256"/>
+    <sprite n="16.png" x="97" y="347" w="1" h="1" oX="0" oY="0" oW="256" oH="256"/>
+</TextureAtlas>

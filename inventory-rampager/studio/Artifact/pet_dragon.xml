@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="pet_dragon.png" width="256" height="512">
+    <sprite n="1.png" x="163" y="90" w="88" h="51" oX="8" oY="152" oW="256" oH="256"/>
+    <sprite n="2.png" x="2" y="307" w="120" h="87" oX="5" oY="119" oW="256" oH="256"/>
+    <sprite n="3.png" x="2" y="81" w="157" h="74" oX="6" oY="132" oW="256" oH="256"/>
+    <sprite n="4.png" x="2" y="2" w="199" h="75" oX="6" oY="131" oW="256" oH="256"/>
+    <sprite n="5.png" x="163" y="145" w="74" h="72" oX="8" oY="131" oW="256" oH="256"/>
+    <sprite n="6.png" x="205" y="2" w="43" h="84" oX="13" oY="115" oW="256" oH="256"/>
+    <sprite n="7.png" x="149" y="221" w="99" h="124" oX="77" oY="43" oW="256" oH="256"/>
+    <sprite n="8.png" x="2" y="256" w="142" h="47" oX="5" oY="132" oW="256" oH="256"/>
+    <sprite n="9.png" x="2" y="208" w="143" h="44" oX="3" oY="140" oW="256" oH="256"/>
+    <sprite n="10.png" x="2" y="159" w="144" h="45" oX="3" oY="135" oW="256" oH="256"/>
+    <sprite n="11.png" x="2" y="256" w="142" h="47" oX="5" oY="132" oW="256" oH="256"/>
+    <sprite n="12.png" x="2" y="208" w="143" h="44" oX="3" oY="140" oW="256" oH="256"/>
+    <sprite n="13.png" x="2" y="159" w="144" h="45" oX="3" oY="135" oW="256" oH="256"/>
+    <sprite n="14.png" x="252" y="2" w="1" h="1" oX="0" oY="0" oW="256" oH="256"/>
+    <sprite n="15.png" x="252" y="2" w="1" h="1" oX="0" oY="0" oW="256" oH="256"/>
+    <sprite n="16.png" x="252" y="2" w="1" h="1" oX="0" oY="0" oW="256" oH="256"/>
+</TextureAtlas>

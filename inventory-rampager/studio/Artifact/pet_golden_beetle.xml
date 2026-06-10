@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+
+<TextureAtlas imagePath="Golden_beetle.png" width="256" height="512">
+    <sprite n="Sprite 1.png" x="100" y="251" w="71" h="70" oX="13" oY="106" oW="256" oH="256"/>
+    <sprite n="Sprite 2.png" x="2" y="89" w="95" h="81" oX="1" oY="99" oW="256" oH="256"/>
+    <sprite n="Sprite 3.png" x="101" y="2" w="95" h="83" oX="1" oY="106" oW="256" oH="256"/>
+    <sprite n="Sprite 4.png" x="101" y="170" w="95" h="77" oX="1" oY="99" oW="256" oH="256"/>
+    <sprite n="Sprite 5.png" x="200" y="48" w="40" h="43" oX="28" oY="120" oW="256" oH="256"/>
+    <sprite n="Sprite 6.png" x="200" y="2" w="41" h="42" oX="28" oY="120" oW="256" oH="256"/>
+    <sprite n="Sprite 7.png" x="2" y="174" w="94" h="146" oX="82" oY="55" oW="256" oH="256"/>
+    <sprite n="Sprite 8.png" x="101" y="89" w="95" h="77" oX="1" oY="99" oW="256" oH="256"/>
+    <sprite n="Sprite 9.png" x="2" y="2" w="95" h="83" oX="1" oY="106" oW="256" oH="256"/>
+    <sprite n="Sprite 10.png" x="101" y="89" w="95" h="77" oX="1" oY="99" oW="256" oH="256"/>
+    <sprite n="Sprite 11.png" x="2" y="2" w="95" h="83" oX="1" oY="106" oW="256" oH="256"/>
+    <sprite n="Sprite 12.png" x="101" y="89" w="95" h="77" oX="1" oY="99" oW="256" oH="256"/>
+    <sprite n="Sprite 13.png" x="2" y="2" w="95" h="83" oX="1" oY="106" oW="256" oH="256"/>
+    <sprite n="Sprite 14.png" x="245" y="2" w="1" h="1" oX="0" oY="0" oW="256" oH="256"/>
+    <sprite n="Sprite 15.png" x="245" y="2" w="1" h="1" oX="0" oY="0" oW="256" oH="256"/>
+    <sprite n="Sprite 16.png" x="245" y="2" w="1" h="1" oX="0" oY="0" oW="256" oH="256"/>
+</TextureAtlas>

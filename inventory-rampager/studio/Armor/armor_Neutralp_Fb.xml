@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="armor_Neutralp_Fb.png" width="512" height="512">
+    <sprite n="1.png" x="161" y="118" w="143" h="98" oX="26" oY="105" oW="256" oH="256"/>
+    <sprite n="2.png" x="320" y="101" w="145" h="107" oX="27" oY="96" oW="256" oH="256"/>
+    <sprite n="3.png" x="2" y="2" w="155" h="115" oX="27" oY="88" oW="256" oH="256"/>
+    <sprite n="4.png" x="320" y="2" w="147" h="95" oX="26" oY="108" oW="256" oH="256"/>
+    <sprite n="5.png" x="309" y="317" w="89" h="101" oX="76" oY="102" oW="256" oH="256"/>
+    <sprite n="6.png" x="2" y="349" w="101" h="128" oX="81" oY="76" oW="256" oH="256"/>
+    <sprite n="7.png" x="107" y="349" w="95" h="114" oX="80" oY="72" oW="256" oH="256"/>
+    <sprite n="8.png" x="206" y="337" w="99" h="109" oX="55" oY="91" oW="256" oH="256"/>
+    <sprite n="9.png" x="308" y="212" w="116" h="101" oX="36" oY="100" oW="256" oH="256"/>
+    <sprite n="10.png" x="161" y="2" w="155" h="112" oX="20" oY="89" oW="256" oH="256"/>
+    <sprite n="11.png" x="2" y="237" w="107" h="108" oX="48" oY="93" oW="256" oH="256"/>
+    <sprite n="12.png" x="138" y="220" w="114" h="113" oX="41" oY="88" oW="256" oH="256"/>
+    <sprite n="13.png" x="2" y="121" w="132" h="112" oX="27" oY="90" oW="256" oH="256"/>
+    <sprite n="14.png" x="471" y="2" w="1" h="1" oX="0" oY="0" oW="256" oH="256"/>
+    <sprite n="15.png" x="471" y="2" w="1" h="1" oX="0" oY="0" oW="256" oH="256"/>
+    <sprite n="16.png" x="471" y="2" w="1" h="1" oX="0" oY="0" oW="256" oH="256"/>
+</TextureAtlas>

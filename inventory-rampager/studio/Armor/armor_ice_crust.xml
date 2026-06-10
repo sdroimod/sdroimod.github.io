@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="Frozen_armor.png" width="512" height="512">
+    <sprite n="Sprite 1.png" x="261" y="2" w="128" h="138" oX="28" oY="64" oW="256" oH="256"/>
+    <sprite n="Sprite 2.png" x="133" y="144" w="130" h="140" oX="29" oY="62" oW="256" oH="256"/>
+    <sprite n="Sprite 3.png" x="2" y="138" w="127" h="138" oX="29" oY="64" oW="256" oH="256"/>
+    <sprite n="Sprite 4.png" x="267" y="145" w="131" h="140" oX="29" oY="62" oW="256" oH="256"/>
+    <sprite n="Sprite 5.png" x="202" y="289" w="90" h="153" oX="74" oY="50" oW="256" oH="256"/>
+    <sprite n="Sprite 6.png" x="296" y="289" w="90" h="164" oX="72" oY="37" oW="256" oH="256"/>
+    <sprite n="Sprite 7.png" x="2" y="2" w="1" h="1" oX="0" oY="0" oW="256" oH="256"/>
+    <sprite n="Sprite 8.png" x="2" y="280" w="99" h="146" oX="55" oY="53" oW="256" oH="256"/>
+    <sprite n="Sprite 9.png" x="402" y="145" w="90" h="145" oX="64" oY="53" oW="256" oH="256"/>
+    <sprite n="Sprite 10.png" x="7" y="2" w="131" h="132" oX="37" oY="65" oW="256" oH="256"/>
+    <sprite n="Sprite 11.png" x="393" y="2" w="103" h="139" oX="53" oY="58" oW="256" oH="256"/>
+    <sprite n="Sprite 12.png" x="105" y="288" w="93" h="149" oX="62" oY="54" oW="256" oH="256"/>
+    <sprite n="Sprite 13.png" x="142" y="2" w="115" h="135" oX="42" oY="65" oW="256" oH="256"/>
+    <sprite n="Sprite 14.png" x="2" y="2" w="1" h="1" oX="0" oY="0" oW="256" oH="256"/>
+    <sprite n="Sprite 15.png" x="2" y="2" w="1" h="1" oX="0" oY="0" oW="256" oH="256"/>
+    <sprite n="Sprite 16.png" x="2" y="2" w="1" h="1" oX="0" oY="0" oW="256" oH="256"/>
+</TextureAtlas>

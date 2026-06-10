@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="Fox_spirit-v2.png" width="512" height="512">
+    <sprite n="1.png" x="277" y="153" w="116" h="75" oX="0" oY="133" oW="256" oH="256"/>
+    <sprite n="2.png" x="397" y="182" w="104" h="83" oX="29" oY="125" oW="256" oH="256"/>
+    <sprite n="3.png" x="128" y="223" w="99" h="87" oX="26" oY="121" oW="256" oH="256"/>
+    <sprite n="4.png" x="2" y="304" w="93" h="104" oX="29" oY="104" oW="256" oH="256"/>
+    <sprite n="5.png" x="423" y="85" w="83" h="93" oX="30" oY="113" oW="256" oH="256"/>
+    <sprite n="6.png" x="2" y="230" w="96" h="70" oX="11" oY="135" oW="256" oH="256"/>
+    <sprite n="7.png" x="2" y="2" w="137" h="150" oX="59" oY="32" oW="256" oH="256"/>
+    <sprite n="8.png" x="143" y="78" w="140" h="62" oX="6" oY="140" oW="256" oH="256"/>
+    <sprite n="9.png" x="2" y="156" w="122" h="70" oX="21" oY="138" oW="256" oH="256"/>
+    <sprite n="10.png" x="143" y="144" w="130" h="75" oX="16" oY="133" oW="256" oH="256"/>
+    <sprite n="11.png" x="287" y="85" w="132" h="64" oX="10" oY="144" oW="256" oH="256"/>
+    <sprite n="12.png" x="143" y="2" w="141" h="72" oX="3" oY="136" oW="256" oH="256"/>
+    <sprite n="13.png" x="288" y="2" w="140" h="79" oX="6" oY="129" oW="256" oH="256"/>
+    <sprite n="14.png" x="432" y="2" w="1" h="1" oX="0" oY="0" oW="256" oH="256"/>
+    <sprite n="15.png" x="432" y="2" w="1" h="1" oX="0" oY="0" oW="256" oH="256"/>
+    <sprite n="16.png" x="432" y="2" w="1" h="1" oX="0" oY="0" oW="256" oH="256"/>
+</TextureAtlas>
