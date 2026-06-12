@@ -1,2 +1,4 @@
 legacy
 /legacy/*
+/sgen-installer
+sgen-installer/
