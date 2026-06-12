@@ -170,7 +170,7 @@
         /* --- COMMUNITY & EXTRAS --- */
         .community-grid {
             display: grid;
-            grid-template-columns: 1fr 1fr;
+            grid-template-columns: repeat(3, 1fr);
             gap: 15px;
             margin-top: 30px;
         }
@@ -179,6 +179,7 @@
         .btn-social img { width: 24px; height: 24px; }
         .btn-discord:hover { background: #5865F2 !important; }
         .btn-facebook:hover { background: #1877F2 !important; }
+        .btn-telegram:hover { background: #2AABEE !important; }
 
         /* --- ACCORDION (DETAILS) --- */
         details {
@@ -360,6 +361,9 @@
             </a>
             <a href="https://www.facebook.com/groups/1267718328391518/" target="_blank" class="action-btn btn-social btn-facebook">
                 <img src="https://cdn-icons-png.flaticon.com/512/5968/5968764.png" alt="Facebook"> <span data-i18n="btn_facebook_text">Join Facebook</span>
+            </a>
+            <a href="https://t.me/sdroimod" target="_blank" class="action-btn btn-social btn-telegram">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/8/82/Telegram_logo.svg" alt="Telegram"> <span data-i18n="btn_telegram_text">Join Telegram</span>
             </a>
         </div>
 

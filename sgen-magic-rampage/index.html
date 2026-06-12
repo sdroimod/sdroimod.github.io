@@ -114,6 +114,22 @@
         }
         .btn-discord:hover { transform: translateY(-3px); box-shadow: 0 5px 15px rgba(88, 101, 242, 0.4); }
 
+        .btn-telegram {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            background: #2AABEE;
+            color: white;
+            padding: 12px 25px;
+            border-radius: 12px;
+            text-decoration: none;
+            font-weight: bold;
+            margin-top: 15px;
+            transition: 0.3s;
+        }
+        .btn-telegram:hover { transform: translateY(-3px); box-shadow: 0 5px 15px rgba(42, 171, 238, 0.4); }
+
         /* --- INFO GRID --- */
         .info-grid {
             display: grid;
@@ -415,9 +431,14 @@
             <img src="//blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEilX-GyXu4kbI2v9Jji2-BJviqYGyGSBMs9WkRnNNVx1YB5YcfaPk36hEIRUWRTbLfuaSCNSSeaxd9B4lKC2qNgaoYYKtffywtr1FPsTKh_9IlUKpUJ3fIsnyYFgcxWE3cb7mW7BT08YYjTD5ScmqR__FogajqI6X-w_3sq3bJDml-T7Q/s90/image.png" alt="SGen-9 Magic Rampage mod icon" class="app-icon">
             <h1>SGen-9 Magic Rampage</h1>
             <p style="color: var(--text-muted)" data-i18n="hero_desc">Expanded world with hundreds of new dungeons and equipment.</p>
-            <a href="https://discord.gg/PHjTvMpXtV" target="_blank" rel="noopener noreferrer" class="btn-discord">
-                <img src="https://cdn-icons-png.flaticon.com/512/5968/5968756.png" width="20" alt=""> <span data-i18n="btn_discord">JOIN COMMUNITY DISCORD</span>
-            </a>
+            <div style="display: flex; gap: 15px; justify-content: center; flex-wrap: wrap;">
+                <a href="https://discord.gg/PHjTvMpXtV" target="_blank" rel="noopener noreferrer" class="btn-discord">
+                    <img src="https://cdn-icons-png.flaticon.com/512/5968/5968756.png" width="20" alt=""> <span data-i18n="btn_discord">JOIN COMMUNITY DISCORD</span>
+                </a>
+                <a href="https://t.me/sdroimod" target="_blank" rel="noopener noreferrer" class="btn-telegram">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/8/82/Telegram_logo.svg" width="20" alt=""> <span data-i18n="btn_telegram">JOIN TELEGRAM</span>
+                </a>
+            </div>
         </div>
 
         <div class="info-grid">
