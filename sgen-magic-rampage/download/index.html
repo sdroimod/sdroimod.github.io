@@ -354,70 +354,135 @@
     <script src="../i18n.js" data-lang-base="../lang/"></script>
 
     <script>
-        function handleStep1() {
-            const btn     = document.getElementById("btn-1");
-            const spinner = document.getElementById("spinner-1");
-            const text    = document.getElementById("text-1");
-            const badge   = document.getElementById("badge-1");
-            const box1    = document.getElementById("step-box-1");
-            const box2    = document.getElementById("step-box-2");
-            const btn2    = document.getElementById("btn-2");
+    (function () {
+        var S1_AT = 'sgen_s1_at';
+        var S1_OK = 'sgen_s1_ok';
+        var S2_AT = 'sgen_s2_at';
+        var S2_OK = 'sgen_s2_ok';
+        var WAIT  = 5000;
 
-            text.textContent = window._t ? window._t('checking_sub') : "Checking Subscription...";
-            spinner.style.display = "block";
-            btn.classList.add("loading");
+        function t(k, fb) { return (window._t && window._t(k)) || fb; }
+        function el(id)   { return document.getElementById(id); }
 
-            const channels = [
-                "https://www.youtube.com/@AetherChasers?sub_confirmation=1"
-            ];
-            window.open(channels[Math.floor(Math.random() * channels.length)], "_blank");
-
-            setTimeout(() => {
-                spinner.style.display = "none";
-                text.textContent = window._t ? window._t('completed_text') : "Completed ✅";
-                badge.textContent = window._t ? window._t('badge_unlocked') : "UNLOCKED";
-                badge.style.background = "var(--primary)";
-                btn.classList.remove("loading");
-                btn.classList.add("done");
-                box1.classList.add("completed");
-                box2.classList.remove("locked");
-                btn2.disabled = false;
-            }, 5000);
+        function markStep1Loading() {
+            el('text-1').textContent  = t('checking_sub', 'Checking Subscription...');
+            el('spinner-1').style.display = 'block';
+            el('btn-1').classList.add('loading');
         }
 
-        function handleStep2() {
-            const btn          = document.getElementById("btn-2");
-            const spinner      = document.getElementById("spinner-2");
-            const text         = document.getElementById("text-2");
-            const badge        = document.getElementById("badge-2");
-            const box2         = document.getElementById("step-box-2");
-            const downloadArea = document.getElementById("final-download");
-
-            const links = [
-                "https://www.youtube.com/watch?v=uV-NIvzQ-aI",
-                "https://www.youtube.com/watch?v=j3ZltPJmMSY",
-                "https://www.youtube.com/watch?v=Btxw3cUwz2w",
-                "https://www.youtube.com/watch?v=vV_HVFx1lhM",
-                "https://www.youtube.com/watch?v=GFb9wdz8tMo"
-            ];
-            window.open(links[Math.floor(Math.random() * links.length)], "_blank");
-
-            text.textContent = window._t ? window._t('verifying_like') : "Verifying Like & Comment...";
-            spinner.style.display = "block";
-            btn.classList.add("loading");
-
-            setTimeout(() => {
-                spinner.style.display = "none";
-                text.textContent = window._t ? window._t('completed_text') : "Completed ✅";
-                badge.textContent = window._t ? window._t('badge_unlocked') : "UNLOCKED";
-                badge.style.background = "var(--primary)";
-                btn.classList.remove("loading");
-                btn.classList.add("done");
-                box2.classList.add("completed");
-                downloadArea.style.display = "block";
-                downloadArea.scrollIntoView({ behavior: 'smooth' });
-            }, 5000);
+        function markStep2Loading() {
+            el('text-2').textContent  = t('verifying_like', 'Verifying Like & Comment...');
+            el('spinner-2').style.display = 'block';
+            el('btn-2').classList.add('loading');
         }
+
+        function markStep1Done() {
+            var badge = el('badge-1');
+            el('spinner-1').style.display = 'none';
+            el('text-1').textContent = t('completed_text', 'Completed ✅');
+            badge.removeAttribute('data-i18n'); // prevent i18n from overwriting back to LOCKED
+            badge.textContent = t('badge_unlocked', 'UNLOCKED ✅');
+            badge.style.background = 'var(--primary)';
+            el('btn-1').classList.remove('loading');
+            el('btn-1').classList.add('done');
+            el('step-box-1').classList.add('completed');
+            el('step-box-2').classList.remove('locked');
+            el('btn-2').disabled = false;
+        }
+
+        function markStep2Done(scroll) {
+            var badge  = el('badge-2');
+            var dlArea = el('final-download');
+            el('spinner-2').style.display = 'none';
+            el('text-2').textContent = t('completed_text', 'Completed ✅');
+            badge.removeAttribute('data-i18n'); // prevent i18n from overwriting back to LOCKED
+            badge.textContent = t('badge_unlocked', 'UNLOCKED ✅');
+            badge.style.background = 'var(--primary)';
+            el('btn-2').classList.remove('loading');
+            el('btn-2').classList.add('done');
+            el('step-box-2').classList.add('completed');
+            dlArea.style.display = 'block';
+            if (scroll) setTimeout(function () { dlArea.scrollIntoView({ behavior: 'smooth' }); }, 100);
+        }
+
+        function completeStep1() {
+            if (sessionStorage.getItem(S1_OK)) return;
+            sessionStorage.setItem(S1_OK, '1');
+            sessionStorage.removeItem(S1_AT);
+            markStep1Done();
+        }
+
+        function completeStep2() {
+            if (sessionStorage.getItem(S2_OK)) return;
+            sessionStorage.setItem(S2_OK, '1');
+            sessionStorage.removeItem(S2_AT);
+            markStep2Done(true);
+        }
+
+        // Resume any in-progress step whose timer was lost when the tab was evicted.
+        function checkPending() {
+            if (!sessionStorage.getItem(S1_OK)) {
+                var at1 = sessionStorage.getItem(S1_AT);
+                if (at1) {
+                    var rem1 = WAIT - (Date.now() - parseInt(at1, 10));
+                    markStep1Loading();
+                    if (rem1 <= 0) completeStep1();
+                    else setTimeout(completeStep1, rem1);
+                }
+            }
+            if (!sessionStorage.getItem(S2_OK)) {
+                var at2 = sessionStorage.getItem(S2_AT);
+                if (at2) {
+                    var rem2 = WAIT - (Date.now() - parseInt(at2, 10));
+                    markStep2Loading();
+                    if (rem2 <= 0) completeStep2();
+                    else setTimeout(completeStep2, rem2);
+                }
+            }
+        }
+
+        function restoreState() {
+            if (sessionStorage.getItem(S1_OK)) markStep1Done();
+            if (sessionStorage.getItem(S2_OK)) markStep2Done(false);
+            checkPending();
+        }
+
+        window.handleStep1 = function () {
+            if (sessionStorage.getItem(S1_OK)) return;
+            var channels = ['https://www.youtube.com/@AetherChasers?sub_confirmation=1'];
+            window.open(channels[Math.floor(Math.random() * channels.length)], '_blank');
+            sessionStorage.setItem(S1_AT, Date.now().toString());
+            markStep1Loading();
+            setTimeout(completeStep1, WAIT); // fallback if tab stays in foreground
+        };
+
+        window.handleStep2 = function () {
+            if (sessionStorage.getItem(S2_OK)) return;
+            var links = [
+                'https://www.youtube.com/watch?v=uV-NIvzQ-aI',
+                'https://www.youtube.com/watch?v=j3ZltPJmMSY',
+                'https://www.youtube.com/watch?v=Btxw3cUwz2w',
+                'https://www.youtube.com/watch?v=vV_HVFx1lhM',
+                'https://www.youtube.com/watch?v=GFb9wdz8tMo'
+            ];
+            window.open(links[Math.floor(Math.random() * links.length)], '_blank');
+            sessionStorage.setItem(S2_AT, Date.now().toString());
+            markStep2Loading();
+            setTimeout(completeStep2, WAIT); // fallback if tab stays in foreground
+        };
+
+        // Restore state on page load (covers tab-eviction reloads)
+        if (document.readyState === 'loading') {
+            document.addEventListener('DOMContentLoaded', restoreState);
+        } else {
+            restoreState();
+        }
+
+        // Resume pending steps when user returns from YouTube
+        document.addEventListener('visibilitychange', function () {
+            if (!document.hidden) checkPending();
+        });
+    })();
     </script>
 
 </body>

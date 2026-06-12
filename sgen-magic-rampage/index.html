@@ -368,10 +368,10 @@
         <p data-i18n="section_discover_desc">The most special thing about this version is the <b>Better UI</b>. All resources were carefully selected and edited to provide a fresh, high-quality experience for all Magic Rampage fans.</p>
 
         <div class="galWrp">
-            <img src="//blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiScee-bpjF3RN-6nVm-CtSmTuLmdMkbmsa1Qn9LGE0jVWLyVZidMlzlCj3EiWgLVD_piiPKStPMdMBbGXMTPwZvZrAMjffpiU2PerFf7_5cEtJCr1SxmuJKzxETkIs3c7KZ_YXslLnTCM/w720-h310-rw/" alt="SGen">
-            <img src="//blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjZGtFNzcMdXdaExi3184OyXznwNwyK9pu0hDIDwnhL2OJABUGPBQucxNpwW3XyBWPtT2T6AWDG1qi-4oWURiePQs3jnIbY3fSRd2qfw6tHseJDI_ueTEsu5rgWwEifueo7Bc1rYv8LTW8/w720-h310-rw/" alt="SGen">
-            <img src="//blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjFFGSlDyPgzaVKUAYPiPfoKh3qQbBtAPAxSNM0oVjyWFJjYM3G0_BE8rz71l3sIViDs67QKS-SFD2fx0AVeNaD7Zeqvy_CyoTfsYIlb_eYnz-AWweyeJcyTr1z6ekY0j3afc7fuYzThNI/w720-h310-rw/" alt="SGen">
-            <img src="//blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjl0kom1C0OLxDTEdO336Tm8btT2rkWXJXP35sZ6b0WeUs4Lj3fVofZ-Ouz_EI1JAKM7dRof3S0zmhQtyHJLNPIMcNgUzkB4_chSXKSJ6GesXPVsDIwbni1_hXdv4WbMOJlZCRfJiuSn0A/w720-h310-rw/" alt="SGen">
+            <img src="//blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiScee-bpjF3RN-6nVm-CtSmTuLmdMkbmsa1Qn9LGE0jVWLyVZidMlzlCj3EiWgLVD_piiPKStPMdMBbGXMTPwZvZrAMjffpiU2PerFf7_5cEtJCr1SxmuJKzxETkIs3c7KZ_YXslLnTCM/w720-h310-rw/" alt="SGen" loading="lazy" decoding="async">
+            <img src="//blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjZGtFNzcMdXdaExi3184OyXznwNwyK9pu0hDIDwnhL2OJABUGPBQucxNpwW3XyBWPtT2T6AWDG1qi-4oWURiePQs3jnIbY3fSRd2qfw6tHseJDI_ueTEsu5rgWwEifueo7Bc1rYv8LTW8/w720-h310-rw/" alt="SGen" loading="lazy" decoding="async">
+            <img src="//blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjFFGSlDyPgzaVKUAYPiPfoKh3qQbBtAPAxSNM0oVjyWFJjYM3G0_BE8rz71l3sIViDs67QKS-SFD2fx0AVeNaD7Zeqvy_CyoTfsYIlb_eYnz-AWweyeJcyTr1z6ekY0j3afc7fuYzThNI/w720-h310-rw/" alt="SGen" loading="lazy" decoding="async">
+            <img src="//blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjl0kom1C0OLxDTEdO336Tm8btT2rkWXJXP35sZ6b0WeUs4Lj3fVofZ-Ouz_EI1JAKM7dRof3S0zmhQtyHJLNPIMcNgUzkB4_chSXKSJ6GesXPVsDIwbni1_hXdv4WbMOJlZCRfJiuSn0A/w720-h310-rw/" alt="SGen" loading="lazy" decoding="async">
         </div>
 
         <h3 data-i18n="section_dungeons">More Dungeons &amp; Challenges</h3>
@@ -414,6 +414,7 @@
 
         function closeBrowserModal() {
             browserModal.classList.remove("open");
+            sessionStorage.setItem('sgen_modal_ok', '1');
         }
 
         async function copyPageLink() {
@@ -430,7 +431,9 @@
         });
 
         window.addEventListener("DOMContentLoaded", () => {
-            browserModal.classList.add("open");
+            if (!sessionStorage.getItem('sgen_modal_ok')) {
+                browserModal.classList.add("open");
+            }
         });
     </script>
 
