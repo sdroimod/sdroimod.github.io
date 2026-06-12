@@ -234,12 +234,46 @@
 
         @keyframes spin { to { transform: rotate(360deg); } }
 
+        /* --- BACK NAV --- */
+        .back-nav {
+            width: 100%;
+            max-width: 700px;
+            margin-bottom: 12px;
+            padding: 0 4px;
+        }
+
+        .back-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 5px;
+            color: var(--text-muted);
+            text-decoration: none;
+            font-size: 0.85rem;
+            transition: color 0.2s;
+        }
+
+        .back-link:hover { color: var(--primary); }
+
+        /* --- FOOTER --- */
+        footer {
+            margin-top: 30px;
+            text-align: center;
+            color: var(--text-muted);
+            font-size: 0.8rem;
+            width: 100%;
+            max-width: 700px;
+            padding-bottom: 20px;
+        }
+
         /* --- MOBILE RESPONSIVE --- */
         @media (max-width: 600px) {
+            body { padding: 12px; }
             .community-grid { grid-template-columns: 1fr; }
-            .main-container { padding: 20px; }
-            h1 { font-size: 1.5rem; }
-            .step-header h3 { font-size: 1rem; }
+            .main-container { padding: 16px; }
+            h1 { font-size: 1.4rem; }
+            .step-header { flex-direction: column; align-items: flex-start; gap: 6px; }
+            .step-header h3 { font-size: 1rem; margin-bottom: 0; }
+            .btn-dl { font-size: 14px; padding: 12px 10px; }
         }
 
         .tut-images-row { display: flex; gap: 10px; margin-bottom: 15px; }
@@ -256,10 +290,14 @@
 
 <body>
 
+    <nav class="back-nav">
+        <a href="../" class="back-link">← SGen-9 Magic Rampage</a>
+    </nav>
+
     <div class="main-container">
 
         <div style="text-align: center; margin-bottom: 30px;">
-            <h1>Made with 💖 by SDroiMod</h1>
+            <h1 data-i18n="made_by_title">Made with 💖 by SDroiMod</h1>
             <p style="color: var(--text-muted); margin-bottom: 10px;" data-i18n="dl_page_subtitle">Follow the 2 steps below to unlock the download links.</p>
             <p style="color: #bdbdbd; font-size: 0.95rem; margin: 0;" data-i18n="dl_page_hint">Click the buttons below to complete each step. Each one opens the related YouTube page in a new tab.</p>
         </div>
@@ -270,8 +308,8 @@
                 <p style="margin-top: 0; color: var(--primary); font-weight: bold;" data-i18n="yt_warning_title">⚠️ Using YouTube's In-App Browser?</p>
                 <p style="font-size: 0.9rem; margin-bottom: 15px; color: #bbb;" data-i18n="yt_warning_desc">If you see an "X" button at the top, tap the <b>three dots</b> (top-right) and select <b>"Open in Browser"</b>. This ensures your steps are verified correctly.</p>
                 <div class="tut-images-row">
-                    <img src="tut_00.png" alt="Step 1">
-                    <img src="tut_01.png" alt="Step 2">
+                    <img src="tut_00.png" alt="Step 1" loading="lazy" decoding="async">
+                    <img src="tut_01.png" alt="Step 2" loading="lazy" decoding="async">
                 </div>
             </div>
         </details>
@@ -350,6 +388,10 @@
         </details>
 
     </div>
+
+    <footer>
+        <p data-i18n="footer_text">© 2026 Made with 💖 by SDroiMod. All rights reserved.</p>
+    </footer>
 
     <script src="../i18n.js" data-lang-base="../lang/"></script>
 
@@ -471,11 +513,20 @@
             setTimeout(completeStep2, WAIT); // fallback if tab stays in foreground
         };
 
+        // Collapse "What's New" on mobile to keep download steps in view
+        function initAccordion() {
+            if (window.innerWidth < 600) {
+                var details = document.querySelector('details[open]');
+                if (details) details.removeAttribute('open');
+            }
+        }
+
         // Restore state on page load (covers tab-eviction reloads)
         if (document.readyState === 'loading') {
-            document.addEventListener('DOMContentLoaded', restoreState);
+            document.addEventListener('DOMContentLoaded', function () { restoreState(); initAccordion(); });
         } else {
             restoreState();
+            initAccordion();
         }
 
         // Resume pending steps when user returns from YouTube
