@@ -1,0 +1,71 @@
+{
+  "modal_title": "Öppna den här sidan i en webbläsare",
+  "modal_desc": "Använd en vanlig webbläsare som Chrome, Yandex eller Firefox för bästa upplevelse.",
+  "modal_copy": "Kopiera länk 🔗",
+  "modal_close": "Stäng",
+
+  "hero_desc": "Utvidgad värld med hundratals nya dungeons och utrustning.",
+  "btn_discord": "GÅ MED I DISCORD-GEMENSKAPEN",
+
+  "info_version": "Version",
+  "info_size": "Storlek",
+  "info_category": "Kategori",
+  "info_price": "Pris",
+  "info_platform": "Plattform",
+  "info_mod_features": "MOD-funktioner",
+
+  "val_category": "Action / RPG",
+  "val_price": "GRATIS",
+  "val_platform": "Android, Win, Linux",
+  "val_mod_features": "1000+ föremål",
+
+  "section_discover": "Upplev SGen-Upplevelsen",
+  "section_discover_desc": "Det mest speciella med den här versionen är det <b>förbättrade gränssnittet</b>. Alla resurser valdes och redigerades noggrant för att ge en fräsch, högkvalitativ upplevelse för alla Magic Rampage-fans.",
+  "section_dungeons": "Fler Dungeons &amp; Utmaningar",
+  "section_dungeons_desc": "Nå nivå 35 enkelt med våra optimerade EXP-dungeons och samla alla föremål från Veckodungeons direkt i SGen-modden.",
+  "section_downloads": "Tillgängliga nedladdningar",
+
+  "dl_android_title": "SGen-9 Beta 0.67 (Android)",
+  "dl_android_meta": "v8.8.8 • APK • Mediafire",
+  "dl_pc_title": "SGen-9 Beta 0.67 (Windows)",
+  "dl_pc_meta": "v8.8.8 • EXE • Mediafire",
+  "btn_dl_apk": "Ladda ner APK",
+  "btn_dl_pc": "Ladda ner till PC",
+
+  "footer_text": "© 2026 Gjord med 💖 av SDroiMod. Alla rättigheter förbehållna.",
+
+  "dl_page_subtitle": "Följ de 2 stegen nedan för att låsa upp nedladdningslänkarna.",
+  "dl_page_hint": "Klicka på knapparna nedan för att slutföra varje steg. Varje öppnar den relaterade YouTube-sidan i en ny flik.",
+  "how_to_install": "Hur Installerar Jag? (Klicka här)",
+  "yt_warning_title": "⚠️ Använder du YouTubes inbyggda webbläsare?",
+  "yt_warning_desc": "Om du ser en «X»-knapp högst upp, tryck på <b>tre punkter</b> (uppe till höger) och välj <b>«Öppna i webbläsare»</b>. Det säkerställer att dina steg verifieras korrekt.",
+
+  "step1_title": "Steg 1: Prenumerera på SDroiMods kanal",
+  "step1_btn": "Klicka här för att öppna YouTube och prenumerera på SDroiMod",
+  "step1_hint": "Tryck eller klicka på den här knappen först. När det är klart blir Steg 2 automatiskt tillgängligt.",
+
+  "step2_title": "Steg 2: Gilla den här videon",
+  "step2_btn": "Klicka här för att öppna videon och gilla den",
+  "step2_hint": "Tryck eller klicka på den andra knappen efter Steg 1. Nedladdningslänkarna visas nedan.",
+
+  "badge_locked": "LÅST 🔒",
+  "badge_unlocked": "UPPLÅST",
+  "checking_sub": "Kontrollerar prenumeration...",
+  "verifying_like": "Verifierar gilla &amp; kommentar...",
+  "completed_text": "Klart ✅",
+
+  "dl_unlocked": "🎉 Nedladdningslänkarna är nu upplåsta",
+  "btn_dl_android_mf": "Ladda ner Android APK (<span>MediaFire</span>) <span>(Beta 0.67)</span>",
+  "btn_dl_android_db": "Ladda ner Android APK (<span>Dropbox</span>) <span>(Beta 0.67)</span>",
+  "btn_dl_pc_mf": "Ladda ner Windows PC-version (<span>MediaFire</span>) <span>(Beta 0.67)</span>",
+  "pc_note": "*För PC: Packa upp filen och klicka på <strong>rungame.bat</strong> för att spela.",
+
+  "btn_discord_text": "Gå med i Discord",
+  "btn_facebook_text": "Gå med i Facebook",
+
+  "whats_new": "Vad är Nytt i Beta 0.67?",
+  "new_content_title": "Nytt Innehåll:",
+  "new_items": "<li>Lade till «Drakdödarsvärd»</li><li>Lade till 480 Skins</li><li>Lade till 500 Föremål</li><li>Lade till «Just a Random Noob» &amp; «The Ancient Codices»</li><li>Infinity Sword, Slime Core, Goku SSJ Head</li><li>Hellbringer-set (Infernal Blade, Hellskull)</li><li>Ny Prize Room, Butik, Stjärneskärm</li>",
+  "improvements_title": "Förbättringar:",
+  "improvements_items": "<li>Lås upp alla premium-skins &amp; Butiksföremål</li><li>Stor prestandaoptimering</li><li>Renare gränssnitt, Popup-fönster borttagna</li>"
+}

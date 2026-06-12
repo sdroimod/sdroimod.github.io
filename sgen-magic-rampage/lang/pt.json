@@ -1,0 +1,71 @@
+{
+  "modal_title": "Abra esta página em um navegador",
+  "modal_desc": "Use um navegador normal como Chrome, Yandex ou Firefox para a melhor experiência.",
+  "modal_copy": "Copiar Link 🔗",
+  "modal_close": "Fechar",
+
+  "hero_desc": "Mundo expandido com centenas de novas masmorras e equipamentos.",
+  "btn_discord": "ENTRAR NA COMUNIDADE DISCORD",
+
+  "info_version": "Versão",
+  "info_size": "Tamanho",
+  "info_category": "Categoria",
+  "info_price": "Preço",
+  "info_platform": "Plataforma",
+  "info_mod_features": "Recursos do MOD",
+
+  "val_category": "Ação / RPG",
+  "val_price": "GRÁTIS",
+  "val_platform": "Android, Win, Linux",
+  "val_mod_features": "1000+ Itens",
+
+  "section_discover": "Descubra a Experiência SGen",
+  "section_discover_desc": "O mais especial nesta versão é a <b>Interface Melhorada</b>. Todos os recursos foram cuidadosamente selecionados e editados para proporcionar uma experiência fresca e de alta qualidade para todos os fãs de Magic Rampage.",
+  "section_dungeons": "Mais Masmorras &amp; Desafios",
+  "section_dungeons_desc": "Alcance o nível 35 facilmente com nossas masmorras de EXP otimizadas e colete todos os itens das Masmorras Semanais diretamente no mod SGen.",
+  "section_downloads": "Downloads Disponíveis",
+
+  "dl_android_title": "SGen-9 Beta 0.67 (Android)",
+  "dl_android_meta": "v8.8.8 • APK • Mediafire",
+  "dl_pc_title": "SGen-9 Beta 0.67 (Windows)",
+  "dl_pc_meta": "v8.8.8 • EXE • Mediafire",
+  "btn_dl_apk": "Baixar APK",
+  "btn_dl_pc": "Baixar para PC",
+
+  "footer_text": "© 2026 Feito com 💖 pela SDroiMod. Todos os direitos reservados.",
+
+  "dl_page_subtitle": "Siga os 2 passos abaixo para desbloquear os links de download.",
+  "dl_page_hint": "Clique nos botões abaixo para concluir cada passo. Cada um abre a página do YouTube relacionada em uma nova aba.",
+  "how_to_install": "Como Instalar? (Clique aqui)",
+  "yt_warning_title": "⚠️ Usando o Navegador Interno do YouTube?",
+  "yt_warning_desc": "Se você vir um botão \"X\" no topo, toque nos <b>três pontos</b> (canto superior direito) e selecione <b>\"Abrir no Navegador\"</b>. Isso garante que seus passos sejam verificados corretamente.",
+
+  "step1_title": "Passo 1: Inscreva-se no canal SDroiMod",
+  "step1_btn": "Clique aqui para abrir o YouTube e se inscrever no SDroiMod",
+  "step1_hint": "Toque ou clique neste botão primeiro. Após concluir, o Passo 2 fica disponível automaticamente.",
+
+  "step2_title": "Passo 2: Curta este vídeo",
+  "step2_btn": "Clique aqui para abrir o vídeo e curtir",
+  "step2_hint": "Toque ou clique neste segundo botão após o Passo 1. Os links de download aparecerão abaixo.",
+
+  "badge_locked": "BLOQUEADO 🔒",
+  "badge_unlocked": "DESBLOQUEADO",
+  "checking_sub": "Verificando Inscrição...",
+  "verifying_like": "Verificando Curtida &amp; Comentário...",
+  "completed_text": "Concluído ✅",
+
+  "dl_unlocked": "🎉 Os links de download foram desbloqueados",
+  "btn_dl_android_mf": "Baixar APK Android (<span>MediaFire</span>) <span>(Beta 0.67)</span>",
+  "btn_dl_android_db": "Baixar APK Android (<span>Dropbox</span>) <span>(Beta 0.67)</span>",
+  "btn_dl_pc_mf": "Baixar Versão Windows PC (<span>MediaFire</span>) <span>(Beta 0.67)</span>",
+  "pc_note": "*Para PC: extraia o arquivo e clique em <strong>rungame.bat</strong> para jogar.",
+
+  "btn_discord_text": "Entrar no Discord",
+  "btn_facebook_text": "Entrar no Facebook",
+
+  "whats_new": "O Que Há de Novo no Beta 0.67?",
+  "new_content_title": "Novo Conteúdo:",
+  "new_items": "<li>Adicionada \"Espada Mata-Dragões\"</li><li>Adicionadas 480 Skins</li><li>Adicionados 500 Itens</li><li>Adicionados \"Just a Random Noob\" &amp; \"The Ancient Codices\"</li><li>Infinity Sword, Slime Core, Goku SSJ Head</li><li>Set Hellbringer (Infernal Blade, Hellskull)</li><li>Nova Prize Room, Loja, Tela de Estrelas</li>",
+  "improvements_title": "Melhorias:",
+  "improvements_items": "<li>Desbloqueie todas as skins premium &amp; itens da Loja</li><li>Grande Otimização de Desempenho</li><li>Interface mais limpa, Popups removidos</li>"
+}

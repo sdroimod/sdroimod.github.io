@@ -1,0 +1,71 @@
+{
+  "modal_title": "Apri questa pagina in un browser",
+  "modal_desc": "Usa un browser normale come Chrome, Yandex o Firefox per la migliore esperienza.",
+  "modal_copy": "Copia link 🔗",
+  "modal_close": "Chiudi",
+
+  "hero_desc": "Mondo ampliato con centinaia di nuovi dungeon e equipaggiamenti.",
+  "btn_discord": "UNISCITI ALLA COMMUNITY DISCORD",
+
+  "info_version": "Versione",
+  "info_size": "Dimensione",
+  "info_category": "Categoria",
+  "info_price": "Prezzo",
+  "info_platform": "Piattaforma",
+  "info_mod_features": "Funzionalità MOD",
+
+  "val_category": "Azione / GDR",
+  "val_price": "GRATIS",
+  "val_platform": "Android, Win, Linux",
+  "val_mod_features": "1000+ Oggetti",
+
+  "section_discover": "Scopri l'Esperienza SGen",
+  "section_discover_desc": "La cosa più speciale di questa versione è la <b>UI Migliorata</b>. Tutte le risorse sono state selezionate e modificate con cura per offrire un'esperienza fresca e di alta qualità a tutti i fan di Magic Rampage.",
+  "section_dungeons": "Più Dungeon &amp; Sfide",
+  "section_dungeons_desc": "Raggiungi facilmente il livello 35 con i nostri dungeon EXP ottimizzati e raccogli tutti gli oggetti dai Dungeon Settimanali direttamente nella mod SGen.",
+  "section_downloads": "Download Disponibili",
+
+  "dl_android_title": "SGen-9 Beta 0.67 (Android)",
+  "dl_android_meta": "v8.8.8 • APK • Mediafire",
+  "dl_pc_title": "SGen-9 Beta 0.67 (Windows)",
+  "dl_pc_meta": "v8.8.8 • EXE • Mediafire",
+  "btn_dl_apk": "Scarica APK",
+  "btn_dl_pc": "Scarica per PC",
+
+  "footer_text": "© 2026 Fatto con 💖 da SDroiMod. Tutti i diritti riservati.",
+
+  "dl_page_subtitle": "Segui i 2 passaggi qui sotto per sbloccare i link di download.",
+  "dl_page_hint": "Clicca i pulsanti qui sotto per completare ogni passaggio. Ognuno apre la pagina YouTube correlata in una nuova scheda.",
+  "how_to_install": "Come Installare? (Clicca qui)",
+  "yt_warning_title": "⚠️ Stai usando il browser integrato di YouTube?",
+  "yt_warning_desc": "Se vedi un pulsante «X» in alto, tocca i <b>tre punti</b> (in alto a destra) e seleziona <b>«Apri nel browser»</b>. Questo garantisce che i tuoi passaggi vengano verificati correttamente.",
+
+  "step1_title": "Passaggio 1: Iscriviti al canale SDroiMod",
+  "step1_btn": "Clicca qui per aprire YouTube e iscriverti a SDroiMod",
+  "step1_hint": "Tocca o clicca questo pulsante prima. Al termine, il Passaggio 2 diventa disponibile automaticamente.",
+
+  "step2_title": "Passaggio 2: Metti Mi Piace al video",
+  "step2_btn": "Clicca qui per aprire il video e mettere Mi Piace",
+  "step2_hint": "Tocca o clicca questo secondo pulsante dopo il Passaggio 1. I link di download appariranno sotto.",
+
+  "badge_locked": "BLOCCATO 🔒",
+  "badge_unlocked": "SBLOCCATO",
+  "checking_sub": "Verifica iscrizione...",
+  "verifying_like": "Verifica Mi Piace &amp; Commento...",
+  "completed_text": "Completato ✅",
+
+  "dl_unlocked": "🎉 I link di download sono stati sbloccati",
+  "btn_dl_android_mf": "Scarica APK Android (<span>MediaFire</span>) <span>(Beta 0.67)</span>",
+  "btn_dl_android_db": "Scarica APK Android (<span>Dropbox</span>) <span>(Beta 0.67)</span>",
+  "btn_dl_pc_mf": "Scarica Build Windows PC (<span>MediaFire</span>) <span>(Beta 0.67)</span>",
+  "pc_note": "*Per PC: estrai il file e clicca su <strong>rungame.bat</strong> per giocare.",
+
+  "btn_discord_text": "Unisciti a Discord",
+  "btn_facebook_text": "Unisciti a Facebook",
+
+  "whats_new": "Cosa c'è di Nuovo nella Beta 0.67?",
+  "new_content_title": "Nuovo Contenuto:",
+  "new_items": "<li>Aggiunta «Spada Ammazza-Draghi»</li><li>Aggiunte 480 Skin</li><li>Aggiunti 500 Oggetti</li><li>Aggiunti «Just a Random Noob» &amp; «The Ancient Codices»</li><li>Infinity Sword, Slime Core, Goku SSJ Head</li><li>Set Hellbringer (Infernal Blade, Hellskull)</li><li>Nuova Prize Room, Negozio, Schermata Stelle</li>",
+  "improvements_title": "Miglioramenti:",
+  "improvements_items": "<li>Sblocca tutte le skin premium &amp; oggetti del Negozio</li><li>Ottimizzazione delle prestazioni importante</li><li>Interfaccia più pulita, Popup rimossi</li>"
+}

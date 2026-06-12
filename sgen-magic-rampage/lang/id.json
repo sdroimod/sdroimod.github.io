@@ -1,0 +1,71 @@
+{
+  "modal_title": "Buka halaman ini di browser",
+  "modal_desc": "Gunakan browser biasa seperti Chrome, Yandex, atau Firefox untuk pengalaman terbaik.",
+  "modal_copy": "Salin Tautan 🔗",
+  "modal_close": "Tutup",
+
+  "hero_desc": "Dunia yang diperluas dengan ratusan dungeon baru dan perlengkapan.",
+  "btn_discord": "BERGABUNG KE KOMUNITAS DISCORD",
+
+  "info_version": "Versi",
+  "info_size": "Ukuran",
+  "info_category": "Kategori",
+  "info_price": "Harga",
+  "info_platform": "Platform",
+  "info_mod_features": "Fitur MOD",
+
+  "val_category": "Aksi / RPG",
+  "val_price": "GRATIS",
+  "val_platform": "Android, Win, Linux",
+  "val_mod_features": "1000+ Item",
+
+  "section_discover": "Temukan Pengalaman SGen",
+  "section_discover_desc": "Hal paling istimewa dari versi ini adalah <b>UI yang Lebih Baik</b>. Semua sumber daya dipilih dan diedit dengan cermat untuk memberikan pengalaman segar dan berkualitas tinggi bagi semua penggemar Magic Rampage.",
+  "section_dungeons": "Lebih Banyak Dungeon &amp; Tantangan",
+  "section_dungeons_desc": "Capai level 35 dengan mudah menggunakan dungeon EXP yang dioptimalkan dan kumpulkan semua item dari Dungeon Mingguan langsung di mod SGen.",
+  "section_downloads": "Unduhan Tersedia",
+
+  "dl_android_title": "SGen-9 Beta 0.67 (Android)",
+  "dl_android_meta": "v8.8.8 • APK • Mediafire",
+  "dl_pc_title": "SGen-9 Beta 0.67 (Windows)",
+  "dl_pc_meta": "v8.8.8 • EXE • Mediafire",
+  "btn_dl_apk": "Unduh APK",
+  "btn_dl_pc": "Unduh untuk PC",
+
+  "footer_text": "© 2026 Dibuat dengan 💖 oleh SDroiMod. Semua hak dilindungi.",
+
+  "dl_page_subtitle": "Ikuti 2 langkah di bawah untuk membuka tautan unduhan.",
+  "dl_page_hint": "Klik tombol di bawah untuk menyelesaikan setiap langkah. Masing-masing membuka halaman YouTube terkait di tab baru.",
+  "how_to_install": "Cara Install? (Klik di sini)",
+  "yt_warning_title": "⚠️ Menggunakan Browser Bawaan YouTube?",
+  "yt_warning_desc": "Jika kamu melihat tombol «X» di atas, ketuk <b>tiga titik</b> (kanan atas) dan pilih <b>«Buka di Browser»</b>. Ini memastikan langkah-langkahmu diverifikasi dengan benar.",
+
+  "step1_title": "Langkah 1: Subscribe ke channel SDroiMod",
+  "step1_btn": "Klik di sini untuk membuka YouTube dan subscribe SDroiMod",
+  "step1_hint": "Ketuk atau klik tombol ini terlebih dahulu. Setelah selesai, Langkah 2 otomatis tersedia.",
+
+  "step2_title": "Langkah 2: Like video ini",
+  "step2_btn": "Klik di sini untuk membuka video dan like",
+  "step2_hint": "Ketuk atau klik tombol kedua setelah Langkah 1 selesai. Tautan unduhan akan muncul di bawah.",
+
+  "badge_locked": "TERKUNCI 🔒",
+  "badge_unlocked": "TERBUKA",
+  "checking_sub": "Memeriksa Langganan...",
+  "verifying_like": "Memverifikasi Like &amp; Komentar...",
+  "completed_text": "Selesai ✅",
+
+  "dl_unlocked": "🎉 Tautan unduhan telah terbuka",
+  "btn_dl_android_mf": "Unduh APK Android (<span>MediaFire</span>) <span>(Beta 0.67)</span>",
+  "btn_dl_android_db": "Unduh APK Android (<span>Dropbox</span>) <span>(Beta 0.67)</span>",
+  "btn_dl_pc_mf": "Unduh Build Windows PC (<span>MediaFire</span>) <span>(Beta 0.67)</span>",
+  "pc_note": "*Untuk PC: ekstrak file dan klik <strong>rungame.bat</strong> untuk bermain.",
+
+  "btn_discord_text": "Gabung Discord",
+  "btn_facebook_text": "Gabung Facebook",
+
+  "whats_new": "Apa yang Baru di Beta 0.67?",
+  "new_content_title": "Konten Baru:",
+  "new_items": "<li>Ditambahkan «Dragon Slayer Sword»</li><li>Ditambahkan 480 Skin</li><li>Ditambahkan 500 Item</li><li>Ditambahkan «Just a Random Noob» &amp; «The Ancient Codices»</li><li>Infinity Sword, Slime Core, Goku SSJ Head</li><li>Set Hellbringer (Infernal Blade, Hellskull)</li><li>Prize Room, Toko, Layar Bintang baru</li>",
+  "improvements_title": "Peningkatan:",
+  "improvements_items": "<li>Buka semua skin premium &amp; item Toko</li><li>Optimasi Performa Besar</li><li>UI lebih bersih, Popup dihapus</li>"
+}

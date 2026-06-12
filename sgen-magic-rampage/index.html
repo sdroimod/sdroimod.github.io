@@ -17,7 +17,7 @@
     <meta name="twitter:title" content="SGen-9 Magic Rampage Mod Download and Presentation">
     <meta name="twitter:description" content="Screenshots, features, and download links for the SGen-9 Magic Rampage mod.">
     <meta name="twitter:image" content="https://sdroimod.github.io/sgen-magic-rampage/sprites/ui/root.png">
-    
+
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
@@ -127,7 +127,7 @@
             padding: 15px;
             border-radius: 15px;
             border: 1px solid var(--glass-border);
-            text-align: center; /* Center text visually better on all devices */
+            text-align: center;
         }
 
         .info-item small {
@@ -153,6 +153,13 @@
             border-left: 4px solid var(--primary);
             padding-left: 15px;
             margin-top: 40px;
+        }
+
+        [dir="rtl"] h2, [dir="rtl"] h3 {
+            border-left: none;
+            border-right: 4px solid var(--primary);
+            padding-left: 0;
+            padding-right: 15px;
         }
 
         /* --- GALLERY --- */
@@ -198,7 +205,7 @@
 
         .dl-info { display: flex; align-items: center; gap: 15px; }
         .dl-info img { width: 50px; height: 50px; border-radius: 10px; flex-shrink: 0; }
-        
+
         .dl-btn {
             background: linear-gradient(45deg, var(--secondary), #0066ff);
             color: white;
@@ -230,7 +237,7 @@
 
         .browser-modal-card {
             width: 100%;
-            max-width: 560px;
+            max-width: 480px;
             background: linear-gradient(180deg, rgba(26, 26, 32, 0.98), rgba(18, 18, 24, 0.98));
             border: 1px solid var(--glass-border);
             border-radius: 22px;
@@ -244,7 +251,9 @@
             margin-bottom: 12px;
             color: var(--primary);
             border-left: 0;
+            border-right: 0;
             padding-left: 0;
+            padding-right: 0;
             font-size: 1.25rem;
         }
 
@@ -253,29 +262,16 @@
             color: #d7d7d7;
         }
 
-        .browser-language-list {
-            margin: 16px 0 20px;
-            padding: 0;
-            list-style: none;
-            display: grid;
-            gap: 10px;
-        }
-
-        .browser-language-list li {
-            background: rgba(255, 255, 255, 0.04);
-            border: 1px solid rgba(255, 255, 255, 0.08);
-            border-radius: 12px;
-            padding: 12px 14px;
-            color: #f0f0f0;
-            line-height: 1.5;
-            margin: 0;
-        }
-
         .browser-modal-actions {
             display: flex;
             gap: 10px;
             flex-wrap: wrap;
             justify-content: flex-end;
+            margin-top: 18px;
+        }
+
+        [dir="rtl"] .browser-modal-actions {
+            justify-content: flex-start;
         }
 
         .browser-modal-close {
@@ -299,15 +295,8 @@
         }
 
         @keyframes modalPop {
-            from {
-                transform: translateY(14px) scale(0.98);
-                opacity: 0;
-            }
-
-            to {
-                transform: translateY(0) scale(1);
-                opacity: 1;
-            }
+            from { transform: translateY(14px) scale(0.98); opacity: 0; }
+            to   { transform: translateY(0) scale(1); opacity: 1; }
         }
 
         /* --- FOOTER --- */
@@ -322,97 +311,24 @@
         /*          MOBILE RESPONSIVE TWEAKS         */
         /* ========================================= */
         @media (max-width: 600px) {
-            body { 
-                padding: 10px;
-            }
-            .main-container { 
-                padding: 18px 14px;
-                border-radius: 16px;
-            }
-            .hero-section {
-                margin-bottom: 26px;
-            }
-            .app-icon {
-                width: 90px;
-                height: 90px;
-            }
-            h1 { 
-                font-size: 1.5rem;
-                line-height: 1.15;
-                letter-spacing: 1px;
-            }
-            .btn-discord {
-                width: 100%;
-                padding: 12px 16px;
-                font-size: 0.92rem;
-            }
-            
-            .info-grid { 
-                grid-template-columns: 1fr;
-                gap: 10px;
-            }
-            .info-item {
-                padding: 12px 10px;
-            }
-
-            .galWrp {
-                grid-template-columns: 1fr;
-                gap: 12px;
-            }
-
-            .dl-card { 
-                flex-direction: column; 
-                text-align: center; 
-                gap: 14px;
-                padding: 16px 14px;
-            }
-            .dl-info {
-                flex-direction: column;
-                gap: 10px;
-            }
-            .dl-btn {
-                width: 100%;
-                padding: 12px 16px;
-            }
-
-            .browser-modal {
-                padding: 12px;
-                align-items: flex-start;
-            }
-
-            .browser-modal-card {
-                max-height: calc(100vh - 24px);
-                overflow-y: auto;
-                padding: 18px 14px;
-                border-radius: 16px;
-            }
-
-            .browser-modal-card h2 {
-                font-size: 1.05rem;
-            }
-
-            .browser-modal-card p {
-                font-size: 0.95rem;
-            }
-
-            .browser-language-list {
-                gap: 8px;
-                margin: 14px 0 16px;
-            }
-
-            .browser-language-list li {
-                padding: 10px 12px;
-                font-size: 0.92rem;
-            }
-
-            .browser-modal-actions {
-                justify-content: stretch;
-            }
-
-            .browser-modal-close,
-            .browser-modal-copy {
-                width: 100%;
-            }
+            body { padding: 10px; }
+            .main-container { padding: 18px 14px; border-radius: 16px; }
+            .hero-section { margin-bottom: 26px; }
+            .app-icon { width: 90px; height: 90px; }
+            h1 { font-size: 1.5rem; line-height: 1.15; letter-spacing: 1px; }
+            .btn-discord { width: 100%; padding: 12px 16px; font-size: 0.92rem; }
+            .info-grid { grid-template-columns: 1fr; gap: 10px; }
+            .info-item { padding: 12px 10px; }
+            .galWrp { grid-template-columns: 1fr; gap: 12px; }
+            .dl-card { flex-direction: column; text-align: center; gap: 14px; padding: 16px 14px; }
+            .dl-info { flex-direction: column; gap: 10px; }
+            .dl-btn { width: 100%; padding: 12px 16px; }
+            .browser-modal { padding: 12px; align-items: flex-start; }
+            .browser-modal-card { max-height: calc(100vh - 24px); overflow-y: auto; padding: 18px 14px; border-radius: 16px; }
+            .browser-modal-card h2 { font-size: 1.05rem; }
+            .browser-modal-card p { font-size: 0.95rem; }
+            .browser-modal-actions { justify-content: stretch; }
+            .browser-modal-close, .browser-modal-copy { width: 100%; }
         }
     </style>
 </head>
@@ -420,18 +336,11 @@
 
     <div class="browser-modal" id="browser-modal" role="dialog" aria-modal="true" aria-labelledby="browser-modal-title">
         <div class="browser-modal-card">
-            <h2 id="browser-modal-title">Open this page in a browser</h2>
-            <p>Use a normal browser such as Chrome, Yandex, or Firefox for the best experience.</p>
-            <ul class="browser-language-list">
-                <li><strong>VI:</strong> Bạn nên mở trang này bằng trình duyệt (như Chrome, Yandex, ...).</li>
-                <li><strong>EN:</strong> You should open this page in a browser (like Chrome, Yandex, ...).</li>
-                <li><strong>BR:</strong> Você deve abrir esta página em um navegador (como Chrome, Yandex, ...).</li>
-                <li><strong>ES:</strong> Debes abrir esta página en un navegador (como Chrome, Yandex, ...).</li>
-                <li><strong>RU:</strong> Лучше открыть эту страницу в браузере (например, Chrome, Yandex, ...).</li>
-            </ul>
+            <h2 id="browser-modal-title" data-i18n="modal_title">Open this page in a browser</h2>
+            <p data-i18n="modal_desc">Use a normal browser such as Chrome, Yandex, or Firefox for the best experience.</p>
             <div class="browser-modal-actions">
-                <button class="browser-modal-copy" type="button" onclick="copyPageLink()">Copy Link🔗</button>
-                <button class="browser-modal-close" type="button" onclick="closeBrowserModal()">Close</button>
+                <button class="browser-modal-copy" type="button" onclick="copyPageLink()" data-i18n="modal_copy">Copy Link 🔗</button>
+                <button class="browser-modal-close" type="button" onclick="closeBrowserModal()" data-i18n="modal_close">Close</button>
             </div>
         </div>
     </div>
@@ -440,24 +349,24 @@
         <div class="hero-section">
             <img src="//blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEilX-GyXu4kbI2v9Jji2-BJviqYGyGSBMs9WkRnNNVx1YB5YcfaPk36hEIRUWRTbLfuaSCNSSeaxd9B4lKC2qNgaoYYKtffywtr1FPsTKh_9IlUKpUJ3fIsnyYFgcxWE3cb7mW7BT08YYjTD5ScmqR__FogajqI6X-w_3sq3bJDml-T7Q/s90/image.png" alt="SGen-9 Magic Rampage mod icon" class="app-icon">
             <h1>SGen-9 Magic Rampage</h1>
-            <p style="color: var(--text-muted)">Expanded world with hundreds of new dungeons and equipment.</p>
+            <p style="color: var(--text-muted)" data-i18n="hero_desc">Expanded world with hundreds of new dungeons and equipment.</p>
             <a href="https://discord.gg/PHjTvMpXtV" target="_blank" class="btn-discord">
-                <img src="https://cdn-icons-png.flaticon.com/512/5968/5968756.png" width="20" alt=""> JOIN COMMUNITY DISCORD
+                <img src="https://cdn-icons-png.flaticon.com/512/5968/5968756.png" width="20" alt=""> <span data-i18n="btn_discord">JOIN COMMUNITY DISCORD</span>
             </a>
         </div>
 
         <div class="info-grid">
-            <div class="info-item"><small>Version</small><span>8.8.8 (SGen-9)</span></div>
-            <div class="info-item"><small>Size</small><span>200 MB</span></div>
-            <div class="info-item"><small>Category</small><span>Action / RPG</span></div>
-            <div class="info-item"><small>Price</small><span style="color: var(--primary)">FREE</span></div>
-            <div class="info-item"><small>Platform</small><span>Android, Win, Linux</span></div>
-            <div class="info-item"><small>MOD Features</small><span>1000+ Items</span></div>
+            <div class="info-item"><small data-i18n="info_version">Version</small><span>8.8.8 (SGen-9)</span></div>
+            <div class="info-item"><small data-i18n="info_size">Size</small><span>200 MB</span></div>
+            <div class="info-item"><small data-i18n="info_category">Category</small><span data-i18n="val_category">Action / RPG</span></div>
+            <div class="info-item"><small data-i18n="info_price">Price</small><span style="color: var(--primary)" data-i18n="val_price">FREE</span></div>
+            <div class="info-item"><small data-i18n="info_platform">Platform</small><span data-i18n="val_platform">Android, Win, Linux</span></div>
+            <div class="info-item"><small data-i18n="info_mod_features">MOD Features</small><span data-i18n="val_mod_features">1000+ Items</span></div>
         </div>
 
-        <h2>Discover the SGen Experience</h2>
-        <p>The most special thing about this version is the <b>Better UI</b>. All resources were carefully selected and edited to provide a fresh, high-quality experience for all Magic Rampage fans.</p>
-        
+        <h2 data-i18n="section_discover">Discover the SGen Experience</h2>
+        <p data-i18n="section_discover_desc">The most special thing about this version is the <b>Better UI</b>. All resources were carefully selected and edited to provide a fresh, high-quality experience for all Magic Rampage fans.</p>
+
         <div class="galWrp">
             <img src="//blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiScee-bpjF3RN-6nVm-CtSmTuLmdMkbmsa1Qn9LGE0jVWLyVZidMlzlCj3EiWgLVD_piiPKStPMdMBbGXMTPwZvZrAMjffpiU2PerFf7_5cEtJCr1SxmuJKzxETkIs3c7KZ_YXslLnTCM/w720-h310-rw/" alt="SGen">
             <img src="//blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjZGtFNzcMdXdaExi3184OyXznwNwyK9pu0hDIDwnhL2OJABUGPBQucxNpwW3XyBWPtT2T6AWDG1qi-4oWURiePQs3jnIbY3fSRd2qfw6tHseJDI_ueTEsu5rgWwEifueo7Bc1rYv8LTW8/w720-h310-rw/" alt="SGen">
@@ -465,38 +374,40 @@
             <img src="//blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjl0kom1C0OLxDTEdO336Tm8btT2rkWXJXP35sZ6b0WeUs4Lj3fVofZ-Ouz_EI1JAKM7dRof3S0zmhQtyHJLNPIMcNgUzkB4_chSXKSJ6GesXPVsDIwbni1_hXdv4WbMOJlZCRfJiuSn0A/w720-h310-rw/" alt="SGen">
         </div>
 
-        <h3>More Dungeons & Challenges</h3>
-        <p>Reach level 35 easily with our optimized EXP dungeons and collect all items from the Weekly Dungeons directly in the SGen mod.</p>
+        <h3 data-i18n="section_dungeons">More Dungeons &amp; Challenges</h3>
+        <p data-i18n="section_dungeons_desc">Reach level 35 easily with our optimized EXP dungeons and collect all items from the Weekly Dungeons directly in the SGen mod.</p>
 
-        <h2>Available Downloads</h2>
-        
+        <h2 data-i18n="section_downloads">Available Downloads</h2>
+
         <div class="dl-card">
             <div class="dl-info">
                 <img src="//blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEilX-GyXu4kbI2v9Jji2-BJviqYGyGSBMs9WkRnNNVx1YB5YcfaPk36hEIRUWRTbLfuaSCNSSeaxd9B4lKC2qNgaoYYKtffywtr1FPsTKh_9IlUKpUJ3fIsnyYFgcxWE3cb7mW7BT08YYjTD5ScmqR__FogajqI6X-w_3sq3bJDml-T7Q/s90/image.png" alt="APK">
                 <div>
-                    <div style="font-weight: bold;">SGen-9 Beta 0.67 (Android)</div>
-                    <small style="color: var(--text-muted);">v8.8.8 • APK • Mediafire</small>
+                    <div style="font-weight: bold;" data-i18n="dl_android_title">SGen-9 Beta 0.67 (Android)</div>
+                    <small style="color: var(--text-muted);" data-i18n="dl_android_meta">v8.8.8 • APK • Mediafire</small>
                 </div>
             </div>
-            <a href="download/" class="dl-btn">Download APK</a>
+            <a href="download/" class="dl-btn" data-i18n="btn_dl_apk">Download APK</a>
         </div>
 
         <div class="dl-card">
             <div class="dl-info">
                 <img src="//blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEilX-GyXu4kbI2v9Jji2-BJviqYGyGSBMs9WkRnNNVx1YB5YcfaPk36hEIRUWRTbLfuaSCNSSeaxd9B4lKC2qNgaoYYKtffywtr1FPsTKh_9IlUKpUJ3fIsnyYFgcxWE3cb7mW7BT08YYjTD5ScmqR__FogajqI6X-w_3sq3bJDml-T7Q/s90/image.png" alt="PC">
                 <div>
-                    <div style="font-weight: bold;">SGen-9 Beta 0.67 (Windows)</div>
-                    <small style="color: var(--text-muted);">v8.8.8 • EXE • Mediafire</small>
+                    <div style="font-weight: bold;" data-i18n="dl_pc_title">SGen-9 Beta 0.67 (Windows)</div>
+                    <small style="color: var(--text-muted);" data-i18n="dl_pc_meta">v8.8.8 • EXE • Mediafire</small>
                 </div>
             </div>
-            <a href="download/" class="dl-btn" style="background: linear-gradient(45deg, #7289da, #5865f2);">Download PC</a>
+            <a href="download/" class="dl-btn" style="background: linear-gradient(45deg, #7289da, #5865f2);" data-i18n="btn_dl_pc">Download PC</a>
         </div>
 
     </div>
 
     <footer>
-        <p>© 2026 Made with 💖 by SDroiMod. All rights reserved.</p>
+        <p data-i18n="footer_text">© 2026 Made with 💖 by SDroiMod. All rights reserved.</p>
     </footer>
+
+    <script src="i18n.js" data-lang-base="lang/"></script>
 
     <script>
         const browserModal = document.getElementById("browser-modal");
@@ -507,7 +418,6 @@
 
         async function copyPageLink() {
             const pageLink = window.location.href;
-
             try {
                 await navigator.clipboard.writeText(pageLink);
             } catch (error) {
@@ -516,9 +426,7 @@
         }
 
         browserModal.addEventListener("click", (event) => {
-            if (event.target === browserModal) {
-                closeBrowserModal();
-            }
+            if (event.target === browserModal) closeBrowserModal();
         });
 
         window.addEventListener("DOMContentLoaded", () => {

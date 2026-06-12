@@ -1,0 +1,71 @@
+{
+  "modal_title": "افتح هذه الصفحة في متصفح",
+  "modal_desc": "استخدم متصفحًا عاديًا مثل Chrome أو Yandex أو Firefox للحصول على أفضل تجربة.",
+  "modal_copy": "نسخ الرابط 🔗",
+  "modal_close": "إغلاق",
+
+  "hero_desc": "عالم موسّع بمئات الزنازين والمعدات الجديدة.",
+  "btn_discord": "انضم إلى مجتمع DISCORD",
+
+  "info_version": "الإصدار",
+  "info_size": "الحجم",
+  "info_category": "الفئة",
+  "info_price": "السعر",
+  "info_platform": "المنصة",
+  "info_mod_features": "مميزات MOD",
+
+  "val_category": "أكشن / RPG",
+  "val_price": "مجاني",
+  "val_platform": "Android, Win, Linux",
+  "val_mod_features": "1000+ عنصر",
+
+  "section_discover": "اكتشف تجربة SGen",
+  "section_discover_desc": "أبرز ما يميز هذا الإصدار هو <b>واجهة المستخدم المحسّنة</b>. تم اختيار جميع الموارد وتحريرها بعناية لتوفير تجربة منعشة وعالية الجودة لجميع محبّي Magic Rampage.",
+  "section_dungeons": "المزيد من الزنازين &amp; التحديات",
+  "section_dungeons_desc": "ابلغ المستوى 35 بسهولة باستخدام زنازين EXP المحسّنة واجمع جميع العناصر من الزنازين الأسبوعية مباشرةً في مود SGen.",
+  "section_downloads": "التنزيلات المتاحة",
+
+  "dl_android_title": "SGen-9 Beta 0.67 (Android)",
+  "dl_android_meta": "v8.8.8 • APK • Mediafire",
+  "dl_pc_title": "SGen-9 Beta 0.67 (Windows)",
+  "dl_pc_meta": "v8.8.8 • EXE • Mediafire",
+  "btn_dl_apk": "تنزيل APK",
+  "btn_dl_pc": "تنزيل للحاسوب",
+
+  "footer_text": "© 2026 صُنع بـ 💖 من قِبَل SDroiMod. جميع الحقوق محفوظة.",
+
+  "dl_page_subtitle": "اتّبع الخطوتين أدناه لفتح روابط التنزيل.",
+  "dl_page_hint": "انقر على الأزرار أدناه لإكمال كل خطوة. كل زر يفتح صفحة YouTube المقابلة في علامة تبويب جديدة.",
+  "how_to_install": "كيفية التثبيت؟ (انقر هنا)",
+  "yt_warning_title": "⚠️ هل تستخدم متصفح YouTube الداخلي؟",
+  "yt_warning_desc": "إذا رأيت زر «X» في الأعلى، فانقر على <b>النقاط الثلاث</b> (أعلى اليمين) واختر <b>«فتح في المتصفح»</b>. يضمن هذا التحقق الصحيح من خطواتك.",
+
+  "step1_title": "الخطوة 1: اشترك في قناة SDroiMod",
+  "step1_btn": "انقر هنا لفتح YouTube والاشتراك في SDroiMod",
+  "step1_hint": "انقر على هذا الزر أولاً. بعد الانتهاء، تصبح الخطوة 2 متاحة تلقائيًا.",
+
+  "step2_title": "الخطوة 2: أعجبك هذا الفيديو",
+  "step2_btn": "انقر هنا لفتح الفيديو والإعجاب به",
+  "step2_hint": "انقر على هذا الزر الثاني بعد الخطوة 1. ستظهر روابط التنزيل أدناه.",
+
+  "badge_locked": "مقفل 🔒",
+  "badge_unlocked": "مفتوح",
+  "checking_sub": "جارٍ التحقق من الاشتراك...",
+  "verifying_like": "جارٍ التحقق من الإعجاب &amp; التعليق...",
+  "completed_text": "تم ✅",
+
+  "dl_unlocked": "🎉 تم فتح روابط التنزيل",
+  "btn_dl_android_mf": "تنزيل APK Android (<span>MediaFire</span>) <span>(Beta 0.67)</span>",
+  "btn_dl_android_db": "تنزيل APK Android (<span>Dropbox</span>) <span>(Beta 0.67)</span>",
+  "btn_dl_pc_mf": "تنزيل إصدار Windows PC (<span>MediaFire</span>) <span>(Beta 0.67)</span>",
+  "pc_note": "*للحاسوب: فك ضغط الملف وانقر على <strong>rungame.bat</strong> للعب.",
+
+  "btn_discord_text": "انضم إلى Discord",
+  "btn_facebook_text": "انضم إلى Facebook",
+
+  "whats_new": "ما الجديد في Beta 0.67؟",
+  "new_content_title": "محتوى جديد:",
+  "new_items": "<li>تمت إضافة «سيف قاتل التنانين»</li><li>تمت إضافة 480 مظهرًا</li><li>تمت إضافة 500 عنصر</li><li>تمت إضافة «Just a Random Noob» &amp; «The Ancient Codices»</li><li>Infinity Sword, Slime Core, Goku SSJ Head</li><li>طقم Hellbringer (Infernal Blade, Hellskull)</li><li>Prize Room جديدة، متجر، شاشة نجوم</li>",
+  "improvements_title": "تحسينات:",
+  "improvements_items": "<li>فتح جميع المظاهر المميزة &amp; عناصر المتجر</li><li>تحسين كبير للأداء</li><li>واجهة أنظف، تمت إزالة النوافذ المنبثقة</li>"
+}

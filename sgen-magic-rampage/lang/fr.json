@@ -1,0 +1,71 @@
+{
+  "modal_title": "Ouvrez cette page dans un navigateur",
+  "modal_desc": "Utilisez un navigateur classique comme Chrome, Yandex ou Firefox pour la meilleure expérience.",
+  "modal_copy": "Copier le lien 🔗",
+  "modal_close": "Fermer",
+
+  "hero_desc": "Un monde étendu avec des centaines de nouveaux donjons et équipements.",
+  "btn_discord": "REJOINDRE LA COMMUNAUTÉ DISCORD",
+
+  "info_version": "Version",
+  "info_size": "Taille",
+  "info_category": "Catégorie",
+  "info_price": "Prix",
+  "info_platform": "Plateforme",
+  "info_mod_features": "Fonctionnalités MOD",
+
+  "val_category": "Action / RPG",
+  "val_price": "GRATUIT",
+  "val_platform": "Android, Win, Linux",
+  "val_mod_features": "1000+ Objets",
+
+  "section_discover": "Découvrez l'Expérience SGen",
+  "section_discover_desc": "La particularité de cette version est sa <b>meilleure interface</b>. Toutes les ressources ont été soigneusement sélectionnées et retravaillées pour offrir une expérience fraîche et de haute qualité à tous les fans de Magic Rampage.",
+  "section_dungeons": "Plus de Donjons &amp; Défis",
+  "section_dungeons_desc": "Atteignez facilement le niveau 35 avec nos donjons EXP optimisés et collectez tous les objets des Donjons Hebdomadaires directement dans le mod SGen.",
+  "section_downloads": "Téléchargements Disponibles",
+
+  "dl_android_title": "SGen-9 Beta 0.67 (Android)",
+  "dl_android_meta": "v8.8.8 • APK • Mediafire",
+  "dl_pc_title": "SGen-9 Beta 0.67 (Windows)",
+  "dl_pc_meta": "v8.8.8 • EXE • Mediafire",
+  "btn_dl_apk": "Télécharger APK",
+  "btn_dl_pc": "Télécharger PC",
+
+  "footer_text": "© 2026 Créé avec 💖 par SDroiMod. Tous droits réservés.",
+
+  "dl_page_subtitle": "Suivez les 2 étapes ci-dessous pour débloquer les liens de téléchargement.",
+  "dl_page_hint": "Cliquez sur les boutons ci-dessous pour compléter chaque étape. Chacun ouvre la page YouTube correspondante dans un nouvel onglet.",
+  "how_to_install": "Comment Installer ? (Cliquez ici)",
+  "yt_warning_title": "⚠️ Vous utilisez le navigateur intégré de YouTube ?",
+  "yt_warning_desc": "Si vous voyez un bouton «X» en haut, appuyez sur les <b>trois points</b> (en haut à droite) et sélectionnez <b>«Ouvrir dans le navigateur»</b>. Cela garantit que vos étapes sont vérifiées correctement.",
+
+  "step1_title": "Étape 1 : S'abonner à la chaîne SDroiMod",
+  "step1_btn": "Cliquez ici pour ouvrir YouTube et vous abonner à SDroiMod",
+  "step1_hint": "Appuyez ou cliquez sur ce bouton en premier. Une fois terminé, l'étape 2 devient disponible automatiquement.",
+
+  "step2_title": "Étape 2 : Aimer cette vidéo",
+  "step2_btn": "Cliquez ici pour ouvrir la vidéo et l'aimer",
+  "step2_hint": "Appuyez ou cliquez sur ce deuxième bouton après l'étape 1. Les liens de téléchargement apparaîtront ci-dessous.",
+
+  "badge_locked": "VERROUILLÉ 🔒",
+  "badge_unlocked": "DÉVERROUILLÉ",
+  "checking_sub": "Vérification de l'abonnement...",
+  "verifying_like": "Vérification du like &amp; commentaire...",
+  "completed_text": "Terminé ✅",
+
+  "dl_unlocked": "🎉 Les liens de téléchargement sont débloqués",
+  "btn_dl_android_mf": "Télécharger APK Android (<span>MediaFire</span>) <span>(Beta 0.67)</span>",
+  "btn_dl_android_db": "Télécharger APK Android (<span>Dropbox</span>) <span>(Beta 0.67)</span>",
+  "btn_dl_pc_mf": "Télécharger la version Windows PC (<span>MediaFire</span>) <span>(Beta 0.67)</span>",
+  "pc_note": "*Pour PC : décompressez le fichier et cliquez sur <strong>rungame.bat</strong> pour jouer.",
+
+  "btn_discord_text": "Rejoindre Discord",
+  "btn_facebook_text": "Rejoindre Facebook",
+
+  "whats_new": "Quoi de Neuf dans Beta 0.67 ?",
+  "new_content_title": "Nouveau Contenu :",
+  "new_items": "<li>Ajout de «l'Épée Tueuse de Dragons»</li><li>Ajout de 480 Skins</li><li>Ajout de 500 Objets</li><li>Ajout de «Just a Random Noob» &amp; «The Ancient Codices»</li><li>Infinity Sword, Slime Core, Goku SSJ Head</li><li>Set Hellbringer (Infernal Blade, Hellskull)</li><li>Nouvelle Prize Room, Boutique, Écran d'Étoiles</li>",
+  "improvements_title": "Améliorations :",
+  "improvements_items": "<li>Débloquez tous les skins premium &amp; articles de la Boutique</li><li>Optimisation majeure des performances</li><li>Interface plus épurée, Popups supprimés</li>"
+}

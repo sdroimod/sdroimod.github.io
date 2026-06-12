@@ -1,0 +1,71 @@
+{
+  "modal_title": "Bu sayfayı bir tarayıcıda açın",
+  "modal_desc": "En iyi deneyim için Chrome, Yandex veya Firefox gibi normal bir tarayıcı kullanın.",
+  "modal_copy": "Bağlantıyı Kopyala 🔗",
+  "modal_close": "Kapat",
+
+  "hero_desc": "Yüzlerce yeni zindan ve ekipmanla genişletilmiş dünya.",
+  "btn_discord": "DISCORD TOPLULUĞUNA KATIL",
+
+  "info_version": "Sürüm",
+  "info_size": "Boyut",
+  "info_category": "Kategori",
+  "info_price": "Fiyat",
+  "info_platform": "Platform",
+  "info_mod_features": "MOD Özellikleri",
+
+  "val_category": "Aksiyon / RPG",
+  "val_price": "ÜCRETSİZ",
+  "val_platform": "Android, Win, Linux",
+  "val_mod_features": "1000+ Eşya",
+
+  "section_discover": "SGen Deneyimini Keşfet",
+  "section_discover_desc": "Bu sürümün en özel yanı <b>Geliştirilmiş Arayüz</b>. Tüm Magic Rampage hayranlarına taze, yüksek kaliteli bir deneyim sunmak için tüm kaynaklar özenle seçildi ve düzenlendi.",
+  "section_dungeons": "Daha Fazla Zindan &amp; Meydan Okuma",
+  "section_dungeons_desc": "Optimize edilmiş EXP zindanlarımızla kolayca 35. seviyeye ulaşın ve Haftalık Zindanların tüm eşyalarını doğrudan SGen modunda toplayın.",
+  "section_downloads": "Mevcut İndirmeler",
+
+  "dl_android_title": "SGen-9 Beta 0.67 (Android)",
+  "dl_android_meta": "v8.8.8 • APK • Mediafire",
+  "dl_pc_title": "SGen-9 Beta 0.67 (Windows)",
+  "dl_pc_meta": "v8.8.8 • EXE • Mediafire",
+  "btn_dl_apk": "APK İndir",
+  "btn_dl_pc": "PC İçin İndir",
+
+  "footer_text": "© 2026 SDroiMod tarafından 💖 ile yapıldı. Tüm hakları saklıdır.",
+
+  "dl_page_subtitle": "İndirme bağlantılarını açmak için aşağıdaki 2 adımı tamamlayın.",
+  "dl_page_hint": "Her adımı tamamlamak için aşağıdaki düğmelere tıklayın. Her biri ilgili YouTube sayfasını yeni bir sekmede açar.",
+  "how_to_install": "Nasıl Kurulur? (Buraya tıklayın)",
+  "yt_warning_title": "⚠️ YouTube'un Uygulama İçi Tarayıcısını mı Kullanıyorsunuz?",
+  "yt_warning_desc": "Üstte bir «X» düğmesi görüyorsanız, <b>üç noktaya</b> (sağ üst) dokunun ve <b>«Tarayıcıda Aç»</b> seçeneğini belirleyin. Bu, adımlarınızın doğru şekilde doğrulanmasını sağlar.",
+
+  "step1_title": "Adım 1: SDroiMod kanalına abone ol",
+  "step1_btn": "YouTube'u açmak ve SDroiMod'a abone olmak için buraya tıklayın",
+  "step1_hint": "Önce bu düğmeye tıklayın. Tamamlandıktan sonra Adım 2 otomatik olarak kullanılabilir hale gelir.",
+
+  "step2_title": "Adım 2: Bu videoyu beğen",
+  "step2_btn": "Videoyu açmak ve beğenmek için buraya tıklayın",
+  "step2_hint": "Adım 1 tamamlandıktan sonra bu ikinci düğmeye tıklayın. İndirme bağlantıları aşağıda görünecektir.",
+
+  "badge_locked": "KİLİTLİ 🔒",
+  "badge_unlocked": "KİLİT AÇILDI",
+  "checking_sub": "Abonelik Kontrol Ediliyor...",
+  "verifying_like": "Beğeni &amp; Yorum Doğrulanıyor...",
+  "completed_text": "Tamamlandı ✅",
+
+  "dl_unlocked": "🎉 İndirme bağlantıları açıldı",
+  "btn_dl_android_mf": "Android APK İndir (<span>MediaFire</span>) <span>(Beta 0.67)</span>",
+  "btn_dl_android_db": "Android APK İndir (<span>Dropbox</span>) <span>(Beta 0.67)</span>",
+  "btn_dl_pc_mf": "Windows PC Sürümü İndir (<span>MediaFire</span>) <span>(Beta 0.67)</span>",
+  "pc_note": "*PC için: dosyayı açın ve oynamak için <strong>rungame.bat</strong>'a tıklayın.",
+
+  "btn_discord_text": "Discord'a Katıl",
+  "btn_facebook_text": "Facebook'a Katıl",
+
+  "whats_new": "Beta 0.67'de Neler Yeni?",
+  "new_content_title": "Yeni İçerik:",
+  "new_items": "<li>«Ejderha Avcısı Kılıcı» eklendi</li><li>480 Kostüm eklendi</li><li>500 Eşya eklendi</li><li>«Just a Random Noob» &amp; «The Ancient Codices» eklendi</li><li>Infinity Sword, Slime Core, Goku SSJ Head</li><li>Hellbringer Seti (Infernal Blade, Hellskull)</li><li>Yeni Prize Room, Mağaza, Yıldız Ekranı</li>",
+  "improvements_title": "İyileştirmeler:",
+  "improvements_items": "<li>Tüm premium kostümler &amp; Mağaza eşyaları kilidi açıldı</li><li>Büyük Performans Optimizasyonu</li><li>Daha temiz arayüz, Popup'lar kaldırıldı</li>"
+}

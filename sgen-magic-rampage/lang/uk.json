@@ -1,0 +1,71 @@
+{
+  "modal_title": "Відкрийте цю сторінку у браузері",
+  "modal_desc": "Використовуйте звичайний браузер, наприклад Chrome, Yandex або Firefox.",
+  "modal_copy": "Скопіювати посилання 🔗",
+  "modal_close": "Закрити",
+
+  "hero_desc": "Розширений світ із сотнями нових підземель та спорядженням.",
+  "btn_discord": "ПРИЄДНАТИСЯ ДО DISCORD",
+
+  "info_version": "Версія",
+  "info_size": "Розмір",
+  "info_category": "Категорія",
+  "info_price": "Ціна",
+  "info_platform": "Платформа",
+  "info_mod_features": "Особливості MOD",
+
+  "val_category": "Екшен / RPG",
+  "val_price": "БЕЗКОШТОВНО",
+  "val_platform": "Android, Win, Linux",
+  "val_mod_features": "1000+ предметів",
+
+  "section_discover": "Відкрийте Світ SGen",
+  "section_discover_desc": "Головна особливість цієї версії — <b>покращений інтерфейс</b>. Усі ресурси були ретельно відібрані та доопрацьовані, щоб забезпечити свіжий досвід для всіх шанувальників Magic Rampage.",
+  "section_dungeons": "Більше підземель &amp; випробувань",
+  "section_dungeons_desc": "Легко досягайте 35 рівня з нашими оптимізованими EXP-підземеллями та збирайте всі предмети з тижневих підземель прямо в моді SGen.",
+  "section_downloads": "Доступні завантаження",
+
+  "dl_android_title": "SGen-9 Beta 0.67 (Android)",
+  "dl_android_meta": "v8.8.8 • APK • Mediafire",
+  "dl_pc_title": "SGen-9 Beta 0.67 (Windows)",
+  "dl_pc_meta": "v8.8.8 • EXE • Mediafire",
+  "btn_dl_apk": "Завантажити APK",
+  "btn_dl_pc": "Завантажити для PC",
+
+  "footer_text": "© 2026 Зроблено з 💖 командою SDroiMod. Всі права захищено.",
+
+  "dl_page_subtitle": "Виконайте 2 кроки нижче, щоб розблокувати посилання для завантаження.",
+  "dl_page_hint": "Натискайте кнопки нижче, щоб виконати кожен крок. Кожна відкриває відповідну сторінку YouTube у новій вкладці.",
+  "how_to_install": "Як встановити? (Натисніть тут)",
+  "yt_warning_title": "⚠️ Використовуєте вбудований браузер YouTube?",
+  "yt_warning_desc": "Якщо бачите кнопку «X» вгорі, натисніть <b>три крапки</b> (угорі праворуч) і виберіть <b>«Відкрити у браузері»</b>. Це забезпечить правильну перевірку кроків.",
+
+  "step1_title": "Крок 1: Підпишіться на канал SDroiMod",
+  "step1_btn": "Натисніть, щоб відкрити YouTube і підписатися на SDroiMod",
+  "step1_hint": "Спочатку натисніть цю кнопку. Після завершення Крок 2 стане доступним автоматично.",
+
+  "step2_title": "Крок 2: Поставте вподобання відео",
+  "step2_btn": "Натисніть, щоб відкрити відео і поставити вподобання",
+  "step2_hint": "Натисніть другу кнопку після Кроку 1. Посилання для завантаження з'являться нижче.",
+
+  "badge_locked": "ЗАБЛОКОВАНО 🔒",
+  "badge_unlocked": "РОЗБЛОКОВАНО",
+  "checking_sub": "Перевірка підписки...",
+  "verifying_like": "Перевірка вподобання &amp; коментаря...",
+  "completed_text": "Виконано ✅",
+
+  "dl_unlocked": "🎉 Посилання для завантаження розблоковано",
+  "btn_dl_android_mf": "Завантажити Android APK (<span>MediaFire</span>) <span>(Beta 0.67)</span>",
+  "btn_dl_android_db": "Завантажити Android APK (<span>Dropbox</span>) <span>(Beta 0.67)</span>",
+  "btn_dl_pc_mf": "Завантажити збірку для Windows PC (<span>MediaFire</span>) <span>(Beta 0.67)</span>",
+  "pc_note": "*Для PC: розпакуйте файл і запустіть <strong>rungame.bat</strong> для гри.",
+
+  "btn_discord_text": "Увійти в Discord",
+  "btn_facebook_text": "Увійти у Facebook",
+
+  "whats_new": "Що нового у Beta 0.67?",
+  "new_content_title": "Новий контент:",
+  "new_items": "<li>Додано «Меч Вбивці Драконів»</li><li>Додано 480 скінів</li><li>Додано 500 предметів</li><li>Додано «Just a Random Noob» &amp; «The Ancient Codices»</li><li>Infinity Sword, Slime Core, Goku SSJ Head</li><li>Набір Hellbringer (Infernal Blade, Hellskull)</li><li>Нова Prize Room, магазин, екран зірок</li>",
+  "improvements_title": "Покращення:",
+  "improvements_items": "<li>Розблоковано всі преміальні скіни &amp; товари магазину</li><li>Значна оптимізація продуктивності</li><li>Чистіший інтерфейс, прибрано спливаючі вікна</li>"
+}

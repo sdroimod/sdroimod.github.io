@@ -1,0 +1,71 @@
+{
+  "modal_title": "Abre esta página en un navegador",
+  "modal_desc": "Usa un navegador normal como Chrome, Yandex o Firefox para la mejor experiencia.",
+  "modal_copy": "Copiar Enlace 🔗",
+  "modal_close": "Cerrar",
+
+  "hero_desc": "Mundo ampliado con cientos de nuevas mazmorras y equipamiento.",
+  "btn_discord": "UNIRSE A LA COMUNIDAD DISCORD",
+
+  "info_version": "Versión",
+  "info_size": "Tamaño",
+  "info_category": "Categoría",
+  "info_price": "Precio",
+  "info_platform": "Plataforma",
+  "info_mod_features": "Características del MOD",
+
+  "val_category": "Acción / RPG",
+  "val_price": "GRATIS",
+  "val_platform": "Android, Win, Linux",
+  "val_mod_features": "1000+ Objetos",
+
+  "section_discover": "Descubre la Experiencia SGen",
+  "section_discover_desc": "Lo más especial de esta versión es la <b>Interfaz Mejorada</b>. Todos los recursos fueron cuidadosamente seleccionados y editados para ofrecer una experiencia fresca y de alta calidad para todos los fans de Magic Rampage.",
+  "section_dungeons": "Más Mazmorras &amp; Desafíos",
+  "section_dungeons_desc": "Llega al nivel 35 fácilmente con nuestras mazmorras de EXP optimizadas y colecciona todos los objetos de las Mazmorras Semanales directamente en el mod SGen.",
+  "section_downloads": "Descargas Disponibles",
+
+  "dl_android_title": "SGen-9 Beta 0.67 (Android)",
+  "dl_android_meta": "v8.8.8 • APK • Mediafire",
+  "dl_pc_title": "SGen-9 Beta 0.67 (Windows)",
+  "dl_pc_meta": "v8.8.8 • EXE • Mediafire",
+  "btn_dl_apk": "Descargar APK",
+  "btn_dl_pc": "Descargar para PC",
+
+  "footer_text": "© 2026 Hecho con 💖 por SDroiMod. Todos los derechos reservados.",
+
+  "dl_page_subtitle": "Sigue los 2 pasos a continuación para desbloquear los enlaces de descarga.",
+  "dl_page_hint": "Haz clic en los botones de abajo para completar cada paso. Cada uno abre la página de YouTube correspondiente en una nueva pestaña.",
+  "how_to_install": "¿Cómo Instalar? (Haz clic aquí)",
+  "yt_warning_title": "⚠️ ¿Usando el Navegador Interno de YouTube?",
+  "yt_warning_desc": "Si ves un botón «X» arriba, toca los <b>tres puntos</b> (arriba a la derecha) y selecciona <b>«Abrir en el navegador»</b>. Esto garantiza que tus pasos se verifiquen correctamente.",
+
+  "step1_title": "Paso 1: Suscríbete al canal de SDroiMod",
+  "step1_btn": "Haz clic aquí para abrir YouTube y suscribirte a SDroiMod",
+  "step1_hint": "Toca o haz clic en este botón primero. Una vez completado, el Paso 2 se activa automáticamente.",
+
+  "step2_title": "Paso 2: Dale Me Gusta al video",
+  "step2_btn": "Haz clic aquí para abrir el video y darle Me Gusta",
+  "step2_hint": "Toca o haz clic en este segundo botón tras el Paso 1. Los enlaces de descarga aparecerán abajo.",
+
+  "badge_locked": "BLOQUEADO 🔒",
+  "badge_unlocked": "DESBLOQUEADO",
+  "checking_sub": "Verificando Suscripción...",
+  "verifying_like": "Verificando Me Gusta &amp; Comentario...",
+  "completed_text": "Completado ✅",
+
+  "dl_unlocked": "🎉 Los enlaces de descarga están desbloqueados",
+  "btn_dl_android_mf": "Descargar APK Android (<span>MediaFire</span>) <span>(Beta 0.67)</span>",
+  "btn_dl_android_db": "Descargar APK Android (<span>Dropbox</span>) <span>(Beta 0.67)</span>",
+  "btn_dl_pc_mf": "Descargar Build Windows PC (<span>MediaFire</span>) <span>(Beta 0.67)</span>",
+  "pc_note": "*Para PC: descomprime el archivo y haz clic en <strong>rungame.bat</strong> para jugar.",
+
+  "btn_discord_text": "Unirse a Discord",
+  "btn_facebook_text": "Unirse a Facebook",
+
+  "whats_new": "¿Qué Hay de Nuevo en Beta 0.67?",
+  "new_content_title": "Nuevo Contenido:",
+  "new_items": "<li>Añadida «Espada Cazadragonas»</li><li>Añadidas 480 Skins</li><li>Añadidos 500 Objetos</li><li>Añadidos «Just a Random Noob» &amp; «The Ancient Codices»</li><li>Infinity Sword, Slime Core, Goku SSJ Head</li><li>Set Hellbringer (Infernal Blade, Hellskull)</li><li>Nueva Prize Room, Tienda, Pantalla de Estrellas</li>",
+  "improvements_title": "Mejoras:",
+  "improvements_items": "<li>Desbloquea todas las skins premium &amp; artículos de Tienda</li><li>Gran Optimización de Rendimiento</li><li>Interfaz más limpia, Popups eliminados</li>"
+}

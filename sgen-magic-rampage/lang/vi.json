@@ -1,0 +1,71 @@
+{
+  "modal_title": "Mở trang này bằng trình duyệt",
+  "modal_desc": "Hãy dùng trình duyệt thông thường như Chrome, Yandex hoặc Firefox để có trải nghiệm tốt nhất.",
+  "modal_copy": "Sao chép liên kết 🔗",
+  "modal_close": "Đóng",
+
+  "hero_desc": "Thế giới mở rộng với hàng trăm hầm ngục mới và trang bị phong phú.",
+  "btn_discord": "THAM GIA CỘNG ĐỒNG DISCORD",
+
+  "info_version": "Phiên bản",
+  "info_size": "Dung lượng",
+  "info_category": "Thể loại",
+  "info_price": "Giá",
+  "info_platform": "Nền tảng",
+  "info_mod_features": "Tính năng MOD",
+
+  "val_category": "Hành động / RPG",
+  "val_price": "MIỄN PHÍ",
+  "val_platform": "Android, Win, Linux",
+  "val_mod_features": "1000+ Vật phẩm",
+
+  "section_discover": "Khám Phá Trải Nghiệm SGen",
+  "section_discover_desc": "Điểm đặc biệt nhất của phiên bản này là <b>Giao diện Cải Tiến</b>. Tất cả tài nguyên được tuyển chọn và chỉnh sửa kỹ lưỡng để mang đến trải nghiệm mới mẻ, chất lượng cao cho tất cả người yêu thích Magic Rampage.",
+  "section_dungeons": "Thêm Hầm Ngục &amp; Thử Thách",
+  "section_dungeons_desc": "Dễ dàng đạt cấp 35 với các hầm ngục EXP được tối ưu hóa và thu thập tất cả vật phẩm từ Hầm Ngục Hàng Tuần ngay trong mod SGen.",
+  "section_downloads": "Tải Xuống",
+
+  "dl_android_title": "SGen-9 Beta 0.67 (Android)",
+  "dl_android_meta": "v8.8.8 • APK • Mediafire",
+  "dl_pc_title": "SGen-9 Beta 0.67 (Windows)",
+  "dl_pc_meta": "v8.8.8 • EXE • Mediafire",
+  "btn_dl_apk": "Tải APK",
+  "btn_dl_pc": "Tải bản PC",
+
+  "footer_text": "© 2026 Làm với 💖 bởi SDroiMod. Bảo lưu mọi quyền.",
+
+  "dl_page_subtitle": "Hoàn thành 2 bước dưới đây để mở khóa liên kết tải xuống.",
+  "dl_page_hint": "Nhấn các nút bên dưới để hoàn thành từng bước. Mỗi nút sẽ mở trang YouTube liên quan trong tab mới.",
+  "how_to_install": "Cách Cài Đặt? (Nhấn vào đây)",
+  "yt_warning_title": "⚠️ Đang dùng trình duyệt trong YouTube?",
+  "yt_warning_desc": "Nếu bạn thấy nút «X» ở trên, hãy nhấn <b>ba chấm</b> (trên cùng bên phải) và chọn <b>«Mở trong trình duyệt»</b>. Điều này đảm bảo các bước được xác minh đúng cách.",
+
+  "step1_title": "Bước 1: Đăng ký kênh SDroiMod",
+  "step1_btn": "Nhấn vào đây để mở YouTube và đăng ký SDroiMod",
+  "step1_hint": "Nhấn nút này trước. Sau khi hoàn thành, Bước 2 sẽ tự động mở khóa.",
+
+  "step2_title": "Bước 2: Thích video này",
+  "step2_btn": "Nhấn vào đây để mở video và thích",
+  "step2_hint": "Nhấn nút thứ hai sau khi Bước 1 xong. Liên kết tải xuống sẽ hiện bên dưới.",
+
+  "badge_locked": "CHƯA MỞ 🔒",
+  "badge_unlocked": "ĐÃ MỞ KHÓA",
+  "checking_sub": "Đang kiểm tra đăng ký...",
+  "verifying_like": "Đang xác minh Thích &amp; Bình luận...",
+  "completed_text": "Hoàn thành ✅",
+
+  "dl_unlocked": "🎉 Liên kết tải xuống đã được mở khóa",
+  "btn_dl_android_mf": "Tải APK Android (<span>MediaFire</span>) <span>(Beta 0.67)</span>",
+  "btn_dl_android_db": "Tải APK Android (<span>Dropbox</span>) <span>(Beta 0.67)</span>",
+  "btn_dl_pc_mf": "Tải bản Windows PC (<span>MediaFire</span>) <span>(Beta 0.67)</span>",
+  "pc_note": "*Bản PC: giải nén file rồi nhấn vào <strong>rungame.bat</strong> để chơi.",
+
+  "btn_discord_text": "Vào Discord",
+  "btn_facebook_text": "Vào Facebook",
+
+  "whats_new": "Có Gì Mới Trong Beta 0.67?",
+  "new_content_title": "Nội dung mới:",
+  "new_items": "<li>Thêm «Kiếm Giết Rồng»</li><li>Thêm 480 Skin</li><li>Thêm 500 Vật phẩm</li><li>Thêm «Just a Random Noob» &amp; «The Ancient Codices»</li><li>Infinity Sword, Slime Core, Goku SSJ Head</li><li>Bộ Hellbringer (Infernal Blade, Hellskull)</li><li>Prize Room, Shop, Star Screen mới</li>",
+  "improvements_title": "Cải tiến:",
+  "improvements_items": "<li>Mở khóa toàn bộ skin premium &amp; vật phẩm Shop</li><li>Tối ưu hóa hiệu năng lớn</li><li>Giao diện gọn gàng hơn, xóa Popup</li>"
+}

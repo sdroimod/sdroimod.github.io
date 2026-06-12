@@ -1,0 +1,71 @@
+{
+  "modal_title": "เปิดหน้านี้ในเบราว์เซอร์",
+  "modal_desc": "ใช้เบราว์เซอร์ปกติ เช่น Chrome, Yandex หรือ Firefox เพื่อประสบการณ์ที่ดีที่สุด",
+  "modal_copy": "คัดลอกลิงก์ 🔗",
+  "modal_close": "ปิด",
+
+  "hero_desc": "โลกที่ขยายใหญ่ขึ้นพร้อมดันเจี้ยนและอุปกรณ์ใหม่หลายร้อยรายการ",
+  "btn_discord": "เข้าร่วมชุมชน DISCORD",
+
+  "info_version": "เวอร์ชัน",
+  "info_size": "ขนาด",
+  "info_category": "หมวดหมู่",
+  "info_price": "ราคา",
+  "info_platform": "แพลตฟอร์ม",
+  "info_mod_features": "ฟีเจอร์ MOD",
+
+  "val_category": "แอคชัน / RPG",
+  "val_price": "ฟรี",
+  "val_platform": "Android, Win, Linux",
+  "val_mod_features": "1000+ รายการ",
+
+  "section_discover": "ค้นพบประสบการณ์ SGen",
+  "section_discover_desc": "สิ่งที่พิเศษที่สุดในเวอร์ชันนี้คือ <b>UI ที่ดีกว่าเดิม</b> ทรัพยากรทั้งหมดได้รับการคัดเลือกและแก้ไขอย่างพิถีพิถันเพื่อมอบประสบการณ์ใหม่คุณภาพสูงแก่แฟน Magic Rampage ทุกคน",
+  "section_dungeons": "ดันเจี้ยน &amp; ความท้าทายเพิ่มเติม",
+  "section_dungeons_desc": "ขึ้นเลเวล 35 ได้ง่ายๆ ด้วยดันเจี้ยน EXP ที่ปรับแต่งแล้ว และรวบรวมไอเทมทั้งหมดจากดันเจี้ยนรายสัปดาห์ใน SGen mod โดยตรง",
+  "section_downloads": "ดาวน์โหลด",
+
+  "dl_android_title": "SGen-9 Beta 0.67 (Android)",
+  "dl_android_meta": "v8.8.8 • APK • Mediafire",
+  "dl_pc_title": "SGen-9 Beta 0.67 (Windows)",
+  "dl_pc_meta": "v8.8.8 • EXE • Mediafire",
+  "btn_dl_apk": "ดาวน์โหลด APK",
+  "btn_dl_pc": "ดาวน์โหลด PC",
+
+  "footer_text": "© 2026 สร้างด้วย 💖 โดย SDroiMod สงวนสิทธิ์ทั้งหมด",
+
+  "dl_page_subtitle": "ทำตาม 2 ขั้นตอนด้านล่างเพื่อปลดล็อกลิงก์ดาวน์โหลด",
+  "dl_page_hint": "คลิกปุ่มด้านล่างเพื่อทำแต่ละขั้นตอนให้เสร็จ แต่ละปุ่มจะเปิดหน้า YouTube ที่เกี่ยวข้องในแท็บใหม่",
+  "how_to_install": "วิธีติดตั้ง? (คลิกที่นี่)",
+  "yt_warning_title": "⚠️ ใช้เบราว์เซอร์ในแอป YouTube อยู่?",
+  "yt_warning_desc": "หากเห็นปุ่ม «X» ด้านบน ให้แตะ <b>สามจุด</b> (ขวาบน) และเลือก <b>«เปิดในเบราว์เซอร์»</b> เพื่อให้ขั้นตอนของคุณได้รับการยืนยันอย่างถูกต้อง",
+
+  "step1_title": "ขั้นตอนที่ 1: ติดตามช่อง SDroiMod",
+  "step1_btn": "คลิกที่นี่เพื่อเปิด YouTube และติดตาม SDroiMod",
+  "step1_hint": "แตะหรือคลิกปุ่มนี้ก่อน หลังจากเสร็จสิ้น ขั้นตอนที่ 2 จะเปิดใช้งานโดยอัตโนมัติ",
+
+  "step2_title": "ขั้นตอนที่ 2: กดถูกใจวิดีโอนี้",
+  "step2_btn": "คลิกที่นี่เพื่อเปิดวิดีโอและกดถูกใจ",
+  "step2_hint": "แตะหรือคลิกปุ่มที่สองหลังจากขั้นตอนที่ 1 เสร็จสิ้น ลิงก์ดาวน์โหลดจะปรากฏด้านล่าง",
+
+  "badge_locked": "ล็อกอยู่ 🔒",
+  "badge_unlocked": "ปลดล็อกแล้ว",
+  "checking_sub": "กำลังตรวจสอบการติดตาม...",
+  "verifying_like": "กำลังยืนยันถูกใจ &amp; ความคิดเห็น...",
+  "completed_text": "เสร็จสิ้น ✅",
+
+  "dl_unlocked": "🎉 ลิงก์ดาวน์โหลดปลดล็อกแล้ว",
+  "btn_dl_android_mf": "ดาวน์โหลด APK Android (<span>MediaFire</span>) <span>(Beta 0.67)</span>",
+  "btn_dl_android_db": "ดาวน์โหลด APK Android (<span>Dropbox</span>) <span>(Beta 0.67)</span>",
+  "btn_dl_pc_mf": "ดาวน์โหลด Windows PC Build (<span>MediaFire</span>) <span>(Beta 0.67)</span>",
+  "pc_note": "*สำหรับ PC: แตกไฟล์แล้วคลิก <strong>rungame.bat</strong> เพื่อเล่น",
+
+  "btn_discord_text": "เข้าร่วม Discord",
+  "btn_facebook_text": "เข้าร่วม Facebook",
+
+  "whats_new": "มีอะไรใหม่ใน Beta 0.67?",
+  "new_content_title": "เนื้อหาใหม่:",
+  "new_items": "<li>เพิ่ม «ดาบนักฆ่ามังกร»</li><li>เพิ่ม 480 สกิน</li><li>เพิ่ม 500 ไอเทม</li><li>เพิ่ม «Just a Random Noob» &amp; «The Ancient Codices»</li><li>Infinity Sword, Slime Core, Goku SSJ Head</li><li>ชุด Hellbringer (Infernal Blade, Hellskull)</li><li>Prize Room, ร้านค้า, หน้าจอดาวใหม่</li>",
+  "improvements_title": "การปรับปรุง:",
+  "improvements_items": "<li>ปลดล็อกสกินพรีเมียม &amp; ไอเทมร้านค้าทั้งหมด</li><li>การปรับแต่งประสิทธิภาพครั้งใหญ่</li><li>UI สะอาดขึ้น นำ Popup ออก</li>"
+}
