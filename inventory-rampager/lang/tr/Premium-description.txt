@@ -1,0 +1,11 @@
+[h1]Oyun tarzı[/h1]
+
+[b]Magic Rampage[/b], temel olarak [b]16-bit[/b] dönemi klasiklerinden ilham alan ve modern savaş oyunu mekaniklerini ve güncellenmiş grafikleri bir araya getiren bir Aksiyon RPG[/b] oyunudur. Her zindan oyuncuya yeni engeller, düşmanlar ve keşfedilmeyi bekleyen gizli alanlar sunar. Tek oyunculu hikaye modunda bonus seviyeler, Hayatta Kalma modu, dost NPC'ler ve Boss dövüşleri de bulunmaktadır.
+
+O yüksek tempolu aksiyon platform oyunlarını özlüyorsan Magic Rampage tam sana göre.
+
+[h1]RPG kısmı[/h1]
+
+[b]Magic Rampage[/b] karakter yaratma özelliği sunar ve zırhlar ile bıçaklar, kılıçlar, gürzler, çekiçler, baltalar ve büyülü mühürler de dahil olmak üzere çeşitli silahları bir araya getirir. Silahlar ve zırhlar kuşanıldığında karakterin tüm görünümünü değiştirerek sihirli elementler ve onların kendilerine özgü özellikleri ile yüzlerce kombinasyon oluşturulmasını sağlar.
+
+Hikaye anlatımı mekanikleri, aksiyonun anlatım tarzını gerçek zamanlı olaylar ile iç içe geçirir ve oyuncuyu karizmatik ve ilginç NPC'ler ile dolu derin ve sürükleyici bir hikayenin içine çeker.

@@ -873,6 +873,14 @@
 "Crowned Dragonhead Staff" = "Tête de dragon couronnée";
 "Crowned Dragonhead Staff-desc" = "Des dragons gardaient autrefois le gouffre entre les mondes. Celui-ci s'incline devant un nouveau maître.";
 "Knight of Discord Armor" = "Chevalier de la Discord";
+"Ashbite Dagger" = "Croc des Cendres";
+"Icequake Hammer" = "Secousse Gelée";
+"Glacial Crusher Hammer" = "Broyeur Glacial";
+"Snowgrave" = "Tombe des Neiges";
+"Aurabite Dagger" = "Morsure Dorée";
+"Dawnfang Dagger" = "Croc de l’Aube";
+"All Seeing Spear" = "Lance omnisciente";
+"All Seeing Staff" = "Bâton omniscient";
 "All Seeing Ring-desc" = "Tu as déjà eu l'impression d'être observé ? Porter cet anneau peut t'aider à t'isoler.";
 "Arcane Mage Suit-desc" = "L'ancienne Légion des arcanes cherchait autrefois à téléporter les âmes, mais des petites âmes sœurs ont continué à passer de l'autre côté.";
 "Bankers Coat Plus-desc" = "Une touche de raffinement qui te distinguera, aussi bien parmi les aristocrates que les morts-vivants.";
@@ -918,3 +926,12 @@
 "The Oxymos Codex-lore" = "Des inscriptions dorées qu'on ne déchiffre pas, elles vibrent seulement de la promesse d'une aube lointaine.";
 "All Seeing Hammer-lore" = "Dans les derniers souffles, l'angoisse cesse de murmurer et se met à te fixer.";
 "Plate of Blessed Glory-lore" = "Un lointain héritage de la lumière éternelle d'Oxymo.";
+"Bone Hammer-desc" = "Parfois, des os massifs se révèlent plus mortels que n'importe quelle lame ou sort.";
+"Dark Dagger-desc" = "Plus rapide que la pensée. Plus profonde que la conscience.";
+"Golden Piercer Spear-desc" = "Intact face à la corrosion du temps, son or rendit l'éternité concevable.";
+"Mojaras Hammer-desc" = "À chaque coup, l'univers hésite ; comme un déjà-vu de sa genèse chaotique.";
+"Osun-desc" = "Un coup. Un instant. Pour toujours.";
+"Precious Dual-blade Dagger-desc" = "Un tranchant garde les ombres d'ères oubliées ; l'autre irradie la lumière de gloires éternelles.";
+"Undines Shuriken-desc" = "Des lames suspendues dans l'instant absolu, là où le temps refuse de s'écouler.";
+"Air Striker-desc" = "Un trait dans l'air. Un abîme dans l'âme.";
+"The Word of the Wind-desc" = "Des sigils voilés murmurent les formes éternelles de la lune idéale.";

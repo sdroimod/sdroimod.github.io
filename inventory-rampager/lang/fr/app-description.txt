@@ -1,0 +1,44 @@
+﻿Jeu de plateforme qui combine le genre action-RPG à un gameplay hallucinant !
+
+Un passionnant jeu de plate-forme, qui combine le genre RPG à un gameplay d'action au rythme soutenu. Magic Rampage vous propose de customiser vos personnages, ainsi que des douzaines d'armes à manier, allant des couteaux aux bâtons magiques. Chaque donjon vous confronte à de nouveaux obstacles, ennemis et zones secrètes à explorer. Partez à la recherche de niveaux bonus, luttez pour la victoire dans le mode Survival, joignez vos forces à celles des sympathiques PNJ et lancez-vous dans des combats de boss exigeants.
+
+Magic Rampage propose un passionnant Mode Compétition en ligne où les joueurs du monde entier peuvent se défier pour découvrir qui est le meilleur dans des donjons générés de manière aléatoire, regorgeant de boss uniques, ainsi que de nouveaux objets et contenus exclusifs !
+
+Magic Rampage vous propose le style et les sensations des meilleurs jeux classiques de plate-forme des années 90, le tout avec des mécaniques de gameplay renouvelées et stimulantes. Si tu penses que les jeux d’aujourd’hui ne sont pas aussi bons qu’avant et que tu regrettes l’époque des jeux de plate-forme 16 bits, Magic Rampage est fait pour toi.
+
+Magic Rampage prend en charge les joysticks, manettes et claviers physiques pour une réactivité de gameplay encore plus précise.
+
+CAMPAGNE
+
+Aventurez-vous dans des châteaux, marécages et forêts pour combattre des zombies, araignées géantes, dragons, chauves-souris, ainsi que de nombreux boss puissants ! Choisissez votre classe, enfilez votre armure et équipez-vous de votre meilleure arme : couteaux, marteaux, bâtons magiques, et bien plus encore ! Découvrez qui a capturé le roi !
+
+COMPÉTITION
+
+Défiez d'autres joueurs dans des donjons générés aléatoirement avec une grande variété d'obstacles, d'ennemis et de boss ! Vous pouvez aussi défier vos amis. 
+
+Plus vous vous battez, meilleur sera votre classement, et plus vous vous rapprocherez de cette place qui vous attend dans le grand Hall of Fame !
+
+DONJONS HEBDOMADAIRES - C'est parti !
+
+Un nouveau donjon toutes les semaines ! Chaque semaine, les joueurs pourront découvrir un défi unique et des récompenses épiques !
+
+Les donjons hebdomadaires proposent des défis de temps et d'étoiles dans trois niveaux de difficulté. En outre, tu pourras obtenir des points de classement supplémentaires chaque jour en terminant le donjon.
+
+PERSONNALISATION DE PERSONNAGE
+
+Choisis ta classe (mage, guerrier, druide, enchanteur, bandit, paladin, voleur et bien d'autres), et personnalise les armes et armures de ton personnage. Tu peux choisir les armes et armures parfaites en fonction de ta classe, ainsi que leurs éléments magiques : feu, eau, air, terre, lumière et ténèbres, te permettant de personnaliser encore plus ton héros grâce à ton style de jeu.
+
+MODE SURVIE
+
+Mets ta force à l'épreuve ! Pénètre dans les donjons les plus dangereux du château et bats-toi contre de nombreux ennemis. Plus longtemps tu resteras en vie, plus tu récupéreras d'or et d’armes ! Le Mode Survie est un excellent moyen de remporter de nouvelles armes et armures, ainsi que de l'or pour équiper ton personnage et le rendre de plus en plus fort.
+
+BOUTIQUE
+
+Entre dans la boutique et rencontres-y le vendeur. Il te proposera les meilleures armes, armures et même des runes rares, qui te permettront d'augmenter les dégâts et le bouclier de ton arsenal. Le vendeur n'est pas très amical, mais c'est le seul qui pourra t'aider contre tous les ennemis et boss que tu rencontreras sur ton chemin !
+
+MODE VERSUS LOCAL
+
+As-tu une télévision Android ? Connecte deux manettes et invite tes amis à jouer avec toi ! Nous avons créé un mode versus reprenant les principaux personnages du jeu, avec des arènes de combat basées sur les donjons du mode Campagne. Tu devras être rapide si tu veux l'emporter ! Récupère des armes qui se trouvent dans les caisses éparpillées dans l'arène, tue des PNJ et ne quitte pas ton adversaire des yeux !
+
+<button url="http://magicrampage.com/beta/">Rejoindre la bêta</button>
+<button url="http://magicrampage.com/forums/">Forums communautaires</button>

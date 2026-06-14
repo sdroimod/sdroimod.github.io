@@ -931,6 +931,14 @@
 "Crowned Dragonhead Staff" = "竜冠の杖";
 "Crowned Dragonhead Staff-desc" = "かつて竜たちは世界の狭間を守護していた 今この竜は新たなる主に頭を垂れる";
 "Knight of Discord Armor" = "ディスコードの騎士";
+"Ashbite Dagger" = "灰の牙";
+"Icequake Hammer" = "氷震";
+"Glacial Crusher Hammer" = "氷河砕き";
+"Snowgrave" = "雪墓";
+"Aurabite Dagger" = "光牙";
+"Dawnfang Dagger" = "暁の牙";
+"All Seeing Spear" = "達眼の槍";
+"All Seeing Staff" = "達眼の杖";
 "All Seeing Ring-desc" = "いつも誰かに見られている気がする？ この指輪をつければ孤独は少しやわらぐかもしれない";
 "Arcane Mage Suit-desc" = "古の秘術軍団は魂を転移させようとした だがその先に小さな双子がすり抜けてしまった";
 "Bankers Coat Plus-desc" = "わずかな洗練さで貴族にもアンデッドにも抜きんでる";
@@ -976,3 +984,12 @@
 "The Oxymos Codex-lore" = "解読のためではない 金の文字は遠い暁の約束を震わせる";
 "All Seeing Hammer-lore" = "最期の息で 苦悩は囁きをやめ こちらを見返す";
 "Plate of Blessed Glory-lore" = "オクシモの永遠の光より受け継がれた遠き遺産";
+"Bone Hammer-desc" = "時に巨大な骨は どんな刃や呪文よりも致命的となる";
+"Dark Dagger-desc" = "思考より速く 意識より深い";
+"Golden Piercer Spear-desc" = "時の腐食に侵されぬその黄金は 永遠を想像し得るものにした";
+"Mojaras Hammer-desc" = "一撃ごとに宇宙はためらう それは混沌の創世を思わせる既視感";
+"Osun-desc" = "一つの斬撃 一つの瞬間 永遠に";
+"Precious Dual-blade Dagger-desc" = "片刃は忘れられた時代の影を守り もう片刃は永遠の栄光の光を放つ";
+"Undines Shuriken-desc" = "絶対の瞬間に留められた刃 時が流れることを拒む場所で";
+"Air Striker-desc" = "空を裂く一筋 魂に開く深淵";
+"The Word of the Wind-desc" = "隠された印が 理想の月の永遠なる形を囁く";

@@ -2,3 +2,7 @@ legacy
 /legacy/*
 /sgen-installer
 sgen-installer/
+lang/*.strings
+lang/*.txt
+lang/*.xml
+*.strings

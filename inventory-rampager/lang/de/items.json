@@ -512,7 +512,6 @@
     "Barricade of Redemption": "Barrikade der Erlösung",
     "Kings Spectre Tunic": "Königs Gespenstentunika",
     "poisonous-item-desc": "Verursacht zusätzlichen Giftschaden.",
-
     "Mooncleaver": "Mondhackbeil",
     "Barbaric Ravager": "Barbarischer Verwüster",
     "Golden Crescent": "Goldener Halbmond",
@@ -520,7 +519,6 @@
     "Ivory Greataxe": "Elfenbein-Großaxt",
     "Conqueror Edge": "Erobererschneide",
     "Edge of Death": "Schneide des Todes",
-
     "Primitive Scalpel": "Primitives Skalpell",
     "Skewer of the King": "Spieß des Königs",
     "Curved Bronze Skewer": "Gebogener Bronzespieß",
@@ -529,7 +527,6 @@
     "Diamond Piercer": "Diamantendurchbohrer",
     "Ferocious Skewer": "Wilder Spieß",
     "Razor of Diligence": "Rasierklinge des Fleißes",
-
     "Twilight Ebon Mace": "Schwarze Dämmerungskeule",
     "Dawnbreaker": "Dämmerungsbrecher",
     "Enlightened Hammer": "Erleuchteter Hammer",
@@ -539,7 +536,6 @@
     "Dancing Smasher": "Tanzender Zertrümmerer",
     "Ivory Crusher": "Elfenbeinbrecher",
     "Smasher of the Damned": "Zertrümmerer der Verdammten",
-
     "Lightning Halberd": "Blitzenhellebarde",
     "Wicked Skewer": "Böser Spieß",
     "Arcane Piercer": "Arkaner Durchbohrer",
@@ -548,7 +544,6 @@
     "Challenger's Impaler": "Pfähler des Herausforderers",
     "Cataclysmic Spear": "Kataklysmischer Speer",
     "Vindictive Piercer": "Rachsüchtiger Durchbohrer",
-
     "Unholy Might": "Unheilige Macht",
     "Malicious Quickblade": "Bösartige Schnellklinge",
     "Frost Rapier": "Frostrapier",
@@ -561,7 +556,6 @@
     "Storm Breaker": "Sturmbrecher",
     "Cthulhu Set": "Cthulhu Set",
     "Sword of 103 Lamentations": "Schwert der 103 Klagelieder",
-
     "Fortunes Battleaxe": "Glücks Streitaxt",
     "Goldsteel Sword": "Goldstahl",
     "Golden Needle Sword": "Goldene Nadel",
@@ -572,7 +566,6 @@
     "Precious Dual-blade Dagger": "Wertvolle Doppelklinge",
     "Royal War Staff": "Königlicher Kriegsstab",
     "treasure-item-desc": "Dieser Gegenstand ist viel Gold wert.",
-
     "Icebane Magic Staff": "Eisbann",
     "Magic Cog": "Magisches Zahnrad",
     "magic-cog-desc": "Beschwört einen uralten zahnradähnlichen Gefährten.",
@@ -874,6 +867,14 @@
     "Crowned Dragonhead Staff": "Gekrönter Drachenkopf",
     "Crowned Dragonhead Staff-desc": "Einst bewachten Drachen den Riss zwischen den Welten. Dieser hier dient nun einem neuen Meister.",
     "Knight of Discord Armor": "Ritter von Discord",
+    "Ashbite Dagger": "Aschenzahn",
+    "Icequake Hammer": "Frostbeben",
+    "Glacial Crusher Hammer": "Gletscherbrecher",
+    "Snowgrave": "Schneegrab",
+    "Aurabite Dagger": "Lichtbiss",
+    "Dawnfang Dagger": "Dämmerzahn",
+    "All Seeing Spear": "Allsehender Speer",
+    "All Seeing Staff": "Allsehender Stab",
     "All Seeing Ring-desc": "Hattest du je das Gefühl, ständig beobachtet zu werden? Das Tragen dieses Rings könnte gegen die Einsamkeit helfen.",
     "Arcane Mage Suit-desc": "Die uralte Arkane Legion versuchte einst, Seelen zu teleportieren, doch winzige Zwillinge schlüpften stets auf der anderen Seite hindurch.",
     "Bankers Coat Plus-desc": "Ein Hauch von Raffinesse hebt dich hervor, ob unter Aristokraten oder Untoten.",
@@ -918,5 +919,14 @@
     "War-Forged Smasher-lore": "Geformt von endlosen Schlachten, ist seine Dichte dem Maß zerdrückter Absichten gleich.",
     "The Oxymos Codex-lore": "Goldene Zeichen, nicht zum Entziffern bestimmt, sondern um mit dem Versprechen einer fernen Morgenröte zu vibrieren.",
     "All Seeing Hammer-lore": "In den letzten Atemzügen verstummt die Angst und beginnt, dich anzustarren.",
-    "Plate of Blessed Glory-lore": "Ein fernes Erbstück von Oxymos ewigem Licht."
+    "Plate of Blessed Glory-lore": "Ein fernes Erbstück von Oxymos ewigem Licht.",
+    "Bone Hammer-desc": "Manchmal erweisen sich massive Knochen als tödlicher als jede Klinge und jeder Zauber.",
+    "Dark Dagger-desc": "Schneller als ein Gedanke. Tiefer als das Bewusstsein.",
+    "Golden Piercer Spear-desc": "Unberührt von der Korrosion der Zeit machte sein Gold die Ewigkeit vorstellbar.",
+    "Mojaras Hammer-desc": "Bei jedem Schlag zögert das Universum; wie ein Déjà-vu seiner chaotischen Genesis.",
+    "Osun-desc": "Ein Schnitt. Ein Augenblick. Für immer.",
+    "Precious Dual-blade Dagger-desc": "Eine Schneide hütet die Schatten vergessener Zeitalter; die andere strahlt im Licht ewiger Herrlichkeit.",
+    "Undines Shuriken-desc": "Klingen, festgehalten im absoluten Augenblick, dort, wo die Zeit sich weigert zu fließen.",
+    "Air Striker-desc": "Ein Strich in der Luft. Ein Abgrund in der Seele.",
+    "The Word of the Wind-desc": "Verhüllte Siegel flüstern ewige Formen des idealen Mondes."
 }

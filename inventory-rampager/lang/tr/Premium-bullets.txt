@@ -1,0 +1,19 @@
+[h1]Başka ne var?[/h1]
+[list]
+[*]Muazzam Boss dövüşleri
+[*]Daha fazla hasar vermek için sihirli elementleri birleştir
+[*]Çok sayıda düşman, yapay zeka çarpışmaları
+[*]Yerel co-op ve karşılıklı mod
+[*]Sihirli eşyalar çevresel avantajlar sunar
+[*]Hayatta kalma modu
+[*]Özel ganimetlerin bulunduğu onlarca gizli alan
+[*]Derin hikaye anlatımı
+[*]Eşya mağazası
+[*]Yüksek tekrar oynama değer: Gizli alanlar, bonus seviyeler ve yan görevler
+[/list]
+
+[h1]Bizi bekleyen yenilikler...[/h1]
+[list]
+[*]Yeni zindanlar ve gelişen anlatım
+[*]Yeni tek ve çok oyunculu modlar
+[/list]
