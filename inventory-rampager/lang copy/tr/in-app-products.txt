@@ -1,0 +1,2 @@
+<gold-amount> altın sandığı
+Karakterine <gold-amount> altın kazandırır.
