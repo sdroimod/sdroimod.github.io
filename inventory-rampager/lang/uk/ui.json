@@ -142,5 +142,13 @@
   "studio_dl_msg_error": "Помилка: {error}",
   "studio_dl_sub_frame": "кадр {current} / {total}",
   "studio_dl_sub_gallery": "{count} PNG → Галерея",
-  "studio_dl_sub_zip": "{count} PNG → ZIP"
+  "studio_dl_sub_zip": "{count} PNG → ZIP",
+  "stat_cooldown": "Перезарядка",
+  "stat_pierce": "Пробивання",
+  "classPassiveBoost": "Пасивний бонус класу",
+  "equipmentBoost": "Бонус спорядження",
+  "specializationBoost": "Бонус спеціалізації",
+  "btn_stat_detail": "Деталі бонусів",
+  "stat_flightSpeed": "Швидкість Польоту",
+  "stat_knockback": "Відкидання"
 }

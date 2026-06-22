@@ -142,5 +142,13 @@
   "studio_dl_msg_error": "Lỗi: {error}",
   "studio_dl_sub_frame": "khung hình {current} / {total}",
   "studio_dl_sub_gallery": "{count} ảnh PNG → Thư viện",
-  "studio_dl_sub_zip": "{count} ảnh PNG → ZIP"
+  "studio_dl_sub_zip": "{count} ảnh PNG → ZIP",
+  "stat_cooldown": "Hồi chiêu",
+  "stat_pierce": "Xuyên thủng",
+  "classPassiveBoost": "Chỉ số thụ động từ lớp nhân vật",
+  "equipmentBoost": "Chỉ số từ trang bị",
+  "specializationBoost": "Chỉ số từ kỹ năng",
+  "btn_stat_detail": "Chi tiết chỉ số",
+  "stat_flightSpeed": "Tốc Độ Bay",
+  "stat_knockback": "Đẩy Lùi"
 }

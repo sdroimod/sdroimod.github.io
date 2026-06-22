@@ -142,5 +142,13 @@
   "studio_dl_msg_error": "Fehler: {error}",
   "studio_dl_sub_frame": "Bild {current} / {total}",
   "studio_dl_sub_gallery": "{count} PNGs → Galerie",
-  "studio_dl_sub_zip": "{count} PNGs → ZIP"
+  "studio_dl_sub_zip": "{count} PNGs → ZIP",
+  "stat_cooldown": "Abklingzeit",
+  "stat_pierce": "Durchschlag",
+  "classPassiveBoost": "Passiver Klassenbonus",
+  "equipmentBoost": "Ausrüstungsbonus",
+  "specializationBoost": "Spezialisierungsbonus",
+  "btn_stat_detail": "Bonus-Details",
+  "stat_flightSpeed": "Fluggeschwindigkeit",
+  "stat_knockback": "Rückstoß"
 }

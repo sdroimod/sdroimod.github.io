@@ -9,6 +9,8 @@
   "btn_find_good_set": "Find Good Set",
   "stat_damage": "Damage",
   "stat_armor": "Armor",
+  "stat_cooldown": "Cooldown",
+  "stat_pierce": "Pierce",
   "equip_class": "Class: {name}",
   "equip_weapon": "Weapon: {name}",
   "equip_armor": "Armor: {name}",
@@ -142,5 +144,11 @@
   "studio_dl_msg_error": "Error: {error}",
   "studio_dl_sub_frame": "frame {current} / {total}",
   "studio_dl_sub_gallery": "{count} PNGs → Gallery",
-  "studio_dl_sub_zip": "{count} PNGs → ZIP"
+  "studio_dl_sub_zip": "{count} PNGs → ZIP",
+  "classPassiveBoost": "Class passive boost",
+  "equipmentBoost": "Equipment boost",
+  "specializationBoost": "Specialization boost",
+  "btn_stat_detail": "Boost Details",
+  "stat_flightSpeed": "Flight Speed",
+  "stat_knockback": "Knockback"
 }

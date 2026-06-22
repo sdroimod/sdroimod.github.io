@@ -142,5 +142,13 @@
   "studio_dl_msg_error": "Error: {error}",
   "studio_dl_sub_frame": "fotograma {current} / {total}",
   "studio_dl_sub_gallery": "{count} PNGs → Galería",
-  "studio_dl_sub_zip": "{count} PNGs → ZIP"
+  "studio_dl_sub_zip": "{count} PNGs → ZIP",
+  "stat_cooldown": "Tiempo de recarga",
+  "stat_pierce": "Perforación",
+  "classPassiveBoost": "Mejora pasiva de clase",
+  "equipmentBoost": "Mejora de equipo",
+  "specializationBoost": "Mejora de especialización",
+  "btn_stat_detail": "Detalles de mejora",
+  "stat_flightSpeed": "Velocidad de Vuelo",
+  "stat_knockback": "Empuje"
 }

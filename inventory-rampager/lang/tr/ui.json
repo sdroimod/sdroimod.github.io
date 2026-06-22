@@ -142,5 +142,13 @@
   "studio_dl_msg_error": "Hata: {error}",
   "studio_dl_sub_frame": "kare {current} / {total}",
   "studio_dl_sub_gallery": "{count} PNG → Galeri",
-  "studio_dl_sub_zip": "{count} PNG → ZIP"
+  "studio_dl_sub_zip": "{count} PNG → ZIP",
+  "stat_cooldown": "Bekleme Süresi",
+  "stat_pierce": "Delme",
+  "classPassiveBoost": "Sınıf pasif takviyesi",
+  "equipmentBoost": "Ekipman takviyesi",
+  "specializationBoost": "Uzmanlık takviyesi",
+  "btn_stat_detail": "Takviye Detayları",
+  "stat_flightSpeed": "Uçuş Hızı",
+  "stat_knockback": "Geri Tepme"
 }

@@ -142,5 +142,13 @@
   "studio_dl_msg_error": "Errore: {error}",
   "studio_dl_sub_frame": "fotogramma {current} / {total}",
   "studio_dl_sub_gallery": "{count} PNG → Galleria",
-  "studio_dl_sub_zip": "{count} PNG → ZIP"
+  "studio_dl_sub_zip": "{count} PNG → ZIP",
+  "stat_cooldown": "Tempo di ricarica",
+  "stat_pierce": "Perforazione",
+  "classPassiveBoost": "Potenziamento passivo di classe",
+  "equipmentBoost": "Potenziamento equipaggiamento",
+  "specializationBoost": "Potenziamento specializzazione",
+  "btn_stat_detail": "Dettagli potenziamento",
+  "stat_flightSpeed": "Velocità di Volo",
+  "stat_knockback": "Contraccolpo"
 }

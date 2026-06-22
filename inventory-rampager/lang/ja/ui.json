@@ -142,5 +142,13 @@
   "studio_dl_msg_error": "エラー: {error}",
   "studio_dl_sub_frame": "フレーム {current} / {total}",
   "studio_dl_sub_gallery": "{count} PNG → ギャラリー",
-  "studio_dl_sub_zip": "{count} PNG → ZIP"
+  "studio_dl_sub_zip": "{count} PNG → ZIP",
+  "stat_cooldown": "クールダウン",
+  "stat_pierce": "貫通",
+  "classPassiveBoost": "クラスパッシブブースト",
+  "equipmentBoost": "装備ブースト",
+  "specializationBoost": "特化ブースト",
+  "btn_stat_detail": "ブースト詳細",
+  "stat_flightSpeed": "飛行速度",
+  "stat_knockback": "ノックバック"
 }
