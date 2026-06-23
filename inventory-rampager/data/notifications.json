@@ -14,19 +14,48 @@
     "show-time-before-block": 1
   },
   {
-    "id": "update-version-2.5",
+    "id": "update-version-2.6.5",
     "type": "update-stat",
     "content": {
-    "title": "A new update is available!",
-      "message": "What's new?\nSave/load system\nShare your set with friends\nChange app theme \nItem filters",
+      "title": "A new update is available!",
+      "title_vi": "Đã có bản cập nhật mới!",
+      "title_es": "¡Hay una nueva actualización disponible!",
+      "title_fr": "Une nouvelle mise à jour est disponible !",
+      "title_it": "È disponibile un nuovo aggiornamento!",
+      "title_ja": "新しいアップデートが利用可能です！",
+      "title_pt": "Uma nova atualização está disponível!",
+      "title_ru": "Доступно новое обновление!",
+      "title_tr": "Yeni bir güncelleme mevcut!",
+      "title_uk": "Доступне нове оновлення!",
+
+      "message": "New Features & Improvements:\n- Added detailed information for attributes: Frost, Poisonous, Knockback, Flight speed...\n- Fully and visually displayed the stats system.\n- Added a screenshot feature to help save your favorite builds.\n- Upgraded and optimized the User Interface (UI).",
+      "message_es": "Nuevas funciones y mejoras:\n- Se agregó información detallada sobre los atributos: Frost, Poisonous, Knockback, Flight speed...\n- Visualización completa y gráfica del sistema de estadísticas.\n- Se agregó una función de captura de pantalla para ayudar a guardar tus configuraciones favoritas.\n- Interfaz de usuario (UI) actualizada y optimizada.",
+      "message_fr": "Nouvelles fonctionnalités et améliorations :\n- Ajout d'informations détaillées sur les attributs : Frost, Poisonous, Knockback, Flight speed...\n- Affichage complet et visuel du système de statistiques.\n- Ajout d'une fonctionnalité de capture d'écran pour vous aider à sauvegarder vos builds préférés.\n- Interface utilisateur (UI) mise à jour et optimisée.",
+      "message_it": "Nuove funzioni e miglioramenti:\n- Aggiunte informazioni dettagliate per gli attributi: Frost, Poisonous, Knockback, Flight speed...\n- Sistema di statistiche visualizzato in modo completo e intuitivo.\n- Aggiunta una funzione di screenshot per aiutarti a salvare le tue build preferite.\n- Interfaccia utente (UI) aggiornata e ottimizzata.",
+      "message_ja": "新機能と改善点：\n- 属性（Frost、Poisonous、Knockback、Flight speed...）の詳細情報を追加しました。\n- ステータスシステムを完全かつ視覚的に表示しました。\n- お気に入りのビルドを保存するのに役立つスクリーンショット機能を追加しました。\n- ユーザーインターフェース（UI）をアップグレードおよび最適化しました。",
+      "message_pt": "Novos recursos e melhorias:\n- Adicionadas informações detalhadas para os atributos: Frost, Poisonous, Knockback, Flight speed...\n- Sistema de estatísticas exibido de forma completa e visual.\n- Adicionado um recurso de captura de tela para ajudar a salvar suas builds favoritas.\n- Interface de Usuário (UI) atualizada e otimizada.",
+      "message_ru": "Новые функции и улучшения:\n- Добавлена подробная информация об атрибутах: Frost, Poisonous, Knockback, Flight speed...\n- Полное и наглядное отображение системы характеристик.\n- Добавлена функция создания снимков экрана, которая поможет сохранить ваши любимые сборки.\n- Обновлен и оптимизирован пользовательский интерфейс (UI).",
+      "message_tr": "Yeni Özellikler ve İyileştirmeler:\n- Nitelikler için ayrıntılı bilgi eklendi: Frost, Poisonous, Knockback, Flight speed...\n- İstatistik sistemi tam ve görsel olarak görüntülendi.\n- Favori dizilişlerinizi kaydetmenize yardımcı olacak bir ekran görüntüsü özelliği eklendi.\n- Kullanıcı Arayüzü (UI) güncellendi ve optimize edildi.",
+      "message_uk": "Нові функції та покращення:\n- Додано детальну інформацію про атрибути: Frost, Poisonous, Knockback, Flight speed...\n- Повне та наочне відображення системи характеристик.\n- Додано функцію знімків екрана, яка допоможе зберегти ваші улюблені збірки.\n- Оновлено та оптимізовано інтерфейс користувача (UI).",
+      "message_vi": "Tính năng mới & Cải tiến:\n- Bổ sung thông tin chi tiết về các thuộc tính: Frost, Poisonous, Knockback, Flight speed...\n- Hiển thị đầy đủ và trực quan hệ thống chỉ số.\n- Thêm tính năng chụp ảnh giúp lưu lại những cách build ưng ý nhất.\n- Nâng cấp và tối ưu hóa giao diện người dùng (UI).",
+      
       "url": "https://play.google.com/store/apps/details?id=com.sdroimod.inventoryrampager"
     },
     "action": {
       "label": "Let me install",
+      "label_vi": "Cài đặt ngay",
+      "label_es": "Instalar ahora",
+      "label_fr": "Installer maintenant",
+      "label_it": "Installa ora",
+      "label_ja": "今すぐインストール",
+      "label_pt": "Instalar agora",
+      "label_ru": "Установить сейчас",
+      "label_tr": "Şimdi yükle",
+      "label_uk": "Встановити зараз",
       "type": "open-url"
     },
-    "exp-date": "2026-06-30",
-    "target-version" : 2.5,
+    "exp-date": "2026-08-30",
+    "target-version": "2.6.5",
     "show-time-before-block": 99
   },
   {
@@ -40,6 +69,19 @@
       "type": "equip-item"
     },
     "exp-date": "2026-07-01",
+    "show-time-before-block": 1
+  },
+  {
+    "id": "update-item-all-seeing-staff-2026",
+    "type": "update-item",
+    "content": {
+      "item-id": "all_seeing_staff"
+    },
+    "action": {
+      "label": "Equip",
+      "type": "equip-item"
+    },
+    "exp-date": "2026-07-10",
     "show-time-before-block": 1
   }
 ]
