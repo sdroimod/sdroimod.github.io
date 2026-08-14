@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="skin-thiefX.png" width="256" height="128">
+    <sprite n="skin-thiefX_0.png" x="93" y="2" w="77" h="96" oX="86" oY="45" oW="256" oH="256"/>
+    <sprite n="skin-thiefX_1.png" x="93" y="2" w="77" h="96" oX="87" oY="43" oW="256" oH="256"/>
+    <sprite n="skin-thiefX_2.png" x="93" y="2" w="77" h="96" oX="85" oY="45" oW="256" oH="256"/>
+    <sprite n="skin-thiefX_3.png" x="93" y="2" w="77" h="96" oX="84" oY="43" oW="256" oH="256"/>
+    <sprite n="skin-thiefX_4.png" x="93" y="2" w="77" h="96" oX="81" oY="32" oW="256" oH="256"/>
+    <sprite n="skin-thiefX_5.png" x="2" y="2" w="87" h="92" oX="61" oY="25" oW="256" oH="256"/>
+    <sprite n="skin-thiefX_6.png" x="2" y="98" w="3" h="3" oX="0" oY="0" oW="256" oH="256"/>
+    <sprite n="skin-thiefX_7.png" x="93" y="2" w="77" h="96" oX="85" oY="35" oW="256" oH="256"/>
+    <sprite n="skin-thiefX_8.png" x="93" y="2" w="77" h="96" oX="86" oY="35" oW="256" oH="256"/>
+    <sprite n="skin-thiefX_9.png" x="93" y="2" w="77" h="96" oX="86" oY="48" oW="256" oH="256"/>
+    <sprite n="skin-thiefX_10.png" x="93" y="2" w="77" h="96" oX="87" oY="39" oW="256" oH="256"/>
+    <sprite n="skin-thiefX_11.png" x="93" y="2" w="77" h="96" oX="87" oY="36" oW="256" oH="256"/>
+    <sprite n="skin-thiefX_12.png" x="93" y="2" w="77" h="96" oX="88" oY="46" oW="256" oH="256"/>
+    <sprite n="skin-thiefX_13.png" x="2" y="98" w="3" h="3" oX="0" oY="0" oW="256" oH="256"/>
+    <sprite n="skin-thiefX_14.png" x="2" y="98" w="3" h="3" oX="0" oY="0" oW="256" oH="256"/>
+    <sprite n="skin-thiefX_15.png" x="2" y="98" w="3" h="3" oX="0" oY="0" oW="256" oH="256"/>
+</TextureAtlas>

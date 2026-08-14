@@ -18,7 +18,7 @@
         0
       ],
       "pierce": 1,
-      "flightSpeed": 0.0,
+      "flightSpeed": 18.0,
       "knockback": 0.0
     },
     "status": {
@@ -1927,7 +1927,7 @@
         0
       ],
       "pierce": 0,
-      "flightSpeed": 0.0,
+      "flightSpeed": 18.0,
       "knockback": 0.0
     },
     "status": {
@@ -4012,7 +4012,7 @@
         0
       ],
       "pierce": 0,
-      "flightSpeed": 0.0,
+      "flightSpeed": 18.0,
       "knockback": 0.0
     },
     "status": {
@@ -4208,7 +4208,7 @@
         0
       ],
       "pierce": 0,
-      "flightSpeed": 0.0,
+      "flightSpeed": 18.0,
       "knockback": 0.0
     },
     "status": {
@@ -4707,7 +4707,7 @@
         0
       ],
       "pierce": 0,
-      "flightSpeed": 0.0,
+      "flightSpeed": 18.0,
       "knockback": 0.0
     },
     "status": {
@@ -4808,7 +4808,7 @@
         0
       ],
       "pierce": 1,
-      "flightSpeed": 0.0,
+      "flightSpeed": 18.0,
       "knockback": 0.0
     },
     "status": {
@@ -5084,7 +5084,7 @@
     "subType": "sword",
     "sprite": "/sprites/weapons/sword_snake.png",
     "levelMax": 15,
-    "cooldown": 550,
+    "cooldown": 600,
     "stats": {
       "damage": [
         80,
@@ -5095,7 +5095,7 @@
         0
       ],
       "pierce": 1,
-      "flightSpeed": 17.0,
+      "flightSpeed": 14.0,
       "knockback": 0.0
     },
     "status": {
@@ -5103,7 +5103,7 @@
       "frost": false
     },
     "boosts": {
-      "speed": 1.09,
+      "speed": 1.07,
       "jump": 1,
       "armor": 1.3
     }
@@ -5360,7 +5360,7 @@
         0
       ],
       "pierce": 2,
-      "flightSpeed": 0.0,
+      "flightSpeed": 18.0,
       "knockback": 0.0
     },
     "status": {
@@ -5801,7 +5801,7 @@
         0
       ],
       "pierce": 0,
-      "flightSpeed": 0.0,
+      "flightSpeed": 18.0,
       "knockback": 0.0
     },
     "status": {
@@ -6138,7 +6138,7 @@
         0
       ],
       "pierce": 0,
-      "flightSpeed": 0.0,
+      "flightSpeed": 18.0,
       "knockback": 0.0
     },
     "status": {
@@ -6545,7 +6545,7 @@
         0
       ],
       "pierce": 0,
-      "flightSpeed": 0.0,
+      "flightSpeed": 18.0,
       "knockback": 0.0
     },
     "status": {
@@ -6577,7 +6577,7 @@
         0
       ],
       "pierce": 0,
-      "flightSpeed": 0.0,
+      "flightSpeed": 18.0,
       "knockback": 0.0
     },
     "status": {
@@ -6826,7 +6826,7 @@
         0
       ],
       "pierce": 1,
-      "flightSpeed": 0.0,
+      "flightSpeed": 18.0,
       "knockback": 0.0
     },
     "status": {
@@ -7080,7 +7080,7 @@
         0
       ],
       "pierce": 0,
-      "flightSpeed": 0.0,
+      "flightSpeed": 18.0,
       "knockback": 0.0
     },
     "status": {
@@ -7477,7 +7477,7 @@
         0
       ],
       "pierce": 2,
-      "flightSpeed": 0.0,
+      "flightSpeed": 18.0,
       "knockback": 0.0
     },
     "status": {
@@ -10339,7 +10339,7 @@
         0
       ],
       "pierce": 0,
-      "flightSpeed": 0.0,
+      "flightSpeed": 18.0,
       "knockback": 0.0
     },
     "status": {
@@ -10726,7 +10726,7 @@
         0
       ],
       "pierce": 1,
-      "flightSpeed": 0.0,
+      "flightSpeed": 18.0,
       "knockback": 0.0
     },
     "status": {
@@ -11777,7 +11777,7 @@
         0
       ],
       "pierce": 0,
-      "flightSpeed": 0.0,
+      "flightSpeed": 18.0,
       "knockback": 0.0
     },
     "status": {
@@ -11809,7 +11809,7 @@
         0
       ],
       "pierce": 0,
-      "flightSpeed": 0.0,
+      "flightSpeed": 18.0,
       "knockback": 0.0
     },
     "status": {
@@ -13464,6 +13464,38 @@
       "speed": 1.1,
       "jump": 1.04,
       "armor": 1
+    }
+  },
+  {
+    "id": "ashbite_dagger",
+    "name": "Ashbite Dagger",
+    "element": "fire",
+    "type": "weapon",
+    "subType": "dagger",
+    "sprite": "/sprites/weapons/dagger_fire_power.png",
+    "levelMax": 15,
+    "cooldown": 380,
+    "stats": {
+      "damage": [
+        57,
+        262
+      ],
+      "armor": [
+        0,
+        0
+      ],
+      "pierce": 0,
+      "flightSpeed": 16.0,
+      "knockback": 0.0
+    },
+    "status": {
+      "poison": false,
+      "frost": false
+    },
+    "boosts": {
+      "speed": 1.2,
+      "jump": 1.04,
+      "armor": 0.7
     }
   }
 ]

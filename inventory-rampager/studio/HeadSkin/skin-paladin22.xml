@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="skin-paladinX.png" width="256" height="128">
+    <sprite n="skin-paladinX_0.png" x="110" y="2" w="107" h="115" oX="64" oY="23" oW="256" oH="256"/>
+    <sprite n="skin-paladinX_1.png" x="110" y="2" w="107" h="115" oX="64" oY="21" oW="256" oH="256"/>
+    <sprite n="skin-paladinX_2.png" x="110" y="2" w="107" h="115" oX="63" oY="23" oW="256" oH="256"/>
+    <sprite n="skin-paladinX_3.png" x="110" y="2" w="107" h="115" oX="63" oY="21" oW="256" oH="256"/>
+    <sprite n="skin-paladinX_4.png" x="110" y="2" w="107" h="115" oX="59" oY="9" oW="256" oH="256"/>
+    <sprite n="skin-paladinX_5.png" x="2" y="2" w="104" h="122" oX="66" oY="13" oW="300" oH="300"/>
+    <sprite n="skin-paladinX_6.png" x="110" y="121" w="3" h="3" oX="0" oY="0" oW="256" oH="256"/>
+    <sprite n="skin-paladinX_7.png" x="110" y="2" w="107" h="115" oX="64" oY="14" oW="256" oH="256"/>
+    <sprite n="skin-paladinX_8.png" x="110" y="2" w="107" h="115" oX="64" oY="13" oW="256" oH="256"/>
+    <sprite n="skin-paladinX_9.png" x="110" y="2" w="107" h="115" oX="64" oY="25" oW="256" oH="256"/>
+    <sprite n="skin-paladinX_10.png" x="110" y="2" w="107" h="115" oX="65" oY="17" oW="256" oH="256"/>
+    <sprite n="skin-paladinX_11.png" x="110" y="2" w="107" h="115" oX="65" oY="15" oW="256" oH="256"/>
+    <sprite n="skin-paladinX_12.png" x="110" y="2" w="107" h="115" oX="66" oY="24" oW="256" oH="256"/>
+    <sprite n="skin-paladinX_13.png" x="110" y="121" w="3" h="3" oX="0" oY="0" oW="256" oH="256"/>
+    <sprite n="skin-paladinX_14.png" x="110" y="121" w="3" h="3" oX="0" oY="0" oW="256" oH="256"/>
+    <sprite n="skin-paladinX_15.png" x="110" y="121" w="3" h="3" oX="0" oY="0" oW="256" oH="256"/>
+</TextureAtlas>

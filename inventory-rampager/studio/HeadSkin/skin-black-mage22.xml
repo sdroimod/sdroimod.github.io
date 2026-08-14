@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="skin-black-mageX.png" width="256" height="128">
+    <sprite n="skin-blackmageX_0.png" x="2" y="2" w="105" h="101" oX="70" oY="37" oW="256" oH="256"/>
+    <sprite n="skin-blackmageX_1.png" x="2" y="2" w="105" h="101" oX="71" oY="35" oW="256" oH="256"/>
+    <sprite n="skin-blackmageX_2.png" x="2" y="2" w="105" h="101" oX="69" oY="37" oW="256" oH="256"/>
+    <sprite n="skin-blackmageX_3.png" x="2" y="2" w="105" h="101" oX="69" oY="35" oW="256" oH="256"/>
+    <sprite n="skin-blackmageX_4.png" x="2" y="2" w="105" h="101" oX="64" oY="23" oW="256" oH="256"/>
+    <sprite n="skin-blackmageX_5.png" x="111" y="2" w="95" h="100" oX="57" oY="15" oW="256" oH="256"/>
+    <sprite n="skin-blackmageX_6.png" x="210" y="2" w="1" h="1" oX="0" oY="0" oW="256" oH="256"/>
+    <sprite n="skin-blackmageX_7.png" x="2" y="2" w="105" h="101" oX="70" oY="27" oW="256" oH="256"/>
+    <sprite n="skin-blackmageX_8.png" x="2" y="2" w="105" h="101" oX="70" oY="27" oW="256" oH="256"/>
+    <sprite n="skin-blackmageX_9.png" x="2" y="2" w="105" h="101" oX="70" oY="39" oW="256" oH="256"/>
+    <sprite n="skin-blackmageX_10.png" x="2" y="2" w="105" h="101" oX="71" oY="31" oW="256" oH="256"/>
+    <sprite n="skin-blackmageX_11.png" x="2" y="2" w="105" h="101" oX="71" oY="28" oW="256" oH="256"/>
+    <sprite n="skin-blackmageX_12.png" x="2" y="2" w="105" h="101" oX="72" oY="39" oW="256" oH="256"/>
+    <sprite n="skin-blackmageX_13.png" x="210" y="2" w="1" h="1" oX="0" oY="0" oW="256" oH="256"/>
+    <sprite n="skin-blackmageX_14.png" x="210" y="2" w="1" h="1" oX="0" oY="0" oW="256" oH="256"/>
+    <sprite n="skin-blackmageX_15.png" x="210" y="2" w="1" h="1" oX="0" oY="0" oW="256" oH="256"/>
+</TextureAtlas>
