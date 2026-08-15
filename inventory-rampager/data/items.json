@@ -18,8 +18,11 @@
         0
       ],
       "pierce": 1,
+      "enablePierceAreaDamage": true,
+      "persistAgainstProjectile": true,
       "flightSpeed": 18.0,
-      "knockback": 0.0
+      "knockback": 0.0,
+      "explosionRange": 290.0
     },
     "status": {
       "poison": false,
@@ -50,8 +53,11 @@
         0
       ],
       "pierce": 1,
+      "enablePierceAreaDamage": true,
+      "persistAgainstProjectile": true,
       "flightSpeed": 14.0,
-      "knockback": 0.0
+      "knockback": 0.0,
+      "explosionRange": 280.0
     },
     "status": {
       "poison": true,
@@ -108,8 +114,11 @@
         0
       ],
       "pierce": 1,
+      "enablePierceAreaDamage": false,
+      "persistAgainstProjectile": false,
       "flightSpeed": 16.5,
-      "knockback": 0.0
+      "knockback": 0.0,
+      "explosionRange": 0.0
     },
     "status": {
       "poison": false,
@@ -140,8 +149,11 @@
         0
       ],
       "pierce": 0,
+      "enablePierceAreaDamage": true,
+      "persistAgainstProjectile": true,
       "flightSpeed": 17.0,
-      "knockback": 0.0
+      "knockback": 0.0,
+      "explosionRange": 180.0
     },
     "status": {
       "poison": false,
@@ -172,8 +184,11 @@
         0
       ],
       "pierce": 1,
+      "enablePierceAreaDamage": true,
+      "persistAgainstProjectile": true,
       "flightSpeed": 13.0,
-      "knockback": 5.5
+      "knockback": 5.5,
+      "explosionRange": 190.0
     },
     "status": {
       "poison": false,
@@ -204,8 +219,11 @@
         0
       ],
       "pierce": 1,
+      "enablePierceAreaDamage": true,
+      "persistAgainstProjectile": false,
       "flightSpeed": 11.0,
-      "knockback": 0.0
+      "knockback": 0.0,
+      "explosionRange": 230.0
     },
     "status": {
       "poison": false,
@@ -236,8 +254,11 @@
         0
       ],
       "pierce": 1,
+      "enablePierceAreaDamage": true,
+      "persistAgainstProjectile": true,
       "flightSpeed": 14.0,
-      "knockback": 12.0
+      "knockback": 12.0,
+      "explosionRange": 340.0
     },
     "status": {
       "poison": false,
@@ -305,8 +326,11 @@
         0
       ],
       "pierce": 8,
+      "enablePierceAreaDamage": false,
+      "persistAgainstProjectile": true,
       "flightSpeed": 12.0,
-      "knockback": 0.0
+      "knockback": 0.0,
+      "explosionRange": 170.0
     },
     "status": {
       "poison": false,
@@ -337,8 +361,11 @@
         0
       ],
       "pierce": 1,
+      "enablePierceAreaDamage": true,
+      "persistAgainstProjectile": false,
       "flightSpeed": 18.0,
-      "knockback": 0.0
+      "knockback": 0.0,
+      "explosionRange": 170.0
     },
     "status": {
       "poison": false,
@@ -369,8 +396,11 @@
         0
       ],
       "pierce": 0,
+      "enablePierceAreaDamage": true,
+      "persistAgainstProjectile": false,
       "flightSpeed": 9.0,
-      "knockback": 0.0
+      "knockback": 0.0,
+      "explosionRange": 0.0
     },
     "status": {
       "poison": false,
@@ -512,8 +542,11 @@
         0
       ],
       "pierce": 1,
+      "enablePierceAreaDamage": false,
+      "persistAgainstProjectile": true,
       "flightSpeed": 15.0,
-      "knockback": 0.0
+      "knockback": 0.0,
+      "explosionRange": 150.0
     },
     "status": {
       "poison": true,
@@ -607,8 +640,11 @@
         0
       ],
       "pierce": 5,
+      "enablePierceAreaDamage": true,
+      "persistAgainstProjectile": true,
       "flightSpeed": 13.0,
-      "knockback": 0.0
+      "knockback": 0.0,
+      "explosionRange": 200.0
     },
     "status": {
       "poison": false,
@@ -702,8 +738,11 @@
         0
       ],
       "pierce": 0,
+      "enablePierceAreaDamage": true,
+      "persistAgainstProjectile": false,
       "flightSpeed": 16.0,
-      "knockback": 0.0
+      "knockback": 0.0,
+      "explosionRange": 0.0
     },
     "status": {
       "poison": false,
@@ -734,8 +773,11 @@
         0
       ],
       "pierce": 0,
+      "enablePierceAreaDamage": true,
+      "persistAgainstProjectile": false,
       "flightSpeed": 14.0,
-      "knockback": 3.0
+      "knockback": 3.0,
+      "explosionRange": 150.0
     },
     "status": {
       "poison": false,
@@ -766,8 +808,11 @@
         0
       ],
       "pierce": 0,
+      "enablePierceAreaDamage": true,
+      "persistAgainstProjectile": true,
       "flightSpeed": 15.0,
-      "knockback": 4.0
+      "knockback": 4.0,
+      "explosionRange": 0.0
     },
     "status": {
       "poison": false,
@@ -798,8 +843,11 @@
         0
       ],
       "pierce": 4,
+      "enablePierceAreaDamage": false,
+      "persistAgainstProjectile": true,
       "flightSpeed": 12.0,
-      "knockback": 0.0
+      "knockback": 0.0,
+      "explosionRange": 192.0
     },
     "status": {
       "poison": false,
@@ -1052,8 +1100,11 @@
         0
       ],
       "pierce": 0,
+      "enablePierceAreaDamage": true,
+      "persistAgainstProjectile": true,
       "flightSpeed": 13.0,
-      "knockback": 25.0
+      "knockback": 25.0,
+      "explosionRange": 220.0
     },
     "status": {
       "poison": false,
@@ -1084,8 +1135,11 @@
         0
       ],
       "pierce": 1,
+      "enablePierceAreaDamage": false,
+      "persistAgainstProjectile": false,
       "flightSpeed": 15.0,
-      "knockback": 0.0
+      "knockback": 0.0,
+      "explosionRange": 0.0
     },
     "status": {
       "poison": true,
@@ -1153,8 +1207,11 @@
         0
       ],
       "pierce": 0,
+      "enablePierceAreaDamage": true,
+      "persistAgainstProjectile": true,
       "flightSpeed": 14.0,
-      "knockback": 0.0
+      "knockback": 0.0,
+      "explosionRange": 230.0
     },
     "status": {
       "poison": false,
@@ -1185,8 +1242,11 @@
         0
       ],
       "pierce": 1,
+      "enablePierceAreaDamage": false,
+      "persistAgainstProjectile": false,
       "flightSpeed": 14.0,
-      "knockback": 0.0
+      "knockback": 0.0,
+      "explosionRange": 0.0
     },
     "status": {
       "poison": false,
@@ -1217,8 +1277,11 @@
         0
       ],
       "pierce": 1,
+      "enablePierceAreaDamage": true,
+      "persistAgainstProjectile": true,
       "flightSpeed": 13.0,
-      "knockback": 0.0
+      "knockback": 0.0,
+      "explosionRange": 220.0
     },
     "status": {
       "poison": true,
@@ -1338,8 +1401,11 @@
         0
       ],
       "pierce": 2,
+      "enablePierceAreaDamage": true,
+      "persistAgainstProjectile": true,
       "flightSpeed": 24.0,
-      "knockback": 0.0
+      "knockback": 0.0,
+      "explosionRange": 128.0
     },
     "status": {
       "poison": false,
@@ -1481,8 +1547,11 @@
         0
       ],
       "pierce": 1,
+      "enablePierceAreaDamage": true,
+      "persistAgainstProjectile": true,
       "flightSpeed": 13.0,
-      "knockback": 4.0
+      "knockback": 4.0,
+      "explosionRange": 220.0
     },
     "status": {
       "poison": false,
@@ -1513,8 +1582,11 @@
         0
       ],
       "pierce": 0,
+      "enablePierceAreaDamage": true,
+      "persistAgainstProjectile": false,
       "flightSpeed": 15.0,
-      "knockback": 2.4
+      "knockback": 2.4,
+      "explosionRange": 0.0
     },
     "status": {
       "poison": false,
@@ -1545,8 +1617,11 @@
         0
       ],
       "pierce": 1,
+      "enablePierceAreaDamage": true,
+      "persistAgainstProjectile": true,
       "flightSpeed": 11.0,
-      "knockback": 11.0
+      "knockback": 11.0,
+      "explosionRange": 360.0
     },
     "status": {
       "poison": false,
@@ -1614,8 +1689,11 @@
         0
       ],
       "pierce": 1,
+      "enablePierceAreaDamage": true,
+      "persistAgainstProjectile": true,
       "flightSpeed": 12.0,
-      "knockback": 0.0
+      "knockback": 0.0,
+      "explosionRange": 180.0
     },
     "status": {
       "poison": false,
@@ -1646,8 +1724,11 @@
         0
       ],
       "pierce": 0,
+      "enablePierceAreaDamage": true,
+      "persistAgainstProjectile": false,
       "flightSpeed": 12.0,
-      "knockback": 0.0
+      "knockback": 0.0,
+      "explosionRange": 200.0
     },
     "status": {
       "poison": false,
@@ -1715,8 +1796,11 @@
         0
       ],
       "pierce": 3,
+      "enablePierceAreaDamage": false,
+      "persistAgainstProjectile": true,
       "flightSpeed": 14.0,
-      "knockback": 0.0
+      "knockback": 0.0,
+      "explosionRange": 128.0
     },
     "status": {
       "poison": false,
@@ -1784,8 +1868,11 @@
         0
       ],
       "pierce": 1,
+      "enablePierceAreaDamage": false,
+      "persistAgainstProjectile": false,
       "flightSpeed": 13.0,
-      "knockback": 0.0
+      "knockback": 0.0,
+      "explosionRange": 192.0
     },
     "status": {
       "poison": false,
@@ -1816,8 +1903,11 @@
         0
       ],
       "pierce": 1,
+      "enablePierceAreaDamage": true,
+      "persistAgainstProjectile": false,
       "flightSpeed": 14.0,
-      "knockback": 0.0
+      "knockback": 0.0,
+      "explosionRange": 160.0
     },
     "status": {
       "poison": false,
@@ -1985,8 +2075,11 @@
         0
       ],
       "pierce": 0,
+      "enablePierceAreaDamage": true,
+      "persistAgainstProjectile": false,
       "flightSpeed": 18.0,
-      "knockback": 0.0
+      "knockback": 0.0,
+      "explosionRange": 0.0
     },
     "status": {
       "poison": false,
@@ -2128,8 +2221,11 @@
         0
       ],
       "pierce": 0,
+      "enablePierceAreaDamage": true,
+      "persistAgainstProjectile": true,
       "flightSpeed": 15.0,
-      "knockback": 4.0
+      "knockback": 4.0,
+      "explosionRange": 180.0
     },
     "status": {
       "poison": false,
@@ -2160,8 +2256,11 @@
         0
       ],
       "pierce": 1,
+      "enablePierceAreaDamage": true,
+      "persistAgainstProjectile": false,
       "flightSpeed": 12.0,
-      "knockback": 0.0
+      "knockback": 0.0,
+      "explosionRange": 250.0
     },
     "status": {
       "poison": false,
@@ -2303,8 +2402,11 @@
         0
       ],
       "pierce": 1,
+      "enablePierceAreaDamage": true,
+      "persistAgainstProjectile": true,
       "flightSpeed": 15.0,
-      "knockback": 0.0
+      "knockback": 0.0,
+      "explosionRange": 220.0
     },
     "status": {
       "poison": false,
@@ -2335,8 +2437,11 @@
         0
       ],
       "pierce": 1,
+      "enablePierceAreaDamage": true,
+      "persistAgainstProjectile": true,
       "flightSpeed": 13.0,
-      "knockback": 5.5
+      "knockback": 5.5,
+      "explosionRange": 200.0
     },
     "status": {
       "poison": true,
@@ -2367,8 +2472,11 @@
         0
       ],
       "pierce": 1,
+      "enablePierceAreaDamage": false,
+      "persistAgainstProjectile": true,
       "flightSpeed": 14.0,
-      "knockback": 0.0
+      "knockback": 0.0,
+      "explosionRange": 200.0
     },
     "status": {
       "poison": true,
@@ -2399,8 +2507,11 @@
         0
       ],
       "pierce": 2,
+      "enablePierceAreaDamage": true,
+      "persistAgainstProjectile": false,
       "flightSpeed": 16.5,
-      "knockback": 0.0
+      "knockback": 0.0,
+      "explosionRange": 210.0
     },
     "status": {
       "poison": true,
@@ -2468,8 +2579,11 @@
         0
       ],
       "pierce": 4,
+      "enablePierceAreaDamage": false,
+      "persistAgainstProjectile": true,
       "flightSpeed": 13.0,
-      "knockback": 0.0
+      "knockback": 0.0,
+      "explosionRange": 192.0
     },
     "status": {
       "poison": true,
@@ -2500,8 +2614,11 @@
         0
       ],
       "pierce": 2,
+      "enablePierceAreaDamage": true,
+      "persistAgainstProjectile": true,
       "flightSpeed": 13.0,
-      "knockback": 0.0
+      "knockback": 0.0,
+      "explosionRange": 180.0
     },
     "status": {
       "poison": true,
@@ -2606,8 +2723,11 @@
         0
       ],
       "pierce": 0,
+      "enablePierceAreaDamage": true,
+      "persistAgainstProjectile": false,
       "flightSpeed": 19.0,
-      "knockback": 0.0
+      "knockback": 0.0,
+      "explosionRange": 150.0
     },
     "status": {
       "poison": false,
@@ -2675,8 +2795,11 @@
         0
       ],
       "pierce": 0,
+      "enablePierceAreaDamage": true,
+      "persistAgainstProjectile": false,
       "flightSpeed": 15.0,
-      "knockback": 0.0
+      "knockback": 0.0,
+      "explosionRange": 200.0
     },
     "status": {
       "poison": false,
@@ -2707,8 +2830,11 @@
         0
       ],
       "pierce": 0,
+      "enablePierceAreaDamage": true,
+      "persistAgainstProjectile": false,
       "flightSpeed": 17.0,
-      "knockback": 0.0
+      "knockback": 0.0,
+      "explosionRange": 200.0
     },
     "status": {
       "poison": false,
@@ -2813,8 +2939,11 @@
         0
       ],
       "pierce": 0,
+      "enablePierceAreaDamage": true,
+      "persistAgainstProjectile": true,
       "flightSpeed": 15.0,
-      "knockback": 6.5
+      "knockback": 6.5,
+      "explosionRange": 200.0
     },
     "status": {
       "poison": false,
@@ -2845,8 +2974,11 @@
         0
       ],
       "pierce": 0,
+      "enablePierceAreaDamage": true,
+      "persistAgainstProjectile": false,
       "flightSpeed": 19.0,
-      "knockback": 0.0
+      "knockback": 0.0,
+      "explosionRange": 0.0
     },
     "status": {
       "poison": false,
@@ -2877,8 +3009,11 @@
         0
       ],
       "pierce": 3,
+      "enablePierceAreaDamage": true,
+      "persistAgainstProjectile": false,
       "flightSpeed": 17.5,
-      "knockback": 0.0
+      "knockback": 0.0,
+      "explosionRange": 0.0
     },
     "status": {
       "poison": false,
@@ -2909,8 +3044,11 @@
         0
       ],
       "pierce": 1,
+      "enablePierceAreaDamage": true,
+      "persistAgainstProjectile": true,
       "flightSpeed": 14.0,
-      "knockback": 4.5
+      "knockback": 4.5,
+      "explosionRange": 230.0
     },
     "status": {
       "poison": false,
@@ -2941,8 +3079,11 @@
         0
       ],
       "pierce": 1,
+      "enablePierceAreaDamage": true,
+      "persistAgainstProjectile": true,
       "flightSpeed": 14.0,
-      "knockback": 0.0
+      "knockback": 0.0,
+      "explosionRange": 160.0
     },
     "status": {
       "poison": false,
@@ -2973,8 +3114,11 @@
         0
       ],
       "pierce": 0,
+      "enablePierceAreaDamage": true,
+      "persistAgainstProjectile": true,
       "flightSpeed": 13.0,
-      "knockback": 0.0
+      "knockback": 0.0,
+      "explosionRange": 160.0
     },
     "status": {
       "poison": false,
@@ -3005,8 +3149,11 @@
         0
       ],
       "pierce": 1,
+      "enablePierceAreaDamage": true,
+      "persistAgainstProjectile": true,
       "flightSpeed": 14.0,
-      "knockback": 0.0
+      "knockback": 0.0,
+      "explosionRange": 160.0
     },
     "status": {
       "poison": false,
@@ -3185,8 +3332,11 @@
         0
       ],
       "pierce": 1,
+      "enablePierceAreaDamage": true,
+      "persistAgainstProjectile": true,
       "flightSpeed": 14.0,
-      "knockback": 0.0
+      "knockback": 0.0,
+      "explosionRange": 220.0
     },
     "status": {
       "poison": false,
@@ -3354,8 +3504,11 @@
         0
       ],
       "pierce": 0,
+      "enablePierceAreaDamage": true,
+      "persistAgainstProjectile": true,
       "flightSpeed": 13.0,
-      "knockback": 0.0
+      "knockback": 0.0,
+      "explosionRange": 150.0
     },
     "status": {
       "poison": false,
@@ -3386,8 +3539,11 @@
         0
       ],
       "pierce": 1,
+      "enablePierceAreaDamage": true,
+      "persistAgainstProjectile": false,
       "flightSpeed": 16.0,
-      "knockback": 0.0
+      "knockback": 0.0,
+      "explosionRange": 200.0
     },
     "status": {
       "poison": false,
@@ -3455,8 +3611,11 @@
         0
       ],
       "pierce": 0,
+      "enablePierceAreaDamage": true,
+      "persistAgainstProjectile": true,
       "flightSpeed": 14.0,
-      "knockback": 0.0
+      "knockback": 0.0,
+      "explosionRange": 150.0
     },
     "status": {
       "poison": false,
@@ -3487,8 +3646,11 @@
         0
       ],
       "pierce": 1,
+      "enablePierceAreaDamage": true,
+      "persistAgainstProjectile": true,
       "flightSpeed": 14.0,
-      "knockback": 0.0
+      "knockback": 0.0,
+      "explosionRange": 160.0
     },
     "status": {
       "poison": false,
@@ -3556,8 +3718,11 @@
         0
       ],
       "pierce": 1,
+      "enablePierceAreaDamage": true,
+      "persistAgainstProjectile": true,
       "flightSpeed": 15.0,
-      "knockback": 0.0
+      "knockback": 0.0,
+      "explosionRange": 250.0
     },
     "status": {
       "poison": false,
@@ -3625,8 +3790,11 @@
         0
       ],
       "pierce": 0,
+      "enablePierceAreaDamage": true,
+      "persistAgainstProjectile": true,
       "flightSpeed": 12.0,
-      "knockback": 27.0
+      "knockback": 27.0,
+      "explosionRange": 220.0
     },
     "status": {
       "poison": false,
@@ -3868,8 +4036,11 @@
         0
       ],
       "pierce": 2,
+      "enablePierceAreaDamage": true,
+      "persistAgainstProjectile": true,
       "flightSpeed": 14.0,
-      "knockback": 10.0
+      "knockback": 10.0,
+      "explosionRange": 300.0
     },
     "status": {
       "poison": false,
@@ -3900,8 +4071,11 @@
         0
       ],
       "pierce": 0,
+      "enablePierceAreaDamage": true,
+      "persistAgainstProjectile": false,
       "flightSpeed": 14.0,
-      "knockback": 0.0
+      "knockback": 0.0,
+      "explosionRange": 150.0
     },
     "status": {
       "poison": false,
@@ -3932,8 +4106,11 @@
         0
       ],
       "pierce": 1,
+      "enablePierceAreaDamage": true,
+      "persistAgainstProjectile": true,
       "flightSpeed": 14.0,
-      "knockback": 12.0
+      "knockback": 12.0,
+      "explosionRange": 400.0
     },
     "status": {
       "poison": false,
@@ -3964,8 +4141,11 @@
         0
       ],
       "pierce": 1,
+      "enablePierceAreaDamage": true,
+      "persistAgainstProjectile": true,
       "flightSpeed": 13.0,
-      "knockback": 7.0
+      "knockback": 7.0,
+      "explosionRange": 360.0
     },
     "status": {
       "poison": false,
@@ -4070,8 +4250,11 @@
         0
       ],
       "pierce": 0,
+      "enablePierceAreaDamage": true,
+      "persistAgainstProjectile": false,
       "flightSpeed": 18.0,
-      "knockback": 0.0
+      "knockback": 0.0,
+      "explosionRange": 0.0
     },
     "status": {
       "poison": false,
@@ -4202,8 +4385,11 @@
         0
       ],
       "pierce": 4,
+      "enablePierceAreaDamage": false,
+      "persistAgainstProjectile": true,
       "flightSpeed": 13.0,
-      "knockback": 0.0
+      "knockback": 0.0,
+      "explosionRange": 176.0
     },
     "status": {
       "poison": false,
@@ -4234,8 +4420,11 @@
         0
       ],
       "pierce": 0,
+      "enablePierceAreaDamage": true,
+      "persistAgainstProjectile": false,
       "flightSpeed": 13.0,
-      "knockback": 0.0
+      "knockback": 0.0,
+      "explosionRange": 0.0
     },
     "status": {
       "poison": false,
@@ -4266,8 +4455,11 @@
         0
       ],
       "pierce": 0,
+      "enablePierceAreaDamage": true,
+      "persistAgainstProjectile": false,
       "flightSpeed": 18.0,
-      "knockback": 0.0
+      "knockback": 0.0,
+      "explosionRange": 0.0
     },
     "status": {
       "poison": false,
@@ -4298,8 +4490,11 @@
         0
       ],
       "pierce": 0,
+      "enablePierceAreaDamage": true,
+      "persistAgainstProjectile": true,
       "flightSpeed": 16.0,
-      "knockback": 0.0
+      "knockback": 0.0,
+      "explosionRange": 0.0
     },
     "status": {
       "poison": false,
@@ -4330,8 +4525,11 @@
         0
       ],
       "pierce": 0,
+      "enablePierceAreaDamage": true,
+      "persistAgainstProjectile": false,
       "flightSpeed": 19.0,
-      "knockback": 0.0
+      "knockback": 0.0,
+      "explosionRange": 200.0
     },
     "status": {
       "poison": false,
@@ -4436,8 +4634,11 @@
         0
       ],
       "pierce": 0,
+      "enablePierceAreaDamage": true,
+      "persistAgainstProjectile": false,
       "flightSpeed": 14.0,
-      "knockback": 4.0
+      "knockback": 4.0,
+      "explosionRange": 220.0
     },
     "status": {
       "poison": false,
@@ -4531,8 +4732,11 @@
         0
       ],
       "pierce": 1,
+      "enablePierceAreaDamage": true,
+      "persistAgainstProjectile": true,
       "flightSpeed": 15.0,
-      "knockback": 4.0
+      "knockback": 4.0,
+      "explosionRange": 0.0
     },
     "status": {
       "poison": false,
@@ -4563,8 +4767,11 @@
         0
       ],
       "pierce": 4,
+      "enablePierceAreaDamage": false,
+      "persistAgainstProjectile": true,
       "flightSpeed": 17.0,
-      "knockback": 0.0
+      "knockback": 0.0,
+      "explosionRange": 128.0
     },
     "status": {
       "poison": false,
@@ -4595,8 +4802,11 @@
         0
       ],
       "pierce": 1,
+      "enablePierceAreaDamage": false,
+      "persistAgainstProjectile": false,
       "flightSpeed": 12.0,
-      "knockback": 0.0
+      "knockback": 0.0,
+      "explosionRange": 280.0
     },
     "status": {
       "poison": false,
@@ -4627,8 +4837,11 @@
         0
       ],
       "pierce": 0,
+      "enablePierceAreaDamage": true,
+      "persistAgainstProjectile": false,
       "flightSpeed": 12.0,
-      "knockback": 0.0
+      "knockback": 0.0,
+      "explosionRange": 200.0
     },
     "status": {
       "poison": false,
@@ -4696,8 +4909,11 @@
         0
       ],
       "pierce": 0,
+      "enablePierceAreaDamage": true,
+      "persistAgainstProjectile": false,
       "flightSpeed": 19.0,
-      "knockback": 0.0
+      "knockback": 0.0,
+      "explosionRange": 160.0
     },
     "status": {
       "poison": false,
@@ -4765,8 +4981,11 @@
         0
       ],
       "pierce": 0,
+      "enablePierceAreaDamage": true,
+      "persistAgainstProjectile": false,
       "flightSpeed": 18.0,
-      "knockback": 0.0
+      "knockback": 0.0,
+      "explosionRange": 0.0
     },
     "status": {
       "poison": false,
@@ -4797,8 +5016,11 @@
         0
       ],
       "pierce": 4,
+      "enablePierceAreaDamage": false,
+      "persistAgainstProjectile": true,
       "flightSpeed": 15.0,
-      "knockback": 0.0
+      "knockback": 0.0,
+      "explosionRange": 230.0
     },
     "status": {
       "poison": false,
@@ -4866,8 +5088,11 @@
         0
       ],
       "pierce": 1,
+      "enablePierceAreaDamage": false,
+      "persistAgainstProjectile": false,
       "flightSpeed": 18.0,
-      "knockback": 0.0
+      "knockback": 0.0,
+      "explosionRange": 128.0
     },
     "status": {
       "poison": false,
@@ -4898,8 +5123,11 @@
         0
       ],
       "pierce": 0,
+      "enablePierceAreaDamage": true,
+      "persistAgainstProjectile": true,
       "flightSpeed": 11.0,
-      "knockback": 0.0
+      "knockback": 0.0,
+      "explosionRange": 180.0
     },
     "status": {
       "poison": false,
@@ -4930,8 +5158,11 @@
         0
       ],
       "pierce": 1,
+      "enablePierceAreaDamage": true,
+      "persistAgainstProjectile": true,
       "flightSpeed": 12.0,
-      "knockback": 0.0
+      "knockback": 0.0,
+      "explosionRange": 180.0
     },
     "status": {
       "poison": false,
@@ -5025,8 +5256,11 @@
         0
       ],
       "pierce": 2,
+      "enablePierceAreaDamage": false,
+      "persistAgainstProjectile": false,
       "flightSpeed": 14.0,
-      "knockback": 0.0
+      "knockback": 0.0,
+      "explosionRange": 100.0
     },
     "status": {
       "poison": false,
@@ -5057,8 +5291,11 @@
         0
       ],
       "pierce": 4,
+      "enablePierceAreaDamage": false,
+      "persistAgainstProjectile": true,
       "flightSpeed": 15.0,
-      "knockback": 0.0
+      "knockback": 0.0,
+      "explosionRange": 0.0
     },
     "status": {
       "poison": false,
@@ -5089,8 +5326,11 @@
         0
       ],
       "pierce": 0,
+      "enablePierceAreaDamage": true,
+      "persistAgainstProjectile": false,
       "flightSpeed": 17.0,
-      "knockback": 0.0
+      "knockback": 0.0,
+      "explosionRange": 200.0
     },
     "status": {
       "poison": false,
@@ -5121,8 +5361,11 @@
         0
       ],
       "pierce": 1,
+      "enablePierceAreaDamage": true,
+      "persistAgainstProjectile": false,
       "flightSpeed": 13.0,
-      "knockback": 4.5
+      "knockback": 4.5,
+      "explosionRange": 180.0
     },
     "status": {
       "poison": true,
@@ -5153,8 +5396,11 @@
         0
       ],
       "pierce": 1,
+      "enablePierceAreaDamage": false,
+      "persistAgainstProjectile": true,
       "flightSpeed": 14.0,
-      "knockback": 0.0
+      "knockback": 0.0,
+      "explosionRange": 270.0
     },
     "status": {
       "poison": true,
@@ -5185,8 +5431,11 @@
         0
       ],
       "pierce": 1,
+      "enablePierceAreaDamage": true,
+      "persistAgainstProjectile": false,
       "flightSpeed": 18.0,
-      "knockback": 0.0
+      "knockback": 0.0,
+      "explosionRange": 150.0
     },
     "status": {
       "poison": true,
@@ -5217,8 +5466,11 @@
         0
       ],
       "pierce": 4,
+      "enablePierceAreaDamage": true,
+      "persistAgainstProjectile": true,
       "flightSpeed": 18.0,
-      "knockback": 0.0
+      "knockback": 0.0,
+      "explosionRange": 200.0
     },
     "status": {
       "poison": true,
@@ -5386,8 +5638,11 @@
         0
       ],
       "pierce": 1,
+      "enablePierceAreaDamage": true,
+      "persistAgainstProjectile": true,
       "flightSpeed": 11.0,
-      "knockback": 7.0
+      "knockback": 7.0,
+      "explosionRange": 360.0
     },
     "status": {
       "poison": false,
@@ -5418,8 +5673,11 @@
         0
       ],
       "pierce": 2,
+      "enablePierceAreaDamage": false,
+      "persistAgainstProjectile": true,
       "flightSpeed": 18.0,
-      "knockback": 0.0
+      "knockback": 0.0,
+      "explosionRange": 192.0
     },
     "status": {
       "poison": false,
@@ -5598,8 +5856,11 @@
         0
       ],
       "pierce": 0,
+      "enablePierceAreaDamage": true,
+      "persistAgainstProjectile": true,
       "flightSpeed": 12.0,
-      "knockback": 0.0
+      "knockback": 0.0,
+      "explosionRange": 200.0
     },
     "status": {
       "poison": false,
@@ -5630,8 +5891,11 @@
         0
       ],
       "pierce": 0,
+      "enablePierceAreaDamage": true,
+      "persistAgainstProjectile": true,
       "flightSpeed": 13.0,
-      "knockback": 0.0
+      "knockback": 0.0,
+      "explosionRange": 200.0
     },
     "status": {
       "poison": false,
@@ -5662,8 +5926,11 @@
         0
       ],
       "pierce": 0,
+      "enablePierceAreaDamage": true,
+      "persistAgainstProjectile": false,
       "flightSpeed": 11.0,
-      "knockback": 3.2
+      "knockback": 3.2,
+      "explosionRange": 250.0
     },
     "status": {
       "poison": false,
@@ -5694,8 +5961,11 @@
         0
       ],
       "pierce": 0,
+      "enablePierceAreaDamage": true,
+      "persistAgainstProjectile": false,
       "flightSpeed": 14.0,
-      "knockback": 0.0
+      "knockback": 0.0,
+      "explosionRange": 280.0
     },
     "status": {
       "poison": false,
@@ -5726,8 +5996,11 @@
         0
       ],
       "pierce": 1,
+      "enablePierceAreaDamage": true,
+      "persistAgainstProjectile": false,
       "flightSpeed": 16.0,
-      "knockback": 0.0
+      "knockback": 0.0,
+      "explosionRange": 0.0
     },
     "status": {
       "poison": false,
@@ -5758,8 +6031,11 @@
         0
       ],
       "pierce": 1,
+      "enablePierceAreaDamage": true,
+      "persistAgainstProjectile": true,
       "flightSpeed": 11.0,
-      "knockback": 0.0
+      "knockback": 0.0,
+      "explosionRange": 320.0
     },
     "status": {
       "poison": false,
@@ -5790,8 +6066,11 @@
         0
       ],
       "pierce": 0,
+      "enablePierceAreaDamage": true,
+      "persistAgainstProjectile": false,
       "flightSpeed": 19.0,
-      "knockback": 0.0
+      "knockback": 0.0,
+      "explosionRange": 120.0
     },
     "status": {
       "poison": false,
@@ -5859,8 +6138,11 @@
         0
       ],
       "pierce": 0,
+      "enablePierceAreaDamage": true,
+      "persistAgainstProjectile": false,
       "flightSpeed": 18.0,
-      "knockback": 0.0
+      "knockback": 0.0,
+      "explosionRange": 120.0
     },
     "status": {
       "poison": true,
@@ -5965,8 +6247,11 @@
         0
       ],
       "pierce": 0,
+      "enablePierceAreaDamage": true,
+      "persistAgainstProjectile": true,
       "flightSpeed": 14.0,
-      "knockback": 7.0
+      "knockback": 7.0,
+      "explosionRange": 300.0
     },
     "status": {
       "poison": false,
@@ -5997,8 +6282,11 @@
         0
       ],
       "pierce": 0,
+      "enablePierceAreaDamage": true,
+      "persistAgainstProjectile": true,
       "flightSpeed": 10.0,
-      "knockback": 4.0
+      "knockback": 4.0,
+      "explosionRange": 220.0
     },
     "status": {
       "poison": false,
@@ -6196,8 +6484,11 @@
         0
       ],
       "pierce": 0,
+      "enablePierceAreaDamage": true,
+      "persistAgainstProjectile": false,
       "flightSpeed": 18.0,
-      "knockback": 0.0
+      "knockback": 0.0,
+      "explosionRange": 0.0
     },
     "status": {
       "poison": false,
@@ -6228,8 +6519,11 @@
         0
       ],
       "pierce": 1,
+      "enablePierceAreaDamage": true,
+      "persistAgainstProjectile": false,
       "flightSpeed": 16.0,
-      "knockback": 0.0
+      "knockback": 0.0,
+      "explosionRange": 0.0
     },
     "status": {
       "poison": false,
@@ -6286,8 +6580,11 @@
         0
       ],
       "pierce": 0,
+      "enablePierceAreaDamage": true,
+      "persistAgainstProjectile": true,
       "flightSpeed": 15.0,
-      "knockback": 3.2
+      "knockback": 3.2,
+      "explosionRange": 220.0
     },
     "status": {
       "poison": false,
@@ -6603,8 +6900,11 @@
         0
       ],
       "pierce": 0,
+      "enablePierceAreaDamage": true,
+      "persistAgainstProjectile": false,
       "flightSpeed": 18.0,
-      "knockback": 0.0
+      "knockback": 0.0,
+      "explosionRange": 0.0
     },
     "status": {
       "poison": false,
@@ -6635,8 +6935,11 @@
         0
       ],
       "pierce": 0,
+      "enablePierceAreaDamage": true,
+      "persistAgainstProjectile": false,
       "flightSpeed": 18.0,
-      "knockback": 0.0
+      "knockback": 0.0,
+      "explosionRange": 0.0
     },
     "status": {
       "poison": false,
@@ -6667,8 +6970,11 @@
         0
       ],
       "pierce": 3,
+      "enablePierceAreaDamage": false,
+      "persistAgainstProjectile": true,
       "flightSpeed": 15.0,
-      "knockback": 0.0
+      "knockback": 0.0,
+      "explosionRange": 0.0
     },
     "status": {
       "poison": false,
@@ -6699,8 +7005,11 @@
         0
       ],
       "pierce": 0,
+      "enablePierceAreaDamage": true,
+      "persistAgainstProjectile": false,
       "flightSpeed": 19.0,
-      "knockback": 0.0
+      "knockback": 0.0,
+      "explosionRange": 0.0
     },
     "status": {
       "poison": false,
@@ -6731,8 +7040,11 @@
         0
       ],
       "pierce": 1,
+      "enablePierceAreaDamage": true,
+      "persistAgainstProjectile": true,
       "flightSpeed": 13.0,
-      "knockback": 0.0
+      "knockback": 0.0,
+      "explosionRange": 220.0
     },
     "status": {
       "poison": false,
@@ -6852,8 +7164,11 @@
         0
       ],
       "pierce": 0,
+      "enablePierceAreaDamage": true,
+      "persistAgainstProjectile": false,
       "flightSpeed": 13.0,
-      "knockback": 0.0
+      "knockback": 0.0,
+      "explosionRange": 0.0
     },
     "status": {
       "poison": false,
@@ -6884,8 +7199,11 @@
         0
       ],
       "pierce": 1,
+      "enablePierceAreaDamage": false,
+      "persistAgainstProjectile": true,
       "flightSpeed": 18.0,
-      "knockback": 0.0
+      "knockback": 0.0,
+      "explosionRange": 128.0
     },
     "status": {
       "poison": false,
@@ -6953,8 +7271,11 @@
         0
       ],
       "pierce": 0,
+      "enablePierceAreaDamage": true,
+      "persistAgainstProjectile": false,
       "flightSpeed": 10.0,
-      "knockback": 0.0
+      "knockback": 0.0,
+      "explosionRange": 0.0
     },
     "status": {
       "poison": false,
@@ -6985,8 +7306,11 @@
         0
       ],
       "pierce": 1,
+      "enablePierceAreaDamage": true,
+      "persistAgainstProjectile": true,
       "flightSpeed": 15.0,
-      "knockback": 4.0
+      "knockback": 4.0,
+      "explosionRange": 160.0
     },
     "status": {
       "poison": false,
@@ -7054,8 +7378,11 @@
         0
       ],
       "pierce": 1,
+      "enablePierceAreaDamage": true,
+      "persistAgainstProjectile": true,
       "flightSpeed": 11.0,
-      "knockback": 7.0
+      "knockback": 7.0,
+      "explosionRange": 360.0
     },
     "status": {
       "poison": false,
@@ -7138,8 +7465,11 @@
         0
       ],
       "pierce": 0,
+      "enablePierceAreaDamage": true,
+      "persistAgainstProjectile": false,
       "flightSpeed": 18.0,
-      "knockback": 0.0
+      "knockback": 0.0,
+      "explosionRange": 0.0
     },
     "status": {
       "poison": false,
@@ -7207,8 +7537,11 @@
         0
       ],
       "pierce": 0,
+      "enablePierceAreaDamage": true,
+      "persistAgainstProjectile": false,
       "flightSpeed": 12.0,
-      "knockback": 0.0
+      "knockback": 0.0,
+      "explosionRange": 0.0
     },
     "status": {
       "poison": false,
@@ -7239,8 +7572,11 @@
         0
       ],
       "pierce": 1,
+      "enablePierceAreaDamage": true,
+      "persistAgainstProjectile": false,
       "flightSpeed": 18.0,
-      "knockback": 0.0
+      "knockback": 0.0,
+      "explosionRange": 180.0
     },
     "status": {
       "poison": true,
@@ -7271,8 +7607,11 @@
         0
       ],
       "pierce": 0,
+      "enablePierceAreaDamage": true,
+      "persistAgainstProjectile": false,
       "flightSpeed": 20.0,
-      "knockback": 0.0
+      "knockback": 0.0,
+      "explosionRange": 0.0
     },
     "status": {
       "poison": false,
@@ -7302,7 +7641,9 @@
         0,
         0
       ],
-      "pierce": 1
+      "pierce": 1,
+      "enablePierceAreaDamage": false,
+      "persistAgainstProjectile": false
     },
     "status": {
       "poison": false,
@@ -7407,8 +7748,11 @@
         0
       ],
       "pierce": 1,
+      "enablePierceAreaDamage": true,
+      "persistAgainstProjectile": true,
       "flightSpeed": 11.0,
-      "knockback": 7.0
+      "knockback": 7.0,
+      "explosionRange": 360.0
     },
     "status": {
       "poison": false,
@@ -7602,8 +7946,11 @@
         0
       ],
       "pierce": 2,
+      "enablePierceAreaDamage": false,
+      "persistAgainstProjectile": false,
       "flightSpeed": 18.0,
-      "knockback": 0.0
+      "knockback": 0.0,
+      "explosionRange": 128.0
     },
     "status": {
       "poison": false,
@@ -7708,8 +8055,11 @@
         0
       ],
       "pierce": 0,
+      "enablePierceAreaDamage": true,
+      "persistAgainstProjectile": false,
       "flightSpeed": 10.0,
-      "knockback": 0.0
+      "knockback": 0.0,
+      "explosionRange": 150.0
     },
     "status": {
       "poison": false,
@@ -7777,8 +8127,11 @@
         0
       ],
       "pierce": 1,
+      "enablePierceAreaDamage": true,
+      "persistAgainstProjectile": false,
       "flightSpeed": 12.0,
-      "knockback": 0.0
+      "knockback": 0.0,
+      "explosionRange": 160.0
     },
     "status": {
       "poison": false,
@@ -7846,8 +8199,11 @@
         0
       ],
       "pierce": 1,
+      "enablePierceAreaDamage": true,
+      "persistAgainstProjectile": true,
       "flightSpeed": 11.0,
-      "knockback": 0.0
+      "knockback": 0.0,
+      "explosionRange": 260.0
     },
     "status": {
       "poison": false,
@@ -7915,8 +8271,11 @@
         0
       ],
       "pierce": 0,
+      "enablePierceAreaDamage": true,
+      "persistAgainstProjectile": false,
       "flightSpeed": 19.0,
-      "knockback": 0.0
+      "knockback": 0.0,
+      "explosionRange": 0.0
     },
     "status": {
       "poison": false,
@@ -7984,8 +8343,11 @@
         0
       ],
       "pierce": 0,
+      "enablePierceAreaDamage": true,
+      "persistAgainstProjectile": true,
       "flightSpeed": 15.0,
-      "knockback": 8.0
+      "knockback": 8.0,
+      "explosionRange": 300.0
     },
     "status": {
       "poison": false,
@@ -8079,8 +8441,11 @@
         0
       ],
       "pierce": 4,
+      "enablePierceAreaDamage": false,
+      "persistAgainstProjectile": true,
       "flightSpeed": 15.0,
-      "knockback": 0.0
+      "knockback": 0.0,
+      "explosionRange": 0.0
     },
     "status": {
       "poison": false,
@@ -8111,8 +8476,11 @@
         0
       ],
       "pierce": 4,
+      "enablePierceAreaDamage": false,
+      "persistAgainstProjectile": true,
       "flightSpeed": 16.0,
-      "knockback": 0.0
+      "knockback": 0.0,
+      "explosionRange": 150.0
     },
     "status": {
       "poison": false,
@@ -8143,8 +8511,11 @@
         0
       ],
       "pierce": 4,
+      "enablePierceAreaDamage": false,
+      "persistAgainstProjectile": true,
       "flightSpeed": 11.0,
-      "knockback": 0.0
+      "knockback": 0.0,
+      "explosionRange": 176.0
     },
     "status": {
       "poison": false,
@@ -8175,8 +8546,11 @@
         0
       ],
       "pierce": 0,
+      "enablePierceAreaDamage": true,
+      "persistAgainstProjectile": true,
       "flightSpeed": 14.0,
-      "knockback": 0.0
+      "knockback": 0.0,
+      "explosionRange": 0.0
     },
     "status": {
       "poison": false,
@@ -8207,8 +8581,11 @@
         0
       ],
       "pierce": 1,
+      "enablePierceAreaDamage": true,
+      "persistAgainstProjectile": true,
       "flightSpeed": 12.0,
-      "knockback": 4.5
+      "knockback": 4.5,
+      "explosionRange": 200.0
     },
     "status": {
       "poison": false,
@@ -8239,8 +8616,11 @@
         0
       ],
       "pierce": 1,
+      "enablePierceAreaDamage": true,
+      "persistAgainstProjectile": true,
       "flightSpeed": 12.0,
-      "knockback": 4.5
+      "knockback": 4.5,
+      "explosionRange": 200.0
     },
     "status": {
       "poison": false,
@@ -8408,8 +8788,11 @@
         0
       ],
       "pierce": 0,
+      "enablePierceAreaDamage": true,
+      "persistAgainstProjectile": false,
       "flightSpeed": 19.0,
-      "knockback": 0.0
+      "knockback": 0.0,
+      "explosionRange": 0.0
     },
     "status": {
       "poison": false,
@@ -8514,8 +8897,11 @@
         0
       ],
       "pierce": 0,
+      "enablePierceAreaDamage": true,
+      "persistAgainstProjectile": false,
       "flightSpeed": 18.0,
-      "knockback": 0.0
+      "knockback": 0.0,
+      "explosionRange": 150.0
     },
     "status": {
       "poison": true,
@@ -8546,8 +8932,11 @@
         0
       ],
       "pierce": 0,
+      "enablePierceAreaDamage": true,
+      "persistAgainstProjectile": false,
       "flightSpeed": 27.0,
-      "knockback": 0.0
+      "knockback": 0.0,
+      "explosionRange": 100.0
     },
     "status": {
       "poison": true,
@@ -8578,8 +8967,11 @@
         0
       ],
       "pierce": 4,
+      "enablePierceAreaDamage": true,
+      "persistAgainstProjectile": true,
       "flightSpeed": 13.0,
-      "knockback": 0.0
+      "knockback": 0.0,
+      "explosionRange": 230.0
     },
     "status": {
       "poison": true,
@@ -8636,8 +9028,11 @@
         0
       ],
       "pierce": 1,
+      "enablePierceAreaDamage": false,
+      "persistAgainstProjectile": true,
       "flightSpeed": 14.0,
-      "knockback": 0.0
+      "knockback": 0.0,
+      "explosionRange": 0.0
     },
     "status": {
       "poison": false,
@@ -8668,8 +9063,11 @@
         0
       ],
       "pierce": 0,
+      "enablePierceAreaDamage": true,
+      "persistAgainstProjectile": false,
       "flightSpeed": 19.0,
-      "knockback": 0.0
+      "knockback": 0.0,
+      "explosionRange": 0.0
     },
     "status": {
       "poison": false,
@@ -8874,8 +9272,11 @@
         0
       ],
       "pierce": 0,
+      "enablePierceAreaDamage": true,
+      "persistAgainstProjectile": false,
       "flightSpeed": 19.0,
-      "knockback": 0.0
+      "knockback": 0.0,
+      "explosionRange": 0.0
     },
     "status": {
       "poison": false,
@@ -9091,8 +9492,11 @@
         0
       ],
       "pierce": 1,
+      "enablePierceAreaDamage": true,
+      "persistAgainstProjectile": true,
       "flightSpeed": 14.0,
-      "knockback": 12.0
+      "knockback": 12.0,
+      "explosionRange": 360.0
     },
     "status": {
       "poison": false,
@@ -9123,8 +9527,11 @@
         0
       ],
       "pierce": 0,
+      "enablePierceAreaDamage": true,
+      "persistAgainstProjectile": true,
       "flightSpeed": 13.0,
-      "knockback": 0.0
+      "knockback": 0.0,
+      "explosionRange": 180.0
     },
     "status": {
       "poison": false,
@@ -9155,8 +9562,11 @@
         0
       ],
       "pierce": 0,
+      "enablePierceAreaDamage": true,
+      "persistAgainstProjectile": true,
       "flightSpeed": 14.0,
-      "knockback": 0.0
+      "knockback": 0.0,
+      "explosionRange": 150.0
     },
     "status": {
       "poison": true,
@@ -9187,8 +9597,11 @@
         0
       ],
       "pierce": 4,
+      "enablePierceAreaDamage": false,
+      "persistAgainstProjectile": true,
       "flightSpeed": 16.0,
-      "knockback": 0.0
+      "knockback": 0.0,
+      "explosionRange": 150.0
     },
     "status": {
       "poison": false,
@@ -9319,8 +9732,11 @@
         0
       ],
       "pierce": 0,
+      "enablePierceAreaDamage": true,
+      "persistAgainstProjectile": false,
       "flightSpeed": 12.0,
-      "knockback": 0.0
+      "knockback": 0.0,
+      "explosionRange": 0.0
     },
     "status": {
       "poison": false,
@@ -9414,8 +9830,11 @@
         0
       ],
       "pierce": 2,
+      "enablePierceAreaDamage": true,
+      "persistAgainstProjectile": false,
       "flightSpeed": 18.0,
-      "knockback": 0.0
+      "knockback": 0.0,
+      "explosionRange": 170.0
     },
     "status": {
       "poison": true,
@@ -9483,8 +9902,11 @@
         0
       ],
       "pierce": 1,
+      "enablePierceAreaDamage": true,
+      "persistAgainstProjectile": true,
       "flightSpeed": 13.0,
-      "knockback": 0.0
+      "knockback": 0.0,
+      "explosionRange": 220.0
     },
     "status": {
       "poison": false,
@@ -9604,8 +10026,11 @@
         0
       ],
       "pierce": 1,
+      "enablePierceAreaDamage": true,
+      "persistAgainstProjectile": false,
       "flightSpeed": 17.0,
-      "knockback": 0.0
+      "knockback": 0.0,
+      "explosionRange": 0.0
     },
     "status": {
       "poison": false,
@@ -9636,8 +10061,11 @@
         0
       ],
       "pierce": 0,
+      "enablePierceAreaDamage": true,
+      "persistAgainstProjectile": false,
       "flightSpeed": 9.0,
-      "knockback": 0.0
+      "knockback": 0.0,
+      "explosionRange": 130.0
     },
     "status": {
       "poison": false,
@@ -9668,8 +10096,11 @@
         0
       ],
       "pierce": 0,
+      "enablePierceAreaDamage": true,
+      "persistAgainstProjectile": false,
       "flightSpeed": 15.0,
-      "knockback": 1.6
+      "knockback": 1.6,
+      "explosionRange": 0.0
     },
     "status": {
       "poison": false,
@@ -9700,8 +10131,11 @@
         0
       ],
       "pierce": 0,
+      "enablePierceAreaDamage": true,
+      "persistAgainstProjectile": true,
       "flightSpeed": 15.0,
-      "knockback": 3.2
+      "knockback": 3.2,
+      "explosionRange": 220.0
     },
     "status": {
       "poison": false,
@@ -9769,8 +10203,11 @@
         0
       ],
       "pierce": 0,
+      "enablePierceAreaDamage": true,
+      "persistAgainstProjectile": true,
       "flightSpeed": 14.0,
-      "knockback": 8.0
+      "knockback": 8.0,
+      "explosionRange": 320.0
     },
     "status": {
       "poison": false,
@@ -9838,8 +10275,11 @@
         0
       ],
       "pierce": 0,
+      "enablePierceAreaDamage": true,
+      "persistAgainstProjectile": false,
       "flightSpeed": 13.5,
-      "knockback": 0.0
+      "knockback": 0.0,
+      "explosionRange": 140.0
     },
     "status": {
       "poison": false,
@@ -9870,8 +10310,11 @@
         0
       ],
       "pierce": 1,
+      "enablePierceAreaDamage": true,
+      "persistAgainstProjectile": false,
       "flightSpeed": 16.0,
-      "knockback": 0.0
+      "knockback": 0.0,
+      "explosionRange": 220.0
     },
     "status": {
       "poison": true,
@@ -10150,8 +10593,11 @@
         0
       ],
       "pierce": 0,
+      "enablePierceAreaDamage": true,
+      "persistAgainstProjectile": true,
       "flightSpeed": 13.0,
-      "knockback": 4.5
+      "knockback": 4.5,
+      "explosionRange": 220.0
     },
     "status": {
       "poison": true,
@@ -10182,8 +10628,11 @@
         0
       ],
       "pierce": 0,
+      "enablePierceAreaDamage": true,
+      "persistAgainstProjectile": true,
       "flightSpeed": 14.0,
-      "knockback": 5.5
+      "knockback": 5.5,
+      "explosionRange": 220.0
     },
     "status": {
       "poison": false,
@@ -10251,8 +10700,11 @@
         0
       ],
       "pierce": 4,
+      "enablePierceAreaDamage": false,
+      "persistAgainstProjectile": true,
       "flightSpeed": 14.0,
-      "knockback": 0.0
+      "knockback": 0.0,
+      "explosionRange": 250.0
     },
     "status": {
       "poison": true,
@@ -10283,8 +10735,11 @@
         0
       ],
       "pierce": 1,
+      "enablePierceAreaDamage": true,
+      "persistAgainstProjectile": true,
       "flightSpeed": 8.0,
-      "knockback": 0.0
+      "knockback": 0.0,
+      "explosionRange": 210.0
     },
     "status": {
       "poison": true,
@@ -10315,8 +10770,11 @@
         0
       ],
       "pierce": 0,
+      "enablePierceAreaDamage": true,
+      "persistAgainstProjectile": false,
       "flightSpeed": 16.0,
-      "knockback": 0.0
+      "knockback": 0.0,
+      "explosionRange": 0.0
     },
     "status": {
       "poison": false,
@@ -10347,8 +10805,11 @@
         0
       ],
       "pierce": 1,
+      "enablePierceAreaDamage": true,
+      "persistAgainstProjectile": true,
       "flightSpeed": 15.0,
-      "knockback": 0.0
+      "knockback": 0.0,
+      "explosionRange": 150.0
     },
     "status": {
       "poison": false,
@@ -10379,8 +10840,11 @@
         0
       ],
       "pierce": 0,
+      "enablePierceAreaDamage": true,
+      "persistAgainstProjectile": false,
       "flightSpeed": 9.0,
-      "knockback": 0.0
+      "knockback": 0.0,
+      "explosionRange": 180.0
     },
     "status": {
       "poison": false,
@@ -10437,8 +10901,11 @@
         0
       ],
       "pierce": 2,
+      "enablePierceAreaDamage": true,
+      "persistAgainstProjectile": true,
       "flightSpeed": 15.0,
-      "knockback": 4.5
+      "knockback": 4.5,
+      "explosionRange": 0.0
     },
     "status": {
       "poison": false,
@@ -10469,8 +10936,11 @@
         0
       ],
       "pierce": 0,
+      "enablePierceAreaDamage": true,
+      "persistAgainstProjectile": false,
       "flightSpeed": 19.0,
-      "knockback": 0.0
+      "knockback": 0.0,
+      "explosionRange": 0.0
     },
     "status": {
       "poison": false,
@@ -10501,8 +10971,11 @@
         0
       ],
       "pierce": 0,
+      "enablePierceAreaDamage": true,
+      "persistAgainstProjectile": false,
       "flightSpeed": 18.0,
-      "knockback": 0.0
+      "knockback": 0.0,
+      "explosionRange": 0.0
     },
     "status": {
       "poison": false,
@@ -10644,8 +11117,11 @@
         0
       ],
       "pierce": 1,
+      "enablePierceAreaDamage": false,
+      "persistAgainstProjectile": false,
       "flightSpeed": 18.0,
-      "knockback": 0.0
+      "knockback": 0.0,
+      "explosionRange": 0.0
     },
     "status": {
       "poison": false,
@@ -10713,8 +11189,11 @@
         0
       ],
       "pierce": 1,
+      "enablePierceAreaDamage": true,
+      "persistAgainstProjectile": true,
       "flightSpeed": 13.0,
-      "knockback": 4.5
+      "knockback": 4.5,
+      "explosionRange": 230.0
     },
     "status": {
       "poison": false,
@@ -10856,8 +11335,11 @@
         0
       ],
       "pierce": 1,
+      "enablePierceAreaDamage": false,
+      "persistAgainstProjectile": false,
       "flightSpeed": 15.0,
-      "knockback": 0.0
+      "knockback": 0.0,
+      "explosionRange": 150.0
     },
     "status": {
       "poison": false,
@@ -10888,8 +11370,11 @@
         0
       ],
       "pierce": 1,
+      "enablePierceAreaDamage": true,
+      "persistAgainstProjectile": true,
       "flightSpeed": 18.0,
-      "knockback": 0.0
+      "knockback": 0.0,
+      "explosionRange": 120.0
     },
     "status": {
       "poison": false,
@@ -10994,8 +11479,11 @@
         0
       ],
       "pierce": 3,
+      "enablePierceAreaDamage": true,
+      "persistAgainstProjectile": false,
       "flightSpeed": 14.0,
-      "knockback": 0.0
+      "knockback": 0.0,
+      "explosionRange": 240.0
     },
     "status": {
       "poison": false,
@@ -11026,8 +11514,11 @@
         0
       ],
       "pierce": 0,
+      "enablePierceAreaDamage": false,
+      "persistAgainstProjectile": false,
       "flightSpeed": 16.0,
-      "knockback": 0.0
+      "knockback": 0.0,
+      "explosionRange": 120.0
     },
     "status": {
       "poison": false,
@@ -11058,8 +11549,11 @@
         0
       ],
       "pierce": 2,
+      "enablePierceAreaDamage": true,
+      "persistAgainstProjectile": false,
       "flightSpeed": 14.0,
-      "knockback": 0.0
+      "knockback": 0.0,
+      "explosionRange": 210.0
     },
     "status": {
       "poison": true,
@@ -11090,8 +11584,11 @@
         0
       ],
       "pierce": 2,
+      "enablePierceAreaDamage": false,
+      "persistAgainstProjectile": false,
       "flightSpeed": 16.0,
-      "knockback": 0.0
+      "knockback": 0.0,
+      "explosionRange": 180.0
     },
     "status": {
       "poison": false,
@@ -11122,8 +11619,11 @@
         0
       ],
       "pierce": 1,
+      "enablePierceAreaDamage": true,
+      "persistAgainstProjectile": false,
       "flightSpeed": 12.0,
-      "knockback": 0.0
+      "knockback": 0.0,
+      "explosionRange": 200.0
     },
     "status": {
       "poison": false,
@@ -11154,8 +11654,11 @@
         0
       ],
       "pierce": 4,
+      "enablePierceAreaDamage": true,
+      "persistAgainstProjectile": false,
       "flightSpeed": 15.0,
-      "knockback": 0.0
+      "knockback": 0.0,
+      "explosionRange": 220.0
     },
     "status": {
       "poison": false,
@@ -11186,8 +11689,11 @@
         0
       ],
       "pierce": 2,
+      "enablePierceAreaDamage": true,
+      "persistAgainstProjectile": false,
       "flightSpeed": 14.0,
-      "knockback": 0.0
+      "knockback": 0.0,
+      "explosionRange": 150.0
     },
     "status": {
       "poison": false,
@@ -11218,8 +11724,11 @@
         0
       ],
       "pierce": 0,
+      "enablePierceAreaDamage": true,
+      "persistAgainstProjectile": false,
       "flightSpeed": 17.0,
-      "knockback": 0.0
+      "knockback": 0.0,
+      "explosionRange": 200.0
     },
     "status": {
       "poison": false,
@@ -11250,8 +11759,11 @@
         0
       ],
       "pierce": 0,
+      "enablePierceAreaDamage": true,
+      "persistAgainstProjectile": true,
       "flightSpeed": 13.0,
-      "knockback": 7.0
+      "knockback": 7.0,
+      "explosionRange": 220.0
     },
     "status": {
       "poison": false,
@@ -11356,8 +11868,11 @@
         0
       ],
       "pierce": 2,
+      "enablePierceAreaDamage": true,
+      "persistAgainstProjectile": false,
       "flightSpeed": 14.0,
-      "knockback": 0.0
+      "knockback": 0.0,
+      "explosionRange": 0.0
     },
     "status": {
       "poison": false,
@@ -11414,8 +11929,11 @@
         0
       ],
       "pierce": 1,
+      "enablePierceAreaDamage": true,
+      "persistAgainstProjectile": true,
       "flightSpeed": 13.0,
-      "knockback": 4.5
+      "knockback": 4.5,
+      "explosionRange": 220.0
     },
     "status": {
       "poison": true,
@@ -11446,8 +11964,11 @@
         0
       ],
       "pierce": 1,
+      "enablePierceAreaDamage": true,
+      "persistAgainstProjectile": true,
       "flightSpeed": 12.0,
-      "knockback": 0.0
+      "knockback": 0.0,
+      "explosionRange": 290.0
     },
     "status": {
       "poison": true,
@@ -11478,8 +11999,11 @@
         0
       ],
       "pierce": 1,
+      "enablePierceAreaDamage": true,
+      "persistAgainstProjectile": true,
       "flightSpeed": 17.0,
-      "knockback": 9.0
+      "knockback": 9.0,
+      "explosionRange": 360.0
     },
     "status": {
       "poison": true,
@@ -11510,8 +12034,11 @@
         0
       ],
       "pierce": 0,
+      "enablePierceAreaDamage": true,
+      "persistAgainstProjectile": true,
       "flightSpeed": 15.0,
-      "knockback": 5.6
+      "knockback": 5.6,
+      "explosionRange": 270.0
     },
     "status": {
       "poison": true,
@@ -11542,8 +12069,11 @@
         0
       ],
       "pierce": 0,
+      "enablePierceAreaDamage": true,
+      "persistAgainstProjectile": true,
       "flightSpeed": 13.0,
-      "knockback": 0.0
+      "knockback": 0.0,
+      "explosionRange": 200.0
     },
     "status": {
       "poison": true,
@@ -11907,8 +12437,11 @@
         0
       ],
       "pierce": 0,
+      "enablePierceAreaDamage": true,
+      "persistAgainstProjectile": true,
       "flightSpeed": 12.0,
-      "knockback": 5.0
+      "knockback": 5.0,
+      "explosionRange": 0.0
     },
     "status": {
       "poison": false,
@@ -11939,8 +12472,11 @@
         0
       ],
       "pierce": 0,
+      "enablePierceAreaDamage": true,
+      "persistAgainstProjectile": false,
       "flightSpeed": 18.0,
-      "knockback": 0.0
+      "knockback": 0.0,
+      "explosionRange": 220.0
     },
     "status": {
       "poison": false,
@@ -11971,8 +12507,11 @@
         0
       ],
       "pierce": 0,
+      "enablePierceAreaDamage": true,
+      "persistAgainstProjectile": false,
       "flightSpeed": 18.0,
-      "knockback": 0.0
+      "knockback": 0.0,
+      "explosionRange": 150.0
     },
     "status": {
       "poison": false,
@@ -12103,8 +12642,11 @@
         0
       ],
       "pierce": 0,
+      "enablePierceAreaDamage": true,
+      "persistAgainstProjectile": false,
       "flightSpeed": 14.0,
-      "knockback": 0.0
+      "knockback": 0.0,
+      "explosionRange": 280.0
     },
     "status": {
       "poison": true,
@@ -12135,8 +12677,11 @@
         0
       ],
       "pierce": 0,
+      "enablePierceAreaDamage": true,
+      "persistAgainstProjectile": false,
       "flightSpeed": 17.0,
-      "knockback": 0.0
+      "knockback": 0.0,
+      "explosionRange": 0.0
     },
     "status": {
       "poison": false,
@@ -12204,8 +12749,11 @@
         0
       ],
       "pierce": 0,
+      "enablePierceAreaDamage": true,
+      "persistAgainstProjectile": true,
       "flightSpeed": 14.0,
-      "knockback": 0.0
+      "knockback": 0.0,
+      "explosionRange": 220.0
     },
     "status": {
       "poison": false,
@@ -12273,8 +12821,11 @@
         0
       ],
       "pierce": 1,
+      "enablePierceAreaDamage": true,
+      "persistAgainstProjectile": false,
       "flightSpeed": 19.0,
-      "knockback": 0.0
+      "knockback": 0.0,
+      "explosionRange": 150.0
     },
     "status": {
       "poison": true,
@@ -12305,8 +12856,11 @@
         0
       ],
       "pierce": 1,
+      "enablePierceAreaDamage": true,
+      "persistAgainstProjectile": true,
       "flightSpeed": 11.0,
-      "knockback": 7.0
+      "knockback": 7.0,
+      "explosionRange": 360.0
     },
     "status": {
       "poison": false,
@@ -12596,8 +13150,11 @@
         0
       ],
       "pierce": 5,
+      "enablePierceAreaDamage": false,
+      "persistAgainstProjectile": true,
       "flightSpeed": 15.0,
-      "knockback": 0.0
+      "knockback": 0.0,
+      "explosionRange": 100.0
     },
     "status": {
       "poison": false,
@@ -12628,8 +13185,11 @@
         0
       ],
       "pierce": 1,
+      "enablePierceAreaDamage": false,
+      "persistAgainstProjectile": false,
       "flightSpeed": 12.0,
-      "knockback": 0.0
+      "knockback": 0.0,
+      "explosionRange": 170.0
     },
     "status": {
       "poison": false,
@@ -12660,8 +13220,11 @@
         0
       ],
       "pierce": 1,
+      "enablePierceAreaDamage": true,
+      "persistAgainstProjectile": true,
       "flightSpeed": 11.0,
-      "knockback": 7.0
+      "knockback": 7.0,
+      "explosionRange": 360.0
     },
     "status": {
       "poison": false,
@@ -12729,8 +13292,11 @@
         0
       ],
       "pierce": 1,
+      "enablePierceAreaDamage": false,
+      "persistAgainstProjectile": true,
       "flightSpeed": 16.0,
-      "knockback": 0.0
+      "knockback": 0.0,
+      "explosionRange": 200.0
     },
     "status": {
       "poison": false,
@@ -12761,8 +13327,11 @@
         0
       ],
       "pierce": 0,
+      "enablePierceAreaDamage": true,
+      "persistAgainstProjectile": false,
       "flightSpeed": 19.0,
-      "knockback": 0.0
+      "knockback": 0.0,
+      "explosionRange": 0.0
     },
     "status": {
       "poison": false,
@@ -12793,8 +13362,11 @@
         0
       ],
       "pierce": 1,
+      "enablePierceAreaDamage": true,
+      "persistAgainstProjectile": true,
       "flightSpeed": 14.0,
-      "knockback": 10.0
+      "knockback": 10.0,
+      "explosionRange": 360.0
     },
     "status": {
       "poison": false,
@@ -12862,8 +13434,11 @@
         0
       ],
       "pierce": 0,
+      "enablePierceAreaDamage": true,
+      "persistAgainstProjectile": true,
       "flightSpeed": 14.0,
-      "knockback": 4.5
+      "knockback": 4.5,
+      "explosionRange": 220.0
     },
     "status": {
       "poison": false,
@@ -12994,8 +13569,11 @@
         0
       ],
       "pierce": 0,
+      "enablePierceAreaDamage": true,
+      "persistAgainstProjectile": true,
       "flightSpeed": 13.0,
-      "knockback": 0.0
+      "knockback": 0.0,
+      "explosionRange": 220.0
     },
     "status": {
       "poison": false,
@@ -13026,8 +13604,11 @@
         0
       ],
       "pierce": 2,
+      "enablePierceAreaDamage": true,
+      "persistAgainstProjectile": true,
       "flightSpeed": 14.0,
-      "knockback": 7.0
+      "knockback": 7.0,
+      "explosionRange": 320.0
     },
     "status": {
       "poison": false,
@@ -13058,8 +13639,11 @@
         0
       ],
       "pierce": 1,
+      "enablePierceAreaDamage": true,
+      "persistAgainstProjectile": true,
       "flightSpeed": 11.0,
-      "knockback": 8.0
+      "knockback": 8.0,
+      "explosionRange": 360.0
     },
     "status": {
       "poison": false,
@@ -13238,8 +13822,11 @@
         0
       ],
       "pierce": 3,
+      "enablePierceAreaDamage": false,
+      "persistAgainstProjectile": true,
       "flightSpeed": 12.0,
-      "knockback": 0.0
+      "knockback": 0.0,
+      "explosionRange": 128.0
     },
     "status": {
       "poison": false,
@@ -13307,8 +13894,11 @@
         0
       ],
       "pierce": 1,
+      "enablePierceAreaDamage": true,
+      "persistAgainstProjectile": true,
       "flightSpeed": 16.0,
-      "knockback": 8.0
+      "knockback": 8.0,
+      "explosionRange": 230.0
     },
     "status": {
       "poison": false,
@@ -13339,8 +13929,11 @@
         0
       ],
       "pierce": 2,
+      "enablePierceAreaDamage": true,
+      "persistAgainstProjectile": true,
       "flightSpeed": 14.0,
-      "knockback": 0.0
+      "knockback": 0.0,
+      "explosionRange": 200.0
     },
     "status": {
       "poison": false,
@@ -13408,8 +14001,11 @@
         0
       ],
       "pierce": 1,
+      "enablePierceAreaDamage": true,
+      "persistAgainstProjectile": true,
       "flightSpeed": 11.0,
-      "knockback": 8.5
+      "knockback": 8.5,
+      "explosionRange": 360.0
     },
     "status": {
       "poison": false,
@@ -13514,8 +14110,11 @@
         0
       ],
       "pierce": 0,
+      "enablePierceAreaDamage": true,
+      "persistAgainstProjectile": true,
       "flightSpeed": 14.0,
-      "knockback": 4.0
+      "knockback": 4.0,
+      "explosionRange": 220.0
     },
     "status": {
       "poison": false,
@@ -13546,8 +14145,11 @@
         0
       ],
       "pierce": 0,
+      "enablePierceAreaDamage": true,
+      "persistAgainstProjectile": false,
       "flightSpeed": 14.0,
-      "knockback": 3.0
+      "knockback": 3.0,
+      "explosionRange": 0.0
     },
     "status": {
       "poison": false,
@@ -13615,8 +14217,11 @@
         0
       ],
       "pierce": 4,
+      "enablePierceAreaDamage": false,
+      "persistAgainstProjectile": true,
       "flightSpeed": 17.0,
-      "knockback": 0.0
+      "knockback": 0.0,
+      "explosionRange": 100.0
     },
     "status": {
       "poison": false,
