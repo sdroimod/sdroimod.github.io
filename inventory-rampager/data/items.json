@@ -276,7 +276,7 @@
     "element": "darkness",
     "type": "artifact",
     "subType": "ring",
-    "sprite": "/sprites/artifacts/ring_20.png",
+    "sprite": "/sprites/others/ring_20.png",
     "levelMax": 0,
     "cooldown": 0,
     "stats": {
@@ -418,7 +418,7 @@
     "element": "water",
     "type": "artifact",
     "subType": "ring",
-    "sprite": "/sprites/artifacts/pet_cthulhu_purple.png",
+    "sprite": "/sprites/others/pet_cthulhu_purple.png",
     "levelMax": 0,
     "cooldown": 0,
     "stats": {
@@ -1423,7 +1423,7 @@
     "element": "",
     "type": "artifact",
     "subType": "ring",
-    "sprite": "/sprites/artifacts/earring_03_jump.png",
+    "sprite": "/sprites/others/earring_03_jump.png",
     "levelMax": 0,
     "cooldown": 0,
     "stats": {
@@ -1460,7 +1460,7 @@
     "element": "",
     "type": "artifact",
     "subType": "ring",
-    "sprite": "/sprites/artifacts/ring_21.png",
+    "sprite": "/sprites/others/ring_21.png",
     "levelMax": 0,
     "cooldown": 0,
     "stats": {
@@ -1746,7 +1746,7 @@
     "element": "",
     "type": "artifact",
     "subType": "ring",
-    "sprite": "/sprites/artifacts/pet_cueio.png",
+    "sprite": "/sprites/others/pet_cueio.png",
     "levelMax": 0,
     "cooldown": 0,
     "stats": {
@@ -1951,7 +1951,7 @@
     "element": "",
     "type": "artifact",
     "subType": "ring",
-    "sprite": "/sprites/artifacts/pet_ghostcat.png",
+    "sprite": "/sprites/others/pet_ghostcat.png",
     "levelMax": 0,
     "cooldown": 0,
     "stats": {
@@ -2097,7 +2097,7 @@
     "element": "light",
     "type": "artifact",
     "subType": "ring",
-    "sprite": "/sprites/artifacts/ring_3.png",
+    "sprite": "/sprites/others/ring_3.png",
     "levelMax": 0,
     "cooldown": 0,
     "stats": {
@@ -2278,7 +2278,7 @@
     "element": "",
     "type": "artifact",
     "subType": "ring",
-    "sprite": "/sprites/artifacts/pet_demonpider.png",
+    "sprite": "/sprites/others/pet_demonpider.png",
     "levelMax": 0,
     "cooldown": 0,
     "stats": {
@@ -2315,7 +2315,7 @@
     "element": "",
     "type": "artifact",
     "subType": "ring",
-    "sprite": "/sprites/artifacts/pet_easter_2022.png",
+    "sprite": "/sprites/others/pet_easter_2022.png",
     "levelMax": 0,
     "cooldown": 0,
     "stats": {
@@ -2636,7 +2636,7 @@
     "element": "darkness",
     "type": "artifact",
     "subType": "ring",
-    "sprite": "/sprites/artifacts/ring_17.png",
+    "sprite": "/sprites/others/ring_17.png",
     "levelMax": 0,
     "cooldown": 0,
     "stats": {
@@ -2673,7 +2673,7 @@
     "element": "",
     "type": "artifact",
     "subType": "ring",
-    "sprite": "/sprites/artifacts/pet_cthulhu.png",
+    "sprite": "/sprites/others/pet_cthulhu.png",
     "levelMax": 0,
     "cooldown": 0,
     "stats": {
@@ -3380,7 +3380,7 @@
     "element": "earth",
     "type": "artifact",
     "subType": "ring",
-    "sprite": "/sprites/artifacts/ring_7.png",
+    "sprite": "/sprites/others/ring_7.png",
     "levelMax": 0,
     "cooldown": 0,
     "stats": {
@@ -3417,7 +3417,7 @@
     "element": "",
     "type": "artifact",
     "subType": "ring",
-    "sprite": "/sprites/artifacts/ring_22.png",
+    "sprite": "/sprites/others/ring_22.png",
     "levelMax": 0,
     "cooldown": 0,
     "stats": {
@@ -3454,7 +3454,7 @@
     "element": "fire",
     "type": "artifact",
     "subType": "ring",
-    "sprite": "/sprites/artifacts/ring_13.png",
+    "sprite": "/sprites/others/ring_13.png",
     "levelMax": 0,
     "cooldown": 0,
     "stats": {
@@ -4163,7 +4163,7 @@
     "element": "air",
     "type": "artifact",
     "subType": "ring",
-    "sprite": "/sprites/artifacts/ring_16.png",
+    "sprite": "/sprites/others/ring_16.png",
     "levelMax": 0,
     "cooldown": 0,
     "stats": {
@@ -5038,7 +5038,7 @@
     "element": "",
     "type": "artifact",
     "subType": "ring",
-    "sprite": "/sprites/artifacts/pet_travesso.png",
+    "sprite": "/sprites/others/pet_travesso.png",
     "levelMax": 0,
     "cooldown": 0,
     "stats": {
@@ -5180,7 +5180,7 @@
     "element": "",
     "type": "artifact",
     "subType": "ring",
-    "sprite": "/sprites/artifacts/pet_golden_beetle.png",
+    "sprite": "/sprites/others/pet_golden_beetle.png",
     "levelMax": 0,
     "cooldown": 0,
     "stats": {
@@ -6639,7 +6639,7 @@
     "element": "",
     "type": "artifact",
     "subType": "ring",
-    "sprite": "/sprites/artifacts/pet_jellybunny.png",
+    "sprite": "/sprites/others/pet_jellybunny.png",
     "levelMax": 0,
     "cooldown": 0,
     "stats": {
@@ -7487,7 +7487,7 @@
     "element": "",
     "type": "artifact",
     "subType": "ring",
-    "sprite": "/sprites/artifacts/pet_agent.png",
+    "sprite": "/sprites/others/pet_agent.png",
     "levelMax": 0,
     "cooldown": 0,
     "stats": {
@@ -7833,7 +7833,7 @@
     "element": "",
     "type": "artifact",
     "subType": "ring",
-    "sprite": "/sprites/artifacts/necklace_03_jump.png",
+    "sprite": "/sprites/others/necklace_03_jump.png",
     "levelMax": 0,
     "cooldown": 0,
     "stats": {
@@ -7968,7 +7968,7 @@
     "element": "fire",
     "type": "artifact",
     "subType": "ring",
-    "sprite": "/sprites/artifacts/ring_1.png",
+    "sprite": "/sprites/others/ring_1.png",
     "levelMax": 0,
     "cooldown": 0,
     "stats": {
@@ -8077,7 +8077,7 @@
     "element": "darkness",
     "type": "artifact",
     "subType": "ring",
-    "sprite": "/sprites/artifacts/ring_2.png",
+    "sprite": "/sprites/others/ring_2.png",
     "levelMax": 0,
     "cooldown": 0,
     "stats": {
@@ -8149,7 +8149,7 @@
     "element": "water",
     "type": "artifact",
     "subType": "ring",
-    "sprite": "/sprites/artifacts/ring_10.png",
+    "sprite": "/sprites/others/ring_10.png",
     "levelMax": 0,
     "cooldown": 0,
     "stats": {
@@ -8221,7 +8221,7 @@
     "element": "",
     "type": "artifact",
     "subType": "ring",
-    "sprite": "/sprites/artifacts/pet_christmas_2024a.png",
+    "sprite": "/sprites/others/pet_christmas_2024a.png",
     "levelMax": 0,
     "cooldown": 0,
     "stats": {
@@ -8738,7 +8738,7 @@
     "element": "fire",
     "type": "artifact",
     "subType": "ring",
-    "sprite": "/sprites/artifacts/pet_fenix.png",
+    "sprite": "/sprites/others/pet_fenix.png",
     "levelMax": 0,
     "cooldown": 0,
     "stats": {
@@ -8810,7 +8810,7 @@
     "element": "",
     "type": "artifact",
     "subType": "ring",
-    "sprite": "/sprites/artifacts/pet_ballerina.png",
+    "sprite": "/sprites/others/pet_ballerina.png",
     "levelMax": 0,
     "cooldown": 0,
     "stats": {
@@ -9294,7 +9294,7 @@
     "element": "",
     "type": "artifact",
     "subType": "ring",
-    "sprite": "/sprites/artifacts/ring_0.png",
+    "sprite": "/sprites/others/ring_0.png",
     "levelMax": 0,
     "cooldown": 0,
     "stats": {
@@ -9331,7 +9331,7 @@
     "element": "light",
     "type": "artifact",
     "subType": "ring",
-    "sprite": "/sprites/artifacts/ring_15.png",
+    "sprite": "/sprites/others/ring_15.png",
     "levelMax": 0,
     "cooldown": 0,
     "stats": {
@@ -9368,7 +9368,7 @@
     "element": "earth",
     "type": "artifact",
     "subType": "ring",
-    "sprite": "/sprites/artifacts/ring_4.png",
+    "sprite": "/sprites/others/ring_4.png",
     "levelMax": 0,
     "cooldown": 0,
     "stats": {
@@ -9852,7 +9852,7 @@
     "element": "water",
     "type": "artifact",
     "subType": "ring",
-    "sprite": "/sprites/artifacts/ring_23.png",
+    "sprite": "/sprites/others/ring_23.png",
     "levelMax": 0,
     "cooldown": 0,
     "stats": {
@@ -9924,7 +9924,7 @@
     "element": "",
     "type": "artifact",
     "subType": "ring",
-    "sprite": "/sprites/artifacts/ring_1.png",
+    "sprite": "/sprites/others/ring_1.png",
     "levelMax": 0,
     "cooldown": 0,
     "stats": {
@@ -10153,7 +10153,7 @@
     "element": "",
     "type": "artifact",
     "subType": "ring",
-    "sprite": "/sprites/artifacts/armlet_03_jump.png",
+    "sprite": "/sprites/others/armlet_03_jump.png",
     "levelMax": 0,
     "cooldown": 0,
     "stats": {
@@ -10506,7 +10506,7 @@
     "element": "",
     "type": "artifact",
     "subType": "ring",
-    "sprite": "/sprites/artifacts/pet_beholder.png",
+    "sprite": "/sprites/others/pet_beholder.png",
     "levelMax": 0,
     "cooldown": 0,
     "stats": {
@@ -10543,7 +10543,7 @@
     "element": "fire",
     "type": "artifact",
     "subType": "ring",
-    "sprite": "/sprites/artifacts/ring_8.png",
+    "sprite": "/sprites/others/ring_8.png",
     "levelMax": 0,
     "cooldown": 0,
     "stats": {
@@ -11067,7 +11067,7 @@
     "element": "air",
     "type": "artifact",
     "subType": "ring",
-    "sprite": "/sprites/artifacts/ring_11.png",
+    "sprite": "/sprites/others/ring_11.png",
     "levelMax": 0,
     "cooldown": 0,
     "stats": {
@@ -11211,7 +11211,7 @@
     "element": "",
     "type": "artifact",
     "subType": "ring",
-    "sprite": "/sprites/artifacts/ring_5.png",
+    "sprite": "/sprites/others/ring_5.png",
     "levelMax": 0,
     "cooldown": 0,
     "stats": {
@@ -11392,7 +11392,7 @@
     "element": "air",
     "type": "artifact",
     "subType": "ring",
-    "sprite": "/sprites/artifacts/ring_6.png",
+    "sprite": "/sprites/others/ring_6.png",
     "levelMax": 0,
     "cooldown": 0,
     "stats": {
@@ -11781,7 +11781,7 @@
     "element": "water",
     "type": "artifact",
     "subType": "ring",
-    "sprite": "/sprites/artifacts/pet_reidi.png",
+    "sprite": "/sprites/others/pet_reidi.png",
     "levelMax": 0,
     "cooldown": 0,
     "stats": {
@@ -12091,7 +12091,7 @@
     "element": "",
     "type": "artifact",
     "subType": "ring",
-    "sprite": "/sprites/artifacts/pet_halloween_2.png",
+    "sprite": "/sprites/others/pet_halloween_2.png",
     "levelMax": 0,
     "cooldown": 0,
     "stats": {
@@ -12878,7 +12878,7 @@
     "element": "earth",
     "type": "artifact",
     "subType": "ring",
-    "sprite": "/sprites/artifacts/ring_18.png",
+    "sprite": "/sprites/others/ring_18.png",
     "levelMax": 0,
     "cooldown": 0,
     "stats": {
@@ -13063,7 +13063,7 @@
     "element": "earth",
     "type": "artifact",
     "subType": "ring",
-    "sprite": "/sprites/artifacts/pet_pixie.png",
+    "sprite": "/sprites/others/pet_pixie.png",
     "levelMax": 0,
     "cooldown": 0,
     "stats": {
@@ -13100,7 +13100,7 @@
     "element": "air",
     "type": "artifact",
     "subType": "ring",
-    "sprite": "/sprites/artifacts/pet_arara_grifo.png",
+    "sprite": "/sprites/others/pet_arara_grifo.png",
     "levelMax": 0,
     "cooldown": 0,
     "stats": {
@@ -13242,7 +13242,7 @@
     "element": "fire",
     "type": "artifact",
     "subType": "ring",
-    "sprite": "/sprites/artifacts/ring_19.png",
+    "sprite": "/sprites/others/ring_19.png",
     "levelMax": 0,
     "cooldown": 0,
     "stats": {
@@ -13493,7 +13493,7 @@
     "element": "darkness",
     "type": "artifact",
     "subType": "ring",
-    "sprite": "/sprites/artifacts/ring_9.png",
+    "sprite": "/sprites/others/ring_9.png",
     "levelMax": 0,
     "cooldown": 0,
     "stats": {
@@ -13661,7 +13661,7 @@
     "element": "darkness",
     "type": "artifact",
     "subType": "ring",
-    "sprite": "/sprites/artifacts/pet_skull.png",
+    "sprite": "/sprites/others/pet_skull.png",
     "levelMax": 0,
     "cooldown": 0,
     "stats": {
@@ -13698,7 +13698,7 @@
     "element": "fire",
     "type": "artifact",
     "subType": "ring",
-    "sprite": "/sprites/artifacts/pet_dragon.png",
+    "sprite": "/sprites/others/pet_dragon.png",
     "levelMax": 0,
     "cooldown": 0,
     "stats": {
@@ -13735,7 +13735,7 @@
     "element": "light",
     "type": "artifact",
     "subType": "ring",
-    "sprite": "/sprites/artifacts/pet_fox_spirit-v2.png",
+    "sprite": "/sprites/others/pet_fox_spirit-v2.png",
     "levelMax": 0,
     "cooldown": 0,
     "stats": {
@@ -13772,7 +13772,7 @@
     "element": "light",
     "type": "artifact",
     "subType": "ring",
-    "sprite": "/sprites/artifacts/ring_12.png",
+    "sprite": "/sprites/others/ring_12.png",
     "levelMax": 0,
     "cooldown": 0,
     "stats": {
@@ -14060,7 +14060,7 @@
     "element": "darkness",
     "type": "artifact",
     "subType": "ring",
-    "sprite": "/sprites/artifacts/ring_14.png",
+    "sprite": "/sprites/others/ring_14.png",
     "levelMax": 0,
     "cooldown": 0,
     "stats": {
