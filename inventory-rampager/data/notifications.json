@@ -14,7 +14,7 @@
     "show-time-before-block": 1
   },
   {
-    "id": "update-version-2.7.0",
+    "id": "update-version-2.7.1",
     "type": "update-stat",
     "content": {
       "title": "A new update is available!",
@@ -55,7 +55,7 @@
       "type": "open-url"
     },
     "exp-date": "2026-09-30",
-    "target-version": "2.7.0",
+    "target-version": "2.7.1",
     "show-time-before-block": 99
   },
   {
