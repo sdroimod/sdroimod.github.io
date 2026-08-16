@@ -8,6 +8,7 @@
     "sprite": "/sprites/weapons/sword_12.png",
     "levelMax": 15,
     "cooldown": 650,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         77,
@@ -43,6 +44,7 @@
     "sprite": "/sprites/weapons/dagger_water_dual.png",
     "levelMax": 15,
     "cooldown": 500,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         50,
@@ -78,6 +80,7 @@
     "sprite": "/sprites/others/essence_air.png",
     "levelMax": 0,
     "cooldown": 0,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         0,
@@ -104,6 +107,7 @@
     "sprite": "/sprites/weapons/sword_glass_2.png",
     "levelMax": 15,
     "cooldown": 520,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         77,
@@ -139,6 +143,7 @@
     "sprite": "/sprites/weapons/sword_13.png",
     "levelMax": 15,
     "cooldown": 600,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         85,
@@ -174,6 +179,7 @@
     "sprite": "/sprites/weapons/axe_all_seeing.png",
     "levelMax": 15,
     "cooldown": 600,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         105,
@@ -209,6 +215,7 @@
     "sprite": "/sprites/weapons/dagger_all_seeing_cleaver.png",
     "levelMax": 15,
     "cooldown": 360,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         52,
@@ -244,6 +251,7 @@
     "sprite": "/sprites/weapons/hammer_all_seeing.png",
     "levelMax": 15,
     "cooldown": 700,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         66,
@@ -279,6 +287,7 @@
     "sprite": "/sprites/others/ring_20.png",
     "levelMax": 0,
     "cooldown": 0,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         0,
@@ -316,6 +325,7 @@
     "sprite": "/sprites/weapons/staff_all_seeing.png",
     "levelMax": 15,
     "cooldown": 600,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         135,
@@ -351,6 +361,7 @@
     "sprite": "/sprites/weapons/sword_all_seeing.png",
     "levelMax": 15,
     "cooldown": 700,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         120,
@@ -386,6 +397,7 @@
     "sprite": "/sprites/weapons/staff_stone.png",
     "levelMax": 15,
     "cooldown": 700,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         120,
@@ -421,6 +433,7 @@
     "sprite": "/sprites/others/pet_cthulhu_purple.png",
     "levelMax": 0,
     "cooldown": 0,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         0,
@@ -458,6 +471,7 @@
     "sprite": "/sprites/armors/armor_special_a1.png",
     "levelMax": 9,
     "cooldown": 0,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         0,
@@ -495,6 +509,7 @@
     "sprite": "/sprites/armors/armor_special_a1.png",
     "levelMax": 9,
     "cooldown": 0,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         0,
@@ -532,6 +547,7 @@
     "sprite": "/sprites/weapons/sword_spider.png",
     "levelMax": 15,
     "cooldown": 500,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         86,
@@ -567,6 +583,7 @@
     "sprite": "/sprites/armors/armor_cloth_Na.png",
     "levelMax": 10,
     "cooldown": 0,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         0,
@@ -604,6 +621,7 @@
     "sprite": "/sprites/others/beverage-arcane-precision-tonic.png",
     "levelMax": 0,
     "cooldown": 0,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         0,
@@ -630,6 +648,7 @@
     "sprite": "/sprites/weapons/staff_2022_1.png",
     "levelMax": 15,
     "cooldown": 650,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         65,
@@ -665,6 +684,7 @@
     "sprite": "/sprites/others/rune_arcane.png",
     "levelMax": 0,
     "cooldown": 0,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         0,
@@ -691,6 +711,7 @@
     "sprite": "/sprites/armors/armor_earth_cloth_a.png",
     "levelMax": 15,
     "cooldown": 0,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         0,
@@ -728,6 +749,7 @@
     "sprite": "/sprites/weapons/dagger_fire_power.png",
     "levelMax": 15,
     "cooldown": 380,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         64,
@@ -763,6 +785,7 @@
     "sprite": "/sprites/weapons/axe_0.png",
     "levelMax": 15,
     "cooldown": 600,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         21,
@@ -798,6 +821,7 @@
     "sprite": "/sprites/weapons/axe_survivor.png",
     "levelMax": 15,
     "cooldown": 800,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         53,
@@ -833,6 +857,7 @@
     "sprite": "/sprites/weapons/spear_darkness.png",
     "levelMax": 15,
     "cooldown": 750,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         67,
@@ -868,6 +893,7 @@
     "sprite": "/sprites/armors/armor_leather_3.png",
     "levelMax": 10,
     "cooldown": 0,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         0,
@@ -905,6 +931,7 @@
     "sprite": "/sprites/armors/armor_leather_3.png",
     "levelMax": 16,
     "cooldown": 0,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         0,
@@ -942,6 +969,7 @@
     "sprite": "/sprites/armors/armor_special_k.png",
     "levelMax": 7,
     "cooldown": 0,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         0,
@@ -979,6 +1007,7 @@
     "sprite": "/sprites/armors/armor_special_k.png",
     "levelMax": 15,
     "cooldown": 0,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         0,
@@ -1016,6 +1045,7 @@
     "sprite": "/sprites/armors/armor_cangaceira_a.png",
     "levelMax": 15,
     "cooldown": 0,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         0,
@@ -1053,6 +1083,7 @@
     "sprite": "/sprites/armors/armor_cangaceiro_a.png",
     "levelMax": 15,
     "cooldown": 0,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         0,
@@ -1090,6 +1121,7 @@
     "sprite": "/sprites/weapons/hammer_chapulin.png",
     "levelMax": 3,
     "cooldown": 500,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         38,
@@ -1125,6 +1157,7 @@
     "sprite": "/sprites/weapons/shuriken_dark.png",
     "levelMax": 15,
     "cooldown": 350,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         90,
@@ -1160,6 +1193,7 @@
     "sprite": "/sprites/armors/armor_darkp_Fa.png",
     "levelMax": 15,
     "cooldown": 0,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         0,
@@ -1197,6 +1231,7 @@
     "sprite": "/sprites/weapons/sword_survivor.png",
     "levelMax": 15,
     "cooldown": 800,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         120,
@@ -1232,6 +1267,7 @@
     "sprite": "/sprites/weapons/sword_survivor_short.png",
     "levelMax": 15,
     "cooldown": 530,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         99,
@@ -1267,6 +1303,7 @@
     "sprite": "/sprites/weapons/sword_poison_blade.png",
     "levelMax": 15,
     "cooldown": 470,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         90,
@@ -1302,6 +1339,7 @@
     "sprite": "/sprites/armors/armor_fire_soldier_a.png",
     "levelMax": 15,
     "cooldown": 0,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         0,
@@ -1339,6 +1377,7 @@
     "sprite": "/sprites/others/faceless.png",
     "levelMax": 0,
     "cooldown": 0,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         0,
@@ -1365,6 +1404,7 @@
     "sprite": "/sprites/others/key_2.png",
     "levelMax": 0,
     "cooldown": 0,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         0,
@@ -1391,6 +1431,7 @@
     "sprite": "/sprites/weapons/dagger_rogue.png",
     "levelMax": 15,
     "cooldown": 250,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         61,
@@ -1426,6 +1467,7 @@
     "sprite": "/sprites/others/earring_03_jump.png",
     "levelMax": 0,
     "cooldown": 0,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         0,
@@ -1463,6 +1505,7 @@
     "sprite": "/sprites/others/ring_21.png",
     "levelMax": 0,
     "cooldown": 0,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         0,
@@ -1500,6 +1543,7 @@
     "sprite": "/sprites/armors/armor_cloth_special_d2.png",
     "levelMax": 9,
     "cooldown": 0,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         0,
@@ -1537,6 +1581,7 @@
     "sprite": "/sprites/weapons/axe_bone.png",
     "levelMax": 15,
     "cooldown": 380,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         60,
@@ -1572,6 +1617,7 @@
     "sprite": "/sprites/weapons/axe_1.png",
     "levelMax": 9,
     "cooldown": 450,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         22,
@@ -1607,6 +1653,7 @@
     "sprite": "/sprites/weapons/hammer_bone.png",
     "levelMax": 15,
     "cooldown": 1050,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         62,
@@ -1642,6 +1689,7 @@
     "sprite": "/sprites/armors/armor_plate_0b.png",
     "levelMax": 3,
     "cooldown": 0,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         0,
@@ -1679,6 +1727,7 @@
     "sprite": "/sprites/weapons/staff_halloween.png",
     "levelMax": 15,
     "cooldown": 650,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         60,
@@ -1714,6 +1763,7 @@
     "sprite": "/sprites/weapons/easter-sword.png",
     "levelMax": 15,
     "cooldown": 600,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         88,
@@ -1749,6 +1799,7 @@
     "sprite": "/sprites/others/pet_cueio.png",
     "levelMax": 0,
     "cooldown": 0,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         0,
@@ -1786,6 +1837,7 @@
     "sprite": "/sprites/weapons/easter-spear.png",
     "levelMax": 15,
     "cooldown": 550,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         35,
@@ -1821,6 +1873,7 @@
     "sprite": "/sprites/armors/easter_armor_a2.png",
     "levelMax": 0,
     "cooldown": 0,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         0,
@@ -1858,6 +1911,7 @@
     "sprite": "/sprites/weapons/easter-dagger.png",
     "levelMax": 0,
     "cooldown": 500,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         49,
@@ -1893,6 +1947,7 @@
     "sprite": "/sprites/weapons/easter-dagger-mini.png",
     "levelMax": 15,
     "cooldown": 550,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         39,
@@ -1928,6 +1983,7 @@
     "sprite": "/sprites/others/rune_fire.png",
     "levelMax": 0,
     "cooldown": 0,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         0,
@@ -1954,6 +2010,7 @@
     "sprite": "/sprites/others/pet_ghostcat.png",
     "levelMax": 0,
     "cooldown": 0,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         0,
@@ -1991,6 +2048,7 @@
     "sprite": "/sprites/armors/armor_fire_plate_a.png",
     "levelMax": 15,
     "cooldown": 0,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         0,
@@ -2028,6 +2086,7 @@
     "sprite": "/sprites/armors/armor_cloth_special_e2.png",
     "levelMax": 3,
     "cooldown": 0,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         0,
@@ -2065,6 +2124,7 @@
     "sprite": "/sprites/weapons/dagger_1.png",
     "levelMax": 3,
     "cooldown": 500,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         9,
@@ -2100,6 +2160,7 @@
     "sprite": "/sprites/others/ring_3.png",
     "levelMax": 0,
     "cooldown": 0,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         0,
@@ -2137,6 +2198,7 @@
     "sprite": "/sprites/armors/armor_cloth_10.png",
     "levelMax": 3,
     "cooldown": 0,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         0,
@@ -2174,6 +2236,7 @@
     "sprite": "/sprites/armors/xmas_enemy_blue.png",
     "levelMax": 15,
     "cooldown": 0,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         0,
@@ -2211,6 +2274,7 @@
     "sprite": "/sprites/weapons/mace_2.png",
     "levelMax": 3,
     "cooldown": 800,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         16,
@@ -2246,6 +2310,7 @@
     "sprite": "/sprites/weapons/spellbook_earth.png",
     "levelMax": 15,
     "cooldown": 550,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         52,
@@ -2281,6 +2346,7 @@
     "sprite": "/sprites/others/pet_demonpider.png",
     "levelMax": 0,
     "cooldown": 0,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         0,
@@ -2318,6 +2384,7 @@
     "sprite": "/sprites/others/pet_easter_2022.png",
     "levelMax": 0,
     "cooldown": 0,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         0,
@@ -2355,6 +2422,7 @@
     "sprite": "/sprites/armors/armor_plate_2b.png",
     "levelMax": 8,
     "cooldown": 0,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         0,
@@ -2392,6 +2460,7 @@
     "sprite": "/sprites/weapons/staff_dragonhead.png",
     "levelMax": 15,
     "cooldown": 550,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         102,
@@ -2427,6 +2496,7 @@
     "sprite": "/sprites/weapons/axe_cthulhu.png",
     "levelMax": 15,
     "cooldown": 600,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         78,
@@ -2462,6 +2532,7 @@
     "sprite": "/sprites/weapons/sword_cthulhu.png",
     "levelMax": 15,
     "cooldown": 550,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         90,
@@ -2497,6 +2568,7 @@
     "sprite": "/sprites/weapons/dagger_cthulhu.png",
     "levelMax": 15,
     "cooldown": 400,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         52,
@@ -2532,6 +2604,7 @@
     "sprite": "/sprites/armors/armor_cthulhu_a.png",
     "levelMax": 15,
     "cooldown": 0,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         0,
@@ -2569,6 +2642,7 @@
     "sprite": "/sprites/weapons/spear_cthulhu.png",
     "levelMax": 15,
     "cooldown": 750,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         55,
@@ -2604,6 +2678,7 @@
     "sprite": "/sprites/weapons/staff_cthulhu.png",
     "levelMax": 15,
     "cooldown": 590,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         77,
@@ -2639,6 +2714,7 @@
     "sprite": "/sprites/others/ring_17.png",
     "levelMax": 0,
     "cooldown": 0,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         0,
@@ -2676,6 +2752,7 @@
     "sprite": "/sprites/others/pet_cthulhu.png",
     "levelMax": 0,
     "cooldown": 0,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         0,
@@ -2713,6 +2790,7 @@
     "sprite": "/sprites/weapons/dagger_5.png",
     "levelMax": 13,
     "cooldown": 384,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         32,
@@ -2748,6 +2826,7 @@
     "sprite": "/sprites/armors/armor_tiktok_A.png",
     "levelMax": 0,
     "cooldown": 0,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         0,
@@ -2785,6 +2864,7 @@
     "sprite": "/sprites/weapons/dagger_8.png",
     "levelMax": 13,
     "cooldown": 360,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         36,
@@ -2820,6 +2900,7 @@
     "sprite": "/sprites/weapons/dagger_8.png",
     "levelMax": 13,
     "cooldown": 330,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         40,
@@ -2855,6 +2936,7 @@
     "sprite": "/sprites/armors/armor_cloth_special_f2.png",
     "levelMax": 7,
     "cooldown": 0,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         0,
@@ -2892,6 +2974,7 @@
     "sprite": "/sprites/armors/armor_cloth_special_f1b.png",
     "levelMax": 8,
     "cooldown": 0,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         0,
@@ -2929,6 +3012,7 @@
     "sprite": "/sprites/weapons/mace_0.png",
     "levelMax": 11,
     "cooldown": 700,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         35,
@@ -2964,6 +3048,7 @@
     "sprite": "/sprites/weapons/sword_4.png",
     "levelMax": 12,
     "cooldown": 600,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         32,
@@ -2999,6 +3084,7 @@
     "sprite": "/sprites/weapons/dagger_light_power.png",
     "levelMax": 15,
     "cooldown": 380,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         55,
@@ -3034,6 +3120,7 @@
     "sprite": "/sprites/weapons/axe_justice.png",
     "levelMax": 15,
     "cooldown": 450,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         80,
@@ -3069,6 +3156,7 @@
     "sprite": "/sprites/weapons/staff_bone.png",
     "levelMax": 15,
     "cooldown": 650,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         95,
@@ -3104,6 +3192,7 @@
     "sprite": "/sprites/weapons/staff_6.png",
     "levelMax": 15,
     "cooldown": 650,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         80,
@@ -3139,6 +3228,7 @@
     "sprite": "/sprites/weapons/staff_6.png",
     "levelMax": 15,
     "cooldown": 450,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         85,
@@ -3174,6 +3264,7 @@
     "sprite": "/sprites/armors/armor_dark_cloth_a.png",
     "levelMax": 15,
     "cooldown": 0,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         0,
@@ -3211,6 +3302,7 @@
     "sprite": "/sprites/armors/armor_special_e2.png",
     "levelMax": 6,
     "cooldown": 0,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         0,
@@ -3248,6 +3340,7 @@
     "sprite": "/sprites/armors/armor_plate_Na.png",
     "levelMax": 10,
     "cooldown": 0,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         0,
@@ -3285,6 +3378,7 @@
     "sprite": "/sprites/armors/armor_light_plate_a.png",
     "levelMax": 15,
     "cooldown": 0,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         0,
@@ -3322,6 +3416,7 @@
     "sprite": "/sprites/weapons/dagger_survival_dual.png",
     "levelMax": 15,
     "cooldown": 400,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         44,
@@ -3357,6 +3452,7 @@
     "sprite": "/sprites/others/faceless.png",
     "levelMax": 0,
     "cooldown": 0,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         0,
@@ -3383,6 +3479,7 @@
     "sprite": "/sprites/others/ring_7.png",
     "levelMax": 0,
     "cooldown": 0,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         0,
@@ -3420,6 +3517,7 @@
     "sprite": "/sprites/others/ring_22.png",
     "levelMax": 0,
     "cooldown": 0,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         0,
@@ -3457,6 +3555,7 @@
     "sprite": "/sprites/others/ring_13.png",
     "levelMax": 0,
     "cooldown": 0,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         0,
@@ -3494,6 +3593,7 @@
     "sprite": "/sprites/weapons/staff_11.png",
     "levelMax": 13,
     "cooldown": 500,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         48,
@@ -3529,6 +3629,7 @@
     "sprite": "/sprites/weapons/dagger_bone.png",
     "levelMax": 15,
     "cooldown": 360,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         48,
@@ -3564,6 +3665,7 @@
     "sprite": "/sprites/armors/armor_cloth_special_a1.png",
     "levelMax": 10,
     "cooldown": 0,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         0,
@@ -3601,6 +3703,7 @@
     "sprite": "/sprites/weapons/staff_9.png",
     "levelMax": 15,
     "cooldown": 650,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         72,
@@ -3636,6 +3739,7 @@
     "sprite": "/sprites/weapons/staff_9.png",
     "levelMax": 15,
     "cooldown": 550,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         95,
@@ -3671,6 +3775,7 @@
     "sprite": "/sprites/armors/armor_cloth_2a.png",
     "levelMax": 8,
     "cooldown": 0,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         0,
@@ -3708,6 +3813,7 @@
     "sprite": "/sprites/weapons/dagger_dual_bone.png",
     "levelMax": 15,
     "cooldown": 400,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         48,
@@ -3743,6 +3849,7 @@
     "sprite": "/sprites/armors/armor_easter_2022_B.png",
     "levelMax": 15,
     "cooldown": 0,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         0,
@@ -3780,6 +3887,7 @@
     "sprite": "/sprites/weapons/axe_easter.png",
     "levelMax": 15,
     "cooldown": 500,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         52,
@@ -3815,6 +3923,7 @@
     "sprite": "/sprites/armors/armor_cloth_13.png",
     "levelMax": 6,
     "cooldown": 0,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         0,
@@ -3852,6 +3961,7 @@
     "sprite": "/sprites/armors/armor_plate_0a.png",
     "levelMax": 3,
     "cooldown": 0,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         0,
@@ -3889,6 +3999,7 @@
     "sprite": "/sprites/armors/armor_plate_1a.png",
     "levelMax": 3,
     "cooldown": 0,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         0,
@@ -3926,6 +4037,7 @@
     "sprite": "/sprites/armors/armor_leather_0a.png",
     "levelMax": 3,
     "cooldown": 0,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         0,
@@ -3963,6 +4075,7 @@
     "sprite": "/sprites/others/beverage-elixir-of-duplication.png",
     "levelMax": 0,
     "cooldown": 0,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         0,
@@ -3989,6 +4102,7 @@
     "sprite": "/sprites/armors/xmas_enemy_red.png",
     "levelMax": 15,
     "cooldown": 0,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         0,
@@ -4026,6 +4140,7 @@
     "sprite": "/sprites/weapons/hammer_blessed.png",
     "levelMax": 15,
     "cooldown": 650,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         65,
@@ -4061,6 +4176,7 @@
     "sprite": "/sprites/weapons/staff_7.png",
     "levelMax": 11,
     "cooldown": 750,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         49,
@@ -4096,6 +4212,7 @@
     "sprite": "/sprites/weapons/hammer_cthulhu.png",
     "levelMax": 15,
     "cooldown": 700,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         68,
@@ -4131,6 +4248,7 @@
     "sprite": "/sprites/weapons/hammer_falcon.png",
     "levelMax": 16,
     "cooldown": 1050,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         45,
@@ -4166,6 +4284,7 @@
     "sprite": "/sprites/others/ring_16.png",
     "levelMax": 0,
     "cooldown": 0,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         0,
@@ -4203,6 +4322,7 @@
     "sprite": "/sprites/armors/armor_cloth_3a.png",
     "levelMax": 11,
     "cooldown": 0,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         0,
@@ -4240,6 +4360,7 @@
     "sprite": "/sprites/weapons/dagger_0.png",
     "levelMax": 3,
     "cooldown": 600,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         7,
@@ -4275,6 +4396,7 @@
     "sprite": "/sprites/others/essence_fire.png",
     "levelMax": 0,
     "cooldown": 0,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         0,
@@ -4301,6 +4423,7 @@
     "sprite": "/sprites/armors/armor_cloth_0b.png",
     "levelMax": 3,
     "cooldown": 0,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         0,
@@ -4338,6 +4461,7 @@
     "sprite": "/sprites/armors/armor_special_c2.png",
     "levelMax": 15,
     "cooldown": 0,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         0,
@@ -4375,6 +4499,7 @@
     "sprite": "/sprites/weapons/spear_fire.png",
     "levelMax": 15,
     "cooldown": 750,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         58,
@@ -4410,6 +4535,7 @@
     "sprite": "/sprites/weapons/staff_0.png",
     "levelMax": 3,
     "cooldown": 800,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         10,
@@ -4445,6 +4571,7 @@
     "sprite": "/sprites/weapons/sword_0.png",
     "levelMax": 3,
     "cooldown": 700,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         8,
@@ -4480,6 +4607,7 @@
     "sprite": "/sprites/weapons/staff_fire.png",
     "levelMax": 11,
     "cooldown": 700,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         41,
@@ -4515,6 +4643,7 @@
     "sprite": "/sprites/weapons/sword_4.png",
     "levelMax": 12,
     "cooldown": 500,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         36,
@@ -4550,6 +4679,7 @@
     "sprite": "/sprites/armors/armor_leather_2b.png",
     "levelMax": 6,
     "cooldown": 0,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         0,
@@ -4587,6 +4717,7 @@
     "sprite": "/sprites/armors/armor_leather_2b.png",
     "levelMax": 16,
     "cooldown": 0,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         0,
@@ -4624,6 +4755,7 @@
     "sprite": "/sprites/weapons/axe_2.png",
     "levelMax": 15,
     "cooldown": 600,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         24,
@@ -4659,6 +4791,7 @@
     "sprite": "/sprites/others/beverage-forbidden-flowers-extract.png",
     "levelMax": 0,
     "cooldown": 0,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         0,
@@ -4685,6 +4818,7 @@
     "sprite": "/sprites/armors/armor_earthp_Fa.png",
     "levelMax": 15,
     "cooldown": 0,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         0,
@@ -4722,6 +4856,7 @@
     "sprite": "/sprites/weapons/axe_treasure.png",
     "levelMax": 15,
     "cooldown": 800,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         48,
@@ -4757,6 +4892,7 @@
     "sprite": "/sprites/weapons/spear_light.png",
     "levelMax": 15,
     "cooldown": 750,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         58,
@@ -4792,6 +4928,7 @@
     "sprite": "/sprites/weapons/sword_frostheart.png",
     "levelMax": 15,
     "cooldown": 500,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         88,
@@ -4827,6 +4964,7 @@
     "sprite": "/sprites/weapons/staff_1b.png",
     "levelMax": 10,
     "cooldown": 700,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         32,
@@ -4862,6 +5000,7 @@
     "sprite": "/sprites/armors/armor_gatekeeper.png",
     "levelMax": 15,
     "cooldown": 0,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         0,
@@ -4899,6 +5038,7 @@
     "sprite": "/sprites/weapons/dagger_9.png",
     "levelMax": 14,
     "cooldown": 360,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         42,
@@ -4934,6 +5074,7 @@
     "sprite": "/sprites/armors/armor_special_j2.png",
     "levelMax": 0,
     "cooldown": 0,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         0,
@@ -4971,6 +5112,7 @@
     "sprite": "/sprites/weapons/shuriken_earth.png",
     "levelMax": 15,
     "cooldown": 340,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         80,
@@ -5006,6 +5148,7 @@
     "sprite": "/sprites/weapons/spear_earth.png",
     "levelMax": 15,
     "cooldown": 750,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         53,
@@ -5041,6 +5184,7 @@
     "sprite": "/sprites/others/pet_travesso.png",
     "levelMax": 0,
     "cooldown": 0,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         0,
@@ -5078,6 +5222,7 @@
     "sprite": "/sprites/weapons/sword_glass_4.png",
     "levelMax": 15,
     "cooldown": 550,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         85,
@@ -5113,6 +5258,7 @@
     "sprite": "/sprites/weapons/staff_13.png",
     "levelMax": 15,
     "cooldown": 650,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         76,
@@ -5148,6 +5294,7 @@
     "sprite": "/sprites/weapons/staff_13.png",
     "levelMax": 15,
     "cooldown": 650,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         90,
@@ -5183,6 +5330,7 @@
     "sprite": "/sprites/others/pet_golden_beetle.png",
     "levelMax": 0,
     "cooldown": 0,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         0,
@@ -5220,6 +5368,7 @@
     "sprite": "/sprites/others/key_1.png",
     "levelMax": 0,
     "cooldown": 0,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         0,
@@ -5246,6 +5395,7 @@
     "sprite": "/sprites/weapons/sword_treasure_skewer.png",
     "levelMax": 15,
     "cooldown": 575,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         94,
@@ -5281,6 +5431,7 @@
     "sprite": "/sprites/weapons/spear_treasure.png",
     "levelMax": 15,
     "cooldown": 750,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         55,
@@ -5316,6 +5467,7 @@
     "sprite": "/sprites/weapons/sword_treasure_broad.png",
     "levelMax": 15,
     "cooldown": 500,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         90,
@@ -5351,6 +5503,7 @@
     "sprite": "/sprites/weapons/axe_snake.png",
     "levelMax": 15,
     "cooldown": 600,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         92,
@@ -5386,6 +5539,7 @@
     "sprite": "/sprites/weapons/sword_snake.png",
     "levelMax": 15,
     "cooldown": 600,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         80,
@@ -5421,6 +5575,7 @@
     "sprite": "/sprites/weapons/dagger_snake.png",
     "levelMax": 13,
     "cooldown": 600,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         24,
@@ -5456,6 +5611,7 @@
     "sprite": "/sprites/weapons/spear_snake.png",
     "levelMax": 15,
     "cooldown": 650,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         60,
@@ -5491,6 +5647,7 @@
     "sprite": "/sprites/others/green_rune.png",
     "levelMax": 0,
     "cooldown": 0,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         0,
@@ -5517,6 +5674,7 @@
     "sprite": "/sprites/armors/armor_earth_Fa.png",
     "levelMax": 15,
     "cooldown": 0,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         0,
@@ -5554,6 +5712,7 @@
     "sprite": "/sprites/armors/armor_gigaspider_A.png",
     "levelMax": 15,
     "cooldown": 0,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         0,
@@ -5591,6 +5750,7 @@
     "sprite": "/sprites/armors/armor_cloth_special_a2.png",
     "levelMax": 10,
     "cooldown": 0,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         0,
@@ -5628,6 +5788,7 @@
     "sprite": "/sprites/weapons/hammer_light.png",
     "levelMax": 15,
     "cooldown": 1050,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         48,
@@ -5663,6 +5824,7 @@
     "sprite": "/sprites/weapons/sword_glass_3.png",
     "levelMax": 15,
     "cooldown": 500,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         100,
@@ -5698,6 +5860,7 @@
     "sprite": "/sprites/armors/armor_leather_4.png",
     "levelMax": 5,
     "cooldown": 0,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         0,
@@ -5735,6 +5898,7 @@
     "sprite": "/sprites/armors/armor_leather_4.png",
     "levelMax": 15,
     "cooldown": 0,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         0,
@@ -5772,6 +5936,7 @@
     "sprite": "/sprites/armors/armor_cloth_special_g.png",
     "levelMax": 13,
     "cooldown": 0,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         0,
@@ -5809,6 +5974,7 @@
     "sprite": "/sprites/armors/armor_cloth_4.png",
     "levelMax": 9,
     "cooldown": 0,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         0,
@@ -5846,6 +6012,7 @@
     "sprite": "/sprites/weapons/staff_10.png",
     "levelMax": 15,
     "cooldown": 650,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         75,
@@ -5881,6 +6048,7 @@
     "sprite": "/sprites/weapons/staff_10.png",
     "levelMax": 15,
     "cooldown": 550,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         70,
@@ -5916,6 +6084,7 @@
     "sprite": "/sprites/weapons/axe_frost.png",
     "levelMax": 15,
     "cooldown": 450,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         70,
@@ -5951,6 +6120,7 @@
     "sprite": "/sprites/weapons/sword_ice_claw.png",
     "levelMax": 15,
     "cooldown": 500,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         66,
@@ -5986,6 +6156,7 @@
     "sprite": "/sprites/weapons/dagger_frost.png",
     "levelMax": 15,
     "cooldown": 360,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         40,
@@ -6021,6 +6192,7 @@
     "sprite": "/sprites/weapons/staff_ice.png",
     "levelMax": 15,
     "cooldown": 610,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         62,
@@ -6056,6 +6228,7 @@
     "sprite": "/sprites/weapons/dagger_6.png",
     "levelMax": 15,
     "cooldown": 400,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         22,
@@ -6091,6 +6264,7 @@
     "sprite": "/sprites/armors/armor_cloth_5.png",
     "levelMax": 10,
     "cooldown": 0,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         0,
@@ -6128,6 +6302,7 @@
     "sprite": "/sprites/weapons/shuriken_fire.png",
     "levelMax": 15,
     "cooldown": 340,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         74,
@@ -6163,6 +6338,7 @@
     "sprite": "/sprites/armors/armor_cloth_1b.png",
     "levelMax": 0,
     "cooldown": 0,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         0,
@@ -6200,6 +6376,7 @@
     "sprite": "/sprites/armors/armor_inkeeper_A.png",
     "levelMax": 15,
     "cooldown": 0,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         0,
@@ -6237,6 +6414,7 @@
     "sprite": "/sprites/weapons/hammer_4.png",
     "levelMax": 13,
     "cooldown": 700,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         40,
@@ -6272,6 +6450,7 @@
     "sprite": "/sprites/weapons/hammer_2_clean.png",
     "levelMax": 3,
     "cooldown": 800,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         16,
@@ -6307,6 +6486,7 @@
     "sprite": "/sprites/others/instant-charge-blast.png",
     "levelMax": 0,
     "cooldown": 0,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         0,
@@ -6333,6 +6513,7 @@
     "sprite": "/sprites/others/instant-dark-twin.png",
     "levelMax": 0,
     "cooldown": 0,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         0,
@@ -6359,6 +6540,7 @@
     "sprite": "/sprites/others/instant-gust.png",
     "levelMax": 0,
     "cooldown": 0,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         0,
@@ -6385,6 +6567,7 @@
     "sprite": "/sprites/others/instant-radiant-shield.png",
     "levelMax": 0,
     "cooldown": 0,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         0,
@@ -6411,6 +6594,7 @@
     "sprite": "/sprites/others/instant-thunder-wave.png",
     "levelMax": 0,
     "cooldown": 0,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         0,
@@ -6437,6 +6621,7 @@
     "sprite": "/sprites/armors/armor_water_plate_a.png",
     "levelMax": 15,
     "cooldown": 0,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         0,
@@ -6474,6 +6659,7 @@
     "sprite": "/sprites/weapons/dagger_0.png",
     "levelMax": 3,
     "cooldown": 450,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         4,
@@ -6509,6 +6695,7 @@
     "sprite": "/sprites/weapons/dagger_0_plus.png",
     "levelMax": 15,
     "cooldown": 440,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         50,
@@ -6544,6 +6731,7 @@
     "sprite": "/sprites/others/key_0.png",
     "levelMax": 0,
     "cooldown": 0,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         0,
@@ -6570,6 +6758,7 @@
     "sprite": "/sprites/weapons/mace_1.png",
     "levelMax": 3,
     "cooldown": 800,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         16,
@@ -6605,6 +6794,7 @@
     "sprite": "/sprites/armors/armor_Neutralpp_Fa.png",
     "levelMax": 10,
     "cooldown": 0,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         0,
@@ -6642,6 +6832,7 @@
     "sprite": "/sprites/others/pet_jellybunny.png",
     "levelMax": 0,
     "cooldown": 0,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         0,
@@ -6679,6 +6870,7 @@
     "sprite": "/sprites/armors/armor_cloth_1b.png",
     "levelMax": 0,
     "cooldown": 0,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         0,
@@ -6716,6 +6908,7 @@
     "sprite": "/sprites/armors/armor_cloth_14.png",
     "levelMax": 9,
     "cooldown": 0,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         0,
@@ -6753,6 +6946,7 @@
     "sprite": "/sprites/armors/armor_jungle_b.png",
     "levelMax": 6,
     "cooldown": 0,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         0,
@@ -6790,6 +6984,7 @@
     "sprite": "/sprites/others/key_time.png",
     "levelMax": 0,
     "cooldown": 0,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         0,
@@ -6816,6 +7011,7 @@
     "sprite": "/sprites/armors/armor_king.png",
     "levelMax": 10,
     "cooldown": 0,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         0,
@@ -6853,6 +7049,7 @@
     "sprite": "/sprites/armors/armor_discord.png",
     "levelMax": 0,
     "cooldown": 0,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         0,
@@ -6890,6 +7087,7 @@
     "sprite": "/sprites/weapons/dagger_3.png",
     "levelMax": 13,
     "cooldown": 500,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         11,
@@ -6925,6 +7123,7 @@
     "sprite": "/sprites/weapons/dagger_survivor.png",
     "levelMax": 15,
     "cooldown": 300,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         36,
@@ -6960,6 +7159,7 @@
     "sprite": "/sprites/weapons/spear_survivor.png",
     "levelMax": 15,
     "cooldown": 750,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         61,
@@ -6995,6 +7195,7 @@
     "sprite": "/sprites/weapons/sword_15.png",
     "levelMax": 9,
     "cooldown": 400,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         23,
@@ -7030,6 +7231,7 @@
     "sprite": "/sprites/weapons/staff_earth.png",
     "levelMax": 15,
     "cooldown": 600,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         90,
@@ -7065,6 +7267,7 @@
     "sprite": "/sprites/others/beverage-levitation-liqueur.png",
     "levelMax": 0,
     "cooldown": 0,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         0,
@@ -7091,6 +7294,7 @@
     "sprite": "/sprites/others/essence_earth.png",
     "levelMax": 0,
     "cooldown": 0,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         0,
@@ -7117,6 +7321,7 @@
     "sprite": "/sprites/armors/armor_special_i.png",
     "levelMax": 0,
     "cooldown": 0,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         0,
@@ -7154,6 +7359,7 @@
     "sprite": "/sprites/weapons/dagger_7.png",
     "levelMax": 22,
     "cooldown": 400,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         12,
@@ -7189,6 +7395,7 @@
     "sprite": "/sprites/weapons/sword_glass_1.png",
     "levelMax": 15,
     "cooldown": 550,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         90,
@@ -7224,6 +7431,7 @@
     "sprite": "/sprites/armors/armor_cloth_6.png",
     "levelMax": 0,
     "cooldown": 0,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         0,
@@ -7261,6 +7469,7 @@
     "sprite": "/sprites/weapons/staff_5.png",
     "levelMax": 3,
     "cooldown": 800,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         12,
@@ -7296,6 +7505,7 @@
     "sprite": "/sprites/weapons/axe_0.png",
     "levelMax": 15,
     "cooldown": 450,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         25,
@@ -7331,6 +7541,7 @@
     "sprite": "/sprites/armors/armor_cloth_12.png",
     "levelMax": 9,
     "cooldown": 0,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         0,
@@ -7368,6 +7579,7 @@
     "sprite": "/sprites/weapons/hammer_liquid.png",
     "levelMax": 15,
     "cooldown": 1050,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         46,
@@ -7403,6 +7615,7 @@
     "sprite": "/sprites/others/rune_water.png",
     "levelMax": 0,
     "cooldown": 0,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         0,
@@ -7429,6 +7642,7 @@
     "sprite": "/sprites/others/lunar_map.png",
     "levelMax": 0,
     "cooldown": 0,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         0,
@@ -7455,6 +7669,7 @@
     "sprite": "/sprites/weapons/dagger_2.png",
     "levelMax": 3,
     "cooldown": 500,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         8,
@@ -7490,6 +7705,7 @@
     "sprite": "/sprites/others/pet_agent.png",
     "levelMax": 0,
     "cooldown": 0,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         0,
@@ -7527,6 +7743,7 @@
     "sprite": "/sprites/weapons/sword_11.png",
     "levelMax": 13,
     "cooldown": 600,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         27,
@@ -7562,6 +7779,7 @@
     "sprite": "/sprites/weapons/dagger_spider.png",
     "levelMax": 15,
     "cooldown": 450,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         52,
@@ -7597,6 +7815,7 @@
     "sprite": "/sprites/weapons/sword_14.png",
     "levelMax": 3,
     "cooldown": 650,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         14,
@@ -7632,6 +7851,7 @@
     "sprite": "/sprites/weapons/sword_master_plus.png",
     "levelMax": 15,
     "cooldown": 530,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         88,
@@ -7664,6 +7884,7 @@
     "sprite": "/sprites/armors/armor_cloth_2b.png",
     "levelMax": 3,
     "cooldown": 0,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         0,
@@ -7701,6 +7922,7 @@
     "sprite": "/sprites/armors/armor_explorer_2_A.png",
     "levelMax": 15,
     "cooldown": 0,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         0,
@@ -7738,6 +7960,7 @@
     "sprite": "/sprites/weapons/hammer_mojara.png",
     "levelMax": 16,
     "cooldown": 1050,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         55,
@@ -7773,6 +7996,7 @@
     "sprite": "/sprites/armors/armor_special_a2.png",
     "levelMax": 9,
     "cooldown": 0,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         0,
@@ -7810,6 +8034,7 @@
     "sprite": "/sprites/others/beverage-monsters-juice.png",
     "levelMax": 0,
     "cooldown": 0,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         0,
@@ -7836,6 +8061,7 @@
     "sprite": "/sprites/others/necklace_03_jump.png",
     "levelMax": 0,
     "cooldown": 0,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         0,
@@ -7873,6 +8099,7 @@
     "sprite": "/sprites/others/beverage-moonjump-mixture.png",
     "levelMax": 0,
     "cooldown": 0,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         0,
@@ -7899,6 +8126,7 @@
     "sprite": "/sprites/armors/armor_special_c1.png",
     "levelMax": 7,
     "cooldown": 0,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         0,
@@ -7936,6 +8164,7 @@
     "sprite": "/sprites/weapons/sword_glass_0.png",
     "levelMax": 13,
     "cooldown": 550,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         80,
@@ -7971,6 +8200,7 @@
     "sprite": "/sprites/others/ring_1.png",
     "levelMax": 0,
     "cooldown": 0,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         0,
@@ -8008,6 +8238,7 @@
     "sprite": "/sprites/armors/armor_cloth_0a.png",
     "levelMax": 3,
     "cooldown": 0,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         0,
@@ -8045,6 +8276,7 @@
     "sprite": "/sprites/weapons/staff_1.png",
     "levelMax": 3,
     "cooldown": 800,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         8,
@@ -8080,6 +8312,7 @@
     "sprite": "/sprites/others/ring_2.png",
     "levelMax": 0,
     "cooldown": 0,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         0,
@@ -8117,6 +8350,7 @@
     "sprite": "/sprites/weapons/spellbook_necro.png",
     "levelMax": 15,
     "cooldown": 550,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         39,
@@ -8152,6 +8386,7 @@
     "sprite": "/sprites/others/ring_10.png",
     "levelMax": 0,
     "cooldown": 0,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         0,
@@ -8189,6 +8424,7 @@
     "sprite": "/sprites/weapons/staff_2022_3.png",
     "levelMax": 15,
     "cooldown": 630,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         62,
@@ -8224,6 +8460,7 @@
     "sprite": "/sprites/others/pet_christmas_2024a.png",
     "levelMax": 0,
     "cooldown": 0,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         0,
@@ -8261,6 +8498,7 @@
     "sprite": "/sprites/weapons/sword_2.png",
     "levelMax": 3,
     "cooldown": 400,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         29,
@@ -8296,6 +8534,7 @@
     "sprite": "/sprites/armors/xmas_enemy_red.png",
     "levelMax": 15,
     "cooldown": 0,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         0,
@@ -8333,6 +8572,7 @@
     "sprite": "/sprites/weapons/sword_anubis.png",
     "levelMax": 15,
     "cooldown": 550,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         110,
@@ -8368,6 +8608,7 @@
     "sprite": "/sprites/others/essence_darkness.png",
     "levelMax": 0,
     "cooldown": 0,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         0,
@@ -8394,6 +8635,7 @@
     "sprite": "/sprites/armors/armor_plate_1b.png",
     "levelMax": 3,
     "cooldown": 0,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         0,
@@ -8431,6 +8673,7 @@
     "sprite": "/sprites/weapons/spear.png",
     "levelMax": 13,
     "cooldown": 750,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         40,
@@ -8466,6 +8709,7 @@
     "sprite": "/sprites/weapons/spear_chess_queen_B.png",
     "levelMax": 15,
     "cooldown": 650,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         84,
@@ -8501,6 +8745,7 @@
     "sprite": "/sprites/weapons/spear_water.png",
     "levelMax": 15,
     "cooldown": 750,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         64,
@@ -8536,6 +8781,7 @@
     "sprite": "/sprites/weapons/staff_4.png",
     "levelMax": 15,
     "cooldown": 600,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         21,
@@ -8571,6 +8817,7 @@
     "sprite": "/sprites/weapons/axe_epic_fire_small.png",
     "levelMax": 15,
     "cooldown": 750,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         74,
@@ -8606,6 +8853,7 @@
     "sprite": "/sprites/weapons/axe_epic_fire_small.png",
     "levelMax": 15,
     "cooldown": 550,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         82,
@@ -8641,6 +8889,7 @@
     "sprite": "/sprites/armors/armor_cloth_special_c2.png",
     "levelMax": 13,
     "cooldown": 0,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         0,
@@ -8678,6 +8927,7 @@
     "sprite": "/sprites/armors/armor_cloth_special_c2.png",
     "levelMax": 16,
     "cooldown": 0,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         0,
@@ -8715,6 +8965,7 @@
     "sprite": "/sprites/others/beverage-pepper-brew.png",
     "levelMax": 0,
     "cooldown": 0,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         0,
@@ -8741,6 +8992,7 @@
     "sprite": "/sprites/others/pet_fenix.png",
     "levelMax": 0,
     "cooldown": 0,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         0,
@@ -8778,6 +9030,7 @@
     "sprite": "/sprites/weapons/sword_3.png",
     "levelMax": 3,
     "cooldown": 500,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         26,
@@ -8813,6 +9066,7 @@
     "sprite": "/sprites/others/pet_ballerina.png",
     "levelMax": 0,
     "cooldown": 0,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         0,
@@ -8850,6 +9104,7 @@
     "sprite": "/sprites/armors/armor_leather_1a.png",
     "levelMax": 3,
     "cooldown": 0,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         0,
@@ -8887,6 +9142,7 @@
     "sprite": "/sprites/weapons/dagger_4.png",
     "levelMax": 16,
     "cooldown": 400,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         10,
@@ -8922,6 +9178,7 @@
     "sprite": "/sprites/weapons/dagger_dart.png",
     "levelMax": 16,
     "cooldown": 300,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         15,
@@ -8957,6 +9214,7 @@
     "sprite": "/sprites/weapons/spear_poison.png",
     "levelMax": 15,
     "cooldown": 500,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         58,
@@ -8992,6 +9250,7 @@
     "sprite": "/sprites/others/potion.png",
     "levelMax": 0,
     "cooldown": 0,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         0,
@@ -9018,6 +9277,7 @@
     "sprite": "/sprites/weapons/dagger_treasure_dual.png",
     "levelMax": 15,
     "cooldown": 400,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         37,
@@ -9053,6 +9313,7 @@
     "sprite": "/sprites/weapons/dagger_treasure.png",
     "levelMax": 15,
     "cooldown": 360,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         35,
@@ -9088,6 +9349,7 @@
     "sprite": "/sprites/armors/armor_earth_plate_a.png",
     "levelMax": 15,
     "cooldown": 0,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         0,
@@ -9125,6 +9387,7 @@
     "sprite": "/sprites/others/purple_rune.png",
     "levelMax": 0,
     "cooldown": 0,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         0,
@@ -9151,6 +9414,7 @@
     "sprite": "/sprites/armors/armor_dark_Fa.png",
     "levelMax": 15,
     "cooldown": 0,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         0,
@@ -9188,6 +9452,7 @@
     "sprite": "/sprites/armors/armor_leather_1b.png",
     "levelMax": 3,
     "cooldown": 0,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         0,
@@ -9225,6 +9490,7 @@
     "sprite": "/sprites/armors/armor_leather_0b.png",
     "levelMax": 3,
     "cooldown": 0,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         0,
@@ -9262,6 +9528,7 @@
     "sprite": "/sprites/weapons/sword_0.png",
     "levelMax": 3,
     "cooldown": 650,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         7,
@@ -9297,6 +9564,7 @@
     "sprite": "/sprites/others/ring_0.png",
     "levelMax": 0,
     "cooldown": 0,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         0,
@@ -9334,6 +9602,7 @@
     "sprite": "/sprites/others/ring_15.png",
     "levelMax": 0,
     "cooldown": 0,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         0,
@@ -9371,6 +9640,7 @@
     "sprite": "/sprites/others/ring_4.png",
     "levelMax": 0,
     "cooldown": 0,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         0,
@@ -9408,6 +9678,7 @@
     "sprite": "/sprites/armors/armor_fire_leather_a.png",
     "levelMax": 15,
     "cooldown": 0,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         0,
@@ -9445,6 +9716,7 @@
     "sprite": "/sprites/armors/armor_fire_cloth_a.png",
     "levelMax": 15,
     "cooldown": 0,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         0,
@@ -9482,6 +9754,7 @@
     "sprite": "/sprites/weapons/hammer_root.png",
     "levelMax": 15,
     "cooldown": 700,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         66,
@@ -9517,6 +9790,7 @@
     "sprite": "/sprites/weapons/staff_treasure.png",
     "levelMax": 15,
     "cooldown": 600,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         72,
@@ -9552,6 +9826,7 @@
     "sprite": "/sprites/weapons/dagger_chess_pawn_A.png",
     "levelMax": 15,
     "cooldown": 440,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         58,
@@ -9587,6 +9862,7 @@
     "sprite": "/sprites/weapons/spear_chess_queen_A.png",
     "levelMax": 15,
     "cooldown": 650,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         74,
@@ -9622,6 +9898,7 @@
     "sprite": "/sprites/others/rune_wind.png",
     "levelMax": 0,
     "cooldown": 0,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         0,
@@ -9648,6 +9925,7 @@
     "sprite": "/sprites/armors/armor_explorer_1_A.png",
     "levelMax": 15,
     "cooldown": 0,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         0,
@@ -9685,6 +9963,7 @@
     "sprite": "/sprites/armors/armor_christmas_2022_A.png",
     "levelMax": 0,
     "cooldown": 0,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         0,
@@ -9722,6 +10001,7 @@
     "sprite": "/sprites/weapons/dagger_chess_pawn_B.png",
     "levelMax": 15,
     "cooldown": 500,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         42,
@@ -9757,6 +10037,7 @@
     "sprite": "/sprites/others/key_scarlet.png",
     "levelMax": 0,
     "cooldown": 0,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         0,
@@ -9783,6 +10064,7 @@
     "sprite": "/sprites/armors/armor_bruxa_carmesim_A.png",
     "levelMax": 15,
     "cooldown": 0,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         0,
@@ -9820,6 +10102,7 @@
     "sprite": "/sprites/weapons/dagger_anubis.png",
     "levelMax": 15,
     "cooldown": 420,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         50,
@@ -9855,6 +10138,7 @@
     "sprite": "/sprites/others/ring_23.png",
     "levelMax": 0,
     "cooldown": 0,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         0,
@@ -9892,6 +10176,7 @@
     "sprite": "/sprites/weapons/staff_sea.png",
     "levelMax": 15,
     "cooldown": 700,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         95,
@@ -9927,6 +10212,7 @@
     "sprite": "/sprites/others/ring_1.png",
     "levelMax": 0,
     "cooldown": 0,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         0,
@@ -9964,6 +10250,7 @@
     "sprite": "/sprites/others/essence_light.png",
     "levelMax": 0,
     "cooldown": 0,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         0,
@@ -9990,6 +10277,7 @@
     "sprite": "/sprites/others/light_rune.png",
     "levelMax": 0,
     "cooldown": 0,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         0,
@@ -10016,6 +10304,7 @@
     "sprite": "/sprites/weapons/shuriken_light.png",
     "levelMax": 15,
     "cooldown": 360,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         84,
@@ -10051,6 +10340,7 @@
     "sprite": "/sprites/weapons/staff_xmas.png",
     "levelMax": 15,
     "cooldown": 650,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         68,
@@ -10086,6 +10376,7 @@
     "sprite": "/sprites/weapons/axe_0.png",
     "levelMax": 3,
     "cooldown": 800,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         19,
@@ -10121,6 +10412,7 @@
     "sprite": "/sprites/weapons/mace_0.png",
     "levelMax": 3,
     "cooldown": 800,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         12,
@@ -10156,6 +10448,7 @@
     "sprite": "/sprites/others/armlet_03_jump.png",
     "levelMax": 0,
     "cooldown": 0,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         0,
@@ -10193,6 +10486,7 @@
     "sprite": "/sprites/weapons/hammer_survivor.png",
     "levelMax": 15,
     "cooldown": 900,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         52,
@@ -10228,6 +10522,7 @@
     "sprite": "/sprites/armors/armor_leather_0a.png",
     "levelMax": 3,
     "cooldown": 0,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         0,
@@ -10265,6 +10560,7 @@
     "sprite": "/sprites/weapons/sword_chess_king_B.png",
     "levelMax": 15,
     "cooldown": 500,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         72,
@@ -10300,6 +10596,7 @@
     "sprite": "/sprites/weapons/sword_chess_king_A.png",
     "levelMax": 15,
     "cooldown": 500,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         86,
@@ -10335,6 +10632,7 @@
     "sprite": "/sprites/others/beverage-umbranian-water.png",
     "levelMax": 0,
     "cooldown": 0,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         0,
@@ -10361,6 +10659,7 @@
     "sprite": "/sprites/armors/armor_special_h2.png",
     "levelMax": 13,
     "cooldown": 0,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         0,
@@ -10398,6 +10697,7 @@
     "sprite": "/sprites/armors/armor_special_h1.png",
     "levelMax": 13,
     "cooldown": 0,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         0,
@@ -10435,6 +10735,7 @@
     "sprite": "/sprites/armors/armor_cloth_special_a1.png",
     "levelMax": 0,
     "cooldown": 0,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         0,
@@ -10472,6 +10773,7 @@
     "sprite": "/sprites/armors/character_armor_gorgon_purple.png",
     "levelMax": 13,
     "cooldown": 0,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         0,
@@ -10509,6 +10811,7 @@
     "sprite": "/sprites/others/pet_beholder.png",
     "levelMax": 0,
     "cooldown": 0,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         0,
@@ -10546,6 +10849,7 @@
     "sprite": "/sprites/others/ring_8.png",
     "levelMax": 0,
     "cooldown": 0,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         0,
@@ -10583,6 +10887,7 @@
     "sprite": "/sprites/weapons/axe_spider.png",
     "levelMax": 13,
     "cooldown": 600,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         40,
@@ -10618,6 +10923,7 @@
     "sprite": "/sprites/weapons/hammer_3.png",
     "levelMax": 10,
     "cooldown": 800,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         47,
@@ -10653,6 +10959,7 @@
     "sprite": "/sprites/armors/armor_spider.png",
     "levelMax": 13,
     "cooldown": 0,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         0,
@@ -10690,6 +10997,7 @@
     "sprite": "/sprites/weapons/spear_spider.png",
     "levelMax": 15,
     "cooldown": 650,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         68,
@@ -10725,6 +11033,7 @@
     "sprite": "/sprites/weapons/staff_spider.png",
     "levelMax": 15,
     "cooldown": 550,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         97,
@@ -10760,6 +11069,7 @@
     "sprite": "/sprites/weapons/staff_3.png",
     "levelMax": 11,
     "cooldown": 700,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         41,
@@ -10795,6 +11105,7 @@
     "sprite": "/sprites/weapons/staff_2022_2.png",
     "levelMax": 15,
     "cooldown": 600,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         88,
@@ -10830,6 +11141,7 @@
     "sprite": "/sprites/weapons/staff_survivor.png",
     "levelMax": 15,
     "cooldown": 400,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         110,
@@ -10865,6 +11177,7 @@
     "sprite": "/sprites/others/beverage-starlight-supertonic.png",
     "levelMax": 0,
     "cooldown": 0,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         0,
@@ -10891,6 +11204,7 @@
     "sprite": "/sprites/weapons/axe_steel.png",
     "levelMax": 15,
     "cooldown": 800,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         70,
@@ -10926,6 +11240,7 @@
     "sprite": "/sprites/weapons/sword_1.png",
     "levelMax": 3,
     "cooldown": 650,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         11,
@@ -10961,6 +11276,7 @@
     "sprite": "/sprites/weapons/dagger_steel.png",
     "levelMax": 3,
     "cooldown": 450,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         16,
@@ -10996,6 +11312,7 @@
     "sprite": "/sprites/armors/armor_plate_3b.png",
     "levelMax": 9,
     "cooldown": 0,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         0,
@@ -11033,6 +11350,7 @@
     "sprite": "/sprites/armors/armor_plate_3b.png",
     "levelMax": 16,
     "cooldown": 0,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         0,
@@ -11070,6 +11388,7 @@
     "sprite": "/sprites/others/ring_11.png",
     "levelMax": 0,
     "cooldown": 0,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         0,
@@ -11107,6 +11426,7 @@
     "sprite": "/sprites/weapons/shuriken_air.png",
     "levelMax": 15,
     "cooldown": 320,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         70,
@@ -11142,6 +11462,7 @@
     "sprite": "/sprites/armors/armor_wind_cloth_a.png",
     "levelMax": 15,
     "cooldown": 0,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         0,
@@ -11179,6 +11500,7 @@
     "sprite": "/sprites/weapons/axe_water.png",
     "levelMax": 15,
     "cooldown": 600,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         85,
@@ -11214,6 +11536,7 @@
     "sprite": "/sprites/others/ring_5.png",
     "levelMax": 0,
     "cooldown": 0,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         0,
@@ -11251,6 +11574,7 @@
     "sprite": "/sprites/armors/armor_leather_Na.png",
     "levelMax": 10,
     "cooldown": 0,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         0,
@@ -11288,6 +11612,7 @@
     "sprite": "/sprites/armors/armor_Neutralp_Fa.png",
     "levelMax": 10,
     "cooldown": 0,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         0,
@@ -11325,6 +11650,7 @@
     "sprite": "/sprites/weapons/sword_9.png",
     "levelMax": 15,
     "cooldown": 850,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         115,
@@ -11360,6 +11686,7 @@
     "sprite": "/sprites/weapons/sword_8.png",
     "levelMax": 11,
     "cooldown": 350,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         40,
@@ -11395,6 +11722,7 @@
     "sprite": "/sprites/others/ring_6.png",
     "levelMax": 0,
     "cooldown": 0,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         0,
@@ -11432,6 +11760,7 @@
     "sprite": "/sprites/armors/armor_social_twitch.png",
     "levelMax": 0,
     "cooldown": 0,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         0,
@@ -11469,6 +11798,7 @@
     "sprite": "/sprites/weapons/spellbook_water.png",
     "levelMax": 15,
     "cooldown": 500,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         52,
@@ -11504,6 +11834,7 @@
     "sprite": "/sprites/weapons/spellbook_1.png",
     "levelMax": 15,
     "cooldown": 450,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         50,
@@ -11539,6 +11870,7 @@
     "sprite": "/sprites/weapons/spellbook_2.png",
     "levelMax": 15,
     "cooldown": 500,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         42,
@@ -11574,6 +11906,7 @@
     "sprite": "/sprites/weapons/spellbook_dark.png",
     "levelMax": 15,
     "cooldown": 400,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         54,
@@ -11609,6 +11942,7 @@
     "sprite": "/sprites/weapons/spellbook_light.png",
     "levelMax": 15,
     "cooldown": 450,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         44,
@@ -11644,6 +11978,7 @@
     "sprite": "/sprites/weapons/spellbook_fire.png",
     "levelMax": 15,
     "cooldown": 400,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         38,
@@ -11679,6 +12014,7 @@
     "sprite": "/sprites/weapons/spellbook_air.png",
     "levelMax": 15,
     "cooldown": 500,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         51,
@@ -11714,6 +12050,7 @@
     "sprite": "/sprites/weapons/sword_10.png",
     "levelMax": 15,
     "cooldown": 500,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         50,
@@ -11749,6 +12086,7 @@
     "sprite": "/sprites/weapons/hammer_2.png",
     "levelMax": 8,
     "cooldown": 800,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         70,
@@ -11784,6 +12122,7 @@
     "sprite": "/sprites/others/pet_reidi.png",
     "levelMax": 0,
     "cooldown": 0,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         0,
@@ -11821,6 +12160,7 @@
     "sprite": "/sprites/armors/armor_cloth_special_e1.png",
     "levelMax": 10,
     "cooldown": 0,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         0,
@@ -11858,6 +12198,7 @@
     "sprite": "/sprites/weapons/spellbook_anubis.png",
     "levelMax": 15,
     "cooldown": 450,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         66,
@@ -11893,6 +12234,7 @@
     "sprite": "/sprites/others/beverage-tonic-of-invulnerability.png",
     "levelMax": 0,
     "cooldown": 0,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         0,
@@ -11919,6 +12261,7 @@
     "sprite": "/sprites/weapons/axe_poison.png",
     "levelMax": 15,
     "cooldown": 600,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         52,
@@ -11954,6 +12297,7 @@
     "sprite": "/sprites/weapons/dagger_dual_poison.png",
     "levelMax": 15,
     "cooldown": 500,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         50,
@@ -11989,6 +12333,7 @@
     "sprite": "/sprites/weapons/hammer_poison.png",
     "levelMax": 15,
     "cooldown": 750,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         48,
@@ -12024,6 +12369,7 @@
     "sprite": "/sprites/weapons/mace_poison.png",
     "levelMax": 15,
     "cooldown": 600,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         46,
@@ -12059,6 +12405,7 @@
     "sprite": "/sprites/weapons/staff_poison.png",
     "levelMax": 15,
     "cooldown": 450,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         90,
@@ -12094,6 +12441,7 @@
     "sprite": "/sprites/others/pet_halloween_2.png",
     "levelMax": 0,
     "cooldown": 0,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         0,
@@ -12131,6 +12479,7 @@
     "sprite": "/sprites/armors/armor_earth_leather_a.png",
     "levelMax": 15,
     "cooldown": 0,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         0,
@@ -12168,6 +12517,7 @@
     "sprite": "/sprites/armors/armor_frozen_mage_b.png",
     "levelMax": 15,
     "cooldown": 0,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         0,
@@ -12205,6 +12555,7 @@
     "sprite": "/sprites/armors/armor_light_leather_a.png",
     "levelMax": 15,
     "cooldown": 0,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         0,
@@ -12242,6 +12593,7 @@
     "sprite": "/sprites/armors/armor_water_cloth_a.png",
     "levelMax": 15,
     "cooldown": 0,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         0,
@@ -12279,6 +12631,7 @@
     "sprite": "/sprites/armors/armor_carnival_acrobat_I_A.png",
     "levelMax": 15,
     "cooldown": 0,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         0,
@@ -12316,6 +12669,7 @@
     "sprite": "/sprites/armors/armor_carnival_buffoon_II_A.png",
     "levelMax": 15,
     "cooldown": 0,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         0,
@@ -12353,6 +12707,7 @@
     "sprite": "/sprites/armors/armor_carnival_acrobat_II_A.png",
     "levelMax": 15,
     "cooldown": 0,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         0,
@@ -12390,6 +12745,7 @@
     "sprite": "/sprites/armors/armor_water_leather_b.png",
     "levelMax": 15,
     "cooldown": 0,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         0,
@@ -12427,6 +12783,7 @@
     "sprite": "/sprites/weapons/axe_2.png",
     "levelMax": 3,
     "cooldown": 800,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         35,
@@ -12462,6 +12819,7 @@
     "sprite": "/sprites/weapons/sword_7.png",
     "levelMax": 10,
     "cooldown": 450,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         38,
@@ -12497,6 +12855,7 @@
     "sprite": "/sprites/weapons/sword_6.png",
     "levelMax": 13,
     "cooldown": 300,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         32,
@@ -12532,6 +12891,7 @@
     "sprite": "/sprites/armors/armor_cloth_3b.png",
     "levelMax": 6,
     "cooldown": 0,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         0,
@@ -12569,6 +12929,7 @@
     "sprite": "/sprites/armors/armor_leather_1b.png",
     "levelMax": 3,
     "cooldown": 0,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         0,
@@ -12606,6 +12967,7 @@
     "sprite": "/sprites/others/beverage-umbranian-water.png",
     "levelMax": 0,
     "cooldown": 0,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         0,
@@ -12632,6 +12994,7 @@
     "sprite": "/sprites/weapons/dagger_snake_black_mamba.png",
     "levelMax": 13,
     "cooldown": 500,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         50,
@@ -12667,6 +13030,7 @@
     "sprite": "/sprites/weapons/shuriken_water.png",
     "levelMax": 15,
     "cooldown": 360,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         76,
@@ -12702,6 +13066,7 @@
     "sprite": "/sprites/armors/armor_water_cloth_a.png",
     "levelMax": 15,
     "cooldown": 0,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         0,
@@ -12739,6 +13104,7 @@
     "sprite": "/sprites/weapons/sword_kraken.png",
     "levelMax": 15,
     "cooldown": 550,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         135,
@@ -12774,6 +13140,7 @@
     "sprite": "/sprites/armors/armor_wind_plate_a.png",
     "levelMax": 15,
     "cooldown": 0,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         0,
@@ -12811,6 +13178,7 @@
     "sprite": "/sprites/weapons/dagger_poison.png",
     "levelMax": 15,
     "cooldown": 400,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         46,
@@ -12846,6 +13214,7 @@
     "sprite": "/sprites/weapons/hammer_verdant.png",
     "levelMax": 16,
     "cooldown": 1050,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         48,
@@ -12881,6 +13250,7 @@
     "sprite": "/sprites/others/ring_18.png",
     "levelMax": 0,
     "cooldown": 0,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         0,
@@ -12918,6 +13288,7 @@
     "sprite": "/sprites/armors/armor_light_cloth_a.png",
     "levelMax": 15,
     "cooldown": 0,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         0,
@@ -12955,6 +13326,7 @@
     "sprite": "/sprites/armors/armor_carnival_buffoon_I_A.png",
     "levelMax": 15,
     "cooldown": 0,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         0,
@@ -12992,6 +13364,7 @@
     "sprite": "/sprites/armors/armor_halloween_2021_A.png",
     "levelMax": 15,
     "cooldown": 0,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         0,
@@ -13029,6 +13402,7 @@
     "sprite": "/sprites/armors/armor_dark_leather_a.png",
     "levelMax": 15,
     "cooldown": 0,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         0,
@@ -13066,6 +13440,7 @@
     "sprite": "/sprites/others/pet_pixie.png",
     "levelMax": 0,
     "cooldown": 0,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         0,
@@ -13103,6 +13478,7 @@
     "sprite": "/sprites/others/pet_arara_grifo.png",
     "levelMax": 0,
     "cooldown": 0,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         0,
@@ -13140,6 +13516,7 @@
     "sprite": "/sprites/weapons/spear_air_pearl.png",
     "levelMax": 15,
     "cooldown": 650,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         75,
@@ -13175,6 +13552,7 @@
     "sprite": "/sprites/weapons/staff_darkness.png",
     "levelMax": 15,
     "cooldown": 600,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         135,
@@ -13210,6 +13588,7 @@
     "sprite": "/sprites/weapons/hammer_volcano.png",
     "levelMax": 16,
     "cooldown": 1050,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         47,
@@ -13245,6 +13624,7 @@
     "sprite": "/sprites/others/ring_19.png",
     "levelMax": 0,
     "cooldown": 0,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         0,
@@ -13282,6 +13662,7 @@
     "sprite": "/sprites/weapons/sword_volcano.png",
     "levelMax": 15,
     "cooldown": 500,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         100,
@@ -13317,6 +13698,7 @@
     "sprite": "/sprites/weapons/sword_5.png",
     "levelMax": 3,
     "cooldown": 400,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         25,
@@ -13352,6 +13734,7 @@
     "sprite": "/sprites/weapons/hammer_fire.png",
     "levelMax": 15,
     "cooldown": 700,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         65,
@@ -13387,6 +13770,7 @@
     "sprite": "/sprites/armors/armor_dark_plate_a.png",
     "levelMax": 15,
     "cooldown": 0,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         0,
@@ -13424,6 +13808,7 @@
     "sprite": "/sprites/weapons/hammer_1.png",
     "levelMax": 12,
     "cooldown": 800,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         28,
@@ -13459,6 +13844,7 @@
     "sprite": "/sprites/armors/armor_cloth_2b.png",
     "levelMax": 13,
     "cooldown": 0,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         0,
@@ -13496,6 +13882,7 @@
     "sprite": "/sprites/others/ring_9.png",
     "levelMax": 0,
     "cooldown": 0,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         0,
@@ -13533,6 +13920,7 @@
     "sprite": "/sprites/others/essence_water.png",
     "levelMax": 0,
     "cooldown": 0,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         0,
@@ -13559,6 +13947,7 @@
     "sprite": "/sprites/weapons/staff_12.png",
     "levelMax": 15,
     "cooldown": 650,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         80,
@@ -13594,6 +13983,7 @@
     "sprite": "/sprites/weapons/mace_treasure.png",
     "levelMax": 15,
     "cooldown": 1050,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         46,
@@ -13629,6 +14019,7 @@
     "sprite": "/sprites/weapons/hammer_treasure.png",
     "levelMax": 15,
     "cooldown": 1050,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         46,
@@ -13664,6 +14055,7 @@
     "sprite": "/sprites/others/pet_skull.png",
     "levelMax": 0,
     "cooldown": 0,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         0,
@@ -13701,6 +14093,7 @@
     "sprite": "/sprites/others/pet_dragon.png",
     "levelMax": 0,
     "cooldown": 0,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         0,
@@ -13738,6 +14131,7 @@
     "sprite": "/sprites/others/pet_fox_spirit-v2.png",
     "levelMax": 0,
     "cooldown": 0,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         0,
@@ -13775,6 +14169,7 @@
     "sprite": "/sprites/others/ring_12.png",
     "levelMax": 0,
     "cooldown": 0,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         0,
@@ -13812,6 +14207,7 @@
     "sprite": "/sprites/weapons/spear_trident.png",
     "levelMax": 15,
     "cooldown": 450,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         72,
@@ -13847,6 +14243,7 @@
     "sprite": "/sprites/armors/armor_wind_leather_a.png",
     "levelMax": 15,
     "cooldown": 0,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         0,
@@ -13884,6 +14281,7 @@
     "sprite": "/sprites/weapons/axe_air.png",
     "levelMax": 15,
     "cooldown": 600,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         75,
@@ -13919,6 +14317,7 @@
     "sprite": "/sprites/weapons/staff_air.png",
     "levelMax": 15,
     "cooldown": 700,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         75,
@@ -13954,6 +14353,7 @@
     "sprite": "/sprites/armors/armor_elite_frost_skeleton_b.png",
     "levelMax": 10,
     "cooldown": 0,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         0,
@@ -13991,6 +14391,7 @@
     "sprite": "/sprites/weapons/hammer_ancient.png",
     "levelMax": 16,
     "cooldown": 1400,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         56,
@@ -14026,6 +14427,7 @@
     "sprite": "/sprites/armors/armor_halloween_A.png",
     "levelMax": 15,
     "cooldown": 0,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         0,
@@ -14063,6 +14465,7 @@
     "sprite": "/sprites/others/ring_14.png",
     "levelMax": 0,
     "cooldown": 0,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         0,
@@ -14100,6 +14503,7 @@
     "sprite": "/sprites/weapons/hammer_0.png",
     "levelMax": 6,
     "cooldown": 800,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         17,
@@ -14135,6 +14539,7 @@
     "sprite": "/sprites/weapons/wooden_hawaiian.png",
     "levelMax": 3,
     "cooldown": 800,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         10,
@@ -14170,6 +14575,7 @@
     "sprite": "/sprites/armors/armor_social_tube.png",
     "levelMax": 0,
     "cooldown": 0,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         0,
@@ -14207,6 +14613,7 @@
     "sprite": "/sprites/weapons/spear_air.png",
     "levelMax": 15,
     "cooldown": 750,
+    "isUpcoming": false,
     "stats": {
       "damage": [
         57,
