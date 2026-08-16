@@ -10,11 +10,11 @@
       "label": "Let me rate it!",
       "type": "open-url"
     },
-    "exp-date": "2000-06-04",
+    "exp-date": "2099-06-04",
     "show-time-before-block": 1
   },
   {
-    "id": "update-version-2.6.5",
+    "id": "update-version-2.7.0",
     "type": "update-stat",
     "content": {
       "title": "A new update is available!",
@@ -28,16 +28,16 @@
       "title_tr": "Yeni bir güncelleme mevcut!",
       "title_uk": "Доступне нове оновлення!",
 
-      "message": "New Features & Improvements:\n- Added detailed information for attributes: Frost, Poisonous, Knockback, Flight speed...\n- Fully and visually displayed the stats system.\n- Added a screenshot feature to help save your favorite builds.\n- Upgraded and optimized the User Interface (UI).",
-      "message_es": "Nuevas funciones y mejoras:\n- Se agregó información detallada sobre los atributos: Frost, Poisonous, Knockback, Flight speed...\n- Visualización completa y gráfica del sistema de estadísticas.\n- Se agregó una función de captura de pantalla para ayudar a guardar tus configuraciones favoritas.\n- Interfaz de usuario (UI) actualizada y optimizada.",
-      "message_fr": "Nouvelles fonctionnalités et améliorations :\n- Ajout d'informations détaillées sur les attributs : Frost, Poisonous, Knockback, Flight speed...\n- Affichage complet et visuel du système de statistiques.\n- Ajout d'une fonctionnalité de capture d'écran pour vous aider à sauvegarder vos builds préférés.\n- Interface utilisateur (UI) mise à jour et optimisée.",
-      "message_it": "Nuove funzioni e miglioramenti:\n- Aggiunte informazioni dettagliate per gli attributi: Frost, Poisonous, Knockback, Flight speed...\n- Sistema di statistiche visualizzato in modo completo e intuitivo.\n- Aggiunta una funzione di screenshot per aiutarti a salvare le tue build preferite.\n- Interfaccia utente (UI) aggiornata e ottimizzata.",
-      "message_ja": "新機能と改善点：\n- 属性（Frost、Poisonous、Knockback、Flight speed...）の詳細情報を追加しました。\n- ステータスシステムを完全かつ視覚的に表示しました。\n- お気に入りのビルドを保存するのに役立つスクリーンショット機能を追加しました。\n- ユーザーインターフェース（UI）をアップグレードおよび最適化しました。",
-      "message_pt": "Novos recursos e melhorias:\n- Adicionadas informações detalhadas para os atributos: Frost, Poisonous, Knockback, Flight speed...\n- Sistema de estatísticas exibido de forma completa e visual.\n- Adicionado um recurso de captura de tela para ajudar a salvar suas builds favoritas.\n- Interface de Usuário (UI) atualizada e otimizada.",
-      "message_ru": "Новые функции и улучшения:\n- Добавлена подробная информация об атрибутах: Frost, Poisonous, Knockback, Flight speed...\n- Полное и наглядное отображение системы характеристик.\n- Добавлена функция создания снимков экрана, которая поможет сохранить ваши любимые сборки.\n- Обновлен и оптимизирован пользовательский интерфейс (UI).",
-      "message_tr": "Yeni Özellikler ve İyileştirmeler:\n- Nitelikler için ayrıntılı bilgi eklendi: Frost, Poisonous, Knockback, Flight speed...\n- İstatistik sistemi tam ve görsel olarak görüntülendi.\n- Favori dizilişlerinizi kaydetmenize yardımcı olacak bir ekran görüntüsü özelliği eklendi.\n- Kullanıcı Arayüzü (UI) güncellendi ve optimize edildi.",
-      "message_uk": "Нові функції та покращення:\n- Додано детальну інформацію про атрибути: Frost, Poisonous, Knockback, Flight speed...\n- Повне та наочне відображення системи характеристик.\n- Додано функцію знімків екрана, яка допоможе зберегти ваші улюблені збірки.\n- Оновлено та оптимізовано інтерфейс користувача (UI).",
-      "message_vi": "Tính năng mới & Cải tiến:\n- Bổ sung thông tin chi tiết về các thuộc tính: Frost, Poisonous, Knockback, Flight speed...\n- Hiển thị đầy đủ và trực quan hệ thống chỉ số.\n- Thêm tính năng chụp ảnh giúp lưu lại những cách build ưng ý nhất.\n- Nâng cấp và tối ưu hóa giao diện người dùng (UI).",
+      "message": "- Floating Bubble: Quick-access popup anywhere; optimized permission setup.\n- Rampager Studio: Added latest skins & fixed asset downloads.\n- New Weapon: Ashbite Dagger.\n- Weapon Stats: Added Explosion Range, Pierce Area Damage & Persist Projectiles.\n- About Section: Added author info & project milestones.\n- UI: Improved layout & stat comparison responsiveness.\n- Bug Fixes: Fixed rounding for Speed and Jump stats.",
+      "message_es": "- Floating Bubble: Pop-up de acceso rápido en cualquier lugar; permisos más claros.\n- Rampager Studio: Nuevas skins añadidas y descarga de recursos corregida.\n- Nueva arma: Ashbite Dagger.\n- Estadísticas: Explosion Range, Pierce Area Damage y Persist Projectiles.\n- Sección Acerca de: Información del autor e hitos del proyecto.\n- Interfaz: Mejor diseño y respuesta al comparar estadísticas.\n- Corrección de errores: Corregido redondeo en Speed y Jump.",
+      "message_fr": "- Floating Bubble : Pop-up d'accès rapide partout ; configuration des permissions optimisée.\n- Rampager Studio : Nouveaux skins ajoutés et téléchargement des ressources corrigé.\n- Nouvelle arme : Ashbite Dagger.\n- Statistiques d'armes : Explosion Range, Pierce Area Damage et Persist Projectiles.\n- Section À propos : Infos sur l'auteur et jalons du projet.\n- Interface : Disposition améliorée et comparaison des stats plus fluide.\n- Corrections : Correction de l'arrondi pour Speed et Jump.",
+      "message_it": "- Floating Bubble: Pop-up di accesso rapido ovunque; permessi più chiari.\n- Rampager Studio: Nuove skin aggiunte e download delle risorse corretto.\n- Nuova arma: Ashbite Dagger.\n- Statistiche armi: Explosion Range, Pierce Area Damage e Persist Projectiles.\n- Sezione Informazioni: Dettagli sull'autore e traguardi del progetto.\n- Interfaccia: Layout migliorato e confronto statistiche più reattivo.\n- Correzione bug: Risolto l'arrotondamento per Speed e Jump.",
+      "message_ja": "- Floating Bubble：どこからでも素早く開けるポップアップと権限案内の最適化。\n- Rampager Studio：最新スキンの追加とアセットダウンロードの修正。\n- 新武器：Ashbite Dagger。\n- 武器ステータス：Explosion Range、Pierce Area Damage、Persist Projectilesを追加。\n- Aboutセクション：作者情報とプロジェクトの歩みを追加。\n- UI：レイアウト改善とステータス比較の応答性向上。\n- バグ修正：SpeedとJumpの丸め処理を修正。",
+      "message_pt": "- Floating Bubble: Pop-up de acesso rápido em qualquer lugar; permissões mais fáceis.\n- Rampager Studio: Novas skins adicionadas e download de recursos corrigido.\n- Nova arma: Ashbite Dagger.\n- Atributos avançados: Explosion Range, Pierce Area Damage e Persist Projectiles.\n- Seção Sobre: Informações do autor e marcos do projeto.\n- Interface: Layout aprimorado e comparação de atributos mais rápida.\n- Correções: Corrigido arredondamento em Speed e Jump.",
+      "message_ru": "- Floating Bubble: Быстрый доступ к инвентарю отовсюду; понятная настройка прав.\n- Rampager Studio: Добавлены новые скины, исправлена загрузка ресурсов.\n- Новое оружие: Ashbite Dagger.\n- Характеристики: Добавлены Explosion Range, Pierce Area Damage и Persist Projectiles.\n- Раздел «О приложении»: Информация об авторе и этапах проекта.\n- Интерфейс: Улучшен макет и отзывчивость сравнения характеристик.\n- Исправления: Исправлено округление для Speed и Jump.",
+      "message_tr": "- Floating Bubble: Her yerden hızlı erişimli açılır pencere; izin ayarları optimize edildi.\n- Rampager Studio: En yeni kostümler eklendi ve kaynak indirme hatası düzeltildi.\n- Yeni Silah: Ashbite Dagger.\n- Silah İstatistikleri: Explosion Range, Pierce Area Damage ve Persist Projectiles eklendi.\n- Hakkında Bölümü: Yazar bilgileri ve proje kilometre taşları eklendi.\n- Arayüz: İyileştirilmiş düzen ve daha hızlı istatistik karşılaştırması.\n- Hata Düzeltmeleri: Speed ve Jump için yuvarlama sorunu düzeltildi.",
+      "message_uk": "- Floating Bubble: Швидкий доступ до інвентарю звідусіль; оптимізовані дозволи.\n- Rampager Studio: Додано нові скіни, виправлено завантаження ресурсів.\n- Нова зброя: Ashbite Dagger.\n- Характеристики: Додано Explosion Range, Pierce Area Damage та Persist Projectiles.\n- Розділ «Про додаток»: Інформація про автора та етапи проекту.\n- Інтерфейс: Покращено макет та чуйність порівняння характеристик.\n- Виправлення: Виправлено округлення для Speed і Jump.",
+      "message_vi": "- Floating Bubble: Pop-up truy cập nhanh mọi nơi; tối ưu hướng dẫn cấp quyền.\n- Rampager Studio: Thêm toàn bộ skin mới nhất & sửa lỗi tải tài nguyên.\n- Vũ khí mới: Ashbite Dagger.\n- Chỉ số nâng cao: Thêm Explosion Range, Pierce Area Damage & Persist Projectiles.\n- Mục Giới thiệu: Bổ sung thông tin tác giả & các cột mốc dự án.\n- Giao diện: Cải thiện bố cục & độ phản hồi khi so sánh chỉ số.\n- Sửa lỗi: Khắc phục lỗi làm tròn chỉ số Speed và Jump.",
       
       "url": "https://play.google.com/store/apps/details?id=com.sdroimod.inventoryrampager"
     },
@@ -54,8 +54,8 @@
       "label_uk": "Встановити зараз",
       "type": "open-url"
     },
-    "exp-date": "2026-08-30",
-    "target-version": "2.6.5",
+    "exp-date": "2026-09-30",
+    "target-version": "2.7.0",
     "show-time-before-block": 99
   },
   {
