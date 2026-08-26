@@ -4,84 +4,13 @@
     "type": "update-stat",
     "content": {
       "message": "Inventory Rampager has NO ADS within the app. If you'd like to support the developer, please give us a 5★ rating on Google Play!",
-      "url" : "https://play.google.com/store/apps/details?id=com.sdroimod.inventoryrampager"
+      "url": "https://play.google.com/store/apps/details?id=com.sdroimod.inventoryrampager"
     },
     "action": {
       "label": "Let me rate it!",
       "type": "open-url"
     },
     "exp-date": "2099-06-04",
-    "show-time-before-block": 1
-  },
-  {
-    "id": "update-version-2.7.1",
-    "type": "update-stat",
-    "content": {
-      "title": "A new update is available!",
-      "title_vi": "Đã có bản cập nhật mới!",
-      "title_es": "¡Hay una nueva actualización disponible!",
-      "title_fr": "Une nouvelle mise à jour est disponible !",
-      "title_it": "È disponibile un nuovo aggiornamento!",
-      "title_ja": "新しいアップデートが利用可能です！",
-      "title_pt": "Uma nova atualização está disponível!",
-      "title_ru": "Доступно новое обновление!",
-      "title_tr": "Yeni bir güncelleme mevcut!",
-      "title_uk": "Доступне нове оновлення!",
-
-      "message": "- Floating Bubble: Quick-access popup anywhere; optimized permission setup.\n- Rampager Studio: Added latest skins & fixed asset downloads.\n- New Weapon: Ashbite Dagger.\n- Weapon Stats: Added Explosion Range, Pierce Area Damage & Persist Projectiles.\n- About Section: Added author info & project milestones.\n- UI: Improved layout & stat comparison responsiveness.\n- Bug Fixes: Fixed rounding for Speed and Jump stats.",
-      "message_es": "- Floating Bubble: Pop-up de acceso rápido en cualquier lugar; permisos más claros.\n- Rampager Studio: Nuevas skins añadidas y descarga de recursos corregida.\n- Nueva arma: Ashbite Dagger.\n- Estadísticas: Explosion Range, Pierce Area Damage y Persist Projectiles.\n- Sección Acerca de: Información del autor e hitos del proyecto.\n- Interfaz: Mejor diseño y respuesta al comparar estadísticas.\n- Corrección de errores: Corregido redondeo en Speed y Jump.",
-      "message_fr": "- Floating Bubble : Pop-up d'accès rapide partout ; configuration des permissions optimisée.\n- Rampager Studio : Nouveaux skins ajoutés et téléchargement des ressources corrigé.\n- Nouvelle arme : Ashbite Dagger.\n- Statistiques d'armes : Explosion Range, Pierce Area Damage et Persist Projectiles.\n- Section À propos : Infos sur l'auteur et jalons du projet.\n- Interface : Disposition améliorée et comparaison des stats plus fluide.\n- Corrections : Correction de l'arrondi pour Speed et Jump.",
-      "message_it": "- Floating Bubble: Pop-up di accesso rapido ovunque; permessi più chiari.\n- Rampager Studio: Nuove skin aggiunte e download delle risorse corretto.\n- Nuova arma: Ashbite Dagger.\n- Statistiche armi: Explosion Range, Pierce Area Damage e Persist Projectiles.\n- Sezione Informazioni: Dettagli sull'autore e traguardi del progetto.\n- Interfaccia: Layout migliorato e confronto statistiche più reattivo.\n- Correzione bug: Risolto l'arrotondamento per Speed e Jump.",
-      "message_ja": "- Floating Bubble：どこからでも素早く開けるポップアップと権限案内の最適化。\n- Rampager Studio：最新スキンの追加とアセットダウンロードの修正。\n- 新武器：Ashbite Dagger。\n- 武器ステータス：Explosion Range、Pierce Area Damage、Persist Projectilesを追加。\n- Aboutセクション：作者情報とプロジェクトの歩みを追加。\n- UI：レイアウト改善とステータス比較の応答性向上。\n- バグ修正：SpeedとJumpの丸め処理を修正。",
-      "message_pt": "- Floating Bubble: Pop-up de acesso rápido em qualquer lugar; permissões mais fáceis.\n- Rampager Studio: Novas skins adicionadas e download de recursos corrigido.\n- Nova arma: Ashbite Dagger.\n- Atributos avançados: Explosion Range, Pierce Area Damage e Persist Projectiles.\n- Seção Sobre: Informações do autor e marcos do projeto.\n- Interface: Layout aprimorado e comparação de atributos mais rápida.\n- Correções: Corrigido arredondamento em Speed e Jump.",
-      "message_ru": "- Floating Bubble: Быстрый доступ к инвентарю отовсюду; понятная настройка прав.\n- Rampager Studio: Добавлены новые скины, исправлена загрузка ресурсов.\n- Новое оружие: Ashbite Dagger.\n- Характеристики: Добавлены Explosion Range, Pierce Area Damage и Persist Projectiles.\n- Раздел «О приложении»: Информация об авторе и этапах проекта.\n- Интерфейс: Улучшен макет и отзывчивость сравнения характеристик.\n- Исправления: Исправлено округление для Speed и Jump.",
-      "message_tr": "- Floating Bubble: Her yerden hızlı erişimli açılır pencere; izin ayarları optimize edildi.\n- Rampager Studio: En yeni kostümler eklendi ve kaynak indirme hatası düzeltildi.\n- Yeni Silah: Ashbite Dagger.\n- Silah İstatistikleri: Explosion Range, Pierce Area Damage ve Persist Projectiles eklendi.\n- Hakkında Bölümü: Yazar bilgileri ve proje kilometre taşları eklendi.\n- Arayüz: İyileştirilmiş düzen ve daha hızlı istatistik karşılaştırması.\n- Hata Düzeltmeleri: Speed ve Jump için yuvarlama sorunu düzeltildi.",
-      "message_uk": "- Floating Bubble: Швидкий доступ до інвентарю звідусіль; оптимізовані дозволи.\n- Rampager Studio: Додано нові скіни, виправлено завантаження ресурсів.\n- Нова зброя: Ashbite Dagger.\n- Характеристики: Додано Explosion Range, Pierce Area Damage та Persist Projectiles.\n- Розділ «Про додаток»: Інформація про автора та етапи проекту.\n- Інтерфейс: Покращено макет та чуйність порівняння характеристик.\n- Виправлення: Виправлено округлення для Speed і Jump.",
-      "message_vi": "- Floating Bubble: Pop-up truy cập nhanh mọi nơi; tối ưu hướng dẫn cấp quyền.\n- Rampager Studio: Thêm toàn bộ skin mới nhất & sửa lỗi tải tài nguyên.\n- Vũ khí mới: Ashbite Dagger.\n- Chỉ số nâng cao: Thêm Explosion Range, Pierce Area Damage & Persist Projectiles.\n- Mục Giới thiệu: Bổ sung thông tin tác giả & các cột mốc dự án.\n- Giao diện: Cải thiện bố cục & độ phản hồi khi so sánh chỉ số.\n- Sửa lỗi: Khắc phục lỗi làm tròn chỉ số Speed và Jump.",
-      
-      "url": "https://play.google.com/store/apps/details?id=com.sdroimod.inventoryrampager"
-    },
-    "action": {
-      "label": "Let me install",
-      "label_vi": "Cài đặt ngay",
-      "label_es": "Instalar ahora",
-      "label_fr": "Installer maintenant",
-      "label_it": "Installa ora",
-      "label_ja": "今すぐインストール",
-      "label_pt": "Instalar agora",
-      "label_ru": "Установить сейчас",
-      "label_tr": "Şimdi yükle",
-      "label_uk": "Встановити зараз",
-      "type": "open-url"
-    },
-    "exp-date": "2026-09-30",
-    "target-version": "2.7.1",
-    "show-time-before-block": 99
-  },
-  {
-    "id": "update-item-dawnfang_dagger-2026",
-    "type": "update-item",
-    "content": {
-      "item-id": "dawnfang_dagger"
-    },
-    "action": {
-      "label": "Equip",
-      "type": "equip-item"
-    },
-    "exp-date": "2026-07-01",
-    "show-time-before-block": 1
-  },
-  {
-    "id": "update-item-all-seeing-staff-2026",
-    "type": "update-item",
-    "content": {
-      "item-id": "all_seeing_staff"
-    },
-    "action": {
-      "label": "Equip",
-      "type": "equip-item"
-    },
-    "exp-date": "2026-07-10",
     "show-time-before-block": 1
   }
 ]
