@@ -28,25 +28,27 @@
         "description": "Android APK and Windows PC build download page for the SGen-9 Magic Rampage mod."
     }
     </script>
-    <style>
+        /* --- CLASSIC DARK HIGH-CONTRAST THEME --- */
         :root {
-            --primary: #00ff9d;
-            --secondary: #00b8ff;
-            --danger: #ff0055;
-            --bg: #0f0f13;
-            --card-bg: #1a1a20;
-            --text: #ffffff;
-            --text-muted: #888888;
+            --primary: #38bdf8;
+            --secondary: #60a5fa;
+            --danger: #f43f5e;
+            --bg: #111827;
+            --card-bg: #1f2937;
+            --text: #f9fafb;
+            --text-muted: #9ca3af;
+            --border: #374151;
+            --border-hover: #4b5563;
         }
 
         * { box-sizing: border-box; }
 
         body {
-            font-family: 'Segoe UI', Roboto, sans-serif;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
             background-color: var(--bg);
             color: var(--text);
             margin: 0;
-            padding: 20px;
+            padding: 20px 12px;
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -54,16 +56,16 @@
         }
 
         h1, h2, h3 {
-            margin: 0 0 15px 0;
+            margin: 0 0 12px 0;
             text-transform: uppercase;
-            letter-spacing: 1px;
+            letter-spacing: 0.5px;
         }
 
         h1 {
-            background: linear-gradient(90deg, #fff, var(--primary));
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
+            color: #ffffff;
             text-align: center;
+            font-size: 1.8rem;
+            font-weight: 800;
         }
 
         /* --- CONTAINER --- */
@@ -71,27 +73,26 @@
             width: 100%;
             max-width: 700px;
             background: var(--card-bg);
-            border-radius: 20px;
-            padding: 30px;
-            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
-            border: 1px solid rgba(255, 255, 255, 0.05);
+            border-radius: 8px;
+            padding: 28px;
+            box-shadow: 0 4px 16px rgba(0, 0, 0, 0.3);
+            border: 1px solid var(--border);
         }
 
         /* --- STEPS SYSTEM --- */
         .step-box {
-            background: rgba(0, 0, 0, 0.3);
-            border: 1px solid rgba(255, 255, 255, 0.1);
-            border-radius: 12px;
-            padding: 20px;
-            margin-bottom: 20px;
-            transition: all 0.3s ease;
+            background: #111827;
+            border: 1px solid var(--border);
+            border-radius: 6px;
+            padding: 18px;
+            margin-bottom: 16px;
+            transition: border-color 0.15s ease;
             position: relative;
             overflow: hidden;
         }
 
         .step-box.active {
             border-color: var(--primary);
-            box-shadow: 0 0 15px rgba(0, 255, 157, 0.1);
         }
 
         .step-box.locked {
@@ -104,96 +105,100 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
-            margin-bottom: 15px;
+            margin-bottom: 12px;
         }
 
         .step-badge {
             background: var(--danger);
-            padding: 5px 10px;
+            color: #ffffff;
+            padding: 3px 8px;
             border-radius: 4px;
-            font-size: 0.8rem;
-            font-weight: bold;
+            font-size: 0.75rem;
+            font-weight: 700;
         }
 
         .step-box.completed .step-badge {
-            background: var(--primary);
-            color: #000;
+            background: #10b981;
+            color: #ffffff;
         }
 
         /* --- BUTTONS --- */
         .action-btn {
             width: 100%;
-            padding: 15px;
+            padding: 12px 16px;
             border: none;
-            border-radius: 8px;
-            font-weight: bold;
-            font-size: 16px;
+            border-radius: 6px;
+            font-weight: 700;
+            font-size: 0.92rem;
             cursor: pointer;
             display: flex;
             justify-content: center;
             align-items: center;
             gap: 10px;
-            transition: transform 0.2s, box-shadow 0.2s, background 0.2s;
+            transition: background-color 0.15s ease;
             text-decoration: none;
             color: white;
+            min-height: 46px;
         }
 
         .btn-task {
-            background: #333;
+            background: #374151;
             color: white;
-            border: 1px solid #555;
+            border: 1px solid #4b5563;
         }
 
-        .btn-task:hover { background: #444; transform: translateY(-2px); }
-        .btn-task.loading { background: #555; cursor: wait; }
+        .btn-task:hover { background: #4b5563; }
+        .btn-task.loading { background: #4b5563; cursor: wait; }
         .btn-task.done {
-            background: var(--primary);
-            color: #000;
-            border-color: var(--primary);
+            background: #10b981;
+            color: #ffffff;
+            border-color: #10b981;
             pointer-events: none;
         }
 
         .download-area {
             display: none;
-            animation: fadeIn 0.5s ease;
+            animation: fadeIn 0.4s ease;
         }
 
         .btn-dl {
-            background: linear-gradient(45deg, var(--secondary), #0066ff);
-            margin-bottom: 15px;
+            background: #2563eb;
+            margin-bottom: 12px;
             text-transform: uppercase;
-            box-shadow: 0 4px 15px rgba(0, 184, 255, 0.3);
+            border-radius: 6px;
         }
 
-        .btn-dl:hover { transform: translateY(-3px); box-shadow: 0 8px 25px rgba(0, 184, 255, 0.5); }
-        .btn-dl span { font-size: 0.8em; opacity: 0.8; font-weight: normal; margin-left: 5px; }
+        .btn-dl:hover { background: #1d4ed8; }
+        .btn-dl span { font-size: 0.82em; opacity: 0.85; font-weight: normal; margin-left: 5px; }
 
         /* --- COMMUNITY & EXTRAS --- */
         .community-grid {
             display: grid;
             grid-template-columns: repeat(3, 1fr);
-            gap: 15px;
-            margin-top: 30px;
+            gap: 12px;
+            margin-top: 24px;
         }
 
-        .btn-social { background: #2c2f33; font-size: 14px; padding: 12px; }
-        .btn-social img { width: 24px; height: 24px; }
-        .btn-discord:hover { background: #5865F2 !important; }
-        .btn-facebook:hover { background: #1877F2 !important; }
-        .btn-telegram:hover { background: #2AABEE !important; }
+        .btn-social { background: #111827; font-size: 0.85rem; padding: 10px; border: 1px solid var(--border); border-radius: 6px; }
+        .btn-social img { width: 22px; height: 22px; }
+        .btn-discord:hover { background: #4f46e5 !important; border-color: #4f46e5 !important; }
+        .btn-facebook:hover { background: #1877F2 !important; border-color: #1877F2 !important; }
+        .btn-telegram:hover { background: #0284c7 !important; border-color: #0284c7 !important; }
 
         /* --- ACCORDION (DETAILS) --- */
         details {
-            background: rgba(255, 255, 255, 0.05);
-            border-radius: 8px;
-            margin-top: 15px;
+            background: #111827;
+            border-radius: 6px;
+            margin-top: 14px;
             overflow: hidden;
+            border: 1px solid var(--border);
         }
 
         summary {
-            padding: 15px;
+            padding: 14px 16px;
             cursor: pointer;
-            font-weight: bold;
+            font-weight: 700;
+            font-size: 0.95rem;
             list-style: none;
             display: flex;
             justify-content: space-between;
@@ -201,26 +206,26 @@
         }
 
         summary::-webkit-details-marker { display: none; }
-        summary::after { content: '+'; font-size: 20px; color: var(--primary); }
+        summary::after { content: '+'; font-size: 18px; color: var(--primary); }
         details[open] summary::after { content: '-'; }
-        details[open] summary { border-bottom: 1px solid rgba(255, 255, 255, 0.1); }
+        details[open] summary { border-bottom: 1px solid var(--border); }
 
         .details-content {
-            padding: 20px;
-            font-size: 0.95rem;
-            line-height: 1.6;
-            color: #ddd;
+            padding: 16px;
+            font-size: 0.92rem;
+            line-height: 1.55;
+            color: #cbd5e1;
         }
 
         ul { padding-left: 20px; margin: 0; }
         [dir="rtl"] ul { padding-left: 0; padding-right: 20px; }
-        li { margin-bottom: 5px; }
+        li { margin-bottom: 4px; }
 
         .highlight { color: var(--primary); }
 
         /* --- ANIMATIONS --- */
         @keyframes fadeIn {
-            from { opacity: 0; transform: translateY(10px); }
+            from { opacity: 0; transform: translateY(8px); }
             to   { opacity: 1; transform: translateY(0); }
         }
 
@@ -269,20 +274,20 @@
 
         /* --- MOBILE RESPONSIVE --- */
         @media (max-width: 600px) {
-            body { padding: 12px; }
+            body { padding: 12px 8px; }
             .community-grid { grid-template-columns: 1fr; }
-            .main-container { padding: 16px; }
-            h1 { font-size: 1.4rem; }
+            .main-container { padding: 18px 14px; border-radius: 8px; }
+            h1 { font-size: 1.45rem; }
             .step-header { flex-direction: column; align-items: flex-start; gap: 6px; }
-            .step-header h3 { font-size: 1rem; margin-bottom: 0; }
-            .btn-dl { font-size: 14px; padding: 12px 10px; }
+            .step-header h3 { font-size: 0.98rem; margin-bottom: 0; }
+            .btn-dl { font-size: 13px; padding: 12px 10px; }
         }
 
         .tut-images-row { display: flex; gap: 10px; margin-bottom: 15px; }
         .tut-images-row img {
             width: calc(50% - 5px);
-            border-radius: 10px;
-            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 6px;
+            border: 1px solid var(--border);
             object-fit: cover;
         }
 
@@ -348,7 +353,7 @@
             <a href="https://www.dropbox.com/scl/fi/i3rqrcjp68zj6iwta1cbh/1_SGen-9-Beta-0.67_8.8.8.apk?rlkey=jj2boxo566jdorit3n4iltwuo&st=4w4lk26e&dl=0" target="_blank" class="action-btn btn-dl" data-i18n="btn_dl_android_db">
                 Download Android APK (<span>Dropbox</span>) <span>(Beta 0.67)</span>
             </a>
-            <a href="https://www.mediafire.com/file/n4iknrq1tpkrac2/1_SGen9-PC_0.67.zip/file" target="_blank" class="action-btn btn-dl" style="background: linear-gradient(45deg, #7289da, #5865f2);" data-i18n="btn_dl_pc_mf">
+            <a href="https://www.mediafire.com/file/n4iknrq1tpkrac2/1_SGen9-PC_0.67.zip/file" target="_blank" class="action-btn btn-dl" style="background: #4f46e5;" data-i18n="btn_dl_pc_mf">
                 Download Windows PC Build (<span>MediaFire</span>) <span>(Beta 0.67)</span>
             </a>
             <p style="font-size: 12px; color: #888; text-align: center; margin-top: 10px;" data-i18n="pc_note">

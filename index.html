@@ -40,22 +40,23 @@
   }
   </script>
   <style>
-    /* --- CÀI ĐẶT CƠ BẢN --- */
+    /* --- CLASSIC HIGH-CONTRAST DARK THEME --- */
     :root {
-      --primary-color: #00ff9d;
-      /* Xanh neon */
-      --accent-color: #ff0055;
-      /* Đỏ hồng cho điểm nhấn HOT */
-      --bg-color: #0f0f13;
-      --text-color: #ffffff;
-      --text-secondary: #aaaaaa;
+      --primary-color: #38bdf8;
+      --accent-color: #f43f5e;
+      --bg-color: #111827;
+      --card-bg: #1f2937;
+      --card-border: #374151;
+      --card-border-hover: #6b7280;
+      --text-color: #f9fafb;
+      --text-secondary: #9ca3af;
     }
 
     * {
       box-sizing: border-box;
       margin: 0;
       padding: 0;
-      font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
     }
 
     body {
@@ -65,122 +66,112 @@
       flex-direction: column;
       align-items: center;
       min-height: 100vh;
-      padding: 40px 20px;
+      padding: 32px 16px 40px;
     }
 
     /* --- HEADER --- */
     header {
       text-align: center;
-      margin-bottom: 50px;
-      max-width: 600px;
+      margin-bottom: 32px;
+      max-width: 580px;
     }
 
     h1 {
-      font-size: 3rem;
+      font-size: 2.5rem;
       font-weight: 800;
-      margin-bottom: 10px;
-      background: linear-gradient(90deg, #fff, var(--primary-color));
-      background-clip: text;
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      letter-spacing: -1px;
+      margin-bottom: 8px;
+      color: #ffffff;
+      letter-spacing: -0.5px;
     }
 
     .subtitle {
-      font-size: 1.2rem;
+      font-size: 0.95rem;
       color: var(--primary-color);
-      margin-bottom: 15px;
-      font-weight: 600;
+      margin-bottom: 10px;
+      font-weight: 700;
       text-transform: uppercase;
-      letter-spacing: 2px;
+      letter-spacing: 1.2px;
     }
 
     .description {
       color: var(--text-secondary);
       line-height: 1.6;
-      font-size: 1rem;
+      font-size: 0.95rem;
     }
 
     /* --- GRID LAYOUT --- */
     .container {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-      gap: 30px;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 24px;
       width: 100%;
-      max-width: 1100px;
+      max-width: 960px;
     }
 
-    /* --- CARD DESIGN --- */
+    /* --- CLASSIC CARD DESIGN --- */
     .card {
       position: relative;
-      display: block;
-      height: 350px;
-      /* Tăng chiều cao để chứa nhiều thông tin hơn */
-      border-radius: 20px;
+      display: flex;
+      flex-direction: column;
+      background: var(--card-bg);
+      border-radius: 8px;
       overflow: hidden;
       text-decoration: none;
-      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
-      transition: transform 0.3s ease, box-shadow 0.3s ease;
-      border: 1px solid rgba(255, 255, 255, 0.1);
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+      transition: border-color 0.15s ease, background-color 0.15s ease;
+      border: 1px solid var(--card-border);
     }
 
-    /* Hiệu ứng khi hover */
     .card:hover {
-      transform: translateY(-5px);
-      box-shadow: 0 20px 50px rgba(0, 255, 157, 0.15);
-      border-color: var(--primary-color);
+      border-color: var(--card-border-hover);
+      background-color: #263345;
     }
 
-    /* Ảnh nền */
+    /* Cover Image Header */
+    .card-header {
+      position: relative;
+      width: 100%;
+      height: 180px;
+      overflow: hidden;
+      border-bottom: 1px solid var(--card-border);
+    }
+
     .card-image {
       width: 100%;
       height: 100%;
       background-size: cover;
       background-position: center;
-      transition: transform 0.6s ease;
     }
 
-    .card:hover .card-image {
-      transform: scale(1.1);
-    }
-
-    /* --- BADGE (NHÃN NỔI BẬT) --- */
+    /* Badge */
     .badge {
       position: absolute;
-      top: 15px;
-      right: 15px;
+      top: 10px;
+      right: 10px;
       background: var(--accent-color);
-      color: white;
-      padding: 5px 12px;
-      border-radius: 50px;
-      font-size: 0.75rem;
-      font-weight: bold;
+      color: #ffffff;
+      padding: 3px 8px;
+      border-radius: 4px;
+      font-size: 0.7rem;
+      font-weight: 700;
       text-transform: uppercase;
+      letter-spacing: 0.5px;
       z-index: 2;
-      box-shadow: 0 5px 15px rgba(255, 0, 85, 0.4);
     }
 
-    /* --- PHẦN BLUR & TEXT --- */
+    /* Card Content Area */
     .card-content {
-      position: absolute;
-      bottom: 0;
-      left: 0;
-      width: 100%;
       padding: 20px;
-      background: rgba(15, 15, 19, 0.8);
-      /* Tối hơn chút để chữ rõ */
-      backdrop-filter: blur(15px);
-      -webkit-backdrop-filter: blur(15px);
-      border-top: 1px solid rgba(255, 255, 255, 0.1);
       display: flex;
       flex-direction: column;
-      gap: 8px;
+      gap: 10px;
+      flex-grow: 1;
     }
 
     .card-title {
-      font-size: 1.4rem;
+      font-size: 1.25rem;
       font-weight: 700;
-      color: #fff;
+      color: #ffffff;
       margin: 0;
       display: flex;
       align-items: center;
@@ -188,45 +179,93 @@
     }
 
     .card-desc {
-      font-size: 0.95rem;
-      color: #ccc;
-      line-height: 1.4;
-      line-clamp: 2;
-      display: -webkit-box;
-      -webkit-line-clamp: 2;
-      /* Chỉ hiện tối đa 2 dòng */
-      -webkit-box-orient: vertical;
-      overflow: hidden;
+      font-size: 0.9rem;
+      color: var(--text-secondary);
+      line-height: 1.5;
+      flex-grow: 1;
     }
 
-    /* --- FEATURE TAGS (Dòng icon nhỏ) --- */
+    /* Feature tags */
     .features {
       display: flex;
-      gap: 15px;
-      margin-top: 5px;
-      font-size: 0.8rem;
-      color: var(--primary-color);
-      font-weight: 600;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 2px;
     }
 
     .features span {
-      display: flex;
+      display: inline-flex;
       align-items: center;
       gap: 4px;
+      font-size: 0.75rem;
+      color: #e2e8f0;
+      background: #374151;
+      padding: 3px 8px;
+      border-radius: 4px;
+      font-weight: 500;
+      border: 1px solid #4b5563;
+    }
+
+    .card-action {
+      margin-top: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      color: var(--primary-color);
+      font-size: 0.85rem;
+      font-weight: 700;
+    }
+
+    .card-action svg {
+      width: 16px;
+      height: 16px;
+      fill: currentColor;
+    }
+
+    footer {
+      margin-top: 40px;
+      color: var(--text-secondary);
+      font-size: 0.8rem;
+      text-align: center;
     }
 
     /* --- MOBILE TWEAKS --- */
     @media (max-width: 600px) {
-      h1 {
-        font-size: 2.2rem;
+      body {
+        padding: 20px 12px 30px;
       }
 
-      .card {
-        height: 300px;
+      header {
+        margin-bottom: 24px;
+      }
+
+      h1 {
+        font-size: 1.85rem;
+      }
+
+      .subtitle {
+        font-size: 0.85rem;
+        letter-spacing: 1px;
+      }
+
+      .description {
+        font-size: 0.88rem;
       }
 
       .container {
-        padding: 0;
+        gap: 16px;
+      }
+
+      .card-header {
+        height: 150px;
+      }
+
+      .card-content {
+        padding: 16px;
+      }
+
+      .card-title {
+        font-size: 1.15rem;
       }
     }
   </style>
@@ -243,12 +282,13 @@
     </p>
   </header>
 
-  <div class="container">
+  <main class="container">
 
     <a href="./sgen-magic-rampage/" class="card">
-      <div class="badge">Massive Update</div>
-
-      <div class="card-image" style="background-image: url('assets/sgen-magic-rampage.png');"></div>
+      <div class="card-header">
+        <div class="badge">Massive Update</div>
+        <div class="card-image" style="background-image: url('assets/sgen-magic-rampage.png');"></div>
+      </div>
 
       <div class="card-content">
         <div class="card-title">SGen Magic Rampage</div>
@@ -260,22 +300,39 @@
         <div class="card-desc">
           The biggest content pack ever. Includes new weapons, enemies, and a complete interface redesign.
         </div>
-      </div>
-    </a>
-
-
-    <a href="./inventory-rampager/" class="card">
-      <div class="card-image" style="background-image: url('assets/inventory-rampager.png');"></div>
-
-      <div class="card-content">
-        <div class="card-title">Inventory Rampager</div>
-        <div class="card-desc">
-          Advanced inventory editor. Customize your gear and stats with precision.
+        <div class="card-action">
+          <span>Explore Mod</span>
+          <svg viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
         </div>
       </div>
     </a>
 
-  </div>
+    <a href="./inventory-rampager/" class="card">
+      <div class="card-header">
+        <div class="card-image" style="background-image: url('assets/inventory-rampager.png');"></div>
+      </div>
+
+      <div class="card-content">
+        <div class="card-title">Inventory Rampager</div>
+        <div class="features">
+          <span>⚙️ Inventory Editor</span>
+          <span>⚔️ Gear & Stats</span>
+        </div>
+        <div class="card-desc">
+          Advanced inventory editor. Customize your gear, stats, and loadouts with precision.
+        </div>
+        <div class="card-action">
+          <span>Launch Editor</span>
+          <svg viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </div>
+      </div>
+    </a>
+
+  </main>
+
+  <footer>
+    <p>© 2026 Made with 💖 by SDroiMod. All rights reserved.</p>
+  </footer>
 
 </body>
 
