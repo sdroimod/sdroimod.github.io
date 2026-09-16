@@ -25,9 +25,9 @@
   "section_dungeons_desc": "Dễ dàng đạt cấp 35 với các hầm ngục EXP được tối ưu hóa và thu thập tất cả vật phẩm từ Hầm Ngục Hàng Tuần ngay trong mod SGen.",
   "section_downloads": "Tải Xuống",
 
-  "dl_android_title": "SGen-9 Beta 0.67 (Android)",
+  "dl_android_title": "SGen-9 Beta 0.68 (Android)",
   "dl_android_meta": "v8.8.8 • APK • Mediafire",
-  "dl_pc_title": "SGen-9 Beta 0.67 (Windows)",
+  "dl_pc_title": "SGen-9 Beta 0.68 (Windows)",
   "dl_pc_meta": "v8.8.8 • EXE • Mediafire",
   "btn_dl_apk": "Tải APK",
   "btn_dl_pc": "Tải bản PC",
@@ -56,15 +56,15 @@
   "completed_text": "Hoàn thành ✅",
 
   "dl_unlocked": "🎉 Liên kết tải xuống đã được mở khóa",
-  "btn_dl_android_mf": "Tải APK Android (<span>MediaFire</span>) <span>(Beta 0.67)</span>",
-  "btn_dl_android_db": "Tải APK Android (<span>Dropbox</span>) <span>(Beta 0.67)</span>",
-  "btn_dl_pc_mf": "Tải bản Windows PC (<span>MediaFire</span>) <span>(Beta 0.67)</span>",
+  "btn_dl_android_mf": "Tải APK Android (<span>MediaFire</span>) <span>(Beta 0.68)</span>",
+  "btn_dl_android_db": "Tải APK Android (<span>Dropbox</span>) <span>(Beta 0.68)</span>",
+  "btn_dl_pc_mf": "Tải bản Windows PC (<span>MediaFire</span>) <span>(Beta 0.68)</span>",
   "pc_note": "*Bản PC: giải nén file rồi nhấn vào <strong>rungame.bat</strong> để chơi.",
 
   "btn_discord_text": "Vào Discord",
   "btn_facebook_text": "Vào Facebook",
 
-  "whats_new": "Có Gì Mới Trong Beta 0.67?",
+  "whats_new": "Có Gì Mới Trong Beta 0.68?",
   "new_content_title": "Nội dung mới:",
   "new_items": "<li>Thêm «Kiếm Giết Rồng»</li><li>Thêm 480 Skin</li><li>Thêm 500 Vật phẩm</li><li>Thêm «Just a Random Noob» &amp; «The Ancient Codices»</li><li>Infinity Sword, Slime Core, Goku SSJ Head</li><li>Bộ Hellbringer (Infernal Blade, Hellskull)</li><li>Prize Room, Shop, Star Screen mới</li>",
   "improvements_title": "Cải tiến:",

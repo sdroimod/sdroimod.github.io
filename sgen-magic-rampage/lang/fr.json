@@ -25,9 +25,9 @@
   "section_dungeons_desc": "Atteignez facilement le niveau 35 avec nos donjons EXP optimisés et collectez tous les objets des Donjons Hebdomadaires directement dans le mod SGen.",
   "section_downloads": "Téléchargements Disponibles",
 
-  "dl_android_title": "SGen-9 Beta 0.67 (Android)",
+  "dl_android_title": "SGen-9 Beta 0.68 (Android)",
   "dl_android_meta": "v8.8.8 • APK • Mediafire",
-  "dl_pc_title": "SGen-9 Beta 0.67 (Windows)",
+  "dl_pc_title": "SGen-9 Beta 0.68 (Windows)",
   "dl_pc_meta": "v8.8.8 • EXE • Mediafire",
   "btn_dl_apk": "Télécharger APK",
   "btn_dl_pc": "Télécharger PC",
@@ -56,15 +56,15 @@
   "completed_text": "Terminé ✅",
 
   "dl_unlocked": "🎉 Les liens de téléchargement sont débloqués",
-  "btn_dl_android_mf": "Télécharger APK Android (<span>MediaFire</span>) <span>(Beta 0.67)</span>",
-  "btn_dl_android_db": "Télécharger APK Android (<span>Dropbox</span>) <span>(Beta 0.67)</span>",
-  "btn_dl_pc_mf": "Télécharger la version Windows PC (<span>MediaFire</span>) <span>(Beta 0.67)</span>",
+  "btn_dl_android_mf": "Télécharger APK Android (<span>MediaFire</span>) <span>(Beta 0.68)</span>",
+  "btn_dl_android_db": "Télécharger APK Android (<span>Dropbox</span>) <span>(Beta 0.68)</span>",
+  "btn_dl_pc_mf": "Télécharger la version Windows PC (<span>MediaFire</span>) <span>(Beta 0.68)</span>",
   "pc_note": "*Pour PC : décompressez le fichier et cliquez sur <strong>rungame.bat</strong> pour jouer.",
 
   "btn_discord_text": "Rejoindre Discord",
   "btn_facebook_text": "Rejoindre Facebook",
 
-  "whats_new": "Quoi de Neuf dans Beta 0.67 ?",
+  "whats_new": "Quoi de Neuf dans Beta 0.68 ?",
   "new_content_title": "Nouveau Contenu :",
   "new_items": "<li>Ajout de «l'Épée Tueuse de Dragons»</li><li>Ajout de 480 Skins</li><li>Ajout de 500 Objets</li><li>Ajout de «Just a Random Noob» &amp; «The Ancient Codices»</li><li>Infinity Sword, Slime Core, Goku SSJ Head</li><li>Set Hellbringer (Infernal Blade, Hellskull)</li><li>Nouvelle Prize Room, Boutique, Écran d'Étoiles</li>",
   "improvements_title": "Améliorations :",

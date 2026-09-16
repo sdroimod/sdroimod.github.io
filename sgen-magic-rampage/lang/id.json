@@ -25,9 +25,9 @@
   "section_dungeons_desc": "Capai level 35 dengan mudah menggunakan dungeon EXP yang dioptimalkan dan kumpulkan semua item dari Dungeon Mingguan langsung di mod SGen.",
   "section_downloads": "Unduhan Tersedia",
 
-  "dl_android_title": "SGen-9 Beta 0.67 (Android)",
+  "dl_android_title": "SGen-9 Beta 0.68 (Android)",
   "dl_android_meta": "v8.8.8 • APK • Mediafire",
-  "dl_pc_title": "SGen-9 Beta 0.67 (Windows)",
+  "dl_pc_title": "SGen-9 Beta 0.68 (Windows)",
   "dl_pc_meta": "v8.8.8 • EXE • Mediafire",
   "btn_dl_apk": "Unduh APK",
   "btn_dl_pc": "Unduh untuk PC",
@@ -56,15 +56,15 @@
   "completed_text": "Selesai ✅",
 
   "dl_unlocked": "🎉 Tautan unduhan telah terbuka",
-  "btn_dl_android_mf": "Unduh APK Android (<span>MediaFire</span>) <span>(Beta 0.67)</span>",
-  "btn_dl_android_db": "Unduh APK Android (<span>Dropbox</span>) <span>(Beta 0.67)</span>",
-  "btn_dl_pc_mf": "Unduh Build Windows PC (<span>MediaFire</span>) <span>(Beta 0.67)</span>",
+  "btn_dl_android_mf": "Unduh APK Android (<span>MediaFire</span>) <span>(Beta 0.68)</span>",
+  "btn_dl_android_db": "Unduh APK Android (<span>Dropbox</span>) <span>(Beta 0.68)</span>",
+  "btn_dl_pc_mf": "Unduh Build Windows PC (<span>MediaFire</span>) <span>(Beta 0.68)</span>",
   "pc_note": "*Untuk PC: ekstrak file dan klik <strong>rungame.bat</strong> untuk bermain.",
 
   "btn_discord_text": "Gabung Discord",
   "btn_facebook_text": "Gabung Facebook",
 
-  "whats_new": "Apa yang Baru di Beta 0.67?",
+  "whats_new": "Apa yang Baru di Beta 0.68?",
   "new_content_title": "Konten Baru:",
   "new_items": "<li>Ditambahkan «Dragon Slayer Sword»</li><li>Ditambahkan 480 Skin</li><li>Ditambahkan 500 Item</li><li>Ditambahkan «Just a Random Noob» &amp; «The Ancient Codices»</li><li>Infinity Sword, Slime Core, Goku SSJ Head</li><li>Set Hellbringer (Infernal Blade, Hellskull)</li><li>Prize Room, Toko, Layar Bintang baru</li>",
   "improvements_title": "Peningkatan:",

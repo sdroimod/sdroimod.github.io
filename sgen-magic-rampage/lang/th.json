@@ -25,9 +25,9 @@
   "section_dungeons_desc": "ขึ้นเลเวล 35 ได้ง่ายๆ ด้วยดันเจี้ยน EXP ที่ปรับแต่งแล้ว และรวบรวมไอเทมทั้งหมดจากดันเจี้ยนรายสัปดาห์ใน SGen mod โดยตรง",
   "section_downloads": "ดาวน์โหลด",
 
-  "dl_android_title": "SGen-9 Beta 0.67 (Android)",
+  "dl_android_title": "SGen-9 Beta 0.68 (Android)",
   "dl_android_meta": "v8.8.8 • APK • Mediafire",
-  "dl_pc_title": "SGen-9 Beta 0.67 (Windows)",
+  "dl_pc_title": "SGen-9 Beta 0.68 (Windows)",
   "dl_pc_meta": "v8.8.8 • EXE • Mediafire",
   "btn_dl_apk": "ดาวน์โหลด APK",
   "btn_dl_pc": "ดาวน์โหลด PC",
@@ -56,15 +56,15 @@
   "completed_text": "เสร็จสิ้น ✅",
 
   "dl_unlocked": "🎉 ลิงก์ดาวน์โหลดปลดล็อกแล้ว",
-  "btn_dl_android_mf": "ดาวน์โหลด APK Android (<span>MediaFire</span>) <span>(Beta 0.67)</span>",
-  "btn_dl_android_db": "ดาวน์โหลด APK Android (<span>Dropbox</span>) <span>(Beta 0.67)</span>",
-  "btn_dl_pc_mf": "ดาวน์โหลด Windows PC Build (<span>MediaFire</span>) <span>(Beta 0.67)</span>",
+  "btn_dl_android_mf": "ดาวน์โหลด APK Android (<span>MediaFire</span>) <span>(Beta 0.68)</span>",
+  "btn_dl_android_db": "ดาวน์โหลด APK Android (<span>Dropbox</span>) <span>(Beta 0.68)</span>",
+  "btn_dl_pc_mf": "ดาวน์โหลด Windows PC Build (<span>MediaFire</span>) <span>(Beta 0.68)</span>",
   "pc_note": "*สำหรับ PC: แตกไฟล์แล้วคลิก <strong>rungame.bat</strong> เพื่อเล่น",
 
   "btn_discord_text": "เข้าร่วม Discord",
   "btn_facebook_text": "เข้าร่วม Facebook",
 
-  "whats_new": "มีอะไรใหม่ใน Beta 0.67?",
+  "whats_new": "มีอะไรใหม่ใน Beta 0.68?",
   "new_content_title": "เนื้อหาใหม่:",
   "new_items": "<li>เพิ่ม «ดาบนักฆ่ามังกร»</li><li>เพิ่ม 480 สกิน</li><li>เพิ่ม 500 ไอเทม</li><li>เพิ่ม «Just a Random Noob» &amp; «The Ancient Codices»</li><li>Infinity Sword, Slime Core, Goku SSJ Head</li><li>ชุด Hellbringer (Infernal Blade, Hellskull)</li><li>Prize Room, ร้านค้า, หน้าจอดาวใหม่</li>",
   "improvements_title": "การปรับปรุง:",

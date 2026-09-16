@@ -25,9 +25,9 @@
   "section_dungeons_desc": "Nå nivå 35 enkelt med våra optimerade EXP-dungeons och samla alla föremål från Veckodungeons direkt i SGen-modden.",
   "section_downloads": "Tillgängliga nedladdningar",
 
-  "dl_android_title": "SGen-9 Beta 0.67 (Android)",
+  "dl_android_title": "SGen-9 Beta 0.68 (Android)",
   "dl_android_meta": "v8.8.8 • APK • Mediafire",
-  "dl_pc_title": "SGen-9 Beta 0.67 (Windows)",
+  "dl_pc_title": "SGen-9 Beta 0.68 (Windows)",
   "dl_pc_meta": "v8.8.8 • EXE • Mediafire",
   "btn_dl_apk": "Ladda ner APK",
   "btn_dl_pc": "Ladda ner till PC",
@@ -56,15 +56,15 @@
   "completed_text": "Klart ✅",
 
   "dl_unlocked": "🎉 Nedladdningslänkarna är nu upplåsta",
-  "btn_dl_android_mf": "Ladda ner Android APK (<span>MediaFire</span>) <span>(Beta 0.67)</span>",
-  "btn_dl_android_db": "Ladda ner Android APK (<span>Dropbox</span>) <span>(Beta 0.67)</span>",
-  "btn_dl_pc_mf": "Ladda ner Windows PC-version (<span>MediaFire</span>) <span>(Beta 0.67)</span>",
+  "btn_dl_android_mf": "Ladda ner Android APK (<span>MediaFire</span>) <span>(Beta 0.68)</span>",
+  "btn_dl_android_db": "Ladda ner Android APK (<span>Dropbox</span>) <span>(Beta 0.68)</span>",
+  "btn_dl_pc_mf": "Ladda ner Windows PC-version (<span>MediaFire</span>) <span>(Beta 0.68)</span>",
   "pc_note": "*För PC: Packa upp filen och klicka på <strong>rungame.bat</strong> för att spela.",
 
   "btn_discord_text": "Gå med i Discord",
   "btn_facebook_text": "Gå med i Facebook",
 
-  "whats_new": "Vad är Nytt i Beta 0.67?",
+  "whats_new": "Vad är Nytt i Beta 0.68?",
   "new_content_title": "Nytt Innehåll:",
   "new_items": "<li>Lade till «Drakdödarsvärd»</li><li>Lade till 480 Skins</li><li>Lade till 500 Föremål</li><li>Lade till «Just a Random Noob» &amp; «The Ancient Codices»</li><li>Infinity Sword, Slime Core, Goku SSJ Head</li><li>Hellbringer-set (Infernal Blade, Hellskull)</li><li>Ny Prize Room, Butik, Stjärneskärm</li>",
   "improvements_title": "Förbättringar:",

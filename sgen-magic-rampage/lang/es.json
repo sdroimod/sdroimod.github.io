@@ -25,9 +25,9 @@
   "section_dungeons_desc": "Llega al nivel 35 fácilmente con nuestras mazmorras de EXP optimizadas y colecciona todos los objetos de las Mazmorras Semanales directamente en el mod SGen.",
   "section_downloads": "Descargas Disponibles",
 
-  "dl_android_title": "SGen-9 Beta 0.67 (Android)",
+  "dl_android_title": "SGen-9 Beta 0.68 (Android)",
   "dl_android_meta": "v8.8.8 • APK • Mediafire",
-  "dl_pc_title": "SGen-9 Beta 0.67 (Windows)",
+  "dl_pc_title": "SGen-9 Beta 0.68 (Windows)",
   "dl_pc_meta": "v8.8.8 • EXE • Mediafire",
   "btn_dl_apk": "Descargar APK",
   "btn_dl_pc": "Descargar para PC",
@@ -56,15 +56,15 @@
   "completed_text": "Completado ✅",
 
   "dl_unlocked": "🎉 Los enlaces de descarga están desbloqueados",
-  "btn_dl_android_mf": "Descargar APK Android (<span>MediaFire</span>) <span>(Beta 0.67)</span>",
-  "btn_dl_android_db": "Descargar APK Android (<span>Dropbox</span>) <span>(Beta 0.67)</span>",
-  "btn_dl_pc_mf": "Descargar Build Windows PC (<span>MediaFire</span>) <span>(Beta 0.67)</span>",
+  "btn_dl_android_mf": "Descargar APK Android (<span>MediaFire</span>) <span>(Beta 0.68)</span>",
+  "btn_dl_android_db": "Descargar APK Android (<span>Dropbox</span>) <span>(Beta 0.68)</span>",
+  "btn_dl_pc_mf": "Descargar Build Windows PC (<span>MediaFire</span>) <span>(Beta 0.68)</span>",
   "pc_note": "*Para PC: descomprime el archivo y haz clic en <strong>rungame.bat</strong> para jugar.",
 
   "btn_discord_text": "Unirse a Discord",
   "btn_facebook_text": "Unirse a Facebook",
 
-  "whats_new": "¿Qué Hay de Nuevo en Beta 0.67?",
+  "whats_new": "¿Qué Hay de Nuevo en Beta 0.68?",
   "new_content_title": "Nuevo Contenido:",
   "new_items": "<li>Añadida «Espada Cazadragonas»</li><li>Añadidas 480 Skins</li><li>Añadidos 500 Objetos</li><li>Añadidos «Just a Random Noob» &amp; «The Ancient Codices»</li><li>Infinity Sword, Slime Core, Goku SSJ Head</li><li>Set Hellbringer (Infernal Blade, Hellskull)</li><li>Nueva Prize Room, Tienda, Pantalla de Estrellas</li>",
   "improvements_title": "Mejoras:",

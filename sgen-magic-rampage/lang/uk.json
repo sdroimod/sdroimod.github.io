@@ -25,9 +25,9 @@
   "section_dungeons_desc": "Легко досягайте 35 рівня з нашими оптимізованими EXP-підземеллями та збирайте всі предмети з тижневих підземель прямо в моді SGen.",
   "section_downloads": "Доступні завантаження",
 
-  "dl_android_title": "SGen-9 Beta 0.67 (Android)",
+  "dl_android_title": "SGen-9 Beta 0.68 (Android)",
   "dl_android_meta": "v8.8.8 • APK • Mediafire",
-  "dl_pc_title": "SGen-9 Beta 0.67 (Windows)",
+  "dl_pc_title": "SGen-9 Beta 0.68 (Windows)",
   "dl_pc_meta": "v8.8.8 • EXE • Mediafire",
   "btn_dl_apk": "Завантажити APK",
   "btn_dl_pc": "Завантажити для PC",
@@ -56,15 +56,15 @@
   "completed_text": "Виконано ✅",
 
   "dl_unlocked": "🎉 Посилання для завантаження розблоковано",
-  "btn_dl_android_mf": "Завантажити Android APK (<span>MediaFire</span>) <span>(Beta 0.67)</span>",
-  "btn_dl_android_db": "Завантажити Android APK (<span>Dropbox</span>) <span>(Beta 0.67)</span>",
-  "btn_dl_pc_mf": "Завантажити збірку для Windows PC (<span>MediaFire</span>) <span>(Beta 0.67)</span>",
+  "btn_dl_android_mf": "Завантажити Android APK (<span>MediaFire</span>) <span>(Beta 0.68)</span>",
+  "btn_dl_android_db": "Завантажити Android APK (<span>Dropbox</span>) <span>(Beta 0.68)</span>",
+  "btn_dl_pc_mf": "Завантажити збірку для Windows PC (<span>MediaFire</span>) <span>(Beta 0.68)</span>",
   "pc_note": "*Для PC: розпакуйте файл і запустіть <strong>rungame.bat</strong> для гри.",
 
   "btn_discord_text": "Увійти в Discord",
   "btn_facebook_text": "Увійти у Facebook",
 
-  "whats_new": "Що нового у Beta 0.67?",
+  "whats_new": "Що нового у Beta 0.68?",
   "new_content_title": "Новий контент:",
   "new_items": "<li>Додано «Меч Вбивці Драконів»</li><li>Додано 480 скінів</li><li>Додано 500 предметів</li><li>Додано «Just a Random Noob» &amp; «The Ancient Codices»</li><li>Infinity Sword, Slime Core, Goku SSJ Head</li><li>Набір Hellbringer (Infernal Blade, Hellskull)</li><li>Нова Prize Room, магазин, екран зірок</li>",
   "improvements_title": "Покращення:",

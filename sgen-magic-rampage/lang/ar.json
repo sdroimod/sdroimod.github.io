@@ -25,9 +25,9 @@
   "section_dungeons_desc": "ابلغ المستوى 35 بسهولة باستخدام زنازين EXP المحسّنة واجمع جميع العناصر من الزنازين الأسبوعية مباشرةً في مود SGen.",
   "section_downloads": "التنزيلات المتاحة",
 
-  "dl_android_title": "SGen-9 Beta 0.67 (Android)",
+  "dl_android_title": "SGen-9 Beta 0.68 (Android)",
   "dl_android_meta": "v8.8.8 • APK • Mediafire",
-  "dl_pc_title": "SGen-9 Beta 0.67 (Windows)",
+  "dl_pc_title": "SGen-9 Beta 0.68 (Windows)",
   "dl_pc_meta": "v8.8.8 • EXE • Mediafire",
   "btn_dl_apk": "تنزيل APK",
   "btn_dl_pc": "تنزيل للحاسوب",
@@ -56,15 +56,15 @@
   "completed_text": "تم ✅",
 
   "dl_unlocked": "🎉 تم فتح روابط التنزيل",
-  "btn_dl_android_mf": "تنزيل APK Android (<span>MediaFire</span>) <span>(Beta 0.67)</span>",
-  "btn_dl_android_db": "تنزيل APK Android (<span>Dropbox</span>) <span>(Beta 0.67)</span>",
-  "btn_dl_pc_mf": "تنزيل إصدار Windows PC (<span>MediaFire</span>) <span>(Beta 0.67)</span>",
+  "btn_dl_android_mf": "تنزيل APK Android (<span>MediaFire</span>) <span>(Beta 0.68)</span>",
+  "btn_dl_android_db": "تنزيل APK Android (<span>Dropbox</span>) <span>(Beta 0.68)</span>",
+  "btn_dl_pc_mf": "تنزيل إصدار Windows PC (<span>MediaFire</span>) <span>(Beta 0.68)</span>",
   "pc_note": "*للحاسوب: فك ضغط الملف وانقر على <strong>rungame.bat</strong> للعب.",
 
   "btn_discord_text": "انضم إلى Discord",
   "btn_facebook_text": "انضم إلى Facebook",
 
-  "whats_new": "ما الجديد في Beta 0.67؟",
+  "whats_new": "ما الجديد في Beta 0.68؟",
   "new_content_title": "محتوى جديد:",
   "new_items": "<li>تمت إضافة «سيف قاتل التنانين»</li><li>تمت إضافة 480 مظهرًا</li><li>تمت إضافة 500 عنصر</li><li>تمت إضافة «Just a Random Noob» &amp; «The Ancient Codices»</li><li>Infinity Sword, Slime Core, Goku SSJ Head</li><li>طقم Hellbringer (Infernal Blade, Hellskull)</li><li>Prize Room جديدة، متجر، شاشة نجوم</li>",
   "improvements_title": "تحسينات:",

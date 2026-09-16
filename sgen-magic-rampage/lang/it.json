@@ -25,9 +25,9 @@
   "section_dungeons_desc": "Raggiungi facilmente il livello 35 con i nostri dungeon EXP ottimizzati e raccogli tutti gli oggetti dai Dungeon Settimanali direttamente nella mod SGen.",
   "section_downloads": "Download Disponibili",
 
-  "dl_android_title": "SGen-9 Beta 0.67 (Android)",
+  "dl_android_title": "SGen-9 Beta 0.68 (Android)",
   "dl_android_meta": "v8.8.8 • APK • Mediafire",
-  "dl_pc_title": "SGen-9 Beta 0.67 (Windows)",
+  "dl_pc_title": "SGen-9 Beta 0.68 (Windows)",
   "dl_pc_meta": "v8.8.8 • EXE • Mediafire",
   "btn_dl_apk": "Scarica APK",
   "btn_dl_pc": "Scarica per PC",
@@ -56,15 +56,15 @@
   "completed_text": "Completato ✅",
 
   "dl_unlocked": "🎉 I link di download sono stati sbloccati",
-  "btn_dl_android_mf": "Scarica APK Android (<span>MediaFire</span>) <span>(Beta 0.67)</span>",
-  "btn_dl_android_db": "Scarica APK Android (<span>Dropbox</span>) <span>(Beta 0.67)</span>",
-  "btn_dl_pc_mf": "Scarica Build Windows PC (<span>MediaFire</span>) <span>(Beta 0.67)</span>",
+  "btn_dl_android_mf": "Scarica APK Android (<span>MediaFire</span>) <span>(Beta 0.68)</span>",
+  "btn_dl_android_db": "Scarica APK Android (<span>Dropbox</span>) <span>(Beta 0.68)</span>",
+  "btn_dl_pc_mf": "Scarica Build Windows PC (<span>MediaFire</span>) <span>(Beta 0.68)</span>",
   "pc_note": "*Per PC: estrai il file e clicca su <strong>rungame.bat</strong> per giocare.",
 
   "btn_discord_text": "Unisciti a Discord",
   "btn_facebook_text": "Unisciti a Facebook",
 
-  "whats_new": "Cosa c'è di Nuovo nella Beta 0.67?",
+  "whats_new": "Cosa c'è di Nuovo nella Beta 0.68?",
   "new_content_title": "Nuovo Contenuto:",
   "new_items": "<li>Aggiunta «Spada Ammazza-Draghi»</li><li>Aggiunte 480 Skin</li><li>Aggiunti 500 Oggetti</li><li>Aggiunti «Just a Random Noob» &amp; «The Ancient Codices»</li><li>Infinity Sword, Slime Core, Goku SSJ Head</li><li>Set Hellbringer (Infernal Blade, Hellskull)</li><li>Nuova Prize Room, Negozio, Schermata Stelle</li>",
   "improvements_title": "Miglioramenti:",
