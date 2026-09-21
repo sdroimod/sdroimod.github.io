@@ -68,5 +68,13 @@
   "new_content_title": "Nytt Innehåll:",
   "new_items": "<li>Lade till «Drakdödarsvärd»</li><li>Lade till 480 Skins</li><li>Lade till 500 Föremål</li><li>Lade till «Just a Random Noob» &amp; «The Ancient Codices»</li><li>Infinity Sword, Slime Core, Goku SSJ Head</li><li>Hellbringer-set (Infernal Blade, Hellskull)</li><li>Ny Prize Room, Butik, Stjärneskärm</li>",
   "improvements_title": "Förbättringar:",
-  "improvements_items": "<li>Lås upp alla premium-skins &amp; Butiksföremål</li><li>Stor prestandaoptimering</li><li>Renare gränssnitt, Popup-fönster borttagna</li>"
+  "improvements_items": "<li>Fixade installera &amp; öppna spel-fel</li><li>Ökad mängd guld/mynt som släpps av fiender</li><li>Stöd för Spara/Ladda speldata (Save/Load Data)</li><li>Lås upp alla premium-skins &amp; Butiksföremål</li><li>Stor prestandaoptimering</li>",
+
+  "info_v068_title": "💡 Funktioner &amp; Fixar i Beta 0.68:",
+  "feat_fix_install": "<b>Installations- &amp; Startfel Fixat:</b> Löste problem där spelet inte kunde installeras eller öppnas på vissa enheter.",
+  "feat_more_gold": "<b>Ökad Guld-drop:</b> Besegrade fiender tappar avsevärt mer guld och mynt.",
+  "feat_save_load": "<b>Spara / Ladda Speldata:</b> Exportera dina spara-data innan du avinstallerar (för att spara utrymme) och importera din framgång igen efter återinstallation.",
+  "info_dl_help_title": "❓ Problem att ladda ner?",
+  "info_dl_help_desc1": "Om du inte kan ladda ner från huvudlänken kan du välja att ladda ner via <b>MediaFire</b> eller <b>Dropbox</b> nedan.",
+  "info_dl_help_desc2": "Om nedladdningslänkarna är blockerade av ditt nätverk, prova att använda appen <b>1.1.1.1 WARP</b> <img src=\"https://play-lh.googleusercontent.com/PDwXxcvulfxi2bH4UjcMGJ7i0CQ7_QNypYohkhhg02zE7FdNTNRyF21-ikrLM5kyvcmNxtr77Va-7sS3NLbpNg=w480-h960-rw\" height=\"18\" width=\"18\" style=\"vertical-align: middle;\" alt=\"1.1.1.1\"/> från Google Play för att låsa upp."
 }

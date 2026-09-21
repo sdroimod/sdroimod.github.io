@@ -68,5 +68,13 @@
   "new_content_title": "Nouveau Contenu :",
   "new_items": "<li>Ajout de «l'Épée Tueuse de Dragons»</li><li>Ajout de 480 Skins</li><li>Ajout de 500 Objets</li><li>Ajout de «Just a Random Noob» &amp; «The Ancient Codices»</li><li>Infinity Sword, Slime Core, Goku SSJ Head</li><li>Set Hellbringer (Infernal Blade, Hellskull)</li><li>Nouvelle Prize Room, Boutique, Écran d'Étoiles</li>",
   "improvements_title": "Améliorations :",
-  "improvements_items": "<li>Débloquez tous les skins premium &amp; articles de la Boutique</li><li>Optimisation majeure des performances</li><li>Interface plus épurée, Popups supprimés</li>"
+  "improvements_items": "<li>Correction du bug d'installation et d'ouverture du jeu</li><li>Augmentation de l'or/pièces lâchés par les ennemis</li><li>Prise en charge de la sauvegarde/chargement des données (Save/Load Data)</li><li>Débloquez tous les skins premium &amp; articles de la Boutique</li><li>Optimisation majeure des performances</li>",
+
+  "info_v068_title": "💡 Nouveautés et Corrections dans la Beta 0.68 :",
+  "feat_fix_install": "<b>Bug d'installation &amp; lancement corrigé :</b> Résolution des problèmes empêchant l'installation ou l'ouverture du jeu sur certains appareils.",
+  "feat_more_gold": "<b>Plus d'or lâché :</b> Les ennemis vaincus lâchent nettement plus d'or et de pièces.",
+  "feat_save_load": "<b>Sauvegarde / Chargement des données :</b> Exportez vos données avant de désinstaller (pour économiser de l'espace) et réimportez votre progression après réinstallation.",
+  "info_dl_help_title": "❓ Des difficultés pour télécharger ?",
+  "info_dl_help_desc1": "Si vous ne pouvez pas télécharger depuis le lien principal, vous pouvez choisir de télécharger via <b>MediaFire</b> ou <b>Dropbox</b> ci-dessous.",
+  "info_dl_help_desc2": "Si les liens de téléchargement sont bloqués par votre réseau ou FAI, essayez d'utiliser l'application <b>1.1.1.1 WARP</b> <img src=\"https://play-lh.googleusercontent.com/PDwXxcvulfxi2bH4UjcMGJ7i0CQ7_QNypYohkhhg02zE7FdNTNRyF21-ikrLM5kyvcmNxtr77Va-7sS3NLbpNg=w480-h960-rw\" height=\"18\" width=\"18\" style=\"vertical-align: middle;\" alt=\"1.1.1.1\"/> depuis Google Play pour débloquer votre connexion."
 }

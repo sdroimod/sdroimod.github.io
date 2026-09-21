@@ -68,5 +68,13 @@
   "new_content_title": "Novo Conteúdo:",
   "new_items": "<li>Adicionada \"Espada Mata-Dragões\"</li><li>Adicionadas 480 Skins</li><li>Adicionados 500 Itens</li><li>Adicionados \"Just a Random Noob\" &amp; \"The Ancient Codices\"</li><li>Infinity Sword, Slime Core, Goku SSJ Head</li><li>Set Hellbringer (Infernal Blade, Hellskull)</li><li>Nova Prize Room, Loja, Tela de Estrelas</li>",
   "improvements_title": "Melhorias:",
-  "improvements_items": "<li>Desbloqueie todas as skins premium &amp; itens da Loja</li><li>Grande Otimização de Desempenho</li><li>Interface mais limpa, Popups removidos</li>"
+  "improvements_items": "<li>Correção do erro de instalação e abertura do jogo</li><li>Aumento do ouro/moedas dropados pelos inimigos</li><li>Suporte a Salvar/Carregar dados do jogo (Save/Load Data)</li><li>Desbloqueie todas as skins premium &amp; itens da Loja</li><li>Grande Otimização de Desempenho</li>",
+
+  "info_v068_title": "💡 Recursos e Correções na Beta 0.68:",
+  "feat_fix_install": "<b>Erro de Instalação e Inicialização Corrigido:</b> Resolvido o problema onde o jogo não instalava ou não abria em certos dispositivos.",
+  "feat_more_gold": "<b>Mais Ouro Dropado:</b> Inimigos derrotados dropam significativamente mais ouro e moedas.",
+  "feat_save_load": "<b>Salvar / Carregar Dados:</b> Exporte seus dados salvos antes de desinstalar (para economizar espaço) e importe seu progresso de volta após reinstalar.",
+  "info_dl_help_title": "❓ Problemas para baixar?",
+  "info_dl_help_desc1": "Se você não conseguir baixar pelo link principal, pode optar por baixar via <b>MediaFire</b> ou <b>Dropbox</b> abaixo.",
+  "info_dl_help_desc2": "Se o link estiver bloqueado pela sua rede ou operadora, tente usar o aplicativo <b>1.1.1.1 WARP</b> <img src=\"https://play-lh.googleusercontent.com/PDwXxcvulfxi2bH4UjcMGJ7i0CQ7_QNypYohkhhg02zE7FdNTNRyF21-ikrLM5kyvcmNxtr77Va-7sS3NLbpNg=w480-h960-rw\" height=\"18\" width=\"18\" style=\"vertical-align: middle;\" alt=\"1.1.1.1\"/> do Google Play para desbloquear sua conexão."
 }

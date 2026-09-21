@@ -68,5 +68,13 @@
   "new_content_title": "Nuovo Contenuto:",
   "new_items": "<li>Aggiunta «Spada Ammazza-Draghi»</li><li>Aggiunte 480 Skin</li><li>Aggiunti 500 Oggetti</li><li>Aggiunti «Just a Random Noob» &amp; «The Ancient Codices»</li><li>Infinity Sword, Slime Core, Goku SSJ Head</li><li>Set Hellbringer (Infernal Blade, Hellskull)</li><li>Nuova Prize Room, Negozio, Schermata Stelle</li>",
   "improvements_title": "Miglioramenti:",
-  "improvements_items": "<li>Sblocca tutte le skin premium &amp; oggetti del Negozio</li><li>Ottimizzazione delle prestazioni importante</li><li>Interfaccia più pulita, Popup rimossi</li>"
+  "improvements_items": "<li>Risolto errore di installazione e apertura del gioco</li><li>Aumentato l'oro/monete rilasciate dai nemici</li><li>Supporto per Salva/Carica dati di gioco (Save/Load Data)</li><li>Sblocca tutte le skin premium &amp; oggetti del Negozio</li><li>Ottimizzazione delle prestazioni importante</li>",
+
+  "info_v068_title": "💡 Funzionalità e Correzioni nella Beta 0.68:",
+  "feat_fix_install": "<b>Bug di Installazione e Avvio Risolto:</b> Risolti i problemi per cui il gioco non poteva essere installato o aperto su alcuni dispositivi.",
+  "feat_more_gold": "<b>Aumento Drop Oro:</b> I nemici sconfitti lasciano cadere molto più oro e monete.",
+  "feat_save_load": "<b>Salva / Carica Dati di Gioco:</b> Esporta i tuoi dati prima di disinstallare (per risparmiare spazio) e importa nuovamente i tuoi progressi dopo la reinstallazione.",
+  "info_dl_help_title": "❓ Problemi con il download?",
+  "info_dl_help_desc1": "Se non riesci a scaricare dal link principale, puoi scegliere di scaricare tramite <b>MediaFire</b> o <b>Dropbox</b> qui sotto.",
+  "info_dl_help_desc2": "Se i link di download sono bloccati dalla tua rete, prova a utilizzare l'app <b>1.1.1.1 WARP</b> <img src=\"https://play-lh.googleusercontent.com/PDwXxcvulfxi2bH4UjcMGJ7i0CQ7_QNypYohkhhg02zE7FdNTNRyF21-ikrLM5kyvcmNxtr77Va-7sS3NLbpNg=w480-h960-rw\" height=\"18\" width=\"18\" style=\"vertical-align: middle;\" alt=\"1.1.1.1\"/> da Google Play per sbloccare la connessione."
 }

@@ -68,5 +68,13 @@
   "new_content_title": "เนื้อหาใหม่:",
   "new_items": "<li>เพิ่ม «ดาบนักฆ่ามังกร»</li><li>เพิ่ม 480 สกิน</li><li>เพิ่ม 500 ไอเทม</li><li>เพิ่ม «Just a Random Noob» &amp; «The Ancient Codices»</li><li>Infinity Sword, Slime Core, Goku SSJ Head</li><li>ชุด Hellbringer (Infernal Blade, Hellskull)</li><li>Prize Room, ร้านค้า, หน้าจอดาวใหม่</li>",
   "improvements_title": "การปรับปรุง:",
-  "improvements_items": "<li>ปลดล็อกสกินพรีเมียม &amp; ไอเทมร้านค้าทั้งหมด</li><li>การปรับแต่งประสิทธิภาพครั้งใหญ่</li><li>UI สะอาดขึ้น นำ Popup ออก</li>"
+  "improvements_items": "<li>แก้ไขบั๊กไม่สามารถติดตั้งและเปิดเกมได้</li><li>เพิ่มจำนวนทอง/เหรียญที่ดรอปจากศัตรู</li><li>รองรับการบันทึก/โหลดข้อมูลเกม (Save/Load Data)</li><li>ปลดล็อกสกินพรีเมียม &amp; ไอเทมร้านค้าทั้งหมด</li><li>การปรับแต่งประสิทธิภาพครั้งใหญ่</li>",
+
+  "info_v068_title": "💡 ฟีเจอร์และการแก้ไขใน Beta 0.68:",
+  "feat_fix_install": "<b>แก้ไขบั๊กติดตั้งและเปิดเกม:</b> แก้ไขปัญหาที่ไม่สามารถติดตั้งหรือเปิดเกมได้ในบางอุปกรณ์",
+  "feat_more_gold": "<b>เพิ่มอัตราดรอปทอง:</b> ศัตรูที่ถูกจัดการจะดรอปทองและเหรียญมากขึ้นอย่างมาก",
+  "feat_save_load": "<b>บันทึก / โหลดข้อมูลเกม:</b> ส่งออกข้อมูลก่อนลบม็อด (เพื่อประหยัดพื้นที่) และนำเข้าความคืบหน้ากลับมาหลังติดตั้งใหม่",
+  "info_dl_help_title": "❓ มีปัญหาในการดาวน์โหลด?",
+  "info_dl_help_desc1": "หากคุณไม่สามารถดาวน์โหลดจากลิงก์หลักได้ คุณสามารถเลือกดาวน์โหลดผ่าน <b>MediaFire</b> หรือ <b>Dropbox</b> ด้านล่าง",
+  "info_dl_help_desc2": "หากลิงก์ถูกบล็อกโดยเครือข่ายของคุณ โปรดทดลองใช้แอป <b>1.1.1.1 WARP</b> <img src=\"https://play-lh.googleusercontent.com/PDwXxcvulfxi2bH4UjcMGJ7i0CQ7_QNypYohkhhg02zE7FdNTNRyF21-ikrLM5kyvcmNxtr77Va-7sS3NLbpNg=w480-h960-rw\" height=\"18\" width=\"18\" style=\"vertical-align: middle;\" alt=\"1.1.1.1\"/> จาก Google Play"
 }

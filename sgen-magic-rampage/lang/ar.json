@@ -68,5 +68,13 @@
   "new_content_title": "محتوى جديد:",
   "new_items": "<li>تمت إضافة «سيف قاتل التنانين»</li><li>تمت إضافة 480 مظهرًا</li><li>تمت إضافة 500 عنصر</li><li>تمت إضافة «Just a Random Noob» &amp; «The Ancient Codices»</li><li>Infinity Sword, Slime Core, Goku SSJ Head</li><li>طقم Hellbringer (Infernal Blade, Hellskull)</li><li>Prize Room جديدة، متجر، شاشة نجوم</li>",
   "improvements_title": "تحسينات:",
-  "improvements_items": "<li>فتح جميع المظاهر المميزة &amp; عناصر المتجر</li><li>تحسين كبير للأداء</li><li>واجهة أنظف، تمت إزالة النوافذ المنبثقة</li>"
+  "improvements_items": "<li>إصلاح خطأ عدم القدرة على التثبيت وفتح اللعبة</li><li>زيادة كمية الذهب/العملات المتساقطة من الأعداء</li><li>دعم حفظ/تحميل بيانات اللعبة (Save/Load Data)</li><li>فتح جميع المظاهر المميزة &amp; عناصر المتجر</li><li>تحسين كبير للأداء</li>",
+
+  "info_v068_title": "💡 الميزات والإصلاحات في Beta 0.68:",
+  "feat_fix_install": "<b>إصلاح خطأ التثبيت والتشغيل:</b> تم حل المشكلات التي حالت دون تثبيت اللعبة أو فتحها على بعض الأجهزة.",
+  "feat_more_gold": "<b>زيادة إسقاط الذهب:</b> يسقط الأعداء المهزومون قدرًا أكبر بكثير من الذهب والعملات.",
+  "feat_save_load": "<b>حفظ / تحميل بيانات اللعبة:</b> تصدير بياناتك قبل إلغاء التثبيت (لتوفير مساحة التخزين) واستعادتها بعد إعادة التثبيت.",
+  "info_dl_help_title": "❓ هل تواجه مشكلة في التنزيل؟",
+  "info_dl_help_desc1": "إذا تعذّر التنزيل من الرابط الرئيسي، يمكنك اختيار التنزيل عبر <b>MediaFire</b> أو <b>Dropbox</b> أدناه.",
+  "info_dl_help_desc2": "إذا كانت روابط التنزيل محظورة من قِبَل شبكتك، يرجى تجربة تطبيق <b>1.1.1.1 WARP</b> <img src=\"https://play-lh.googleusercontent.com/PDwXxcvulfxi2bH4UjcMGJ7i0CQ7_QNypYohkhhg02zE7FdNTNRyF21-ikrLM5kyvcmNxtr77Va-7sS3NLbpNg=w480-h960-rw\" height=\"18\" width=\"18\" style=\"vertical-align: middle;\" alt=\"1.1.1.1\"/> من Google Play إلغاء الحظر."
 }

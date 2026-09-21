@@ -1,7 +1,7 @@
 (function () {
   var _script = document.currentScript;
 
-  var SUPPORTED = ['en','ru','pt','es','vi','tr','uk','fr','it','sv','id','th','ar'];
+  var SUPPORTED = ['en','ru','pt','es','tr','uk','fr','it','sv','id','th','ar'];
   var RTL = ['ar'];
 
   var LANG_MAP = {
@@ -9,7 +9,6 @@
     'ru':'ru','ru-RU':'ru','ru-UA':'ru','ru-BY':'ru','ru-KZ':'ru',
     'pt':'pt','pt-BR':'pt','pt-PT':'pt',
     'es':'es','es-MX':'es','es-AR':'es','es-CO':'es','es-CL':'es','es-PE':'es','es-419':'es','es-ES':'es',
-    'vi':'vi','vi-VN':'vi',
     'tr':'tr','tr-TR':'tr',
     'uk':'uk','uk-UA':'uk',
     'fr':'fr','fr-FR':'fr','fr-CA':'fr','fr-BE':'fr','fr-CH':'fr',
@@ -25,7 +24,6 @@
     {code:'ru',flag:'🇷🇺',name:'Русский'},
     {code:'pt',flag:'🇧🇷',name:'Português'},
     {code:'es',flag:'🇲🇽',name:'Español'},
-    {code:'vi',flag:'🇻🇳',name:'Tiếng Việt'},
     {code:'tr',flag:'🇹🇷',name:'Türkçe'},
     {code:'uk',flag:'🇺🇦',name:'Українська'},
     {code:'fr',flag:'🇫🇷',name:'Français'},

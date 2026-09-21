@@ -68,5 +68,13 @@
   "new_content_title": "Yeni İçerik:",
   "new_items": "<li>«Ejderha Avcısı Kılıcı» eklendi</li><li>480 Kostüm eklendi</li><li>500 Eşya eklendi</li><li>«Just a Random Noob» &amp; «The Ancient Codices» eklendi</li><li>Infinity Sword, Slime Core, Goku SSJ Head</li><li>Hellbringer Seti (Infernal Blade, Hellskull)</li><li>Yeni Prize Room, Mağaza, Yıldız Ekranı</li>",
   "improvements_title": "İyileştirmeler:",
-  "improvements_items": "<li>Tüm premium kostümler &amp; Mağaza eşyaları kilidi açıldı</li><li>Büyük Performans Optimizasyonu</li><li>Daha temiz arayüz, Popup'lar kaldırıldı</li>"
+  "improvements_items": "<li>Kurulum ve oyunu açamama hatası düzeltildi</li><li>Düşmanlardan düşen altın/sikke miktarı artırıldı</li><li>Oyun verilerini Kaydetme/Yükleme desteği eklendi (Save/Load Data)</li><li>Tüm premium kostümler &amp; Mağaza eşyaları kilidi açıldı</li><li>Büyük Performans Optimizasyonu</li>",
+
+  "info_v068_title": "💡 Beta 0.68 Özellikleri ve Düzeltmeleri:",
+  "feat_fix_install": "<b>Kurulum ve Başlatma Hatası Düzeltildi:</b> Bazı cihazlarda oyunun kurulamama veya açılamama sorunu çözüldü.",
+  "feat_more_gold": "<b>Daha Fazla Altın Düşüşü:</b> Yenilen düşmanlar önemli ölçüde daha fazla altın ve sikke düşürür.",
+  "feat_save_load": "<b>Oyun Verilerini Kaydet / Yükle:</b> Modu silmeden önce verilerinizi dışa aktarın (yer kazanmak için) ve yeniden yükledikten sonra ilerlemenizi geri yükleyin.",
+  "info_dl_help_title": "❓ İndirme sorunu mu yaşıyorsunuz?",
+  "info_dl_help_desc1": "Ana bağlantıdan indiremiyorsanız, aşağıdan <b>MediaFire</b> veya <b>Dropbox</b> üzerinden indirmeyi seçebilirsiniz.",
+  "info_dl_help_desc2": "İndirme bağlantıları ağınız tarafından engellendiyse, bağlantınızı açmak için Google Play'den <b>1.1.1.1 WARP</b> <img src=\"https://play-lh.googleusercontent.com/PDwXxcvulfxi2bH4UjcMGJ7i0CQ7_QNypYohkhhg02zE7FdNTNRyF21-ikrLM5kyvcmNxtr77Va-7sS3NLbpNg=w480-h960-rw\" height=\"18\" width=\"18\" style=\"vertical-align: middle;\" alt=\"1.1.1.1\"/> uygulamasını deneyin."
 }

@@ -68,5 +68,13 @@
   "new_content_title": "Konten Baru:",
   "new_items": "<li>Ditambahkan «Dragon Slayer Sword»</li><li>Ditambahkan 480 Skin</li><li>Ditambahkan 500 Item</li><li>Ditambahkan «Just a Random Noob» &amp; «The Ancient Codices»</li><li>Infinity Sword, Slime Core, Goku SSJ Head</li><li>Set Hellbringer (Infernal Blade, Hellskull)</li><li>Prize Room, Toko, Layar Bintang baru</li>",
   "improvements_title": "Peningkatan:",
-  "improvements_items": "<li>Buka semua skin premium &amp; item Toko</li><li>Optimasi Performa Besar</li><li>UI lebih bersih, Popup dihapus</li>"
+  "improvements_items": "<li>Perbaikan bug tidak bisa install &amp; tidak bisa buka game</li><li>Peningkatan jumlah emas/koin yang jatuh dari musuh</li><li>Mendukung Simpan/Muat data game (Save/Load Data)</li><li>Buka semua skin premium &amp; item Toko</li><li>Optimasi Performa Besar</li>",
+
+  "info_v068_title": "💡 Fitur &amp; Perbaikan Baru di Beta 0.68:",
+  "feat_fix_install": "<b>Perbaikan Bug Instalasi &amp; Buka Game:</b> Mengatasi masalah di mana game tidak dapat diinstal atau dibuka di perangkat tertentu.",
+  "feat_more_gold": "<b>Peningkatan Drop Emas:</b> Musuh yang dikalahkan menjatuhkan jauh lebih banyak emas dan koin.",
+  "feat_save_load": "<b>Simpan / Muat Data Game:</b> Ekspor data Anda sebelum menghapus mod (untuk menghemat ruang) dan impor kembali kemajuan Anda setelah menginstal ulang.",
+  "info_dl_help_title": "❓ Mengalami masalah saat mengunduh?",
+  "info_dl_help_desc1": "Jika Anda tidak dapat mengunduh dari tautan utama, Anda dapat memilih untuk mengunduh via <b>MediaFire</b> atau <b>Dropbox</b> di bawah.",
+  "info_dl_help_desc2": "Jika tautan diblokir oleh penyedia jaringan Anda, silakan coba gunakan aplikasi <b>1.1.1.1 WARP</b> <img src=\"https://play-lh.googleusercontent.com/PDwXxcvulfxi2bH4UjcMGJ7i0CQ7_QNypYohkhhg02zE7FdNTNRyF21-ikrLM5kyvcmNxtr77Va-7sS3NLbpNg=w480-h960-rw\" height=\"18\" width=\"18\" style=\"vertical-align: middle;\" alt=\"1.1.1.1\"/> dari Google Play untuk membuka blokir."
 }

@@ -68,5 +68,13 @@
   "new_content_title": "New Content:",
   "new_items": "<li>Added \"Dragon Slayer Sword\"</li><li>Added 480 Skins</li><li>Added 500 Items</li><li>Added \"Just a Random Noob\" &amp; \"The Ancient Codices\"</li><li>Infinity Sword, Slime Core, Goku SSJ Head</li><li>Hellbringer Set (Infernal Blade, Hellskull)</li><li>New Prize Room, Shop, Star Screen</li>",
   "improvements_title": "Improvements:",
-  "improvements_items": "<li>Unlock all premium skins &amp; Shop items</li><li>Major Performance Optimization</li><li>Cleaner UI, Removed Popups</li>"
+  "improvements_items": "<li>Fixed installation error &amp; inability to open game</li><li>Increased gold/coins dropped from enemies</li><li>Added Save/Load game data support</li><li>Unlock all premium skins &amp; Shop items</li><li>Major Performance Optimization &amp; cleaner UI</li>",
+
+  "info_v068_title": "💡 Features &amp; Fixes in Beta 0.68:",
+  "feat_fix_install": "<b>Fixed Installation &amp; Launch Bug:</b> Resolved issues where the game could not be installed or opened on certain devices.",
+  "feat_more_gold": "<b>Increased Gold Drop Rate:</b> Defeated enemies now drop significantly more gold/coins.",
+  "feat_save_load": "<b>Save/Load Game Data:</b> Export your save data before uninstalling to save storage space, and import your progress back after reinstalling.",
+  "info_dl_help_title": "❓ Having trouble downloading?",
+  "info_dl_help_desc1": "If you cannot download from the main link, you can choose to download via <b>MediaFire</b> or <b>Dropbox</b> below.",
+  "info_dl_help_desc2": "If the download links are blocked by your network or ISP, try using the <b>1.1.1.1 WARP</b> app <img src=\"https://play-lh.googleusercontent.com/PDwXxcvulfxi2bH4UjcMGJ7i0CQ7_QNypYohkhhg02zE7FdNTNRyF21-ikrLM5kyvcmNxtr77Va-7sS3NLbpNg=w480-h960-rw\" height=\"18\" width=\"18\" style=\"vertical-align: middle;\" alt=\"1.1.1.1\"/> from Google Play to unblock your connection."
 }

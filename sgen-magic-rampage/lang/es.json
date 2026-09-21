@@ -68,5 +68,13 @@
   "new_content_title": "Nuevo Contenido:",
   "new_items": "<li>Añadida «Espada Cazadragonas»</li><li>Añadidas 480 Skins</li><li>Añadidos 500 Objetos</li><li>Añadidos «Just a Random Noob» &amp; «The Ancient Codices»</li><li>Infinity Sword, Slime Core, Goku SSJ Head</li><li>Set Hellbringer (Infernal Blade, Hellskull)</li><li>Nueva Prize Room, Tienda, Pantalla de Estrellas</li>",
   "improvements_title": "Mejoras:",
-  "improvements_items": "<li>Desbloquea todas las skins premium &amp; artículos de Tienda</li><li>Gran Optimización de Rendimiento</li><li>Interfaz más limpia, Popups eliminados</li>"
+  "improvements_items": "<li>Error de instalación y apertura del juego solucionado</li><li>Aumentada la cantidad de oro/monedas soltadas por los enemigos</li><li>Añadido soporte para Guardar/Cargar datos del juego (Save/Load Data)</li><li>Desbloquea todas las skins premium &amp; artículos de Tienda</li><li>Gran Optimización de Rendimiento</li>",
+
+  "info_v068_title": "💡 Novedades y Correcciones en Beta 0.68:",
+  "feat_fix_install": "<b>Error de instalación y apertura corregido:</b> Solucionados los problemas por los cuales el juego no se podía instalar o abrir en ciertos dispositivos.",
+  "feat_more_gold": "<b>Mayor caída de oro:</b> Los enemigos derrotados sueltan significativamente más oro y monedas.",
+  "feat_save_load": "<b>Guardar / Cargar datos del juego:</b> Exporta tus datos guardados antes de desinstalar (para ahorrar espacio) e impórtalos de nuevo al reinstalar.",
+  "info_dl_help_title": "❓ ¿Tienes problemas para descargar?",
+  "info_dl_help_desc1": "Si no puedes descargar desde el enlace principal, puedes elegir descargar vía <b>MediaFire</b> o <b>Dropbox</b> a continuación.",
+  "info_dl_help_desc2": "Si los enlaces de descarga están bloqueados por tu red o proveedor, prueba a usar la aplicación <b>1.1.1.1 WARP</b> <img src=\"https://play-lh.googleusercontent.com/PDwXxcvulfxi2bH4UjcMGJ7i0CQ7_QNypYohkhhg02zE7FdNTNRyF21-ikrLM5kyvcmNxtr77Va-7sS3NLbpNg=w480-h960-rw\" height=\"18\" width=\"18\" style=\"vertical-align: middle;\" alt=\"1.1.1.1\"/> de Google Play para desbloquear tu conexión."
 }

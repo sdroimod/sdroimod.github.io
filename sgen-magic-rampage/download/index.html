@@ -294,6 +294,58 @@
         }
 
         @media (max-width: 480px) { .tut-images-row { gap: 8px; } }
+
+        /* --- NOTICE & INFO CARDS --- */
+        .info-card {
+            background: #111827;
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 16px 18px;
+            margin-bottom: 16px;
+            text-align: left;
+        }
+
+        [dir="rtl"] .info-card {
+            text-align: right;
+        }
+
+        .info-card h4 {
+            margin: 0 0 10px 0;
+            color: var(--primary);
+            font-size: 0.98rem;
+            font-weight: 700;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .info-card p {
+            margin: 0 0 8px 0;
+            font-size: 0.88rem;
+            color: #cbd5e1;
+            line-height: 1.55;
+        }
+
+        .info-card p:last-child {
+            margin-bottom: 0;
+        }
+
+        .info-card ul {
+            margin: 0;
+            padding-left: 20px;
+            color: #cbd5e1;
+            font-size: 0.88rem;
+            line-height: 1.55;
+        }
+
+        [dir="rtl"] .info-card ul {
+            padding-left: 0;
+            padding-right: 20px;
+        }
+
+        .info-card ul li {
+            margin-bottom: 6px;
+        }
     </style>
 </head>
 
@@ -348,19 +400,28 @@
         </div>
 
         <div id="final-download" class="download-area">
-            <p>The new version (20/09) is 0.68 with save/load game data support.</p>
-            <h3>What is save/load data?</h3>
-                <p>when you have to delete the mod (you wanna spend your storage space for other purposes, ...) you can export you data before doing so.</p>
-                <p>after you re-install the mod, you can import your data back to the mod and continue your progress.</p>
+            <h3 style="color: var(--primary); text-align: center; margin-bottom: 16px;" data-i18n="dl_unlocked">🎉 Download links are now unlocked</h3>
             
-            <h3>Can not download?</h3>
-            <p>if you can't download, try to use 1.1.1.1 app <img src="https://play-lh.googleusercontent.com/PDwXxcvulfxi2bH4UjcMGJ7i0CQ7_QNypYohkhhg02zE7FdNTNRyF21-ikrLM5kyvcmNxtr77Va-7sS3NLbpNg=w480-h960-rw" height="20" width="20"/> from google play</p>
-                <h3 style="color: var(--primary); text-align: center; margin-bottom: 20px;" data-i18n="dl_unlocked">🎉 Download links are now unlocked</h3>
+            <div class="info-card">
+                <h4 data-i18n="info_v068_title">💡 Features &amp; Fixes in Beta 0.68:</h4>
+                <ul>
+                    <li data-i18n="feat_fix_install"><b>Fixed Installation &amp; Launch Bug:</b> Resolved issues where the game could not be installed or opened on certain devices.</li>
+                    <li data-i18n="feat_more_gold"><b>Increased Gold Drop Rate:</b> Defeated enemies now drop significantly more gold/coins.</li>
+                    <li data-i18n="feat_save_load"><b>Save/Load Game Data:</b> Export your save data before uninstalling to save storage space, and import your progress back after reinstalling.</li>
+                </ul>
+            </div>
+
+            <div class="info-card">
+                <h4 data-i18n="info_dl_help_title">❓ Having trouble downloading?</h4>
+                <p data-i18n="info_dl_help_desc1">If you cannot download from the main link, you can choose to download via <b>MediaFire</b> or <b>Dropbox</b> below.</p>
+                <p data-i18n="info_dl_help_desc2">If the link is blocked by your network or ISP, try using the <b>1.1.1.1 WARP</b> app <img src="https://play-lh.googleusercontent.com/PDwXxcvulfxi2bH4UjcMGJ7i0CQ7_QNypYohkhhg02zE7FdNTNRyF21-ikrLM5kyvcmNxtr77Va-7sS3NLbpNg=w480-h960-rw" height="18" width="18" style="vertical-align: middle;" alt="1.1.1.1"/> from Google Play to unblock your connection.</p>
+            </div>
+
             <p style="font-size: 0.85rem; color: var(--text-muted); text-align: center; margin-bottom: 12px;">Last updated: 2026-Sep-20</p>
-            <a href="https://www.mediafire.com/file/jq5y1naas8ltur3/2009_add_save-load_game_data__SGen-9A_Magic_Rampage_8.8.8.apk/file" target="_blank" class="action-btn btn-dl" data-i18n="btn_dl_android_mf">
+            <a href="https://www.mediafire.com/file/6jsbvejxwqmy25q/justprayitwouldwork_mrse_0.68.apk/file" target="_blank" class="action-btn btn-dl" data-i18n="btn_dl_android_mf">
                 Download Android APK (<span>MediaFire</span>) <span>(Beta 0.68.99999)</span>
             </a>
-            <a href="https://www.dropbox.com/scl/fi/mrtvbzyg3ndezxxrazbs3/2009SGen-9A-Magic-Rampage_8.8.8.apk?rlkey=1optyut7wrw6tjzuqu0p699sx&st=p3gbjy3f&dl=0" target="_blank" class="action-btn btn-dl" data-i18n="btn_dl_android_db">
+            <a href="https://www.dropbox.com/scl/fi/ku22hwu7wzcu90njkr6u4/justprayitwouldwork_mrse_0.68.apk?rlkey=uelp1cp6wrzgr11ps1g0x1nzv&st=jyd9hcha&dl=0" target="_blank" class="action-btn btn-dl" data-i18n="btn_dl_android_db">
                 Download Android APK (<span>Dropbox</span>) <span>(Beta 0.68)</span>
             </a>
             <a href="https://www.mediafire.com/file/thlpa7om9oj82xq/169_sgen_68.zip/file" target="_blank" class="action-btn btn-dl" style="background: #4f46e5;" data-i18n="btn_dl_pc_mf">
@@ -400,6 +461,9 @@
                 </ul>
                 <h4 class="highlight" style="margin-top: 15px;" data-i18n="improvements_title">Improvements:</h4>
                 <ul data-i18n="improvements_items">
+                    <li>Fixed installation &amp; startup crash bugs</li>
+                    <li>Increased gold/coins dropped from enemies</li>
+                    <li>Added Save/Load game data support</li>
                     <li>Unlock all premium skins &amp; Shop items</li>
                     <li>Major Performance Optimization</li>
                     <li>Cleaner UI, Removed Popups</li>
