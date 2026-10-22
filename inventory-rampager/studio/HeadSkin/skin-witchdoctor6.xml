@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+
+<TextureAtlas imagePath="skin-witch-doctor6.png" width="128" height="256">
+    <sprite n="Sprite 1.png" x="2" y="101" w="67" h="112" pX="0.5" pY="0.5" oX="91" oY="21" oW="256" oH="256"/>
+    <sprite n="Sprite 2.png" x="2" y="101" w="67" h="112" pX="0.5" pY="0.5" oX="92" oY="20" oW="256" oH="256"/>
+    <sprite n="Sprite 3.png" x="2" y="101" w="67" h="112" pX="0.5" pY="0.5" oX="90" oY="21" oW="256" oH="256"/>
+    <sprite n="Sprite 4.png" x="2" y="101" w="67" h="112" pX="0.5" pY="0.5" oX="90" oY="19" oW="256" oH="256"/>
+    <sprite n="Sprite 5.png" x="2" y="101" w="67" h="112" pX="0.5" pY="0.5" oX="85" oY="7" oW="256" oH="256"/>
+    <sprite n="Sprite 6.png" x="2" y="2" w="97" h="95" pX="0.5" pY="0.5" oX="53" oY="9" oW="256" oH="256"/>
+    <sprite n="Sprite 7.png" x="103" y="2" w="1" h="1" pX="0.5" pY="0.5" oX="0" oY="0" oW="256" oH="256"/>
+    <sprite n="Sprite 8.png" x="2" y="101" w="67" h="112" pX="0.5" pY="0.5" oX="90" oY="11" oW="256" oH="256"/>
+    <sprite n="Sprite 9.png" x="2" y="101" w="67" h="112" pX="0.5" pY="0.5" oX="91" oY="11" oW="256" oH="256"/>
+    <sprite n="Sprite 10.png" x="2" y="101" w="67" h="112" pX="0.5" pY="0.5" oX="91" oY="23" oW="256" oH="256"/>
+    <sprite n="Sprite 11.png" x="2" y="101" w="67" h="112" pX="0.5" pY="0.5" oX="92" oY="15" oW="256" oH="256"/>
+    <sprite n="Sprite 12.png" x="2" y="101" w="67" h="112" pX="0.5" pY="0.5" oX="92" oY="12" oW="256" oH="256"/>
+    <sprite n="Sprite 13.png" x="2" y="101" w="67" h="112" pX="0.5" pY="0.5" oX="93" oY="23" oW="256" oH="256"/>
+    <sprite n="Sprite 14.png" x="103" y="2" w="1" h="1" pX="0.5" pY="0.5" oX="0" oY="0" oW="256" oH="256"/>
+    <sprite n="Sprite 15.png" x="103" y="2" w="1" h="1" pX="0.5" pY="0.5" oX="0" oY="0" oW="256" oH="256"/>
+    <sprite n="Sprite 16.png" x="103" y="2" w="1" h="1" pX="0.5" pY="0.5" oX="0" oY="0" oW="256" oH="256"/>
+</TextureAtlas>

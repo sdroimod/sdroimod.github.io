@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+
+<TextureAtlas imagePath="Druid_C.png" width="128" height="256">
+    <sprite n="1.png" x="2" y="118" w="98" h="88" oX="74" oY="41" oW="256" oH="256"/>
+    <sprite n="2.png" x="2" y="118" w="98" h="88" oX="75" oY="39" oW="256" oH="256"/>
+    <sprite n="3.png" x="2" y="118" w="98" h="88" oX="73" oY="41" oW="256" oH="256"/>
+    <sprite n="4.png" x="2" y="118" w="98" h="88" oX="73" oY="40" oW="256" oH="256"/>
+    <sprite n="5.png" x="2" y="118" w="98" h="88" oX="68" oY="28" oW="256" oH="256"/>
+    <sprite n="6.png" x="2" y="2" w="115" h="112" oX="35" oY="7" oW="256" oH="256"/>
+    <sprite n="7.png" x="121" y="2" w="1" h="1" oX="0" oY="0" oW="256" oH="256"/>
+    <sprite n="8.png" x="2" y="118" w="98" h="88" oX="73" oY="31" oW="256" oH="256"/>
+    <sprite n="9.png" x="2" y="118" w="98" h="88" oX="73" oY="31" oW="256" oH="256"/>
+    <sprite n="10.png" x="2" y="118" w="98" h="88" oX="74" oY="43" oW="256" oH="256"/>
+    <sprite n="11.png" x="2" y="118" w="98" h="88" oX="74" oY="35" oW="256" oH="256"/>
+    <sprite n="12.png" x="2" y="118" w="98" h="88" oX="75" oY="32" oW="256" oH="256"/>
+    <sprite n="13.png" x="2" y="118" w="98" h="88" oX="76" oY="42" oW="256" oH="256"/>
+    <sprite n="14.png" x="121" y="2" w="1" h="1" oX="0" oY="0" oW="256" oH="256"/>
+    <sprite n="15.png" x="121" y="2" w="1" h="1" oX="0" oY="0" oW="256" oH="256"/>
+    <sprite n="16.png" x="121" y="2" w="1" h="1" oX="0" oY="0" oW="256" oH="256"/>
+</TextureAtlas>

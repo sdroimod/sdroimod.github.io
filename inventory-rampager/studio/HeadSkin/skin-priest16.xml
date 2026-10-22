@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="skin-Priest-16.png" width="256" height="512">
+    <sprite n="Sprite 1.png" x="2" y="144" w="140" h="136" oX="71" oY="23" oW="300" oH="300"/>
+    <sprite n="Sprite 2.png" x="2" y="144" w="140" h="136" oX="72" oY="22" oW="300" oH="300"/>
+    <sprite n="Sprite 3.png" x="2" y="144" w="140" h="136" oX="70" oY="23" oW="300" oH="300"/>
+    <sprite n="Sprite 4.png" x="2" y="144" w="140" h="136" oX="70" oY="21" oW="300" oH="300"/>
+    <sprite n="Sprite 5.png" x="2" y="144" w="140" h="136" oX="66" oY="9" oW="300" oH="300"/>
+    <sprite n="Sprite 6.png" x="2" y="2" w="148" h="138" oX="38" oY="10" oW="320" oH="320"/>
+    <sprite n="Sprite 7.png" x="154" y="2" w="1" h="1" oX="0" oY="0" oW="256" oH="256"/>
+    <sprite n="Sprite 8.png" x="2" y="144" w="140" h="136" oX="71" oY="13" oW="300" oH="300"/>
+    <sprite n="Sprite 9.png" x="2" y="144" w="140" h="136" oX="71" oY="13" oW="300" oH="300"/>
+    <sprite n="Sprite 10.png" x="2" y="144" w="140" h="136" oX="71" oY="25" oW="300" oH="300"/>
+    <sprite n="Sprite 11.png" x="2" y="144" w="140" h="136" oX="72" oY="17" oW="300" oH="300"/>
+    <sprite n="Sprite 12.png" x="2" y="144" w="140" h="136" oX="72" oY="14" oW="300" oH="300"/>
+    <sprite n="Sprite 13.png" x="2" y="144" w="140" h="136" oX="73" oY="24" oW="300" oH="300"/>
+    <sprite n="Sprite 14.png" x="154" y="2" w="1" h="1" oX="0" oY="0" oW="256" oH="256"/>
+    <sprite n="Sprite 15.png" x="154" y="2" w="1" h="1" oX="0" oY="0" oW="256" oH="256"/>
+    <sprite n="Sprite 16.png" x="154" y="2" w="1" h="1" oX="0" oY="0" oW="256" oH="256"/>
+</TextureAtlas>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="Armlet_01.png" width="128" height="128">
+    <sprite n="Sprite 1.png" x="82" y="23" w="25" h="16" oX="68" oY="135" oW="256" oH="256"/>
+    <sprite n="Sprite 2.png" x="82" y="2" w="25" h="17" oX="54" oY="118" oW="256" oH="256"/>
+    <sprite n="Sprite 3.png" x="80" y="62" w="23" h="20" oX="58" oY="108" oW="256" oH="256"/>
+    <sprite n="Sprite 4.png" x="111" y="2" w="14" h="17" oX="130" oY="129" oW="256" oH="256"/>
+    <sprite n="Sprite 5.png" x="2" y="86" w="18" h="20" oX="85" oY="138" oW="256" oH="256"/>
+    <sprite n="Sprite 6.png" x="107" y="62" w="19" h="19" oX="88" oY="127" oW="256" oH="256"/>
+    <sprite n="Sprite 7.png" x="2" y="2" w="47" h="46" oX="104" oY="105" oW="256" oH="256"/>
+    <sprite n="Sprite 8.png" x="53" y="25" w="25" h="16" oX="75" oY="121" oW="256" oH="256"/>
+    <sprite n="Sprite 9.png" x="107" y="85" w="18" h="25" oX="94" oY="128" oW="256" oH="256"/>
+    <sprite n="Sprite 10.png" x="53" y="45" w="23" h="21" oX="135" oY="126" oW="256" oH="256"/>
+    <sprite n="Sprite 11.png" x="82" y="43" w="25" h="15" oX="76" oY="126" oW="256" oH="256"/>
+    <sprite n="Sprite 12.png" x="24" y="52" w="23" h="18" oX="71" oY="114" oW="256" oH="256"/>
+    <sprite n="Sprite 13.png" x="53" y="2" w="25" h="19" oX="55" oY="103" oW="256" oH="256"/>
+    <sprite n="Sprite 14.png" x="111" y="23" w="1" h="1" oX="0" oY="0" oW="256" oH="256"/>
+    <sprite n="Sprite 15.png" x="111" y="23" w="1" h="1" oX="0" oY="0" oW="256" oH="256"/>
+    <sprite n="Sprite 16.png" x="111" y="23" w="1" h="1" oX="0" oY="0" oW="256" oH="256"/>
+</TextureAtlas>

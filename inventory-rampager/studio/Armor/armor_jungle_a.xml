@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="armor_jungle_a.png" width="512" height="512">
+    <sprite n="1.png" x="155" y="117" w="142" h="100" pX="0.5" pY="0.5" oX="3" oY="104" oW="206" oH="256"/>
+    <sprite n="2.png" x="328" y="2" w="146" h="114" pX="0.5" pY="0.5" oX="3" oY="90" oW="206" oH="256"/>
+    <sprite n="3.png" x="2" y="111" w="149" h="117" pX="0.5" pY="0.5" oX="2" oY="87" oW="206" oH="256"/>
+    <sprite n="4.png" x="301" y="120" w="141" h="97" pX="0.5" pY="0.5" oX="2" oY="107" oW="206" oH="256"/>
+    <sprite n="5.png" x="225" y="333" w="92" h="106" pX="0.5" pY="0.5" oX="45" oY="98" oW="206" oH="256"/>
+    <sprite n="6.png" x="105" y="232" w="111" h="114" pX="0.5" pY="0.5" oX="44" oY="90" oW="206" oH="256"/>
+    <sprite n="7.png" x="323" y="221" w="103" h="88" pX="0.5" pY="0.5" oX="49" oY="74" oW="206" oH="256"/>
+    <sprite n="8.png" x="122" y="350" w="99" h="112" pX="0.5" pY="0.5" oX="28" oY="90" oW="206" oH="256"/>
+    <sprite n="9.png" x="2" y="2" w="168" h="105" pX="0.5" pY="0.5" oX="38" oY="96" oW="206" oH="256"/>
+    <sprite n="10.png" x="174" y="2" w="150" h="111" pX="0.5" pY="0.5" oX="0" oY="90" oW="206" oH="256"/>
+    <sprite n="11.png" x="220" y="221" w="99" h="108" pX="0.5" pY="0.5" oX="28" oY="94" oW="206" oH="256"/>
+    <sprite n="12.png" x="2" y="232" w="99" h="115" pX="0.5" pY="0.5" oX="32" oY="86" oW="206" oH="256"/>
+    <sprite n="13.png" x="2" y="351" w="116" h="114" pX="0.5" pY="0.5" oX="15" oY="88" oW="206" oH="256"/>
+    <sprite n="14.png" x="155" y="111" w="1" h="1" pX="0.5" pY="0.5" oX="0" oY="0" oW="206" oH="256"/>
+</TextureAtlas>

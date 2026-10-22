@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="gatekeeper_body.png" width="1024" height="512">
+    <sprite n="Sprite 1.png" x="424" y="162" w="138" h="154" oX="31" oY="49" oW="256" oH="256"/>
+    <sprite n="Sprite 2.png" x="385" y="2" w="141" h="156" oX="31" oY="47" oW="256" oH="256"/>
+    <sprite n="Sprite 3.png" x="173" y="356" w="158" h="154" oX="24" oY="49" oW="256" oH="256"/>
+    <sprite n="Sprite 4.png" x="335" y="325" w="154" h="155" oX="19" oY="48" oW="256" oH="256"/>
+    <sprite n="Sprite 5.png" x="2" y="192" w="115" h="167" oX="50" oY="35" oW="256" oH="256"/>
+    <sprite n="Sprite 6.png" x="2" y="2" w="127" h="186" oX="53" oY="17" oW="256" oH="256"/>
+    <sprite n="Sprite 7.png" x="121" y="356" w="1" h="1" oX="0" oY="0" oW="256" oH="256"/>
+    <sprite n="Sprite 8.png" x="121" y="192" w="147" h="160" oX="21" oY="39" oW="256" oH="256"/>
+    <sprite n="Sprite 9.png" x="133" y="2" w="122" h="160" oX="46" oY="39" oW="256" oH="256"/>
+    <sprite n="Sprite 10.png" x="2" y="363" w="167" h="146" oX="7" oY="51" oW="256" oH="256"/>
+    <sprite n="Sprite 11.png" x="272" y="165" w="148" h="156" oX="21" oY="43" oW="256" oH="256"/>
+    <sprite n="Sprite 12.png" x="259" y="2" w="122" h="159" oX="47" oY="40" oW="256" oH="256"/>
+    <sprite n="Sprite 13.png" x="530" y="2" w="164" h="149" oX="7" oY="51" oW="256" oH="256"/>
+    <sprite n="Sprite 14.png" x="121" y="356" w="1" h="1" oX="0" oY="0" oW="256" oH="256"/>
+    <sprite n="Sprite 15.png" x="121" y="356" w="1" h="1" oX="0" oY="0" oW="256" oH="256"/>
+    <sprite n="Sprite 16.png" x="121" y="356" w="1" h="1" oX="0" oY="0" oW="256" oH="256"/>
+</TextureAtlas>

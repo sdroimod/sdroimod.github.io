@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="rat_halloween_2020.png" width="256" height="256">
+    <sprite n="1.png" x="131" y="2" w="107" h="112" oX="70" oY="30" oW="256" oH="256"/>
+    <sprite n="2.png" x="131" y="2" w="107" h="112" oX="70" oY="30" oW="256" oH="256"/>
+    <sprite n="3.png" x="131" y="2" w="107" h="112" oX="73" oY="23" oW="256" oH="256"/>
+    <sprite n="4.png" x="131" y="2" w="107" h="112" oX="72" oY="31" oW="256" oH="256"/>
+    <sprite n="5.png" x="131" y="2" w="107" h="112" oX="67" oY="17" oW="256" oH="256"/>
+    <sprite n="6.png" x="2" y="2" w="125" h="86" oX="25" oY="19" oW="256" oH="256"/>
+    <sprite n="7.png" x="242" y="2" w="1" h="1" oX="0" oY="0" oW="256" oH="256"/>
+    <sprite n="8.png" x="131" y="2" w="107" h="112" oX="68" oY="23" oW="256" oH="256"/>
+    <sprite n="9.png" x="131" y="2" w="107" h="112" oX="71" oY="22" oW="256" oH="256"/>
+    <sprite n="10.png" x="2" y="92" w="107" h="111" oX="71" oY="32" oW="256" oH="256"/>
+    <sprite n="11.png" x="131" y="2" w="107" h="112" oX="73" oY="24" oW="256" oH="256"/>
+    <sprite n="12.png" x="131" y="2" w="107" h="112" oX="73" oY="22" oW="256" oH="256"/>
+    <sprite n="13.png" x="131" y="2" w="107" h="112" oX="74" oY="31" oW="256" oH="256"/>
+    <sprite n="14.png" x="242" y="2" w="1" h="1" oX="0" oY="0" oW="256" oH="256"/>
+    <sprite n="15.png" x="242" y="2" w="1" h="1" oX="0" oY="0" oW="256" oH="256"/>
+    <sprite n="16.png" x="242" y="2" w="1" h="1" oX="0" oY="0" oW="256" oH="256"/>
+</TextureAtlas>

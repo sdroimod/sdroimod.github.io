@@ -1,0 +1,5 @@
+Cephaneliğin Kralı - şimdiye kadar elde edilen farklı eşya sayısı
+<chapter>-<dungeon> Bonus Seviyesinde toplanan altın
+İsabet başına en yüksek hasar
+Hayatta kalma modu öldürme sayısı
+Boss hız rekoru

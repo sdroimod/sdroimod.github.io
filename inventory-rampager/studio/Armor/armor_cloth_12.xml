@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="armor_cloth_12.png" width="512" height="512">
+    <sprite n="image_1_1.png" x="312" y="128" w="141" h="99" pX="0.5" pY="0.5" oX="3" oY="106" oW="205" oH="256"/>
+    <sprite n="image_1_2.png" x="2" y="124" w="145" h="103" pX="0.5" pY="0.5" oX="2" oY="102" oW="205" oH="256"/>
+    <sprite n="image_1_3.png" x="2" y="2" w="156" h="118" pX="0.5" pY="0.5" oX="1" oY="87" oW="205" oH="256"/>
+    <sprite n="image_1_4.png" x="162" y="106" w="146" h="99" pX="0.5" pY="0.5" oX="2" oY="106" oW="205" oH="256"/>
+    <sprite n="image_1_5.png" x="151" y="209" w="138" h="113" pX="0.5" pY="0.5" oX="2" oY="92" oW="205" oH="256"/>
+    <sprite n="image_1_6.png" x="316" y="2" w="148" h="122" pX="0.5" pY="0.5" oX="7" oY="83" oW="205" oH="256"/>
+    <sprite n="image_1_7.png" x="252" y="326" w="98" h="111" pX="0.5" pY="0.5" oX="54" oY="70" oW="205" oH="256"/>
+    <sprite n="image_2_1.png" x="132" y="349" w="116" h="111" pX="0.5" pY="0.5" oX="10" oY="90" oW="205" oH="256"/>
+    <sprite n="image_2_2.png" x="354" y="341" w="95" h="108" pX="0.5" pY="0.5" oX="18" oY="93" oW="205" oH="256"/>
+    <sprite n="image_2_3.png" x="162" y="2" w="150" h="100" pX="0.5" pY="0.5" oX="0" oY="101" oW="205" oH="256"/>
+    <sprite n="image_2_4.png" x="354" y="231" w="116" h="106" pX="0.5" pY="0.5" oX="11" oY="95" oW="205" oH="256"/>
+    <sprite n="image_2_5.png" x="2" y="231" w="127" h="114" pX="0.5" pY="0.5" oX="3" oY="88" oW="205" oH="256"/>
+    <sprite n="image_2_6.png" x="2" y="349" w="126" h="114" pX="0.5" pY="0.5" oX="9" oY="94" oW="205" oH="256"/>
+    <sprite n="image_2_7.png" x="151" y="124" w="1" h="1" pX="0.5" pY="0.5" oX="0" oY="0" oW="205" oH="256"/>
+</TextureAtlas>

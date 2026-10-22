@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="Reidi.png" width="256" height="512">
+    <sprite n="1.png" x="2" y="325" w="67" h="95" oX="3" oY="103" oW="256" oH="256"/>
+    <sprite n="2.png" x="2" y="142" w="75" h="91" oX="3" oY="105" oW="256" oH="256"/>
+    <sprite n="3.png" x="130" y="94" w="87" h="91" oX="8" oY="105" oW="256" oH="256"/>
+    <sprite n="4.png" x="130" y="2" w="112" h="88" oX="7" oY="107" oW="256" oH="256"/>
+    <sprite n="5.png" x="73" y="325" w="68" h="88" oX="2" oY="105" oW="256" oH="256"/>
+    <sprite n="6.png" x="2" y="424" w="69" h="85" oX="3" oY="106" oW="256" oH="256"/>
+    <sprite n="7.png" x="2" y="2" w="124" h="136" oX="66" oY="46" oW="256" oH="256"/>
+    <sprite n="8.png" x="81" y="189" w="74" h="84" oX="6" oY="104" oW="256" oH="256"/>
+    <sprite n="9.png" x="151" y="365" w="72" h="84" oX="7" oY="106" oW="256" oH="256"/>
+    <sprite n="10.png" x="2" y="237" w="72" h="84" oX="6" oY="108" oW="256" oH="256"/>
+    <sprite n="11.png" x="159" y="189" w="72" h="84" oX="7" oY="106" oW="256" oH="256"/>
+    <sprite n="12.png" x="75" y="417" w="72" h="84" oX="6" oY="108" oW="256" oH="256"/>
+    <sprite n="13.png" x="151" y="277" w="72" h="84" oX="7" oY="106" oW="256" oH="256"/>
+    <sprite n="14.png" x="246" y="2" w="1" h="1" oX="0" oY="0" oW="256" oH="256"/>
+    <sprite n="15.png" x="246" y="2" w="1" h="1" oX="0" oY="0" oW="256" oH="256"/>
+    <sprite n="16.png" x="246" y="2" w="1" h="1" oX="0" oY="0" oW="256" oH="256"/>
+</TextureAtlas>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="Earing_01.png" width="128" height="128">
+    <sprite n="Sprite 1.png" x="2" y="74" w="12" h="16" oX="96" oY="110" oW="256" oH="256"/>
+    <sprite n="Sprite 2.png" x="34" y="74" w="12" h="16" oX="97" oY="109" oW="256" oH="256"/>
+    <sprite n="Sprite 3.png" x="60" y="42" w="12" h="15" oX="96" oY="111" oW="256" oH="256"/>
+    <sprite n="Sprite 4.png" x="34" y="94" w="12" h="16" oX="96" oY="109" oW="256" oH="256"/>
+    <sprite n="Sprite 5.png" x="50" y="74" w="12" h="16" oX="91" oY="97" oW="256" oH="256"/>
+    <sprite n="Sprite 6.png" x="75" y="22" w="12" h="15" oX="92" oY="97" oW="256" oH="256"/>
+    <sprite n="Sprite 7.png" x="2" y="2" w="54" h="68" oX="101" oY="94" oW="256" oH="256"/>
+    <sprite n="Sprite 8.png" x="50" y="94" w="12" h="16" oX="96" oY="101" oW="256" oH="256"/>
+    <sprite n="Sprite 9.png" x="66" y="2" w="12" h="16" oX="97" oY="100" oW="256" oH="256"/>
+    <sprite n="Sprite 10.png" x="60" y="22" w="11" h="16" oX="98" oY="112" oW="256" oH="256"/>
+    <sprite n="Sprite 11.png" x="2" y="94" w="12" h="16" oX="98" oY="104" oW="256" oH="256"/>
+    <sprite n="Sprite 12.png" x="18" y="74" w="12" h="16" oX="98" oY="101" oW="256" oH="256"/>
+    <sprite n="Sprite 13.png" x="18" y="94" w="12" h="16" oX="99" oY="112" oW="256" oH="256"/>
+    <sprite n="Sprite 14.png" x="2" y="114" w="1" h="1" oX="0" oY="0" oW="256" oH="256"/>
+    <sprite n="Sprite 15.png" x="2" y="114" w="1" h="1" oX="0" oY="0" oW="256" oH="256"/>
+    <sprite n="Sprite 16.png" x="2" y="114" w="1" h="1" oX="0" oY="0" oW="256" oH="256"/>
+</TextureAtlas>

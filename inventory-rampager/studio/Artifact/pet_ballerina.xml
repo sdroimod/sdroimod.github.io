@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+
+<TextureAtlas imagePath="Natal_pet_2023.png" width="256" height="512">
+    <sprite n="Sprite 1.png" x="156" y="2" w="74" h="84" oX="10" oY="52" oW="256" oH="256"/>
+    <sprite n="Sprite 2.png" x="2" y="296" w="60" h="85" oX="19" oY="52" oW="256" oH="256"/>
+    <sprite n="Sprite 3.png" x="80" y="132" w="72" h="84" oX="16" oY="53" oW="256" oH="256"/>
+    <sprite n="Sprite 4.png" x="2" y="132" w="74" h="84" oX="13" oY="52" oW="256" oH="256"/>
+    <sprite n="Sprite 5.png" x="77" y="220" w="64" h="79" oX="15" oY="55" oW="256" oH="256"/>
+    <sprite n="Sprite 6.png" x="2" y="220" w="71" h="72" oX="13" oY="56" oW="256" oH="256"/>
+    <sprite n="Sprite 7.png" x="2" y="2" w="150" h="126" oX="53" oY="65" oW="256" oH="256"/>
+    <sprite n="Sprite 8.png" x="2" y="385" w="60" h="85" oX="19" oY="52" oW="256" oH="256"/>
+    <sprite n="Sprite 9.png" x="156" y="178" w="72" h="84" oX="9" oY="53" oW="256" oH="256"/>
+    <sprite n="Sprite 10.png" x="156" y="90" w="74" h="84" oX="10" oY="52" oW="256" oH="256"/>
+    <sprite n="Sprite 11.png" x="2" y="296" w="60" h="85" oX="19" oY="52" oW="256" oH="256"/>
+    <sprite n="Sprite 12.png" x="80" y="132" w="72" h="84" oX="16" oY="53" oW="256" oH="256"/>
+    <sprite n="Sprite 13.png" x="2" y="132" w="74" h="84" oX="13" oY="52" oW="256" oH="256"/>
+    <sprite n="Sprite 14.png" x="234" y="2" w="1" h="1" oX="0" oY="0" oW="256" oH="256"/>
+    <sprite n="Sprite 15.png" x="234" y="2" w="1" h="1" oX="0" oY="0" oW="256" oH="256"/>
+    <sprite n="Sprite 16.png" x="234" y="2" w="1" h="1" oX="0" oY="0" oW="256" oH="256"/>
+</TextureAtlas>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="Arara_grifo.png" width="512" height="512">
+    <sprite n="1.png" x="113" y="192" w="107" h="77" oX="2" oY="127" oW="256" oH="256"/>
+    <sprite n="2.png" x="2" y="266" w="105" h="84" oX="0" oY="120" oW="256" oH="256"/>
+    <sprite n="3.png" x="2" y="354" w="100" h="127" oX="7" oY="77" oW="256" oH="256"/>
+    <sprite n="4.png" x="149" y="2" w="127" h="73" oX="13" oY="131" oW="256" oH="256"/>
+    <sprite n="5.png" x="280" y="2" w="113" h="77" oX="1" oY="126" oW="256" oH="256"/>
+    <sprite n="6.png" x="269" y="83" w="111" h="69" oX="2" oY="136" oW="256" oH="256"/>
+    <sprite n="7.png" x="2" y="2" w="143" h="131" oX="34" oY="41" oW="256" oH="256"/>
+    <sprite n="8.png" x="2" y="137" w="107" h="125" oX="4" oY="56" oW="256" oH="256"/>
+    <sprite n="9.png" x="149" y="79" w="111" h="109" oX="0" oY="79" oW="256" oH="256"/>
+    <sprite n="10.png" x="376" y="209" w="108" h="80" oX="3" oY="112" oW="256" oH="256"/>
+    <sprite n="11.png" x="384" y="115" w="109" h="90" oX="2" oY="105" oW="256" oH="256"/>
+    <sprite n="12.png" x="397" y="2" w="111" h="109" oX="0" oY="90" oW="256" oH="256"/>
+    <sprite n="13.png" x="264" y="156" w="108" h="81" oX="3" oY="101" oW="256" oH="256"/>
+    <sprite n="14.png" x="264" y="79" w="1" h="1" oX="0" oY="0" oW="256" oH="256"/>
+    <sprite n="15.png" x="264" y="79" w="1" h="1" oX="0" oY="0" oW="256" oH="256"/>
+    <sprite n="16.png" x="264" y="79" w="1" h="1" oX="0" oY="0" oW="256" oH="256"/>
+</TextureAtlas>

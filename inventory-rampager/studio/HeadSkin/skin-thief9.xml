@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+
+<TextureAtlas imagePath="Thief_B.png" width="128" height="256">
+    <sprite n="1.png" x="2" y="2" w="94" h="68" oX="64" oY="61" oW="256" oH="256"/>
+    <sprite n="2.png" x="2" y="2" w="94" h="68" oX="64" oY="59" oW="256" oH="256"/>
+    <sprite n="3.png" x="2" y="2" w="94" h="68" oX="64" oY="61" oW="256" oH="256"/>
+    <sprite n="4.png" x="2" y="2" w="94" h="68" oX="62" oY="59" oW="256" oH="256"/>
+    <sprite n="5.png" x="2" y="2" w="94" h="68" oX="58" oY="47" oW="256" oH="256"/>
+    <sprite n="6.png" x="2" y="74" w="83" h="85" oX="56" oY="37" oW="256" oH="256"/>
+    <sprite n="7.png" x="100" y="2" w="1" h="1" oX="0" oY="0" oW="256" oH="256"/>
+    <sprite n="8.png" x="2" y="2" w="94" h="68" oX="64" oY="52" oW="256" oH="256"/>
+    <sprite n="9.png" x="2" y="2" w="94" h="68" oX="63" oY="51" oW="256" oH="256"/>
+    <sprite n="10.png" x="2" y="2" w="94" h="68" oX="64" oY="63" oW="256" oH="256"/>
+    <sprite n="11.png" x="2" y="2" w="94" h="68" oX="64" oY="55" oW="256" oH="256"/>
+    <sprite n="12.png" x="2" y="2" w="94" h="68" oX="64" oY="52" oW="256" oH="256"/>
+    <sprite n="13.png" x="2" y="2" w="94" h="68" oX="65" oY="62" oW="256" oH="256"/>
+    <sprite n="14.png" x="100" y="2" w="1" h="1" oX="0" oY="0" oW="256" oH="256"/>
+    <sprite n="15.png" x="100" y="2" w="1" h="1" oX="0" oY="0" oW="256" oH="256"/>
+    <sprite n="16.png" x="100" y="2" w="1" h="1" oX="0" oY="0" oW="256" oH="256"/>
+</TextureAtlas>

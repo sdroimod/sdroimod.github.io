@@ -1,0 +1,38 @@
+[
+    {
+        "target": "sword",
+        "boost": 1.15
+    },
+    {
+        "target": "dagger",
+        "boost": 1.20
+    },
+    {
+        "target": "staff",
+        "boost": 1.20
+    },
+    {
+        "target": "spear",
+        "boost": 1.40
+    },
+    {
+        "target": "hammer",
+        "boost": 1.60
+    },
+    {
+        "target": "axe",
+        "boost": 1.48
+    },
+    {
+        "target": "armor",
+        "boost": 1.16
+    },
+    {
+        "target": "speed",
+        "boost": 1.04
+    },
+    {
+        "target": "jump",
+        "boost": 1.03
+    }
+]

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="armor_kickman.png" width="1024" height="512">
+    <sprite n="Sprite 1.png" x="521" y="2" w="142" h="158" oX="27" oY="47" oW="256" oH="256"/>
+    <sprite n="Sprite 2.png" x="372" y="2" w="145" h="160" oX="27" oY="45" oW="256" oH="256"/>
+    <sprite n="Sprite 3.png" x="252" y="333" w="155" h="159" oX="27" oY="46" oW="256" oH="256"/>
+    <sprite n="Sprite 4.png" x="252" y="169" w="146" h="160" oX="27" oY="45" oW="256" oH="256"/>
+    <sprite n="Sprite 5.png" x="2" y="192" w="121" h="171" oX="44" oY="33" oW="256" oH="256"/>
+    <sprite n="Sprite 6.png" x="2" y="2" w="123" h="186" oX="57" oY="18" oW="256" oH="256"/>
+    <sprite n="Sprite 7.png" x="2" y="367" w="116" h="113" oX="68" oY="64" oW="256" oH="256"/>
+    <sprite n="Sprite 8.png" x="127" y="192" w="121" h="165" oX="46" oY="37" oW="256" oH="256"/>
+    <sprite n="Sprite 9.png" x="129" y="2" w="116" h="164" oX="51" oY="37" oW="256" oH="256"/>
+    <sprite n="Sprite 10.png" x="524" y="164" w="152" h="155" oX="23" oY="49" oW="256" oH="256"/>
+    <sprite n="Sprite 11.png" x="402" y="166" w="118" h="159" oX="50" oY="41" oW="256" oH="256"/>
+    <sprite n="Sprite 12.png" x="249" y="2" w="119" h="163" oX="49" oY="38" oW="256" oH="256"/>
+    <sprite n="Sprite 13.png" x="411" y="329" w="127" h="157" oX="42" oY="48" oW="256" oH="256"/>
+    <sprite n="Sprite 14.png" x="2" y="484" w="1" h="1" oX="0" oY="0" oW="256" oH="256"/>
+    <sprite n="Sprite 15.png" x="2" y="484" w="1" h="1" oX="0" oY="0" oW="256" oH="256"/>
+    <sprite n="Sprite 16.png" x="2" y="484" w="1" h="1" oX="0" oY="0" oW="256" oH="256"/>
+</TextureAtlas>

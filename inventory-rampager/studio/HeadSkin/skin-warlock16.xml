@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="skin-Warlock-16.png" width="256" height="512">
+    <sprite n="Sprite 1.png" x="2" y="151" w="124" h="172" oX="88" oY="9" oW="320" oH="320"/>
+    <sprite n="Sprite 2.png" x="2" y="151" w="124" h="172" oX="89" oY="8" oW="320" oH="320"/>
+    <sprite n="Sprite 3.png" x="2" y="151" w="124" h="172" oX="87" oY="9" oW="320" oH="320"/>
+    <sprite n="Sprite 4.png" x="2" y="151" w="124" h="172" oX="87" oY="7" oW="320" oH="320"/>
+    <sprite n="Sprite 5.png" x="2" y="151" w="124" h="172" oX="93" oY="5" oW="340" oH="340"/>
+    <sprite n="Sprite 6.png" x="2" y="2" w="160" h="145" oX="31" oY="9" oW="330" oH="330"/>
+    <sprite n="Sprite 7.png" x="166" y="2" w="1" h="1" oX="0" oY="0" oW="256" oH="256"/>
+    <sprite n="Sprite 8.png" x="2" y="151" w="124" h="172" oX="93" oY="4" oW="330" oH="330"/>
+    <sprite n="Sprite 9.png" x="2" y="151" w="124" h="172" oX="93" oY="4" oW="330" oH="330"/>
+    <sprite n="Sprite 10.png" x="2" y="151" w="124" h="172" oX="93" oY="16" oW="330" oH="330"/>
+    <sprite n="Sprite 11.png" x="2" y="151" w="124" h="172" oX="94" oY="8" oW="330" oH="330"/>
+    <sprite n="Sprite 12.png" x="2" y="151" w="124" h="172" oX="94" oY="5" oW="330" oH="330"/>
+    <sprite n="Sprite 13.png" x="2" y="151" w="124" h="172" oX="95" oY="15" oW="330" oH="330"/>
+    <sprite n="Sprite 14.png" x="166" y="2" w="1" h="1" oX="0" oY="0" oW="256" oH="256"/>
+    <sprite n="Sprite 15.png" x="166" y="2" w="1" h="1" oX="0" oY="0" oW="256" oH="256"/>
+    <sprite n="Sprite 16.png" x="166" y="2" w="1" h="1" oX="0" oY="0" oW="256" oH="256"/>
+</TextureAtlas>

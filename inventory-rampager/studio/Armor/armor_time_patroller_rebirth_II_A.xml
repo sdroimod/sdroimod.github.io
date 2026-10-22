@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="armor_time patroll_rebirth_II_A.png" width="1024" height="512">
+    <sprite n="Sprite 1.png" x="292" y="159" w="141" h="153" oX="28" oY="52" oW="256" oH="256"/>
+    <sprite n="Sprite 2.png" x="281" y="2" w="144" h="153" oX="28" oY="51" oW="256" oH="256"/>
+    <sprite n="Sprite 3.png" x="429" y="2" w="154" h="152" oX="28" oY="52" oW="256" oH="256"/>
+    <sprite n="Sprite 4.png" x="264" y="340" w="145" h="154" oX="28" oY="50" oW="256" oH="256"/>
+    <sprite n="Sprite 5.png" x="2" y="180" w="141" h="164" oX="24" oY="39" oW="256" oH="256"/>
+    <sprite n="Sprite 6.png" x="2" y="2" w="145" h="174" oX="35" oY="31" oW="256" oH="256"/>
+    <sprite n="Sprite 7.png" x="587" y="2" w="96" h="106" oX="76" oY="75" oW="256" oH="256"/>
+    <sprite n="Sprite 8.png" x="129" y="348" w="131" h="158" oX="33" oY="42" oW="256" oH="256"/>
+    <sprite n="Sprite 9.png" x="2" y="348" w="123" h="159" oX="41" oY="42" oW="256" oH="256"/>
+    <sprite n="Sprite 10.png" x="437" y="158" w="154" h="149" oX="21" oY="54" oW="256" oH="256"/>
+    <sprite n="Sprite 11.png" x="151" y="2" w="126" h="154" oX="39" oY="47" oW="256" oH="256"/>
+    <sprite n="Sprite 12.png" x="147" y="180" w="141" h="156" oX="25" oY="44" oW="256" oH="256"/>
+    <sprite n="Sprite 13.png" x="413" y="316" w="134" h="150" oX="33" oY="54" oW="256" oH="256"/>
+    <sprite n="Sprite 14.png" x="147" y="340" w="1" h="1" oX="0" oY="0" oW="256" oH="256"/>
+    <sprite n="Sprite 15.png" x="147" y="340" w="1" h="1" oX="0" oY="0" oW="256" oH="256"/>
+    <sprite n="Sprite 16.png" x="147" y="340" w="1" h="1" oX="0" oY="0" oW="256" oH="256"/>
+</TextureAtlas>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="Priest_B.png" width="128" height="256">
+    <sprite n="1.png" x="2" y="2" w="81" h="101" oX="83" oY="28" oW="256" oH="256"/>
+    <sprite n="2.png" x="2" y="2" w="81" h="101" oX="84" oY="27" oW="256" oH="256"/>
+    <sprite n="3.png" x="2" y="2" w="81" h="101" oX="82" oY="28" oW="256" oH="256"/>
+    <sprite n="4.png" x="2" y="2" w="81" h="101" oX="82" oY="26" oW="256" oH="256"/>
+    <sprite n="5.png" x="2" y="2" w="81" h="101" oX="78" oY="14" oW="256" oH="256"/>
+    <sprite n="6.png" x="2" y="107" w="79" h="92" oX="60" oY="14" oW="256" oH="256"/>
+    <sprite n="7.png" x="87" y="2" w="1" h="1" oX="0" oY="0" oW="256" oH="256"/>
+    <sprite n="8.png" x="2" y="2" w="81" h="101" oX="83" oY="18" oW="256" oH="256"/>
+    <sprite n="9.png" x="2" y="2" w="81" h="101" oX="83" oY="18" oW="256" oH="256"/>
+    <sprite n="10.png" x="2" y="2" w="81" h="101" oX="84" oY="30" oW="256" oH="256"/>
+    <sprite n="11.png" x="2" y="2" w="81" h="101" oX="84" oY="23" oW="256" oH="256"/>
+    <sprite n="12.png" x="2" y="2" w="81" h="101" oX="84" oY="20" oW="256" oH="256"/>
+    <sprite n="13.png" x="2" y="2" w="81" h="101" oX="85" oY="30" oW="256" oH="256"/>
+    <sprite n="14.png" x="87" y="2" w="1" h="1" oX="0" oY="0" oW="256" oH="256"/>
+    <sprite n="15.png" x="87" y="2" w="1" h="1" oX="0" oY="0" oW="256" oH="256"/>
+    <sprite n="16.png" x="87" y="2" w="1" h="1" oX="0" oY="0" oW="256" oH="256"/>
+</TextureAtlas>

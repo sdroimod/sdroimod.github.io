@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+
+<TextureAtlas imagePath="skin-druid6.png" width="128" height="256">
+    <sprite n="Sprite 1.png" x="2" y="2" w="122" h="98" pX="0.5" pY="0.5" oX="61" oY="31" oW="256" oH="256"/>
+    <sprite n="Sprite 2.png" x="2" y="2" w="122" h="98" pX="0.5" pY="0.5" oX="62" oY="30" oW="256" oH="256"/>
+    <sprite n="Sprite 3.png" x="2" y="2" w="122" h="98" pX="0.5" pY="0.5" oX="60" oY="31" oW="256" oH="256"/>
+    <sprite n="Sprite 4.png" x="2" y="2" w="122" h="98" pX="0.5" pY="0.5" oX="60" oY="29" oW="256" oH="256"/>
+    <sprite n="Sprite 5.png" x="2" y="2" w="122" h="98" pX="0.5" pY="0.5" oX="55" oY="17" oW="256" oH="256"/>
+    <sprite n="Sprite 6.png" x="2" y="104" w="119" h="112" pX="0.5" pY="0.5" oX="36" oY="16" oW="256" oH="256"/>
+    <sprite n="Sprite 7.png" x="125" y="104" w="1" h="1" pX="0.5" pY="0.5" oX="0" oY="0" oW="256" oH="256"/>
+    <sprite n="Sprite 8.png" x="2" y="2" w="122" h="98" pX="0.5" pY="0.5" oX="61" oY="21" oW="256" oH="256"/>
+    <sprite n="Sprite 9.png" x="2" y="2" w="122" h="98" pX="0.5" pY="0.5" oX="61" oY="21" oW="256" oH="256"/>
+    <sprite n="Sprite 10.png" x="2" y="2" w="122" h="98" pX="0.5" pY="0.5" oX="61" oY="33" oW="256" oH="256"/>
+    <sprite n="Sprite 11.png" x="2" y="2" w="122" h="98" pX="0.5" pY="0.5" oX="62" oY="25" oW="256" oH="256"/>
+    <sprite n="Sprite 12.png" x="2" y="2" w="122" h="98" pX="0.5" pY="0.5" oX="62" oY="22" oW="256" oH="256"/>
+    <sprite n="Sprite 13.png" x="2" y="2" w="122" h="98" pX="0.5" pY="0.5" oX="63" oY="33" oW="256" oH="256"/>
+    <sprite n="Sprite 14.png" x="125" y="104" w="1" h="1" pX="0.5" pY="0.5" oX="0" oY="0" oW="256" oH="256"/>
+    <sprite n="Sprite 15.png" x="125" y="104" w="1" h="1" pX="0.5" pY="0.5" oX="0" oY="0" oW="256" oH="256"/>
+    <sprite n="Sprite 16.png" x="125" y="104" w="1" h="1" pX="0.5" pY="0.5" oX="0" oY="0" oW="256" oH="256"/>
+</TextureAtlas>

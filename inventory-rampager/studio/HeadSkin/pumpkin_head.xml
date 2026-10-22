@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="pumpkin_head.png" width="256" height="256">
+    <sprite n="1.png" x="113" y="134" w="94" h="109" oX="53" oY="29" oW="206" oH="256"/>
+    <sprite n="2.png" x="113" y="134" w="94" h="109" oX="51" oY="29" oW="206" oH="256"/>
+    <sprite n="3.png" x="113" y="134" w="94" h="109" oX="48" oY="29" oW="206" oH="256"/>
+    <sprite n="4.png" x="113" y="134" w="94" h="109" oX="49" oY="29" oW="206" oH="256"/>
+    <sprite n="5.png" x="113" y="134" w="94" h="109" oX="42" oY="18" oW="206" oH="256"/>
+    <sprite n="6.png" x="2" y="134" w="107" h="116" oX="14" oY="3" oW="206" oH="256"/>
+    <sprite n="7.png" x="2" y="2" w="110" h="128" oX="40" oY="55" oW="206" oH="256"/>
+    <sprite n="8.png" x="113" y="134" w="94" h="109" oX="51" oY="23" oW="206" oH="256"/>
+    <sprite n="9.png" x="113" y="134" w="94" h="109" oX="50" oY="20" oW="206" oH="256"/>
+    <sprite n="10.png" x="113" y="134" w="94" h="109" oX="51" oY="33" oW="206" oH="256"/>
+    <sprite n="11.png" x="113" y="134" w="94" h="109" oX="49" oY="24" oW="206" oH="256"/>
+    <sprite n="12.png" x="113" y="134" w="94" h="109" oX="47" oY="22" oW="206" oH="256"/>
+    <sprite n="13.png" x="113" y="134" w="94" h="109" oX="49" oY="31" oW="206" oH="256"/>
+</TextureAtlas>

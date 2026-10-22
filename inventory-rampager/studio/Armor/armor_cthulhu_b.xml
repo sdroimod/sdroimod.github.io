@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="armor_cthulhu_b.png" width="1024" height="512">
+    <sprite n="1.png" x="2" y="174" w="160" h="166" pX="0.5" pY="0.5" oX="24" oY="39" oW="256" oH="256"/>
+    <sprite n="2.png" x="2" y="344" w="159" h="166" pX="0.5" pY="0.5" oX="25" oY="39" oW="256" oH="256"/>
+    <sprite n="3.png" x="165" y="344" w="159" h="166" pX="0.5" pY="0.5" oX="24" oY="39" oW="256" oH="256"/>
+    <sprite n="4.png" x="105" y="2" w="159" h="166" pX="0.5" pY="0.5" oX="24" oY="39" oW="256" oH="256"/>
+    <sprite n="5.png" x="518" y="169" w="123" h="104" pX="0.5" pY="0.5" oX="43" oY="98" oW="256" oH="256"/>
+    <sprite n="6.png" x="488" y="291" w="123" h="116" pX="0.5" pY="0.5" oX="57" oY="87" oW="256" oH="256"/>
+    <sprite n="7.png" x="418" y="169" w="96" h="118" pX="0.5" pY="0.5" oX="78" oY="64" oW="256" oH="256"/>
+    <sprite n="8.png" x="294" y="170" w="120" h="164" pX="0.5" pY="0.5" oX="31" oY="36" oW="256" oH="256"/>
+    <sprite n="9.png" x="2" y="2" w="99" h="168" pX="0.5" pY="0.5" oX="35" oY="31" oW="256" oH="256"/>
+    <sprite n="10.png" x="328" y="338" w="156" h="159" pX="0.5" pY="0.5" oX="19" oY="43" oW="256" oH="256"/>
+    <sprite n="11.png" x="399" y="2" w="124" h="163" pX="0.5" pY="0.5" oX="31" oY="38" oW="256" oH="256"/>
+    <sprite n="12.png" x="268" y="2" w="127" h="164" pX="0.5" pY="0.5" oX="28" oY="36" oW="256" oH="256"/>
+    <sprite n="13.png" x="166" y="172" w="124" h="166" pX="0.5" pY="0.5" oX="36" oY="43" oW="256" oH="256"/>
+    <sprite n="14.png" x="294" y="338" w="1" h="1" pX="0.5" pY="0.5" oX="0" oY="0" oW="256" oH="256"/>
+    <sprite n="15.png" x="294" y="338" w="1" h="1" pX="0.5" pY="0.5" oX="0" oY="0" oW="256" oH="256"/>
+    <sprite n="16.png" x="294" y="338" w="1" h="1" pX="0.5" pY="0.5" oX="0" oY="0" oW="256" oH="256"/>
+</TextureAtlas>

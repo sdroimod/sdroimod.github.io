@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="skin-rangerX.png" width="256" height="128">
+    <sprite n="skin-rangerX_0.png" x="83" y="2" w="73" h="97" oX="86" oY="41" oW="256" oH="256"/>
+    <sprite n="skin-rangerX_1.png" x="83" y="2" w="73" h="97" oX="86" oY="39" oW="256" oH="256"/>
+    <sprite n="skin-rangerX_2.png" x="83" y="2" w="73" h="97" oX="85" oY="41" oW="256" oH="256"/>
+    <sprite n="skin-rangerX_3.png" x="83" y="2" w="73" h="97" oX="85" oY="39" oW="256" oH="256"/>
+    <sprite n="skin-rangerX_4.png" x="83" y="2" w="73" h="97" oX="81" oY="27" oW="256" oH="256"/>
+    <sprite n="skin-rangerX_5.png" x="2" y="2" w="77" h="93" oX="72" oY="21" oW="256" oH="256"/>
+    <sprite n="skin-rangerX_6.png" x="2" y="99" w="3" h="3" oX="0" oY="0" oW="256" oH="256"/>
+    <sprite n="skin-rangerX_7.png" x="83" y="2" w="73" h="97" oX="85" oY="31" oW="256" oH="256"/>
+    <sprite n="skin-rangerX_8.png" x="83" y="2" w="73" h="97" oX="86" oY="31" oW="256" oH="256"/>
+    <sprite n="skin-rangerX_9.png" x="83" y="2" w="73" h="97" oX="86" oY="43" oW="256" oH="256"/>
+    <sprite n="skin-rangerX_10.png" x="83" y="2" w="73" h="97" oX="87" oY="36" oW="256" oH="256"/>
+    <sprite n="skin-rangerX_11.png" x="83" y="2" w="73" h="97" oX="87" oY="32" oW="256" oH="256"/>
+    <sprite n="skin-rangerX_12.png" x="83" y="2" w="73" h="97" oX="88" oY="43" oW="256" oH="256"/>
+    <sprite n="skin-rangerX_13.png" x="2" y="99" w="3" h="3" oX="0" oY="0" oW="256" oH="256"/>
+    <sprite n="skin-rangerX_14.png" x="2" y="99" w="3" h="3" oX="0" oY="0" oW="256" oH="256"/>
+    <sprite n="skin-rangerX_15.png" x="2" y="99" w="3" h="3" oX="0" oY="0" oW="256" oH="256"/>
+</TextureAtlas>

@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <script src="/assets/js/geoip-block.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="google-site-verification" content="qu-gxPrCVNhbNH8bQaTxNJCNKutlTrMY_hmj-IUQIwc" />
+  <title>SDroiMod - Magic Rampage Mods, Tools, and Downloads</title>
+  <meta name="description" content="SDroiMod publishes Magic Rampage mods and tools, including SGen Magic Rampage and Inventory Rampager, with clear download pages and updates.">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <link rel="canonical" href="https://sdroimod.github.io/">
+  <meta property="og:site_name" content="SDroiMod">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="SDroiMod - Magic Rampage Mods, Tools, and Downloads">
+  <meta property="og:description" content="Explore Magic Rampage mods and tools from SDroiMod, including SGen Magic Rampage and Inventory Rampager.">
+  <meta property="og:url" content="https://sdroimod.github.io/">
+  <meta property="og:image" content="https://sdroimod.github.io/assets/sgen-magic-rampage.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="SDroiMod - Magic Rampage Mods, Tools, and Downloads">
+  <meta name="twitter:description" content="Explore Magic Rampage mods and tools from SDroiMod, including SGen Magic Rampage and Inventory Rampager.">
+  <meta name="twitter:image" content="https://sdroimod.github.io/assets/sgen-magic-rampage.png">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "name": "SDroiMod",
+        "url": "https://sdroimod.github.io/",
+        "logo": "https://sdroimod.github.io/assets/sgen-magic-rampage.png"
+      },
+      {
+        "@type": "WebSite",
+        "name": "SDroiMod",
+        "url": "https://sdroimod.github.io/",
+        "description": "Magic Rampage mods, tools, and downloads by SDroiMod."
+      }
+    ]
+  }
+  </script>
+  <style>
+    /* --- CLASSIC HIGH-CONTRAST DARK THEME --- */
+    :root {
+      --primary-color: #38bdf8;
+      --accent-color: #f43f5e;
+      --bg-color: #111827;
+      --card-bg: #1f2937;
+      --card-border: #374151;
+      --card-border-hover: #6b7280;
+      --text-color: #f9fafb;
+      --text-secondary: #9ca3af;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    }
+
+    body {
+      background-color: var(--bg-color);
+      color: var(--text-color);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      min-height: 100vh;
+      padding: 32px 16px 40px;
+    }
+
+    /* --- HEADER --- */
+    header {
+      text-align: center;
+      margin-bottom: 32px;
+      max-width: 580px;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      font-weight: 800;
+      margin-bottom: 8px;
+      color: #ffffff;
+      letter-spacing: -0.5px;
+    }
+
+    .subtitle {
+      font-size: 0.95rem;
+      color: var(--primary-color);
+      margin-bottom: 10px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 1.2px;
+    }
+
+    .description {
+      color: var(--text-secondary);
+      line-height: 1.6;
+      font-size: 0.95rem;
+    }
+
+    /* --- GRID LAYOUT --- */
+    .container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 24px;
+      width: 100%;
+      max-width: 960px;
+    }
+
+    /* --- CLASSIC CARD DESIGN --- */
+    .card {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      background: var(--card-bg);
+      border-radius: 8px;
+      overflow: hidden;
+      text-decoration: none;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+      transition: border-color 0.15s ease, background-color 0.15s ease;
+      border: 1px solid var(--card-border);
+    }
+
+    .card:hover {
+      border-color: var(--card-border-hover);
+      background-color: #263345;
+    }
+
+    /* Cover Image Header */
+    .card-header {
+      position: relative;
+      width: 100%;
+      height: 180px;
+      overflow: hidden;
+      border-bottom: 1px solid var(--card-border);
+    }
+
+    .card-image {
+      width: 100%;
+      height: 100%;
+      background-size: cover;
+      background-position: center;
+    }
+
+    /* Badge */
+    .badge {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      background: var(--accent-color);
+      color: #ffffff;
+      padding: 3px 8px;
+      border-radius: 4px;
+      font-size: 0.7rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      z-index: 2;
+    }
+
+    /* Card Content Area */
+    .card-content {
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      flex-grow: 1;
+    }
+
+    .card-title {
+      font-size: 1.25rem;
+      font-weight: 700;
+      color: #ffffff;
+      margin: 0;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .card-desc {
+      font-size: 0.9rem;
+      color: var(--text-secondary);
+      line-height: 1.5;
+      flex-grow: 1;
+    }
+
+    /* Feature tags */
+    .features {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 2px;
+    }
+
+    .features span {
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      font-size: 0.75rem;
+      color: #e2e8f0;
+      background: #374151;
+      padding: 3px 8px;
+      border-radius: 4px;
+      font-weight: 500;
+      border: 1px solid #4b5563;
+    }
+
+    .card-action {
+      margin-top: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      color: var(--primary-color);
+      font-size: 0.85rem;
+      font-weight: 700;
+    }
+
+    .card-action svg {
+      width: 16px;
+      height: 16px;
+      fill: currentColor;
+    }
+
+    footer {
+      margin-top: 40px;
+      color: var(--text-secondary);
+      font-size: 0.8rem;
+      text-align: center;
+    }
+
+    /* --- MOBILE TWEAKS --- */
+    @media (max-width: 600px) {
+      body {
+        padding: 20px 12px 30px;
+      }
+
+      header {
+        margin-bottom: 24px;
+      }
+
+      h1 {
+        font-size: 1.85rem;
+      }
+
+      .subtitle {
+        font-size: 0.85rem;
+        letter-spacing: 1px;
+      }
+
+      .description {
+        font-size: 0.88rem;
+      }
+
+      .container {
+        gap: 16px;
+      }
+
+      .card-header {
+        height: 150px;
+      }
+
+      .card-content {
+        padding: 16px;
+      }
+
+      .card-title {
+        font-size: 1.15rem;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>SDroiMod</h1>
+    <p class="subtitle">Magic Rampage Mods & Tools</p>
+    <p class="description">
+      The ultimate destination for Magic Rampage modifications.
+      Unlock your full potential with stable, high-performance tools.
+    </p>
+  </header>
+
+  <main class="container">
+
+    <a href="./sgen-magic-rampage/" class="card">
+      <div class="card-header">
+        <div class="badge">Massive Update</div>
+        <div class="card-image" style="background-image: url('assets/sgen-magic-rampage.png');"></div>
+      </div>
+
+      <div class="card-content">
+        <div class="card-title">SGen Magic Rampage</div>
+        <div class="features">
+          <span>⚡ 1000+ Items</span>
+          <span>🏰 New Dungeons</span>
+          <span>💀 Better UI</span>
+        </div>
+        <div class="card-desc">
+          The biggest content pack ever. Includes new weapons, enemies, and a complete interface redesign.
+        </div>
+        <div class="card-action">
+          <span>Explore Mod</span>
+          <svg viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </div>
+      </div>
+    </a>
+
+    <a href="./inventory-rampager/" class="card">
+      <div class="card-header">
+        <div class="card-image" style="background-image: url('assets/inventory-rampager.png');"></div>
+      </div>
+
+      <div class="card-content">
+        <div class="card-title">Inventory Rampager</div>
+        <div class="features">
+          <span>⚙️ Inventory Editor</span>
+          <span>⚔️ Gear & Stats</span>
+        </div>
+        <div class="card-desc">
+          Advanced inventory editor. Customize your gear, stats, and loadouts with precision.
+        </div>
+        <div class="card-action">
+          <span>Launch Editor</span>
+          <svg viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </div>
+      </div>
+    </a>
+
+  </main>
+
+  <footer>
+    <p>© 2026 Made with 💖 by SDroiMod. All rights reserved.</p>
+  </footer>
+
+</body>
+
+</html>

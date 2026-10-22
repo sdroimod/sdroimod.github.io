@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="armor_king_b.png" width="1024" height="256">
+    <sprite n="Sprite 1.png" x="879" y="2" w="141" h="102" oX="28" oY="102" oW="256" oH="256"/>
+    <sprite n="Sprite 2.png" x="729" y="117" w="146" h="109" oX="28" oY="95" oW="256" oH="256"/>
+    <sprite n="Sprite 3.png" x="288" y="2" w="157" h="127" oX="27" oY="77" oW="256" oH="256"/>
+    <sprite n="Sprite 4.png" x="2" y="154" w="155" h="100" oX="27" oY="104" oW="256" oH="256"/>
+    <sprite n="Sprite 5.png" x="321" y="133" w="139" h="114" oX="31" oY="89" oW="256" oH="256"/>
+    <sprite n="Sprite 6.png" x="129" y="2" w="155" h="142" oX="30" oY="62" oW="256" oH="256"/>
+    <sprite n="Sprite 7.png" x="2" y="2" w="123" h="148" oX="66" oY="54" oW="256" oH="256"/>
+    <sprite n="Sprite 8.png" x="464" y="119" w="132" h="112" oX="29" oY="89" oW="256" oH="256"/>
+    <sprite n="Sprite 9.png" x="449" y="2" w="125" h="113" oX="40" oY="88" oW="256" oH="256"/>
+    <sprite n="Sprite 10.png" x="161" y="148" w="156" h="102" oX="26" oY="99" oW="256" oH="256"/>
+    <sprite n="Sprite 11.png" x="578" y="2" w="131" h="112" oX="30" oY="90" oW="256" oH="256"/>
+    <sprite n="Sprite 12.png" x="600" y="118" w="125" h="112" oX="40" oY="88" oW="256" oH="256"/>
+    <sprite n="Sprite 13.png" x="713" y="2" w="129" h="111" oX="33" oY="92" oW="256" oH="256"/>
+    <sprite n="Sprite 14.png" x="129" y="148" w="1" h="1" oX="0" oY="0" oW="256" oH="256"/>
+    <sprite n="Sprite 15.png" x="129" y="148" w="1" h="1" oX="0" oY="0" oW="256" oH="256"/>
+    <sprite n="Sprite 16.png" x="129" y="148" w="1" h="1" oX="0" oY="0" oW="256" oH="256"/>
+</TextureAtlas>

@@ -1,0 +1,32 @@
+<resources>
+
+	<string name="app_name" translatable="false">Magic Rampage</string>
+
+	<string name="rate_asking">If you enjoy playing this game, please take a moment to rate it. Thanks for your support!</string>
+	<string name="remind_later">Remind me later</string>
+	<string name="no_thanks">No, thanks</string>
+	<string name="rate">Rate</string>
+
+	<string name="app_id" translatable="false">201554415580</string>
+	<string name="facebook_app_id" translatable="false">659428747722146</string>
+
+	<string name="unable_to_signin">Unable to sign in.</string>
+
+	<string name="get_accounts_message">In order to identify each player and back up all saved game data, Magic Rampage needs permission to access your Contacts and retrieve Account Identification.</string>
+	<string name="get_accounts_warning">The permission to retrieve your account identification was denied. Saved games are not being backed up.</string>
+	<string name="write_storage_message">Magic Rampage needs access to the external storage in order to install additional expansion files.</string>
+	<string name="write_storage_message_b">Magic Rampage needs access to the external storage in order to save local game data, such as progress and preferences.</string>
+	<string name="write_storage_warning">The permission to write to external storage was denied. Saved game progress may not work properly.</string>
+
+	<string name="open_settings_message">Enable permissions in the app\'s Settings page.</string>
+	<string name="go_to_settings">Go to Settings</string>
+
+	<string name="friend_search_type">Type your friend\'s nickname</string>
+
+	<string name="sign_in_other_error">There was an issue with sign-in, please try again later.</string>
+	<string name="sign_in_failed">Failed to sign in. Please check your network connection and try again.</string>
+	<string name="app_misconfigured">The application is incorrectly configured. Check that the package name and signing certificate match the client ID created in Developer Console. Also, if the application is not yet published, check that the account you are trying to sign in with is listed as a tester account. See logs for more information.</string>
+	<string name="license_failed">License check failed.</string>
+	<string name="unknown_error">Unknown error.</string>
+	<string name="sign_in_failed_ex">Failed to sign in. Please open the Play Games app from Google to sign in.</string>
+</resources>

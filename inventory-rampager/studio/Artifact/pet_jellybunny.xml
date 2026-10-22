@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="pet_jellybunny.png" width="256" height="512">
+    <sprite n="Sprite 1.png" x="2" y="282" w="95" h="89" pX="0.5" pY="0.5" oX="0" oY="125" oW="256" oH="256"/>
+    <sprite n="Sprite 2.png" x="2" y="148" w="101" h="71" pX="0.5" pY="0.5" oX="16" oY="165" oW="300" oH="300"/>
+    <sprite n="Sprite 3.png" x="2" y="375" w="91" h="104" pX="0.5" pY="0.5" oX="4" oY="110" oW="256" oH="256"/>
+    <sprite n="Sprite 4.png" x="128" y="94" w="105" h="106" pX="0.5" pY="0.5" oX="15" oY="109" oW="300" oH="300"/>
+    <sprite n="Sprite 5.png" x="128" y="2" w="118" h="88" pX="0.5" pY="0.5" oX="4" oY="127" oW="256" oH="256"/>
+    <sprite n="Sprite 6.png" x="2" y="223" w="96" h="55" pX="0.5" pY="0.5" oX="1" oY="159" oW="256" oH="256"/>
+    <sprite n="Sprite 7.png" x="2" y="2" w="122" h="142" pX="0.5" pY="0.5" oX="67" oY="37" oW="256" oH="256"/>
+    <sprite n="Sprite 8.png" x="101" y="287" w="91" h="70" pX="0.5" pY="0.5" oX="12" oY="144" oW="256" oH="256"/>
+    <sprite n="Sprite 9.png" x="107" y="204" w="97" h="79" pX="0.5" pY="0.5" oX="3" oY="121" oW="256" oH="256"/>
+    <sprite n="Sprite 10.png" x="97" y="375" w="88" h="87" pX="0.5" pY="0.5" oX="9" oY="113" oW="256" oH="256"/>
+    <sprite n="Sprite 11.png" x="101" y="287" w="91" h="70" pX="0.5" pY="0.5" oX="12" oY="144" oW="256" oH="256"/>
+    <sprite n="Sprite 12.png" x="107" y="204" w="97" h="79" pX="0.5" pY="0.5" oX="3" oY="121" oW="256" oH="256"/>
+    <sprite n="Sprite 13.png" x="97" y="375" w="88" h="87" pX="0.5" pY="0.5" oX="9" oY="113" oW="256" oH="256"/>
+    <sprite n="Sprite 14.png" x="250" y="2" w="1" h="1" pX="0.5" pY="0.5" oX="0" oY="0" oW="256" oH="256"/>
+    <sprite n="Sprite 15.png" x="250" y="2" w="1" h="1" pX="0.5" pY="0.5" oX="0" oY="0" oW="256" oH="256"/>
+    <sprite n="Sprite 16.png" x="250" y="2" w="1" h="1" pX="0.5" pY="0.5" oX="0" oY="0" oW="256" oH="256"/>
+</TextureAtlas>

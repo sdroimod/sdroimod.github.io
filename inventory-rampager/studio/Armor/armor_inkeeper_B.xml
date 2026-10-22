@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="Inkeeper_armor_B.png" width="512" height="512">
+    <sprite n="Sprite 1.png" x="301" y="2" w="139" h="91" oX="30" oY="112" oW="256" oH="256"/>
+    <sprite n="Sprite 2.png" x="2" y="102" w="143" h="95" oX="29" oY="107" oW="256" oH="256"/>
+    <sprite n="Sprite 3.png" x="154" y="2" w="143" h="115" oX="29" oY="88" oW="256" oH="256"/>
+    <sprite n="Sprite 4.png" x="301" y="97" w="139" h="87" oX="29" oY="115" oW="256" oH="256"/>
+    <sprite n="Sprite 5.png" x="2" y="298" w="79" h="98" oX="82" oY="104" oW="256" oH="256"/>
+    <sprite n="Sprite 6.png" x="102" y="231" w="88" h="111" oX="88" oY="92" oW="256" oH="256"/>
+    <sprite n="Sprite 7.png" x="444" y="99" w="57" h="90" oX="94" oY="77" oW="256" oH="256"/>
+    <sprite n="Sprite 8.png" x="368" y="193" w="94" h="97" oX="56" oY="103" oW="256" oH="256"/>
+    <sprite n="Sprite 9.png" x="444" y="2" w="66" h="93" oX="65" oY="106" oW="256" oH="256"/>
+    <sprite n="Sprite 10.png" x="2" y="2" w="148" h="96" oX="26" oY="104" oW="256" oH="256"/>
+    <sprite n="Sprite 11.png" x="2" y="201" w="96" h="93" oX="55" oY="107" oW="256" oH="256"/>
+    <sprite n="Sprite 12.png" x="269" y="188" w="95" h="96" oX="60" oY="103" oW="256" oH="256"/>
+    <sprite n="Sprite 13.png" x="149" y="121" w="116" h="106" oX="43" oY="97" oW="256" oH="256"/>
+    <sprite n="Sprite 14.png" x="149" y="102" w="1" h="1" oX="0" oY="0" oW="256" oH="256"/>
+    <sprite n="Sprite 15.png" x="149" y="102" w="1" h="1" oX="0" oY="0" oW="256" oH="256"/>
+    <sprite n="Sprite 16.png" x="149" y="102" w="1" h="1" oX="0" oY="0" oW="256" oH="256"/>
+</TextureAtlas>

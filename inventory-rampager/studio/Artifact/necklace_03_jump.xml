@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="Necklace_03.png" width="128" height="256">
+    <sprite n="Sprite 1.png" x="106" y="40" w="20" h="31" oX="105" oY="120" oW="256" oH="256"/>
+    <sprite n="Sprite 2.png" x="70" y="97" w="26" h="32" oX="97" oY="119" oW="256" oH="256"/>
+    <sprite n="Sprite 3.png" x="70" y="35" w="32" h="25" oX="89" oY="121" oW="256" oH="256"/>
+    <sprite n="Sprite 4.png" x="2" y="142" w="20" h="23" oX="98" oY="131" oW="256" oH="256"/>
+    <sprite n="Sprite 5.png" x="102" y="75" w="24" h="32" oX="105" oY="108" oW="256" oH="256"/>
+    <sprite n="Sprite 6.png" x="70" y="64" w="28" h="29" oX="114" oY="94" oW="256" oH="256"/>
+    <sprite n="Sprite 7.png" x="2" y="2" w="64" h="101" oX="96" oY="50" oW="256" oH="256"/>
+    <sprite n="Sprite 8.png" x="2" y="107" w="22" h="31" oX="96" oY="108" oW="256" oH="256"/>
+    <sprite n="Sprite 9.png" x="53" y="133" w="17" h="22" oX="102" oY="109" oW="256" oH="256"/>
+    <sprite n="Sprite 10.png" x="100" y="111" w="24" h="22" oX="89" oY="136" oW="256" oH="256"/>
+    <sprite n="Sprite 11.png" x="107" y="2" w="19" h="34" oX="100" oY="113" oW="256" oH="256"/>
+    <sprite n="Sprite 12.png" x="28" y="107" w="21" h="37" oX="102" oY="108" oW="256" oH="256"/>
+    <sprite n="Sprite 13.png" x="70" y="2" w="33" h="29" oX="89" oY="116" oW="256" oH="256"/>
+    <sprite n="Sprite 14.png" x="53" y="107" w="1" h="1" oX="0" oY="0" oW="256" oH="256"/>
+    <sprite n="Sprite 15.png" x="53" y="107" w="1" h="1" oX="0" oY="0" oW="256" oH="256"/>
+    <sprite n="Sprite 16.png" x="53" y="107" w="1" h="1" oX="0" oY="0" oW="256" oH="256"/>
+</TextureAtlas>

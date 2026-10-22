@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="skin-Rogue-16.png" width="256" height="512">
+    <sprite n="Sprite 1.png" x="2" y="144" w="141" h="111" oX="49" oY="25" oW="256" oH="256"/>
+    <sprite n="Sprite 2.png" x="2" y="144" w="141" h="111" oX="50" oY="23" oW="256" oH="256"/>
+    <sprite n="Sprite 3.png" x="2" y="144" w="141" h="111" oX="48" oY="25" oW="256" oH="256"/>
+    <sprite n="Sprite 4.png" x="2" y="144" w="141" h="111" oX="48" oY="23" oW="256" oH="256"/>
+    <sprite n="Sprite 5.png" x="2" y="144" w="141" h="111" oX="44" oY="11" oW="256" oH="256"/>
+    <sprite n="Sprite 6.png" x="2" y="2" w="159" h="138" oX="46" oY="26" oW="320" oH="320"/>
+    <sprite n="Sprite 7.png" x="165" y="2" w="1" h="1" oX="0" oY="0" oW="256" oH="256"/>
+    <sprite n="Sprite 8.png" x="2" y="144" w="141" h="111" oX="48" oY="15" oW="256" oH="256"/>
+    <sprite n="Sprite 9.png" x="2" y="144" w="141" h="111" oX="49" oY="15" oW="256" oH="256"/>
+    <sprite n="Sprite 10.png" x="2" y="144" w="141" h="111" oX="49" oY="27" oW="256" oH="256"/>
+    <sprite n="Sprite 11.png" x="2" y="144" w="141" h="111" oX="50" oY="19" oW="256" oH="256"/>
+    <sprite n="Sprite 12.png" x="2" y="144" w="141" h="111" oX="50" oY="16" oW="256" oH="256"/>
+    <sprite n="Sprite 13.png" x="2" y="144" w="141" h="111" oX="51" oY="27" oW="256" oH="256"/>
+    <sprite n="Sprite 14.png" x="165" y="2" w="1" h="1" oX="0" oY="0" oW="256" oH="256"/>
+    <sprite n="Sprite 15.png" x="165" y="2" w="1" h="1" oX="0" oY="0" oW="256" oH="256"/>
+    <sprite n="Sprite 16.png" x="165" y="2" w="1" h="1" oX="0" oY="0" oW="256" oH="256"/>
+</TextureAtlas>

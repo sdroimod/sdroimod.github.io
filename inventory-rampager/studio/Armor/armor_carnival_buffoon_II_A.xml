@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+
+<TextureAtlas imagePath="Carnival_buffoon_II_A.png" width="1024" height="512">
+    <sprite n="Sprite 1.png" x="258" y="294" w="133" h="140" pX="0.5" pY="0.5" oX="43" oY="64" oW="256" oH="256"/>
+    <sprite n="Sprite 2.png" x="226" y="149" w="135" h="141" pX="0.5" pY="0.5" oX="41" oY="63" oW="256" oH="256"/>
+    <sprite n="Sprite 3.png" x="365" y="147" w="132" h="140" pX="0.5" pY="0.5" oX="43" oY="64" oW="256" oH="256"/>
+    <sprite n="Sprite 4.png" x="122" y="325" w="132" h="142" pX="0.5" pY="0.5" oX="43" oY="62" oW="256" oH="256"/>
+    <sprite n="Sprite 5.png" x="2" y="176" w="108" h="152" pX="0.5" pY="0.5" oX="62" oY="51" oW="256" oH="256"/>
+    <sprite n="Sprite 6.png" x="2" y="2" w="127" h="170" pX="0.5" pY="0.5" oX="49" oY="28" oW="256" oH="256"/>
+    <sprite n="Sprite 7.png" x="258" y="438" w="81" h="67" pX="0.5" pY="0.5" oX="85" oY="74" oW="256" oH="256"/>
+    <sprite n="Sprite 8.png" x="2" y="332" w="116" h="146" pX="0.5" pY="0.5" oX="59" oY="54" oW="256" oH="256"/>
+    <sprite n="Sprite 9.png" x="114" y="176" w="108" h="145" pX="0.5" pY="0.5" oX="67" oY="54" oW="256" oH="256"/>
+    <sprite n="Sprite 10.png" x="395" y="291" w="139" h="129" pX="0.5" pY="0.5" oX="37" oY="66" oW="256" oH="256"/>
+    <sprite n="Sprite 11.png" x="253" y="2" w="117" h="141" pX="0.5" pY="0.5" oX="59" oY="59" oW="256" oH="256"/>
+    <sprite n="Sprite 12.png" x="133" y="2" w="116" h="143" pX="0.5" pY="0.5" oX="60" oY="56" oW="256" oH="256"/>
+    <sprite n="Sprite 13.png" x="374" y="2" w="135" h="133" pX="0.5" pY="0.5" oX="43" oY="66" oW="256" oH="256"/>
+    <sprite n="Sprite 14.png" x="114" y="325" w="1" h="1" pX="0.5" pY="0.5" oX="0" oY="0" oW="256" oH="256"/>
+    <sprite n="Sprite 15.png" x="114" y="325" w="1" h="1" pX="0.5" pY="0.5" oX="0" oY="0" oW="256" oH="256"/>
+    <sprite n="Sprite 16.png" x="114" y="325" w="1" h="1" pX="0.5" pY="0.5" oX="0" oY="0" oW="256" oH="256"/>
+</TextureAtlas>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name" translatable="false">Magic Rampage</string>
+
+    <string name="immersive_toggle_message">State changed. Restart the app for the changes to take place.</string>
+
+    <bool name="screen_large">false</bool>
+
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="fire skeleton soldier_A.png" width="512" height="512">
+    <sprite n="Sprite 1.png" x="159" y="114" w="135" h="104" oX="25" oY="101" oW="256" oH="256"/>
+    <sprite n="Sprite 2.png" x="299" y="106" w="135" h="112" oX="25" oY="93" oW="256" oH="256"/>
+    <sprite n="Sprite 3.png" x="159" y="2" w="136" h="108" oX="24" oY="97" oW="256" oH="256"/>
+    <sprite n="Sprite 4.png" x="299" y="2" w="136" h="100" oX="24" oY="105" oW="256" oH="256"/>
+    <sprite n="Sprite 5.png" x="95" y="246" w="87" h="107" oX="63" oY="98" oW="256" oH="256"/>
+    <sprite n="Sprite 6.png" x="2" y="246" w="89" h="127" oX="69" oY="80" oW="256" oH="256"/>
+    <sprite n="Sprite 7.png" x="186" y="222" w="73" h="86" oX="91" oY="85" oW="256" oH="256"/>
+    <sprite n="Sprite 8.png" x="84" y="377" w="96" h="109" oX="50" oY="93" oW="256" oH="256"/>
+    <sprite n="Sprite 9.png" x="439" y="2" w="70" h="102" oX="63" oY="99" oW="256" oH="256"/>
+    <sprite n="Sprite 10.png" x="2" y="2" w="153" h="114" oX="20" oY="88" oW="256" oH="256"/>
+    <sprite n="Sprite 11.png" x="184" y="357" w="91" h="102" oX="52" oY="99" oW="256" oH="256"/>
+    <sprite n="Sprite 12.png" x="2" y="377" w="78" h="111" oX="61" oY="90" oW="256" oH="256"/>
+    <sprite n="Sprite 13.png" x="2" y="120" w="121" h="122" oX="39" oY="83" oW="256" oH="256"/>
+    <sprite n="Sprite 14.png" x="127" y="120" w="1" h="1" oX="0" oY="0" oW="256" oH="256"/>
+    <sprite n="Sprite 15.png" x="127" y="120" w="1" h="1" oX="0" oY="0" oW="256" oH="256"/>
+    <sprite n="Sprite 16.png" x="127" y="120" w="1" h="1" oX="0" oY="0" oW="256" oH="256"/>
+</TextureAtlas>
