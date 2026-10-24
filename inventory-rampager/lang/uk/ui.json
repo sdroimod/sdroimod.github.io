@@ -52,7 +52,7 @@
   "btn_donate": "Пожертвувати автору",
   "text_donate_desc": "Якщо можливо, зробіть пожертву автору, якщо ви хочете, щоб проєкт підтримувався в довгостроковій перспективі.",
   "text_non_commercial": "Це некомерційний проєкт.",
-  "btn_never_show_donate": "Більше не показувати кнопку пожертви",
+  "donate_title": "Підтримати проєкт", "donate_thank_you_title": "Дякуємо!", "donate_thank_you_message": "Ваша підтримка допомагає цьому проєкту жити далі. Щиро дякуємо!", "donate_done": "Готово", "donate_retry": "Спробувати ще раз", "donate_unavailable": "Пожертви доступні в Android-застосунку через Google Play.", "donate_store_error": "Не вдалося завантажити магазин пожертв. Спробуйте пізніше.", "donate_ordering": "Відкриваємо Google Play…", "donate_pending": "Ваш платіж очікує обробки.", "donate_verifying": "Підтверджуємо пожертву…", "donate_not_ready": "Магазин ще завантажується. Спробуйте за мить.", "donate_not_purchasable": "Цей варіант пожертви зараз недоступний.", "donate_verify_error": "Не вдалося підтвердити пожертву. Спробуйте пізніше.", "donate_purchase_error": "Не вдалося завершити пожертву. Спробуйте ще раз.", "donate_product_donate_min": "Висловити повагу", "donate_product_donate_1": "Кава", "donate_product_donate_5": "Обід", "donate_product_donate_10": "Піца", "donate_product_donate_50": "Підтримувач",
   "Language": "Мова",
   "Theme": "Тема",
   "filter_all": "Все",

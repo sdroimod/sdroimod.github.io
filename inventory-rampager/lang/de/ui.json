@@ -52,7 +52,7 @@
   "btn_donate": "An Autor spenden",
   "text_donate_desc": "Wenn möglich, spenden Sie bitte an den Autor, wenn Sie möchten, dass das Projekt langfristig gepflegt wird.",
   "text_non_commercial": "Dies ist ein nicht-kommerzielles Projekt.",
-  "btn_never_show_donate": "Spenden-Button nie wieder anzeigen",
+  "donate_title": "Projekt unterstützen", "donate_thank_you_title": "Vielen Dank!", "donate_thank_you_message": "Deine Unterstützung hält dieses Projekt am Leben. Vielen Dank!", "donate_done": "Fertig", "donate_retry": "Erneut versuchen", "donate_unavailable": "Spenden sind in der Android-App über Google Play verfügbar.", "donate_store_error": "Der Spenden-Shop konnte nicht geladen werden. Bitte versuche es später erneut.", "donate_ordering": "Google Play wird geöffnet…", "donate_pending": "Deine Zahlung steht noch aus.", "donate_verifying": "Deine Spende wird bestätigt…", "donate_not_ready": "Der Shop lädt noch. Bitte versuche es gleich erneut.", "donate_not_purchasable": "Diese Spendenoption ist derzeit nicht verfügbar.", "donate_verify_error": "Die Spende konnte nicht bestätigt werden. Bitte versuche es später erneut.", "donate_purchase_error": "Die Spende konnte nicht abgeschlossen werden. Bitte versuche es erneut.", "donate_product_donate_min": "Respekt zollen", "donate_product_donate_1": "Kaffee", "donate_product_donate_5": "Mittagessen", "donate_product_donate_10": "Pizza", "donate_product_donate_50": "Unterstützer",
   "Language": "Sprache",
   "Theme": "Design",
   "filter_all": "Alle",

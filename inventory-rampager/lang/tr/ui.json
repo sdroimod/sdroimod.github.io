@@ -52,7 +52,7 @@
   "btn_donate": "Yazara bağış yap",
   "text_donate_desc": "Mümkünse, projenin uzun vadeli sürdürülmesini istiyorsanız lütfen yazara bağış yapın.",
   "text_non_commercial": "Bu ticari olmayan bir projedir.",
-  "btn_never_show_donate": "Bağış düğmesini bir daha gösterme",
+  "donate_title": "Projeyi destekle", "donate_thank_you_title": "Teşekkürler!", "donate_thank_you_message": "Desteğin bu projenin yaşamasına yardımcı oluyor. Çok teşekkürler!", "donate_done": "Tamam", "donate_retry": "Tekrar dene", "donate_unavailable": "Bağışlar Google Play üzerinden Android uygulamasında kullanılabilir.", "donate_store_error": "Bağış mağazası yüklenemedi. Lütfen daha sonra tekrar deneyin.", "donate_ordering": "Google Play açılıyor…", "donate_pending": "Ödemeniz beklemede.", "donate_verifying": "Bağışınız onaylanıyor…", "donate_not_ready": "Mağaza hâlâ yükleniyor. Lütfen biraz sonra tekrar deneyin.", "donate_not_purchasable": "Bu bağış seçeneği şu anda kullanılamıyor.", "donate_verify_error": "Bağış doğrulanamadı. Lütfen daha sonra tekrar deneyin.", "donate_purchase_error": "Bağış tamamlanamadı. Lütfen tekrar deneyin.", "donate_product_donate_min": "Saygı göster", "donate_product_donate_1": "Kahve", "donate_product_donate_5": "Öğle yemeği", "donate_product_donate_10": "Pizza", "donate_product_donate_50": "Destekçi",
   "Language": "Dil",
   "Theme": "Tema",
   "filter_all": "Tümü",

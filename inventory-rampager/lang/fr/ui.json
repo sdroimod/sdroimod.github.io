@@ -52,7 +52,7 @@
   "btn_donate": "Faire un don à l'auteur",
   "text_donate_desc": "Si possible, veuillez faire un don à l'auteur si vous souhaitez que le projet soit maintenu à long terme.",
   "text_non_commercial": "Ceci est un projet non commercial.",
-  "btn_never_show_donate": "Ne plus afficher le bouton de don",
+  "donate_title": "Soutenir le projet", "donate_thank_you_title": "Merci !", "donate_thank_you_message": "Votre soutien aide ce projet à continuer. Merci beaucoup !", "donate_done": "Terminé", "donate_retry": "Réessayer", "donate_unavailable": "Les dons sont disponibles dans l'application Android via Google Play.", "donate_store_error": "La boutique de dons n'a pas pu être chargée. Réessayez plus tard.", "donate_ordering": "Ouverture de Google Play…", "donate_pending": "Votre paiement est en attente.", "donate_verifying": "Confirmation de votre don…", "donate_not_ready": "La boutique charge encore. Réessayez dans un instant.", "donate_not_purchasable": "Cette option de don n'est pas disponible actuellement.", "donate_verify_error": "Nous n'avons pas pu confirmer ce don. Réessayez plus tard.", "donate_purchase_error": "Le don n'a pas pu être finalisé. Réessayez.", "donate_product_donate_min": "Hommage", "donate_product_donate_1": "Café", "donate_product_donate_5": "Déjeuner", "donate_product_donate_10": "Pizza", "donate_product_donate_50": "Supporter",
   "Language": "Langue",
   "Theme": "Thème",
   "filter_all": "Tout",

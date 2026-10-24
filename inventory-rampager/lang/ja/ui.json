@@ -52,7 +52,7 @@
   "btn_donate": "作者に寄付",
   "text_donate_desc": "プロジェクトを長期的に維持したい場合は、可能であれば作者に寄付してください。",
   "text_non_commercial": "これは非営利プロジェクトです。",
-  "btn_never_show_donate": "寄付ボタンを二度と表示しない",
+  "donate_title": "プロジェクトを応援", "donate_thank_you_title": "ありがとうございます！", "donate_thank_you_message": "あなたの支援がこのプロジェクトを続ける力になります。本当にありがとうございます！", "donate_done": "完了", "donate_retry": "もう一度試す", "donate_unavailable": "寄付は Google Play 経由の Android アプリで利用できます。", "donate_store_error": "寄付ストアを読み込めませんでした。後でもう一度お試しください。", "donate_ordering": "Google Play を開いています…", "donate_pending": "お支払いは保留中です。", "donate_verifying": "寄付を確認しています…", "donate_not_ready": "ストアを読み込み中です。少ししてからお試しください。", "donate_not_purchasable": "この寄付オプションは現在利用できません。", "donate_verify_error": "寄付を確認できませんでした。後でもう一度お試しください。", "donate_purchase_error": "寄付を完了できませんでした。もう一度お試しください。", "donate_product_donate_min": "感謝を送る", "donate_product_donate_1": "コーヒー", "donate_product_donate_5": "ランチ", "donate_product_donate_10": "ピザ", "donate_product_donate_50": "サポーター",
   "Language": "言語",
   "Theme": "テーマ",
   "filter_all": "すべて",

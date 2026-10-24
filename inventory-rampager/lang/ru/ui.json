@@ -52,7 +52,7 @@
   "btn_donate": "Пожертвовать автору",
   "text_donate_desc": "Если возможно, сделайте пожертвование автору, если вы хотите, чтобы проект поддерживался в долгосрочной перспективе.",
   "text_non_commercial": "Это некоммерческий проект.",
-  "btn_never_show_donate": "Больше не показывать кнопку пожертвования",
+  "donate_title": "Поддержать проект", "donate_thank_you_title": "Спасибо!", "donate_thank_you_message": "Ваша поддержка помогает проекту жить дальше. Большое спасибо!", "donate_done": "Готово", "donate_retry": "Попробовать снова", "donate_unavailable": "Пожертвования доступны в приложении Android через Google Play.", "donate_store_error": "Не удалось загрузить магазин пожертвований. Попробуйте позже.", "donate_ordering": "Открываем Google Play…", "donate_pending": "Ваш платеж ожидает обработки.", "donate_verifying": "Подтверждаем пожертвование…", "donate_not_ready": "Магазин ещё загружается. Попробуйте чуть позже.", "donate_not_purchasable": "Этот вариант пожертвования сейчас недоступен.", "donate_verify_error": "Не удалось подтвердить пожертвование. Попробуйте позже.", "donate_purchase_error": "Не удалось завершить пожертвование. Попробуйте снова.", "donate_product_donate_min": "Выразить уважение", "donate_product_donate_1": "Кофе", "donate_product_donate_5": "Обед", "donate_product_donate_10": "Пицца", "donate_product_donate_50": "Поддержавший",
   "Language": "Язык",
   "Theme": "Тема",
   "filter_all": "Все",
