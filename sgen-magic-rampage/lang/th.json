@@ -76,5 +76,6 @@
   "feat_save_load": "<b>บันทึก / โหลดข้อมูลเกม:</b> ส่งออกข้อมูลก่อนลบม็อด (เพื่อประหยัดพื้นที่) และนำเข้าความคืบหน้ากลับมาหลังติดตั้งใหม่",
   "info_dl_help_title": "❓ มีปัญหาในการดาวน์โหลด?",
   "info_dl_help_desc1": "หากคุณไม่สามารถดาวน์โหลดจากลิงก์หลักได้ คุณสามารถเลือกดาวน์โหลดผ่าน <b>MediaFire</b> หรือ <b>Dropbox</b> ด้านล่าง",
-  "info_dl_help_desc2": "หากลิงก์ถูกบล็อกโดยเครือข่ายของคุณ โปรดทดลองใช้แอป <b>1.1.1.1 WARP</b> <img src=\"https://play-lh.googleusercontent.com/PDwXxcvulfxi2bH4UjcMGJ7i0CQ7_QNypYohkhhg02zE7FdNTNRyF21-ikrLM5kyvcmNxtr77Va-7sS3NLbpNg=w480-h960-rw\" height=\"18\" width=\"18\" style=\"vertical-align: middle;\" alt=\"1.1.1.1\"/> จาก Google Play"
+  "info_dl_help_desc2": "หากลิงก์ถูกบล็อกโดยเครือข่ายของคุณ โปรดทดลองใช้แอป <b>1.1.1.1 WARP</b> <img src=\"https://play-lh.googleusercontent.com/PDwXxcvulfxi2bH4UjcMGJ7i0CQ7_QNypYohkhhg02zE7FdNTNRyF21-ikrLM5kyvcmNxtr77Va-7sS3NLbpNg=w480-h960-rw\" height=\"18\" width=\"18\" style=\"vertical-align: middle;\" alt=\"1.1.1.1\"/> จาก Google Play",
+  "update_notice": "เวอร์ชันใหม่จะได้รับการอัปเดตในวันที่ 25/10/2026 เวลา 20:00 น. GMT+7 โปรดรอสักครู่"
 }

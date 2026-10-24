@@ -295,6 +295,41 @@
 
         @media (max-width: 480px) { .tut-images-row { gap: 8px; } }
 
+        /* --- UPDATE ANNOUNCEMENT BANNER --- */
+        .notice-banner {
+            background: linear-gradient(135deg, rgba(56, 189, 248, 0.12) 0%, rgba(37, 99, 235, 0.08) 100%);
+            border: 1px solid rgba(56, 189, 248, 0.35);
+            border-left: 4px solid var(--primary);
+            border-radius: 8px;
+            padding: 14px 18px;
+            margin-bottom: 22px;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            text-align: left;
+            box-shadow: 0 4px 14px rgba(0, 0, 0, 0.25);
+        }
+
+        [dir="rtl"] .notice-banner {
+            border-left: 1px solid rgba(56, 189, 248, 0.35);
+            border-right: 4px solid var(--primary);
+            text-align: right;
+        }
+
+        .notice-icon {
+            font-size: 1.35rem;
+            line-height: 1;
+            flex-shrink: 0;
+        }
+
+        .notice-text {
+            font-size: 0.95rem;
+            font-weight: 600;
+            color: #f0f9ff;
+            line-height: 1.5;
+            margin: 0;
+        }
+
         /* --- NOTICE & INFO CARDS --- */
         .info-card {
             background: #111827;
@@ -357,10 +392,15 @@
 
     <div class="main-container">
 
-        <div style="text-align: center; margin-bottom: 30px;">
+        <div style="text-align: center; margin-bottom: 24px;">
             <h1 data-i18n="made_by_title">Made with 💖 by SDroiMod</h1>
             <p style="color: var(--text-muted); margin-bottom: 10px;" data-i18n="dl_page_subtitle">Follow the 2 steps below to unlock the download links.</p>
             <p style="color: #bdbdbd; font-size: 0.95rem; margin: 0;" data-i18n="dl_page_hint">Click the buttons below to complete each step. Each one opens the related YouTube page in a new tab.</p>
+        </div>
+
+        <div class="notice-banner">
+            <span class="notice-icon">📢</span>
+            <div class="notice-text" data-i18n="update_notice">A new version will be updated on 25/10/2026 at 20:00 (8:00 PM) GMT+7, please wait.</div>
         </div>
 
         <details>
@@ -402,7 +442,10 @@
         <div id="final-download" class="download-area">
             <h3 style="color: var(--primary); text-align: center; margin-bottom: 16px;" data-i18n="dl_unlocked">🎉 Download links are now unlocked</h3>
             
-    
+            <div class="notice-banner" style="margin-bottom: 16px;">
+                <span class="notice-icon">📢</span>
+                <div class="notice-text" data-i18n="update_notice">A new version will be updated on 25/10/2026 at 20:00 (8:00 PM) GMT+7, please wait.</div>
+            </div>
 
             <div class="info-card">
                 <h4 data-i18n="info_dl_help_title">❓ Having trouble downloading?</h4>

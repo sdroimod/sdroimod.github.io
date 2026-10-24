@@ -76,5 +76,6 @@
   "feat_save_load": "<b>Sauvegarde / Chargement des données :</b> Exportez vos données avant de désinstaller (pour économiser de l'espace) et réimportez votre progression après réinstallation.",
   "info_dl_help_title": "❓ Des difficultés pour télécharger ?",
   "info_dl_help_desc1": "Si vous ne pouvez pas télécharger depuis le lien principal, vous pouvez choisir de télécharger via <b>MediaFire</b> ou <b>Dropbox</b> ci-dessous.",
-  "info_dl_help_desc2": "Si les liens de téléchargement sont bloqués par votre réseau ou FAI, essayez d'utiliser l'application <b>1.1.1.1 WARP</b> <img src=\"https://play-lh.googleusercontent.com/PDwXxcvulfxi2bH4UjcMGJ7i0CQ7_QNypYohkhhg02zE7FdNTNRyF21-ikrLM5kyvcmNxtr77Va-7sS3NLbpNg=w480-h960-rw\" height=\"18\" width=\"18\" style=\"vertical-align: middle;\" alt=\"1.1.1.1\"/> depuis Google Play pour débloquer votre connexion."
+  "info_dl_help_desc2": "Si les liens de téléchargement sont bloqués par votre réseau ou FAI, essayez d'utiliser l'application <b>1.1.1.1 WARP</b> <img src=\"https://play-lh.googleusercontent.com/PDwXxcvulfxi2bH4UjcMGJ7i0CQ7_QNypYohkhhg02zE7FdNTNRyF21-ikrLM5kyvcmNxtr77Va-7sS3NLbpNg=w480-h960-rw\" height=\"18\" width=\"18\" style=\"vertical-align: middle;\" alt=\"1.1.1.1\"/> depuis Google Play pour débloquer votre connexion.",
+  "update_notice": "La nouvelle version sera mise à jour le 25/10/2026 à 20:00 GMT+7, veuillez patienter."
 }

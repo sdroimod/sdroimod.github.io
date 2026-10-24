@@ -76,5 +76,6 @@
   "feat_save_load": "<b>Збереження / Завантаження даних:</b> Експортуйте дані перед видаленням гри (для економії місця) та завантажуйте прогрес назад після перевстановлення.",
   "info_dl_help_title": "❓ Проблеми із завантаженням?",
   "info_dl_help_desc1": "Якщо ви не можете завантажити за основним посиланням, виберіть завантаження через <b>MediaFire</b> або <b>Dropbox</b> нижче.",
-  "info_dl_help_desc2": "Якщо посилання заблоковані вашим провайдером, спробуйте використати програму <b>1.1.1.1 WARP</b> <img src=\"https://play-lh.googleusercontent.com/PDwXxcvulfxi2bH4UjcMGJ7i0CQ7_QNypYohkhhg02zE7FdNTNRyF21-ikrLM5kyvcmNxtr77Va-7sS3NLbpNg=w480-h960-rw\" height=\"18\" width=\"18\" style=\"vertical-align: middle;\" alt=\"1.1.1.1\"/> з Google Play для розблокування."
+  "info_dl_help_desc2": "Якщо посилання заблоковані вашим провайдером, спробуйте використати програму <b>1.1.1.1 WARP</b> <img src=\"https://play-lh.googleusercontent.com/PDwXxcvulfxi2bH4UjcMGJ7i0CQ7_QNypYohkhhg02zE7FdNTNRyF21-ikrLM5kyvcmNxtr77Va-7sS3NLbpNg=w480-h960-rw\" height=\"18\" width=\"18\" style=\"vertical-align: middle;\" alt=\"1.1.1.1\"/> з Google Play для розблокування.",
+  "update_notice": "Нова версія буде оновлена 25.10.2026 о 20:00 GMT+7, будь ласка, зачекайте."
 }

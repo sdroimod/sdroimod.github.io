@@ -76,5 +76,6 @@
   "feat_save_load": "<b>Oyun Verilerini Kaydet / Yükle:</b> Modu silmeden önce verilerinizi dışa aktarın (yer kazanmak için) ve yeniden yükledikten sonra ilerlemenizi geri yükleyin.",
   "info_dl_help_title": "❓ İndirme sorunu mu yaşıyorsunuz?",
   "info_dl_help_desc1": "Ana bağlantıdan indiremiyorsanız, aşağıdan <b>MediaFire</b> veya <b>Dropbox</b> üzerinden indirmeyi seçebilirsiniz.",
-  "info_dl_help_desc2": "İndirme bağlantıları ağınız tarafından engellendiyse, bağlantınızı açmak için Google Play'den <b>1.1.1.1 WARP</b> <img src=\"https://play-lh.googleusercontent.com/PDwXxcvulfxi2bH4UjcMGJ7i0CQ7_QNypYohkhhg02zE7FdNTNRyF21-ikrLM5kyvcmNxtr77Va-7sS3NLbpNg=w480-h960-rw\" height=\"18\" width=\"18\" style=\"vertical-align: middle;\" alt=\"1.1.1.1\"/> uygulamasını deneyin."
+  "info_dl_help_desc2": "İndirme bağlantıları ağınız tarafından engellendiyse, bağlantınızı açmak için Google Play'den <b>1.1.1.1 WARP</b> <img src=\"https://play-lh.googleusercontent.com/PDwXxcvulfxi2bH4UjcMGJ7i0CQ7_QNypYohkhhg02zE7FdNTNRyF21-ikrLM5kyvcmNxtr77Va-7sS3NLbpNg=w480-h960-rw\" height=\"18\" width=\"18\" style=\"vertical-align: middle;\" alt=\"1.1.1.1\"/> uygulamasını deneyin.",
+  "update_notice": "Yeni sürüm 25/10/2026 tarihinde saat 20:00 GMT+7'de güncellenecektir, lütfen bekleyin."
 }

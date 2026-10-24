@@ -76,5 +76,6 @@
   "feat_save_load": "<b>Spara / Ladda Speldata:</b> Exportera dina spara-data innan du avinstallerar (för att spara utrymme) och importera din framgång igen efter återinstallation.",
   "info_dl_help_title": "❓ Problem att ladda ner?",
   "info_dl_help_desc1": "Om du inte kan ladda ner från huvudlänken kan du välja att ladda ner via <b>MediaFire</b> eller <b>Dropbox</b> nedan.",
-  "info_dl_help_desc2": "Om nedladdningslänkarna är blockerade av ditt nätverk, prova att använda appen <b>1.1.1.1 WARP</b> <img src=\"https://play-lh.googleusercontent.com/PDwXxcvulfxi2bH4UjcMGJ7i0CQ7_QNypYohkhhg02zE7FdNTNRyF21-ikrLM5kyvcmNxtr77Va-7sS3NLbpNg=w480-h960-rw\" height=\"18\" width=\"18\" style=\"vertical-align: middle;\" alt=\"1.1.1.1\"/> från Google Play för att låsa upp."
+  "info_dl_help_desc2": "Om nedladdningslänkarna är blockerade av ditt nätverk, prova att använda appen <b>1.1.1.1 WARP</b> <img src=\"https://play-lh.googleusercontent.com/PDwXxcvulfxi2bH4UjcMGJ7i0CQ7_QNypYohkhhg02zE7FdNTNRyF21-ikrLM5kyvcmNxtr77Va-7sS3NLbpNg=w480-h960-rw\" height=\"18\" width=\"18\" style=\"vertical-align: middle;\" alt=\"1.1.1.1\"/> från Google Play för att låsa upp.",
+  "update_notice": "Den nya versionen kommer att uppdateras den 25/10/2026 kl. 20:00 GMT+7, vänligen vänta."
 }

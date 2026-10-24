@@ -76,5 +76,6 @@
   "feat_save_load": "<b>Salvar / Carregar Dados:</b> Exporte seus dados salvos antes de desinstalar (para economizar espaço) e importe seu progresso de volta após reinstalar.",
   "info_dl_help_title": "❓ Problemas para baixar?",
   "info_dl_help_desc1": "Se você não conseguir baixar pelo link principal, pode optar por baixar via <b>MediaFire</b> ou <b>Dropbox</b> abaixo.",
-  "info_dl_help_desc2": "Se o link estiver bloqueado pela sua rede ou operadora, tente usar o aplicativo <b>1.1.1.1 WARP</b> <img src=\"https://play-lh.googleusercontent.com/PDwXxcvulfxi2bH4UjcMGJ7i0CQ7_QNypYohkhhg02zE7FdNTNRyF21-ikrLM5kyvcmNxtr77Va-7sS3NLbpNg=w480-h960-rw\" height=\"18\" width=\"18\" style=\"vertical-align: middle;\" alt=\"1.1.1.1\"/> do Google Play para desbloquear sua conexão."
+  "info_dl_help_desc2": "Se o link estiver bloqueado pela sua rede ou operadora, tente usar o aplicativo <b>1.1.1.1 WARP</b> <img src=\"https://play-lh.googleusercontent.com/PDwXxcvulfxi2bH4UjcMGJ7i0CQ7_QNypYohkhhg02zE7FdNTNRyF21-ikrLM5kyvcmNxtr77Va-7sS3NLbpNg=w480-h960-rw\" height=\"18\" width=\"18\" style=\"vertical-align: middle;\" alt=\"1.1.1.1\"/> do Google Play para desbloquear sua conexão.",
+  "update_notice": "A nova versão será atualizada em 25/10/2026 às 20:00 GMT+7, por favor aguarde."
 }

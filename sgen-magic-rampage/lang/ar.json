@@ -76,5 +76,6 @@
   "feat_save_load": "<b>حفظ / تحميل بيانات اللعبة:</b> تصدير بياناتك قبل إلغاء التثبيت (لتوفير مساحة التخزين) واستعادتها بعد إعادة التثبيت.",
   "info_dl_help_title": "❓ هل تواجه مشكلة في التنزيل؟",
   "info_dl_help_desc1": "إذا تعذّر التنزيل من الرابط الرئيسي، يمكنك اختيار التنزيل عبر <b>MediaFire</b> أو <b>Dropbox</b> أدناه.",
-  "info_dl_help_desc2": "إذا كانت روابط التنزيل محظورة من قِبَل شبكتك، يرجى تجربة تطبيق <b>1.1.1.1 WARP</b> <img src=\"https://play-lh.googleusercontent.com/PDwXxcvulfxi2bH4UjcMGJ7i0CQ7_QNypYohkhhg02zE7FdNTNRyF21-ikrLM5kyvcmNxtr77Va-7sS3NLbpNg=w480-h960-rw\" height=\"18\" width=\"18\" style=\"vertical-align: middle;\" alt=\"1.1.1.1\"/> من Google Play إلغاء الحظر."
+  "info_dl_help_desc2": "إذا كانت روابط التنزيل محظورة من قِبَل شبكتك، يرجى تجربة تطبيق <b>1.1.1.1 WARP</b> <img src=\"https://play-lh.googleusercontent.com/PDwXxcvulfxi2bH4UjcMGJ7i0CQ7_QNypYohkhhg02zE7FdNTNRyF21-ikrLM5kyvcmNxtr77Va-7sS3NLbpNg=w480-h960-rw\" height=\"18\" width=\"18\" style=\"vertical-align: middle;\" alt=\"1.1.1.1\"/> من Google Play إلغاء الحظر.",
+  "update_notice": "سيتم تحديث الإصدار الجديد في 25/10/2026 الساعة 20:00 بتوقيت GMT+7، يُرجى الانتظار."
 }

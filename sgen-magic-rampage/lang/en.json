@@ -76,5 +76,6 @@
   "feat_save_load": "<b>Save/Load Game Data:</b> Export your save data before uninstalling to save storage space, and import your progress back after reinstalling.",
   "info_dl_help_title": "❓ Having trouble downloading?",
   "info_dl_help_desc1": "If you cannot download from the main link, you can choose to download via <b>MediaFire</b> or <b>Dropbox</b> below.",
-  "info_dl_help_desc2": "If the download links are blocked by your network or ISP, try using the <b>1.1.1.1 WARP</b> app <img src=\"https://play-lh.googleusercontent.com/PDwXxcvulfxi2bH4UjcMGJ7i0CQ7_QNypYohkhhg02zE7FdNTNRyF21-ikrLM5kyvcmNxtr77Va-7sS3NLbpNg=w480-h960-rw\" height=\"18\" width=\"18\" style=\"vertical-align: middle;\" alt=\"1.1.1.1\"/> from Google Play to unblock your connection."
+  "info_dl_help_desc2": "If the download links are blocked by your network or ISP, try using the <b>1.1.1.1 WARP</b> app <img src=\"https://play-lh.googleusercontent.com/PDwXxcvulfxi2bH4UjcMGJ7i0CQ7_QNypYohkhhg02zE7FdNTNRyF21-ikrLM5kyvcmNxtr77Va-7sS3NLbpNg=w480-h960-rw\" height=\"18\" width=\"18\" style=\"vertical-align: middle;\" alt=\"1.1.1.1\"/> from Google Play to unblock your connection.",
+  "update_notice": "A new version will be updated on 25/10/2026 at 20:00 (8:00 PM) GMT+7, please wait."
 }

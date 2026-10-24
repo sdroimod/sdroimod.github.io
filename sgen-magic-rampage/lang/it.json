@@ -76,5 +76,6 @@
   "feat_save_load": "<b>Salva / Carica Dati di Gioco:</b> Esporta i tuoi dati prima di disinstallare (per risparmiare spazio) e importa nuovamente i tuoi progressi dopo la reinstallazione.",
   "info_dl_help_title": "❓ Problemi con il download?",
   "info_dl_help_desc1": "Se non riesci a scaricare dal link principale, puoi scegliere di scaricare tramite <b>MediaFire</b> o <b>Dropbox</b> qui sotto.",
-  "info_dl_help_desc2": "Se i link di download sono bloccati dalla tua rete, prova a utilizzare l'app <b>1.1.1.1 WARP</b> <img src=\"https://play-lh.googleusercontent.com/PDwXxcvulfxi2bH4UjcMGJ7i0CQ7_QNypYohkhhg02zE7FdNTNRyF21-ikrLM5kyvcmNxtr77Va-7sS3NLbpNg=w480-h960-rw\" height=\"18\" width=\"18\" style=\"vertical-align: middle;\" alt=\"1.1.1.1\"/> da Google Play per sbloccare la connessione."
+  "info_dl_help_desc2": "Se i link di download sono bloccati dalla tua rete, prova a utilizzare l'app <b>1.1.1.1 WARP</b> <img src=\"https://play-lh.googleusercontent.com/PDwXxcvulfxi2bH4UjcMGJ7i0CQ7_QNypYohkhhg02zE7FdNTNRyF21-ikrLM5kyvcmNxtr77Va-7sS3NLbpNg=w480-h960-rw\" height=\"18\" width=\"18\" style=\"vertical-align: middle;\" alt=\"1.1.1.1\"/> da Google Play per sbloccare la connessione.",
+  "update_notice": "La nuova versione verrà aggiornata il 25/10/2026 alle 20:00 GMT+7, si prega di attendere."
 }
