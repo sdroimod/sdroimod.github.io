@@ -330,6 +330,30 @@
             margin: 0;
         }
 
+        .notice-content {
+            min-width: 0;
+            flex: 1;
+        }
+
+        .release-countdown {
+            margin-top: 10px;
+            padding: 10px 14px;
+            background: rgba(0, 0, 0, 0.28);
+            border: 1px solid rgba(56, 189, 248, 0.3);
+            border-radius: 6px;
+            color: var(--primary);
+            font-size: clamp(1.4rem, 5vw, 2rem);
+            font-weight: 900;
+            line-height: 1.1;
+            letter-spacing: 0.06em;
+            text-align: center;
+            font-variant-numeric: tabular-nums;
+        }
+
+        #released-content {
+            display: none;
+        }
+
         /* --- NOTICE & INFO CARDS --- */
         .info-card {
             background: #111827;
@@ -398,9 +422,12 @@
             <p style="color: #bdbdbd; font-size: 0.95rem; margin: 0;" data-i18n="dl_page_hint">Click the button below to subscribe to SDroiMod. It will open YouTube in a new tab.</p>
         </div>
 
-        <div class="notice-banner">
+        <div class="notice-banner" id="release-banner">
             <span class="notice-icon">📢</span>
-            <div class="notice-text" data-i18n="update_notice">A new version will be updated on 27/10/2026 at 20:00 (8:00 PM) GMT+7, please wait.</div>
+            <div class="notice-content">
+                <div class="notice-text" id="release-message" data-i18n="update_notice">A new version will be updated on 27/10/2026 at 20:00 (8:00 PM) GMT+7, please wait.</div>
+                <div class="release-countdown" id="release-countdown">00D 00:00:00</div>
+            </div>
         </div>
 
         <details>
@@ -428,32 +455,26 @@
         </div>
 
         <div id="final-download" class="download-area">
-            <h3 style="color: var(--primary); text-align: center; margin-bottom: 16px;" data-i18n="dl_unlocked">🎉 Download links are now unlocked</h3>
-            
-            <div class="notice-banner" style="margin-bottom: 16px;">
+            <div class="notice-banner" id="release-waiting-panel" style="margin-bottom: 16px;">
                 <span class="notice-icon">📢</span>
-                <div class="notice-text" data-i18n="update_notice">A new version will be updated on 27/10/2026 at 20:00 (8:00 PM) GMT+7, please wait.</div>
+                <div class="notice-content">
+                    <div class="notice-text" data-i18n="update_notice">A new version will be updated on 27/10/2026 at 20:00 (8:00 PM) GMT+7, please wait.</div>
+                    <div class="release-countdown" id="download-countdown">00D 00:00:00</div>
+                </div>
             </div>
 
-            <div class="info-card">
-                <h4 data-i18n="info_dl_help_title">❓ Having trouble downloading?</h4>
-                <p data-i18n="info_dl_help_desc1">If you cannot download from the main link, you can choose to download via <b>MediaFire</b> or <b>Dropbox</b> below.</p>
-                <p data-i18n="info_dl_help_desc2">If the link is blocked by your network or ISP, try using the <b>1.1.1.1 WARP</b> app <img src="https://play-lh.googleusercontent.com/PDwXxcvulfxi2bH4UjcMGJ7i0CQ7_QNypYohkhhg02zE7FdNTNRyF21-ikrLM5kyvcmNxtr77Va-7sS3NLbpNg=w480-h960-rw" height="18" width="18" style="vertical-align: middle;" alt="1.1.1.1"/> from Google Play to unblock your connection.</p>
-            </div>
+            <div id="released-content">
+                <h3 style="color: var(--primary); text-align: center; margin-bottom: 16px;" data-i18n="dl_unlocked">🎉 Download links are now unlocked</h3>
 
-            <p style="font-size: 0.85rem; color: var(--text-muted); text-align: center; margin-bottom: 12px;">Last updated: Today</p>
-            <a href="https://www.mediafire.com/file/6q053gy02nf4aju/MRSE_1.0.apk/file" target="_blank" class="action-btn btn-dl">
-                Download Android APK (<span>MediaFire</span>) <span>(99.99999%)</span>
-            </a>
-            <a href="https://www.mediafire.com/file/6q053gy02nf4aju/MRSE_1.0.apk/file" target="_blank" class="action-btn btn-dl">
-                Download Android APK (<span>Dropbox</span>) <span>(99.999999%)</span>
-            </a>
-            <a href="https://www.mediafire.com/file/thlpa7om9oj82xq/169_sgen_68.zip/file" target="_blank" class="action-btn btn-dl" style="background: #4f46e5;">
-                Download Windows PC Build (<span>MediaFire</span>) <span>(Beta 0.68)</span>
-            </a>
-            <!-- <p style="font-size: 12px; color: #888; text-align: center; margin-top: 10px;" data-i18n="pc_note">
-                *For PC: Unzip file and click on <strong>rungame.bat</strong> to play.
-            </p> -->
+                <div class="info-card">
+                    <h4 data-i18n="info_dl_help_title">❓ Having trouble downloading?</h4>
+                    <p data-i18n="info_dl_help_desc1">If you cannot download from the main link, you can choose to download via <b>MediaFire</b> or <b>Dropbox</b> below.</p>
+                    <p data-i18n="info_dl_help_desc2">If the link is blocked by your network or ISP, try using the <b>1.1.1.1 WARP</b> app <img src="https://play-lh.googleusercontent.com/PDwXxcvulfxi2bH4UjcMGJ7i0CQ7_QNypYohkhhg02zE7FdNTNRyF21-ikrLM5kyvcmNxtr77Va-7sS3NLbpNg=w480-h960-rw" height="18" width="18" style="vertical-align: middle;" alt="1.1.1.1"/> from Google Play to unblock your connection.</p>
+                </div>
+
+                <p style="font-size: 0.85rem; color: var(--text-muted); text-align: center; margin-bottom: 12px;">Last updated: 27/10/2026</p>
+                <div id="release-download-links"></div>
+            </div>
         </div>
 
         <div class="community-grid">
@@ -468,33 +489,6 @@
             </a>
         </div>
 
-        <hr style="border: 0; border-top: 1px solid rgba(255,255,255,0.1); margin: 30px 0;">
-
-        <details open>
-            <summary>What's New in Beta 0.68?</summary>
-            <div class="details-content">
-                <h4 class="highlight" data-i18n="new_content_title">New Content:</h4>
-                <ul data-i18n="new_items">
-                    <li>Added "Dragon Slayer Sword"</li>
-                    <li>Added 480 Skins</li>
-                    <li>Added 500 Items</li>
-                    <li>Added "Just a Random Noob" &amp; "The Ancient Codices"</li>
-                    <li>Infinity Sword, Slime Core, Goku SSJ Head</li>
-                    <li>Hellbringer Set (Infernal Blade, Hellskull)</li>
-                    <li>New Prize Room, Shop, Star Screen</li>
-                </ul>
-                <h4 class="highlight" style="margin-top: 15px;" data-i18n="improvements_title">Improvements:</h4>
-                <ul data-i18n="improvements_items">
-                    <li>Fixed installation &amp; startup crash bugs</li>
-                    <li>Increased gold/coins dropped from enemies</li>
-                    <li>Added Save/Load game data support</li>
-                    <li>Unlock all premium skins &amp; Shop items</li>
-                    <li>Major Performance Optimization</li>
-                    <li>Cleaner UI, Removed Popups</li>
-                </ul>
-            </div>
-        </details>
-
     </div>
 
     <footer>
@@ -508,9 +502,169 @@
         var S1_AT = 'sgen_s1_at';
         var S1_OK = 'sgen_s1_ok';
         var WAIT  = 5000;
+        var RELEASE_AT = Date.parse('2026-10-27T20:00:00+07:00');
+        var LINK_KEY = 'sdroimod123';
+        var releaseTimer = null;
+        var releaseIsLive = false;
+        var releaseTimeVerified = false;
+        var releaseVerificationStarted = false;
+        var releaseVerificationAttempts = 0;
+        var nextReleaseVerificationAt = 0;
+        var trustedClock = null;
+        var DOWNLOADS = [
+            {
+                platform: 'Android APK',
+                provider: 'Dropbox',
+                cipher: 'GxAGHxpXQEtGRURdAAAAGQ8AHB9RXB5LAQwFQgkNHgtXEA0EBFxcFgpEXEpDEQRdAwxbVR4CbAADFwFQQAIFVltQXhYTAhkMCAFuAwNDVC0LHAMIAV5cbB4LFkEIHQRbQ15YFh1PXF8HFlEDRgEaCRwJGwcHHVkFSxAKFxheH0kXRQ8HRw8TCQceDkJVXg5D'
+            },
+            {
+                platform: 'Android APK',
+                provider: 'MediaFire',
+                cipher: 'GxAGHxpXQEtGRURdCRcLAAwJDUNXHRALH0APBAMBHgdBClBDBgtcWAxFQFZEVl1fNh4IAV8LHh4FFQYKQB0FXEJSFAEtXlldXztVR10UAR0BNgAAAB9TQxhLFAYFCA=='
+            },
+            {
+                platform: 'Windows PC Build',
+                provider: 'Dropbox',
+                cipher: 'GxAGHxpXQEtGRURdAAAAGQ8AHB9RXB5LAQwFQgkNHkVfFhNLAwcKBg5UQ0EGXBYNDhQcVB5BVBYKS0IEDAgNUh9BEgkCDg4IQlUBAgNdHhsfVh8DD1RLDgVSG1pYDxkTS0UKAAIBBFoAAglBQApEVkBJGhlSFFNXBkMcABZPCQNZAQ=='
+            },
+            {
+                platform: 'Windows PC Build',
+                provider: 'MediaFire',
+                cipher: 'GxAGHxpXQEtGRURdCRcLAAwJDUNXHRALH0APBAMBHltSGlJGCxsaHwheAlwaCF0cDggBXRxfUhQNEUIbDAIUUFVWXlVCX1lDFQ1BHVUaCBc='
+            }
+        ];
 
         function t(k, fb) { return (window._t && window._t(k)) || fb; }
         function el(id)   { return document.getElementById(id); }
+
+        function decryptLink(cipher) {
+            var bytes = atob(cipher);
+            var result = '';
+            for (var i = 0; i < bytes.length; i++) {
+                result += String.fromCharCode(bytes.charCodeAt(i) ^ LINK_KEY.charCodeAt(i % LINK_KEY.length));
+            }
+            return result;
+        }
+
+        function appendDownloadLinks() {
+            var container = el('release-download-links');
+            if (!container || container.children.length) return;
+
+            DOWNLOADS.forEach(function (download) {
+                var link = document.createElement('a');
+                var provider = document.createElement('span');
+                var version = document.createElement('span');
+                link.href = decryptLink(download.cipher);
+                link.target = '_blank';
+                link.rel = 'noopener noreferrer';
+                link.className = 'action-btn btn-dl';
+                if (download.platform === 'Windows PC Build') link.style.background = '#4f46e5';
+                provider.textContent = download.provider;
+                version.textContent = '(v1000)';
+                link.appendChild(document.createTextNode('Download ' + download.platform + ' ('));
+                link.appendChild(provider);
+                link.appendChild(document.createTextNode(') '));
+                link.appendChild(version);
+                container.appendChild(link);
+            });
+        }
+
+        function formatCountdown(milliseconds) {
+            var totalSeconds = Math.max(0, Math.ceil(milliseconds / 1000));
+            var days = Math.floor(totalSeconds / 86400);
+            var hours = Math.floor((totalSeconds % 86400) / 3600);
+            var minutes = Math.floor((totalSeconds % 3600) / 60);
+            var seconds = totalSeconds % 60;
+            function pad(value) { return String(value).padStart(2, '0'); }
+            return pad(days) + 'D ' + pad(hours) + ':' + pad(minutes) + ':' + pad(seconds);
+        }
+
+        function setCountdownText(text) {
+            el('release-countdown').textContent = text;
+            el('download-countdown').textContent = text;
+        }
+
+        function getReleaseNow() {
+            if (!trustedClock) return Date.now();
+            return trustedClock.serverTime + (performance.now() - trustedClock.monotonicTime);
+        }
+
+        function verifyReleaseTime() {
+            if (releaseVerificationStarted) return;
+            releaseVerificationStarted = true;
+            setCountdownText('VERIFYING NETWORK TIME...');
+
+            var checkUrl = new URL(window.location.href);
+            checkUrl.searchParams.set('_release_time_check', Math.random().toString(36).slice(2));
+
+            fetch(checkUrl.toString(), {
+                method: 'HEAD',
+                cache: 'no-store',
+                credentials: 'same-origin'
+            }).then(function (response) {
+                if (!response.ok) throw new Error('Time check returned HTTP ' + response.status);
+
+                var dateHeader = response.headers.get('Date');
+                var serverTime = Date.parse(dateHeader || '');
+                if (!Number.isFinite(serverTime)) throw new Error('Time check did not return a valid Date header');
+
+                var ageSeconds = parseInt(response.headers.get('Age') || '0', 10);
+                if (!Number.isFinite(ageSeconds) || ageSeconds < 0) ageSeconds = 0;
+
+                var requestFinished = performance.now();
+                trustedClock = {
+                    serverTime: serverTime + (ageSeconds * 1000),
+                    monotonicTime: requestFinished
+                };
+                releaseTimeVerified = true;
+                releaseVerificationAttempts = 0;
+                updateReleaseState();
+            }).catch(function (error) {
+                releaseVerificationStarted = false;
+                releaseVerificationAttempts += 1;
+                var retryDelay = releaseVerificationAttempts < 3
+                    ? releaseVerificationAttempts * 2000
+                    : 15000;
+                if (releaseVerificationAttempts >= 3) releaseVerificationAttempts = 0;
+                nextReleaseVerificationAt = performance.now() + retryDelay;
+                setCountdownText('TIME CHECK FAILED — RETRYING...');
+                console.warn('Release time verification failed:', error);
+            });
+        }
+
+        function activateRelease() {
+            if (releaseIsLive) return;
+            releaseIsLive = true;
+            if (releaseTimer !== null) {
+                clearInterval(releaseTimer);
+                releaseTimer = null;
+            }
+
+            var message = el('release-message');
+            message.removeAttribute('data-i18n');
+            message.textContent = 'SGen-9 v1000 is now available for Android and Windows PC.';
+            el('release-countdown').style.display = 'none';
+            el('download-countdown').style.display = 'none';
+            el('release-waiting-panel').style.display = 'none';
+            el('released-content').style.display = 'block';
+            appendDownloadLinks();
+        }
+
+        function updateReleaseState() {
+            var remaining = RELEASE_AT - getReleaseNow();
+            if (remaining <= 0) {
+                if (releaseTimeVerified) activateRelease();
+                else if (performance.now() >= nextReleaseVerificationAt) verifyReleaseTime();
+                return;
+            }
+
+            setCountdownText(formatCountdown(remaining));
+        }
+
+        function initRelease() {
+            updateReleaseState();
+            if (!releaseIsLive) releaseTimer = setInterval(updateReleaseState, 1000);
+        }
 
         function markStep1Loading() {
             el('text-1').textContent  = t('checking_sub', 'Checking Subscription...');
@@ -567,26 +721,23 @@
             setTimeout(completeStep1, WAIT); // fallback if tab stays in foreground
         };
 
-        // Collapse "What's New" on mobile to keep download steps in view
-        function initAccordion() {
-            if (window.innerWidth < 600) {
-                var details = document.querySelector('details[open]');
-                if (details) details.removeAttribute('open');
-            }
-        }
-
         // Restore state on page load (covers tab-eviction reloads)
         if (document.readyState === 'loading') {
-            document.addEventListener('DOMContentLoaded', function () { restoreState(); initAccordion(); });
+            document.addEventListener('DOMContentLoaded', function () { restoreState(); initRelease(); });
         } else {
             restoreState();
-            initAccordion();
+            initRelease();
         }
 
         // Resume pending steps when user returns from YouTube
         document.addEventListener('visibilitychange', function () {
-            if (!document.hidden) checkPending();
+            if (!document.hidden) {
+                checkPending();
+                updateReleaseState();
+            }
         });
+        window.addEventListener('focus', updateReleaseState);
+        window.addEventListener('pageshow', updateReleaseState);
     })();
     </script>
 
