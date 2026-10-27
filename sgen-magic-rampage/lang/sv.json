@@ -3,73 +3,59 @@
   "modal_desc": "Använd en vanlig webbläsare som Chrome, Yandex eller Firefox för bästa upplevelse.",
   "modal_copy": "Kopiera länk 🔗",
   "modal_close": "Stäng",
-
   "hero_desc": "Utvidgad värld med hundratals nya dungeons och utrustning.",
   "btn_discord": "GÅ MED I DISCORD-GEMENSKAPEN",
-
   "info_version": "Version",
   "info_size": "Storlek",
   "info_category": "Kategori",
   "info_price": "Pris",
   "info_platform": "Plattform",
   "info_mod_features": "MOD-funktioner",
-
   "val_category": "Action / RPG",
   "val_price": "GRATIS",
   "val_platform": "Android, Win, Linux",
   "val_mod_features": "1000+ föremål",
-
   "section_discover": "Upplev SGen-Upplevelsen",
   "section_discover_desc": "Det mest speciella med den här versionen är det <b>förbättrade gränssnittet</b>. Alla resurser valdes och redigerades noggrant för att ge en fräsch, högkvalitativ upplevelse för alla Magic Rampage-fans.",
   "section_dungeons": "Fler Dungeons &amp; Utmaningar",
   "section_dungeons_desc": "Nå nivå 35 enkelt med våra optimerade EXP-dungeons och samla alla föremål från Veckodungeons direkt i SGen-modden.",
   "section_downloads": "Tillgängliga nedladdningar",
-
   "dl_android_title": "SGen-9 Beta 0.68 (Android)",
   "dl_android_meta": "v8.8.8 • APK • Mediafire",
   "dl_pc_title": "SGen-9 Beta 0.68 (Windows)",
   "dl_pc_meta": "v8.8.8 • EXE • Mediafire",
   "btn_dl_apk": "Ladda ner APK",
   "btn_dl_pc": "Ladda ner till PC",
-
   "made_by_title": "Gjord med 💖 av SDroiMod",
   "footer_text": "© 2026 Gjord med 💖 av SDroiMod. Alla rättigheter förbehållna.",
-
-  "dl_page_subtitle": "Följ de 2 stegen nedan för att låsa upp nedladdningslänkarna.",
-  "dl_page_hint": "Klicka på knapparna nedan för att slutföra varje steg. Varje öppnar den relaterade YouTube-sidan i en ny flik.",
+  "dl_page_subtitle": "Prenumerera på vår kanal för att låsa upp nedladdningslänkarna.",
+  "dl_page_hint": "Klicka på knappen nedan för att prenumerera på SDroiMod. Den öppnar YouTube i en ny flik.",
   "how_to_install": "Hur Installerar Jag? (Klicka här)",
   "yt_warning_title": "⚠️ Använder du YouTubes inbyggda webbläsare?",
   "yt_warning_desc": "Om du ser en «X»-knapp högst upp, tryck på <b>tre punkter</b> (uppe till höger) och välj <b>«Öppna i webbläsare»</b>. Det säkerställer att dina steg verifieras korrekt.",
-
-  "step1_title": "Steg 1: Prenumerera på SDroiMods kanal",
+  "step1_title": "Prenumerera på SDroiMods kanal",
   "step1_btn": "Klicka här för att öppna YouTube och prenumerera på SDroiMod",
-  "step1_hint": "Tryck eller klicka på den här knappen först. När det är klart blir Steg 2 automatiskt tillgängligt.",
-
+  "step1_hint": "Tryck eller klicka på den här knappen för att prenumerera. När det är klart låses nedladdningslänkarna upp.",
   "step2_title": "Steg 2: Gilla den här videon",
   "step2_btn": "Klicka här för att öppna videon och gilla den",
   "step2_hint": "Tryck eller klicka på den andra knappen efter Steg 1. Nedladdningslänkarna visas nedan.",
-
   "badge_locked": "LÅST 🔒",
   "badge_unlocked": "UPPLÅST",
   "checking_sub": "Kontrollerar prenumeration...",
   "verifying_like": "Verifierar gilla &amp; kommentar...",
   "completed_text": "Klart ✅",
-
   "dl_unlocked": "🎉 Nedladdningslänkarna är nu upplåsta",
   "btn_dl_android_mf": "Ladda ner Android APK (<span>MediaFire</span>) <span>(Beta 0.68)</span>",
   "btn_dl_android_db": "Ladda ner Android APK (<span>Dropbox</span>) <span>(Beta 0.68)</span>",
   "btn_dl_pc_mf": "Ladda ner Windows PC-version (<span>MediaFire</span>) <span>(Beta 0.68)</span>",
   "pc_note": "*För PC: Packa upp filen och klicka på <strong>rungame.bat</strong> för att spela.",
-
   "btn_discord_text": "Gå med i Discord",
   "btn_facebook_text": "Gå med i Facebook",
-
   "whats_new": "Vad är Nytt i Beta 0.68?",
   "new_content_title": "Nytt Innehåll:",
   "new_items": "<li>Lade till «Drakdödarsvärd»</li><li>Lade till 480 Skins</li><li>Lade till 500 Föremål</li><li>Lade till «Just a Random Noob» &amp; «The Ancient Codices»</li><li>Infinity Sword, Slime Core, Goku SSJ Head</li><li>Hellbringer-set (Infernal Blade, Hellskull)</li><li>Ny Prize Room, Butik, Stjärneskärm</li>",
   "improvements_title": "Förbättringar:",
   "improvements_items": "<li>Fixade installera &amp; öppna spel-fel</li><li>Ökad mängd guld/mynt som släpps av fiender</li><li>Stöd för Spara/Ladda speldata (Save/Load Data)</li><li>Lås upp alla premium-skins &amp; Butiksföremål</li><li>Stor prestandaoptimering</li>",
-
   "info_v068_title": "💡 Funktioner &amp; Fixar i Beta 0.68:",
   "feat_fix_install": "<b>Installations- &amp; Startfel Fixat:</b> Löste problem där spelet inte kunde installeras eller öppnas på vissa enheter.",
   "feat_more_gold": "<b>Ökad Guld-drop:</b> Besegrade fiender tappar avsevärt mer guld och mynt.",
@@ -77,5 +63,5 @@
   "info_dl_help_title": "❓ Problem att ladda ner?",
   "info_dl_help_desc1": "Om du inte kan ladda ner från huvudlänken kan du välja att ladda ner via <b>MediaFire</b> eller <b>Dropbox</b> nedan.",
   "info_dl_help_desc2": "Om nedladdningslänkarna är blockerade av ditt nätverk, prova att använda appen <b>1.1.1.1 WARP</b> <img src=\"https://play-lh.googleusercontent.com/PDwXxcvulfxi2bH4UjcMGJ7i0CQ7_QNypYohkhhg02zE7FdNTNRyF21-ikrLM5kyvcmNxtr77Va-7sS3NLbpNg=w480-h960-rw\" height=\"18\" width=\"18\" style=\"vertical-align: middle;\" alt=\"1.1.1.1\"/> från Google Play för att låsa upp.",
-  "update_notice": "Den nya versionen kommer att uppdateras den 25/10/2026 kl. 20:00 GMT+7, vänligen vänta."
+  "update_notice": "Den nya versionen kommer att uppdateras den 27/10/2026 kl. 20:00 GMT+7, vänligen vänta."
 }
